@@ -1,11 +1,15 @@
 {
-  "username": "Player One",
-  "motto": "Every save point tells a story",
+  "username": "Budiawan",
+  "motto": "Hidup kadang di atas, kadang digidaw",
   "avatar": "",
   "tags": {
     "genre": [
       "RPG",
-      "Platformer"
+      "Action RPG",
+      "Shooter",
+      "FPS",
+      "Survival",
+      "Adventure"
     ],
     "style": [
       "Pixel Art",
@@ -24,7 +28,7 @@
     }
   },
   "siteUrl": "",
-  "timezone": "",
+  "timezone": "Asia/Jakarta",
   "playing": {
     "visible": true
   },
