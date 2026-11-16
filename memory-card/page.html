@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- Source of the Memory Card pages. scripts/build-recap.js writes index.html and {year}/index.html from it:
+         the block below becomes that year's title and link preview tags, {{base}} the path to the site root,
+         and the recap data is embedded at the end. Open the built pages, not this file. -->
+    <!--meta-->
+    <title>Memory Card · Savepoint</title>
+    <!--/meta-->
+    <meta name="theme-color" content="#090b12">
+    <link rel="icon" href="{{base}}assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="{{base}}assets/favicon.svg">
+    <link rel="apple-touch-icon" href="{{base}}assets/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Oxanium:wght@500;600;700;800&family=Silkscreen&display=swap">
+    <style>
+        /* Layout: one tall showcase column. The year is a memory card: its days are the card's blocks,
+           its games the save files. Each year gets its own card colour (--a). */
+        :root {
+            --bg: #090b12; --panel: rgba(255, 255, 255, 0.045); --line: rgba(255, 255, 255, 0.09);
+            --text: #edf0f7; --dim: #a3abbd; --mute: #646d82;
+            --gold: #e5b143; --silver: #b8c4ce; --ra: #e5b143; --steam: #66c0f4; --xbox: #52b043;
+            --a: 63, 224, 197;                       /* the year's card colour, set from the year */
+            --display: 'Oxanium', 'Segoe UI', Arial, sans-serif;
+            --body: 'Figtree', 'Segoe UI', Arial, sans-serif;
+            --pixel: 'Silkscreen', 'Courier New', monospace;
+            color-scheme: dark;
+        }
+        @view-transition { navigation: auto; }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; overflow-x: clip; }
+        body { background: var(--bg); color: var(--text); font: 400 15px/1.45 var(--body); -webkit-font-smoothing: antialiased; min-height: 100vh; }
+        a { color: inherit; text-decoration: none; }
+        button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+        img { max-width: none; }
+        :focus-visible { outline: 2px solid rgb(var(--a)); outline-offset: 2px; border-radius: 4px; }
+        .num { font-family: var(--display); font-variant-numeric: tabular-nums; }
+        .px { font: 400 10px/1 var(--pixel); letter-spacing: 0.06em; text-transform: uppercase; }
+
+        /* Backdrop: the top game's art, blurred, fading into the page */
+        .backdrop { position: absolute; inset: 0 0 auto; height: 760px; overflow: hidden; z-index: 0; pointer-events: none; }
+        .backdrop img { position: absolute; inset: -40px; width: calc(100% + 80px); height: calc(100% + 80px); object-fit: cover; filter: blur(28px) saturate(1.25); opacity: 0.5; }
+        .backdrop::after { content: ''; position: absolute; inset: 0;
+            background: radial-gradient(120% 70% at 80% 0%, rgba(var(--a), 0.22), transparent 60%), linear-gradient(180deg, rgba(9, 11, 18, 0.55) 0%, rgba(9, 11, 18, 0.82) 55%, var(--bg) 100%); }
+        .wrap { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+
+        /* Top bar */
+        .bar { display: flex; align-items: center; gap: 10px; padding: calc(14px + env(safe-area-inset-top, 0px)) 0 14px; }
+        .brand { display: flex; align-items: center; gap: 8px; font: 700 15px/1 var(--display); letter-spacing: 0.02em; }
+        .brand img { width: 22px; height: 22px; }
+        .brand span { color: var(--mute); font-weight: 500; }
+        .bar .sp { flex: 1; }
+        .btn { display: inline-flex; align-items: center; gap: 7px; height: 36px; padding: 0 14px; border-radius: 999px; font: 600 13px/1 var(--body);
+            background: rgba(255, 255, 255, 0.07); border: 1px solid var(--line); transition: background-color 150ms, transform 150ms; }
+        .btn:hover { background: rgba(255, 255, 255, 0.12); }
+        .btn:active { transform: scale(0.96); }
+        .btn.go { background: rgb(var(--a)); border-color: transparent; color: #071018; }
+        .btn.go:hover { background: rgba(var(--a), 0.88); }
+        .btn svg { width: 15px; height: 15px; flex: none; }
+
+        /* Hero */
+        .hero { padding: 18px 0 8px; display: grid; gap: 22px; }
+        .slot { display: flex; align-items: center; gap: 8px; color: rgb(var(--a)); }
+        .slot i { width: 7px; height: 7px; background: rgb(var(--a)); box-shadow: 0 0 10px rgba(var(--a), 0.9); }
+        .slot b { font-weight: 400; color: var(--mute); }
+        .yrow { display: flex; align-items: flex-end; gap: 10px; margin: 6px 0 0 -4px; }
+        .year { font: 800 clamp(128px, 39vw, 250px)/0.8 var(--display); letter-spacing: -0.045em; margin: 0;
+            color: rgb(var(--a)); background: linear-gradient(180deg, #fff 0%, rgb(var(--a)) 70%); background-size: cover; background-position: center 30%;
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 10px 40px rgba(var(--a), 0.28)); }
+        .ynav { display: flex; gap: 6px; margin-top: 16px; }
+        .ynav a, .ynav span { display: inline-flex; align-items: center; gap: 4px; height: 30px; padding: 0 11px; border-radius: 999px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.05);
+            font: 600 13px/1 var(--display); color: var(--dim); transition: color 150ms, background-color 150ms; }
+        .ynav a:hover { color: var(--text); background: rgba(255, 255, 255, 0.1); }
+        .ynav span { opacity: 0.3; }
+        .who { display: flex; align-items: center; gap: 12px; }
+        .who img { width: 46px; height: 46px; border-radius: 50%; border: 2px solid rgba(var(--a), 0.7); flex: none; }
+        .who h1 { margin: 0; font: 700 20px/1.15 var(--display); letter-spacing: 0.01em; text-wrap: balance; }
+        .who p { margin: 3px 0 0; color: var(--dim); font-size: 13px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+        .chip { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: 999px; background: rgba(255, 255, 255, 0.07); border: 1px solid var(--line);
+            font: 600 11px/1 var(--body); color: var(--dim); white-space: nowrap; }
+        .chip.live { color: rgb(var(--a)); border-color: rgba(var(--a), 0.4); background: rgba(var(--a), 0.1); }
+        .chip.live i { width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pulse 1.8s ease-in-out infinite; }
+        @keyframes pulse { 50% { opacity: 0.25; } }
+        .title { position: relative; padding: 16px 18px 16px 20px; border-radius: 6px; overflow: hidden; background: linear-gradient(110deg, rgba(var(--a), 0.2), rgba(var(--a), 0.04) 70%); border: 1px solid rgba(var(--a), 0.35); }
+        .title::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: rgb(var(--a)); }
+        .title .px { color: rgb(var(--a)); }
+        .title h2 { margin: 8px 0 2px; font: 800 30px/1 var(--display); letter-spacing: 0.01em; text-transform: uppercase; }
+        .title p { margin: 0; color: var(--dim); font-size: 14px; }
+        .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .stat { padding: 14px 16px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(8px); min-width: 0; }
+        .stat .num { font-weight: 800; font-size: 40px; line-height: 1; letter-spacing: -0.02em; display: flex; align-items: baseline; gap: 4px; }
+        .stat .num small { font: 600 15px/1 var(--display); color: var(--dim); letter-spacing: 0; }
+        .stat .lab { margin-top: 6px; color: var(--dim); font-size: 13px; }
+        .stat .sub { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+        .stat .sub .chip { height: 20px; font-size: 10.5px; padding: 0 7px; }
+        .dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+        .gold { color: var(--gold); } .silver { color: var(--silver); }
+
+        /* Sections */
+        section { padding: 44px 0 0; }
+        .sh { display: flex; align-items: baseline; gap: 10px; margin: 0 0 16px; }
+        .sh h2 { margin: 0; font: 800 26px/1 var(--display); letter-spacing: 0.01em; text-transform: uppercase; text-wrap: balance; }
+        .sh .px { color: rgb(var(--a)); margin-left: auto; text-align: right; line-height: 1.5; }
+
+        /* Most played */
+        .top { display: grid; gap: 10px; }
+        .feat { position: relative; display: block; border-radius: 10px; overflow: hidden; min-height: 300px; border: 1px solid rgba(var(--a), 0.4); background: #10131c; isolation: isolate; }
+        .feat .art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform 600ms cubic-bezier(.2, .7, .2, 1); }
+        .feat:hover .art { transform: scale(1.04); }
+        .feat::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(9, 11, 18, 0.15) 0%, rgba(9, 11, 18, 0.5) 45%, rgba(9, 11, 18, 0.96) 100%); }
+        .feat .in { position: absolute; inset: auto 0 0; padding: 18px; }
+        .feat .rank { position: absolute; top: 10px; left: 16px; font: 800 84px/1 var(--display); letter-spacing: -0.04em; color: #fff; text-shadow: 0 4px 30px rgba(0, 0, 0, 0.6); }
+        .feat .rank small { font: 400 10px/1 var(--pixel); letter-spacing: 0.06em; display: block; margin: 0 0 2px 4px; color: rgb(var(--a)); text-shadow: none; }
+        .feat h3 { margin: 8px 0 10px; font: 800 28px/1.05 var(--display); text-wrap: balance; }
+        .tags { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+        .tag { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: 5px; font: 700 10.5px/1 var(--body); letter-spacing: 0.07em; text-transform: uppercase; background: rgba(0, 0, 0, 0.55); border: 1px solid var(--line); color: var(--dim); backdrop-filter: blur(6px); }
+        .tag img { width: 12px; height: 12px; }
+        .tag.completed { color: var(--gold); border-color: rgba(229, 177, 67, 0.55); background: rgba(24, 19, 8, 0.82); }
+        .tag.beaten { color: var(--silver); border-color: rgba(184, 196, 206, 0.5); background: rgba(14, 17, 24, 0.82); }
+        .facts { display: flex; gap: 18px; flex-wrap: wrap; }
+        .fact .num { font-weight: 700; font-size: 22px; line-height: 1; }
+        .fact span { display: block; margin-top: 3px; font-size: 12px; color: var(--dim); }
+        .rows { display: grid; gap: 8px; }
+        /* Rows: the game's wide art behind the left of the row, fading out under the title (like the #1 card, sideways) */
+        .grow { position: relative; display: grid; grid-template-columns: 26px 92px minmax(0, 1fr) auto; gap: 12px; align-items: center; min-height: 68px; padding: 12px 14px 12px 12px; border-radius: 6px; background: #0d1018; border: 1px solid var(--line); overflow: hidden; isolation: isolate; transition: border-color 150ms; }
+        a.grow:hover { border-color: rgba(var(--a), 0.45); }
+        .rowart { position: absolute; top: 0; left: 0; width: 45%; height: 100%; object-fit: cover; object-position: 72% 30%; z-index: -2;
+            -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 42%, transparent 86%); mask-image: linear-gradient(90deg, #000 0%, #000 42%, transparent 86%); }
+        .rowart.soft { filter: blur(10px) saturate(1.2); }          /* only a square icon to show: blurred, as colour */
+        .grow::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(9, 11, 18, 0.78) 0, rgba(9, 11, 18, 0.25) 46px, rgba(9, 11, 18, 0) 120px); }
+        .grow .meter { position: absolute; left: 0; bottom: 0; height: 3px; background: rgb(var(--a)); box-shadow: 0 0 10px rgba(var(--a), 0.7); }
+        .grow .rk { width: 26px; height: 26px; display: grid; place-items: center; font: 800 17px/1 var(--display); color: #fff; border-radius: 4px; background: rgba(9, 11, 18, 0.72); border: 1px solid rgba(255, 255, 255, 0.14); }
+        .grow h3 { margin: 0; font: 700 15px/1.2 var(--display); text-shadow: 0 1px 8px rgba(0, 0, 0, 0.95); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+        .grow .meta { margin-top: 4px; display: flex; gap: 8px; align-items: center; font-size: 12px; color: var(--dim); white-space: nowrap; overflow: hidden; }
+        .grow .meta img { width: 12px; height: 12px; flex: none; }
+        .grow .meta .gold, .grow .meta .silver { font-weight: 700; font-size: 10.5px; letter-spacing: 0.07em; text-transform: uppercase; }
+        .grow .val { text-align: right; }
+        .grow .val .num { font-weight: 700; font-size: 18px; line-height: 1; white-space: nowrap; }
+        .grow .val span { display: block; margin-top: 3px; font-size: 11.5px; color: var(--mute); }
+
+        /* Blocks: the year as a memory card, one block per day */
+        .card { border-radius: 10px; background: var(--panel); border: 1px solid var(--line); padding: 18px; min-width: 0; }
+        .months { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px 14px; }
+        .mo { min-width: 0; }
+        .mo .px { color: var(--mute); margin-bottom: 6px; display: flex; justify-content: space-between; }
+        .mo .px b { font-weight: 400; color: rgb(var(--a)); }
+        .mo.peak .px span { color: var(--text); }
+        /* Row height from the month's width (cqw): aspect-ratio cells gave the first row a wrong height in Chrome */
+        .mo { container-type: inline-size; }
+        .cells { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-auto-rows: calc((100cqw - 12px) / 7); gap: 2px; }
+        .cells i { border-radius: 2px; background: rgba(255, 255, 255, 0.055); }
+        .cells i.x { background: none; }
+        .cells i.f { background: none; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06); }
+        .cells i.p { background: rgba(var(--a), 0.2); }
+        .cells i.l1 { background: rgba(var(--a), 0.42); } .cells i.l2 { background: rgba(var(--a), 0.62); }
+        .cells i.l3 { background: rgba(var(--a), 0.82); } .cells i.l4 { background: rgb(var(--a)); box-shadow: 0 0 8px rgba(var(--a), 0.6); }
+        .cells i.best { outline: 2px solid #fff; outline-offset: 1px; }
+        .key { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 12px; color: var(--dim); }
+        .key span { display: inline-flex; align-items: center; gap: 6px; }
+        .key .cells { display: inline-grid; grid-template-columns: repeat(4, 11px); grid-auto-rows: 11px; }
+        .key i.one { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+        .duo { display: grid; gap: 10px; margin-top: 10px; grid-template-columns: 1fr 1fr; }
+        .mini { padding: 14px 16px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); min-width: 0; }
+        .mini .px { color: var(--mute); }
+        .mini .num { font-weight: 800; font-size: 30px; line-height: 1; margin-top: 10px; display: flex; align-items: baseline; gap: 5px; }
+        .mini .num small { font: 600 13px/1 var(--display); color: var(--dim); }
+        .mini p { margin: 6px 0 0; font-size: 12.5px; color: var(--dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+        /* Finished */
+        .done { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .dn { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 158px; padding: 12px; border-radius: 6px; overflow: hidden; isolation: isolate; background: #10131c; border: 1px solid rgba(184, 196, 206, 0.32); }
+        .dn.completed { border-color: rgba(229, 177, 67, 0.85); box-shadow: 0 0 18px rgba(229, 177, 67, 0.16); }
+        .dn img.art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+        .dn.pix img.art { image-rendering: pixelated; }
+        .dn::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(9, 11, 18, 0) 0%, rgba(9, 11, 18, 0.08) 34%, rgba(9, 11, 18, 0.84) 62%, rgba(9, 11, 18, 0.97) 100%); }
+        .dn .tag { position: absolute; top: 8px; left: 8px; }
+        .dn h3 { margin: 0; font: 700 15px/1.15 var(--display); text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+        .dn p { margin: 4px 0 0; font-size: 11.5px; color: var(--dim); display: flex; gap: 6px; align-items: center; white-space: nowrap; overflow: hidden; }
+        .dn p img { width: 11px; height: 11px; flex: none; }
+
+        /* Rarest */
+        .rare { display: grid; gap: 8px; }
+        .rr { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 10px 14px 10px 10px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); }
+        .rr .ic { width: 52px; height: 52px; border-radius: 8px; background: #151925; object-fit: cover; }
+        .rr h3 { margin: 0; font: 700 15px/1.2 var(--display); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .rr p { margin: 3px 0 0; font-size: 12.5px; color: var(--dim); display: flex; gap: 6px; align-items: center; min-width: 0; }
+        .rr p img { width: 12px; height: 12px; flex: none; }
+        .rr p span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .rr .pct { text-align: right; }
+        .rr .pct .num { font-weight: 800; font-size: 22px; line-height: 1; color: var(--gold); }
+        .rr .pct span { display: block; margin-top: 3px; font-size: 11px; color: var(--mute); }
+        .rr:nth-child(n+2) .pct .num { color: var(--text); }
+
+        /* Rhythm */
+        .bento { display: grid; gap: 10px; }
+        .card h3 { margin: 0; font: 400 10px/1 var(--pixel); letter-spacing: 0.06em; text-transform: uppercase; color: var(--mute); }
+        .card .big { margin-top: 10px; font: 800 26px/1.05 var(--display); text-transform: uppercase; }
+        .card .big small { display: block; margin-top: 4px; font: 500 13px/1.3 var(--body); color: var(--dim); text-transform: none; }
+        .bars { display: flex; align-items: flex-end; gap: 3px; height: 96px; margin-top: 16px; }
+        .bars > div { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; min-width: 0; }
+        .bars i { display: block; border-radius: 2px 2px 0 0; background: rgba(var(--a), 0.35); min-height: 2px; }
+        .bars i.hot { background: rgb(var(--a)); }
+        .bars i.ra { background: var(--ra); } .bars i.steam { background: var(--steam); border-radius: 0; } .bars i.xbox { background: var(--xbox); border-radius: 0; }
+        .bars i + i { margin-top: 1px; }
+        .axis { display: flex; gap: 3px; margin-top: 6px; font: 400 9px/1 var(--pixel); color: var(--mute); }
+        .axis span { flex: 1; text-align: center; min-width: 0; }
+        .axis.sparse { justify-content: space-between; } .axis.sparse span { flex: none; }
+        .split { display: flex; height: 14px; border-radius: 4px; overflow: hidden; margin-top: 16px; gap: 2px; }
+        .split i { display: block; min-width: 4px; }
+        .plats { display: grid; gap: 10px; margin-top: 14px; }
+        .plat { display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; gap: 10px; align-items: center; font-size: 13.5px; }
+        .plat img { width: 18px; height: 18px; }
+        .plat .num { font-weight: 700; font-size: 16px; }
+        .plat small { color: var(--mute); font-size: 12px; margin-left: 6px; }
+
+        /* Bookends */
+        .ends { display: grid; gap: 10px; }
+        .end { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; align-items: center; padding: 14px; border-radius: 6px; background: var(--panel); border: 1px solid var(--line); }
+        .end .ic { width: 52px; height: 52px; border-radius: 8px; background: #151925; object-fit: cover; }
+        .end .px { color: rgb(var(--a)); }
+        .end h3 { margin: 6px 0 2px; font: 700 16px/1.2 var(--display); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .end p { margin: 0; font-size: 12.5px; color: var(--dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+        /* Other years: the card's other slots */
+        .slots { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .sl { position: relative; display: block; padding: 12px 14px; min-height: 92px; border-radius: 6px; overflow: hidden; isolation: isolate; background: #10131c; border: 1px solid var(--line); transition: border-color 150ms, transform 150ms; }
+        .sl:hover { border-color: rgba(var(--c), 0.7); transform: translateY(-2px); }
+        .sl.on { border-color: rgb(var(--c)); box-shadow: 0 0 0 1px rgb(var(--c)); }
+        .sl img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; opacity: 0.55; }
+        .sl::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(100deg, rgba(9, 11, 18, 0.95) 20%, rgba(9, 11, 18, 0.45) 100%); }
+        .sl .num { font-weight: 800; font-size: 30px; line-height: 1; color: rgb(var(--c)); }
+        .sl .px { margin-top: 8px; color: var(--text); line-height: 1.4; }
+        .sl p { margin: 4px 0 0; font-size: 12px; color: var(--dim); }
+
+        /* Footer */
+        .cta { margin-top: 44px; padding: 26px 20px; border-radius: 10px; text-align: center; background: radial-gradient(120% 140% at 50% 0%, rgba(var(--a), 0.22), rgba(var(--a), 0.03) 70%); border: 1px solid rgba(var(--a), 0.35); }
+        .cta h2 { margin: 0 0 6px; font: 800 24px/1.1 var(--display); text-transform: uppercase; text-wrap: balance; }
+        .cta p { margin: 0 0 16px; color: var(--dim); }
+        .cta .btns { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+        .notes { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; margin-top: 18px; }
+        footer { padding: 30px 0 calc(34px + env(safe-area-inset-bottom, 0px)); text-align: center; color: var(--mute); font-size: 13px; }
+        footer a { color: var(--dim); font-weight: 600; }
+        footer a:hover { color: rgb(var(--a)); }
+
+        /* Share sheet */
+        .scrim { position: fixed; inset: 0; z-index: 50; background: rgba(4, 5, 9, 0.72); backdrop-filter: blur(6px); display: flex; align-items: flex-end; justify-content: center; animation: fade 180ms ease-out backwards; }
+        .sheet { width: min(460px, 100%); max-height: 100%; overflow: auto; background: #12151f; border: 1px solid var(--line); border-radius: 10px 10px 0 0; padding: 16px 16px calc(18px + env(safe-area-inset-bottom, 0px)); animation: up 260ms cubic-bezier(.2, .8, .2, 1) backwards; }
+        .sheet header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+        .sheet header h2 { margin: 0; flex: 1; font: 800 18px/1 var(--display); text-transform: uppercase; }
+        .pick { display: flex; gap: 8px; justify-content: space-between; flex-wrap: wrap; margin-bottom: 12px; }
+        .seg { display: inline-flex; padding: 3px; border-radius: 999px; background: rgba(255, 255, 255, 0.06); border: 1px solid var(--line); }
+        .seg button { height: 28px; padding: 0 12px; border-radius: 999px; font: 600 12.5px/1 var(--body); color: var(--dim); }
+        .seg button.on { background: rgb(var(--a)); color: #071018; }
+        .thumbs { display: flex; align-items: center; height: 92px; gap: 8px; overflow-x: auto; margin: 0 -16px 12px; padding: 0 16px; scrollbar-width: none; }
+        .thumbs::-webkit-scrollbar { display: none; }
+        .th { flex: none; height: 88px; padding: 0; border-radius: 6px; overflow: hidden; border: 2px solid transparent; background: #0a0c13; opacity: 0.55; transition: opacity 160ms, border-color 160ms; }
+        .thumbs.k-link .th, .thumbs.k-wide .th { height: 60px; }
+        .th img { height: 100%; width: auto; max-width: none; aspect-ratio: 9 / 16; object-fit: cover; display: block; }
+        .thumbs.k-link .th img, .thumbs.k-wide .th img { aspect-ratio: 1200 / 630; }
+        .th.on { border-color: rgb(var(--a)); opacity: 1; }
+        .x { width: 34px; height: 34px; border-radius: 50%; background: rgba(255, 255, 255, 0.07); display: grid; place-items: center; }
+        .x svg { width: 16px; height: 16px; }
+        .pv { display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; padding: 10px; height: min(46vh, 380px); border-radius: 6px; background: #0a0c13; border: 1px solid var(--line); overflow: hidden; }
+        .pv img { width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 6px; animation: fade 220ms ease-out backwards; }
+        .pv p { margin: 0; padding: 20px; text-align: center; color: var(--dim); font-size: 13.5px; }
+        .acts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+        .acts .btn { justify-content: center; height: 44px; font-size: 14px; }
+        .acts .btn.wide { grid-column: 1 / -1; }
+        .linkrow { display: flex; align-items: center; gap: 8px; margin-top: 8px; padding: 0 6px 0 14px; height: 44px; border-radius: 999px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--line); }
+        .linkrow span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; color: var(--dim); }
+        .linkrow .btn { height: 32px; }
+        @keyframes fade { from { opacity: 0; } }
+        @keyframes up { from { transform: translateY(40px); opacity: 0; } }
+        @keyframes rise { from { transform: translateY(14px); opacity: 0; } }
+        @keyframes grow { from { transform: scaleY(0); } }
+
+        /* Motion: the hero rises in on load; sections below rise as they scroll into view */
+        .hero > *, .bar { animation: rise 520ms cubic-bezier(.2, .7, .2, 1) backwards; }
+        .hero > :nth-child(2) { animation-delay: 80ms; } .hero > :nth-child(3) { animation-delay: 160ms; } .hero > :nth-child(4) { animation-delay: 240ms; }
+        .reveal .rv { opacity: 0; transform: translateY(18px); transition: opacity 520ms ease-out, transform 520ms cubic-bezier(.2, .7, .2, 1); }
+        .reveal .rv.in { opacity: 1; transform: none; }
+        .reveal .rv .bars i { transform-origin: bottom; }
+        .reveal .rv.in .bars i { animation: grow 600ms cubic-bezier(.2, .7, .2, 1) backwards; }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; transition: none !important; }
+            .reveal .rv { opacity: 1; transform: none; }
+        }
+
+        @media (min-width: 720px) {
+            body { font-size: 16px; }
+            .hero { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); column-gap: 40px; align-items: end; padding-top: 34px; }
+            .hero .left { grid-row: span 3; align-self: center; }
+            .year { font-size: clamp(150px, 20.5vw, 250px); }
+            .title h2 { font-size: 36px; }
+            .stat .num { font-size: 46px; }
+            section { padding-top: 64px; }
+            .sh h2 { font-size: 34px; }
+            .top { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 12px; }
+            .feat { min-height: 380px; } .feat h3 { font-size: 36px; } .feat .rank { font-size: 110px; }
+            .months { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 20px 18px; }
+            .duo { grid-template-columns: repeat(4, 1fr); }
+            .done { grid-template-columns: repeat(4, 1fr); } .dn { min-height: 180px; }
+            .rare, .ends { grid-template-columns: 1fr 1fr; }
+            .rare .rr:first-child { grid-column: 1 / -1; }
+            .bento { grid-template-columns: repeat(2, 1fr); }
+            .slots { grid-template-columns: repeat(4, 1fr); }
+            .scrim { align-items: center; padding: 20px; } .sheet { border-radius: 10px; }
+            .backdrop { height: 900px; }
+        }
+        @media (min-width: 1100px) {
+            .months { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 14px; }
+            .bento { grid-template-columns: repeat(4, 1fr); }
+            .slots { grid-template-columns: repeat(6, 1fr); }
+            .card { padding: 22px; }
+        }
+
+        /* ── Story: the year played back as slides (the Play button). Tap right / left, hold to pause. Every slide is a full
+              card, also rendered as a picture (?card=slide&s=<key>, 450 × 800 at 2.4×) so it can be shared from the story.
+              On a desktop it opens wide (see Desktop mode below) ── */
+        .story { position: fixed; inset: 0; z-index: 60; background: #04050a; display: grid; place-items: center; animation: fade 200ms ease-out backwards; }
+        .story, .story * { -webkit-tap-highlight-color: transparent; }
+        .story [hidden] { display: none; }
+        .story .frame { position: relative; width: 100%; height: 100%; overflow: hidden; background: var(--bg); isolation: isolate; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; touch-action: manipulation; cursor: pointer; }
+        .story .frame::before { content: ''; position: absolute; inset: 0; z-index: -1;
+            background: radial-gradient(120% 60% at 80% 0%, rgba(var(--a), 0.26), transparent 62%), linear-gradient(180deg, rgba(9, 11, 18, 0.6) 0%, rgba(9, 11, 18, 0.86) 60%, rgba(9, 11, 18, 0.96) 100%); }
+        .story img, .story a { pointer-events: none; }
+        .story.paused *, .story.paused *::before { animation-play-state: paused !important; }
+        .sbars { position: absolute; z-index: 3; top: calc(10px + env(safe-area-inset-top, 0px)); left: 12px; right: 12px; display: flex; gap: 4px; }
+        .sbars i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255, 255, 255, 0.22); overflow: hidden; }
+        .sbars b { display: block; height: 100%; background: #fff; transform: scaleX(0); transform-origin: left; }
+        .sbars .past b { transform: none; }
+        .sbars .on b { animation: sbar var(--dur, 8000ms) linear forwards; }
+        @keyframes sbar { to { transform: none; } }
+        .story .stop { position: absolute; z-index: 3; top: calc(22px + env(safe-area-inset-top, 0px)); left: 16px; right: 10px; display: flex; align-items: center; gap: 6px; }
+        .story .stop .brand { flex: 1; font-size: 13px; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8); } .story .stop .brand img { width: 18px; height: 18px; }
+        .story .x { background: rgba(9, 11, 18, 0.55); }
+        .sbg { position: absolute; inset: -40px; width: calc(100% + 80px); height: calc(100% + 80px); object-fit: cover; filter: blur(26px) saturate(1.25); opacity: 0.5; z-index: -2; }
+        .sfoot { position: absolute; z-index: 2; left: 20px; right: 20px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); display: flex; justify-content: space-between; gap: 10px; font-size: 11px; color: var(--mute); white-space: nowrap; }
+        .sfoot b { color: var(--dim); font-weight: 600; } .sfoot span { overflow: hidden; text-overflow: ellipsis; }
+        .stoast { position: absolute; z-index: 4; left: 50%; bottom: calc(46px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); padding: 9px 14px; border-radius: 999px; background: rgba(9, 11, 18, 0.9); border: 1px solid var(--line); font-size: 13px; animation: fade 200ms ease-out backwards; }
+        .stage { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 12px; container-type: inline-size;
+            padding: calc(64px + env(safe-area-inset-top, 0px)) 20px calc(40px + env(safe-area-inset-bottom, 0px)); }
+        .stage.out { animation: sout 220ms ease-in forwards; pointer-events: none; }
+        @keyframes sout { to { opacity: 0; transform: translateY(-10px); } }
+        /* Pieces come in one after another through one keyframe: where each starts from (--dx --dy --rx --ry --dr --ds), how
+           fast they follow (--st), the easing (--ee) and the order (--i) are set per slide by the story's plan, see storyPlan().
+           The values here are what a piece does without a plan. --t0 holds everything back while the cover is up */
+        .sa { animation: sin 620ms var(--ee, cubic-bezier(.2, .7, .2, 1)) backwards; animation-delay: calc(var(--i, 0) * var(--st, 70ms) + 140ms + var(--t0, 0ms)); }
+        .sa.pop { --dy: 0px; --ds: 0.9; }
+        .sa.wipe { animation: swipe 1100ms cubic-bezier(.3, .6, .2, 1) backwards; animation-delay: calc(var(--i, 0) * var(--st, 70ms) + 200ms + var(--t0, 0ms)); }
+        .sa.yr { --dy: 0px; --ds: 1.14; animation-duration: 800ms; transform-origin: left center; }
+        @keyframes sin { from { opacity: 0; transform: perspective(700px) translate(var(--dx, 0px), var(--dy, 14px)) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) rotate(var(--dr, 0deg)) scale(var(--ds, 1)); }
+            60% { opacity: 1; } to { transform: perspective(700px) translate(0px, 0px) rotateX(0deg) rotateY(0deg) rotate(0deg) scale(1); } }
+        @keyframes swipe { from { clip-path: var(--w0, inset(0 100% 0 0)); } to { clip-path: inset(0 0 0 0); } }
+        @keyframes sgrowx { from { transform: scaleX(0); } }
+        @keyframes szoom { from { transform: scale(1.1); } }
+        .stage .meter, .stage .split i { transform-origin: left; animation: sgrowx 800ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 420ms + var(--t0, 0ms)); }
+        .stage .bars i { transform-origin: bottom; animation: grow 700ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 380ms + var(--t0, 0ms)); }
+        .stage .feat .art { animation: szoom 8s ease-out var(--t0, 0ms) backwards; }
+        .stage .year { font-size: min(36cqw, 180px); margin: 0 0 0 -4px; }
+        .stage h2 { margin: 0; font: 800 24px/1.05 var(--display); text-transform: uppercase; text-wrap: balance; }
+        .shead { display: flex; align-items: baseline; gap: 10px; } .shead h2 { font-size: 28px; } .shead .px { margin-left: auto; color: rgb(var(--a)); white-space: nowrap; }
+        .stage .lead { margin: 0; color: var(--dim); font-size: 13px; }
+        .stage .title { padding: 12px 16px 12px 18px; } .stage .title h2 { margin: 7px 0 2px; font-size: 26px; } .stage .title p { font-size: 13px; }
+        .snums { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .snum { padding: 12px 14px; border-radius: 6px; background: rgba(9, 11, 18, 0.5); border: 1px solid var(--line); }
+        .snum .num { font-weight: 800; font-size: 32px; line-height: 1; letter-spacing: -0.02em; } .snum .num small { font: 600 14px/1 var(--display); color: var(--dim); margin-left: 4px; letter-spacing: 0; }
+        .snum > span { display: block; margin-top: 5px; color: var(--dim); font-size: 13px; }
+        .snum:first-child { border-color: rgba(var(--a), 0.45); background: rgba(var(--a), 0.12); } .snum:first-child .num { color: rgb(var(--a)); }
+        .splat .split { margin: 0 0 8px; height: 8px; } .splat p { margin: 0; display: flex; gap: 14px; font-size: 12.5px; color: var(--dim); }
+        .splat p span { display: inline-flex; align-items: center; gap: 5px; } .splat p img { width: 13px; height: 13px; } .splat p b { color: var(--text); }
+        .stage .strip { --g: 1.5px; --c: calc((100cqw - 40px - 53 * var(--g)) / 54); } .stage .mlab { margin-bottom: 6px; }
+        .stage .feat { flex: 1 1 0; min-height: 230px; max-height: 360px; } .stage .feat h3 { font-size: 26px; margin: 8px 0; }
+        .stage .feat .rank { font-size: 64px; top: 12px; } .stage .feat .in { padding: 14px 16px; }
+        .stage .facts { gap: 6px 16px; } .stage .fact .num { font-size: 20px; }
+        .stage .rows { display: grid; gap: 8px; } .stage .grow { min-height: 64px; padding-block: 10px; }
+        .stage .done { gap: 8px; grid-template-columns: 1fr 1fr; } .stage .dn { min-height: 0; height: var(--th, 132px); } .stage .done .dn:last-child:nth-child(odd) { grid-column: 1 / -1; }
+        .stage .duo { margin: 0; gap: 8px; grid-template-columns: 1fr 1fr; } .stage .mini { padding: 12px 14px; } .stage .mini .num { font-size: 26px; margin-top: 8px; }
+        .stage .card { padding: 12px 14px; border-radius: 6px; } .stage .card .big { font-size: 20px; margin-top: 8px; } .stage .card .big small { font-size: 12px; }
+        .stage .bars { height: 52px; margin-top: 10px; gap: 2px; }
+        .stage .rare { gap: 6px; grid-template-columns: 1fr; } .stage .rare .rr:first-child { grid-column: auto; } .stage .rr { padding: 8px 12px 8px 8px; } .stage .rr .ic, .stage .end .ic { width: 46px; height: 46px; }
+        .stage .ends { gap: 6px; grid-template-columns: 1fr; } .stage .end { padding: 10px 12px; } .stage .end h3 { margin: 5px 0 1px; font-size: 15px; }
+        .stage.s-end { text-align: center; } .stage.s-end .lead b { color: var(--text, #fff); font-weight: 700; }
+        .sfan { position: relative; height: 250px; margin-bottom: 10px; pointer-events: none; }
+        .sfan img { position: absolute; left: 50%; top: 0; height: 100%; width: auto; max-width: none; aspect-ratio: 9 / 16; margin-left: -70px; border-radius: 8px; border: 1px solid var(--line); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.55);
+            transform: translateX(var(--x)) rotate(var(--r)); transform-origin: 50% 120%; animation: sfan 520ms cubic-bezier(.2, .8, .2, 1) calc(120ms + var(--i) * 80ms + var(--t0, 0ms)) backwards; }
+        .sfan img:nth-child(2) { z-index: 1; }
+        @keyframes sfan { from { opacity: 0; transform: translateX(0) rotate(0) scale(0.9); } } .stage .btns { display: flex; gap: 8px; justify-content: center; }
+        .stage .btn { height: 42px; padding: 0 18px; font-size: 14px; }
+        /* Cover: every slide opens on a full-colour card with one line of big moving type; it arrives through one shape
+           (--c0 → --c1) and leaves through another (--o1 → --o0) to show the slide. Three colourings (.p0 the year's colour,
+           .p1 dark, .p2 the colour deepened), eight ways for the words to land (.k-*), flat shapes off the edges */
+        .scover { position: absolute; inset: 0; z-index: 2; overflow: hidden; display: grid; place-items: center; container-type: size; pointer-events: none;
+            padding: calc(70px + env(safe-area-inset-top, 0px)) 22px calc(50px + env(safe-area-inset-bottom, 0px)); background: var(--cb); color: var(--ci);
+            animation: scin 460ms cubic-bezier(.7, 0, .2, 1) backwards, scout 520ms cubic-bezier(.7, 0, .2, 1) var(--hold, 2100ms) forwards; }
+        .scover.p0 { --cb: rgb(var(--a)); --ci: #0b0d14; --ch: #fff; }
+        .scover.p1 { --cb: #0b0d14; --ci: #fff; --ch: rgb(var(--a)); }
+        .scover.p2 { --cb: color-mix(in srgb, rgb(var(--a)) 40%, #05060a); --ci: #fff; --ch: color-mix(in srgb, rgb(var(--a)) 45%, #fff); }
+        @keyframes scin { from { clip-path: var(--c0); } to { clip-path: var(--c1); } }
+        @keyframes scout { from { clip-path: var(--o1); } to { clip-path: var(--o0); } }
+        .sline { position: relative; z-index: 1; width: 100%; text-align: center; }
+        .sline .px { display: block; margin-bottom: 16px; font-size: 11px; opacity: 0.8; animation: fade 320ms ease-out 220ms backwards; }
+        .sline h2 { margin: 0; font: 800 var(--fs, 11cqmin)/1.04 var(--display); letter-spacing: -0.01em; text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
+        .sline .w { display: inline-block; vertical-align: top; }
+        .sline .w i { display: inline-block; font-style: normal; color: var(--wc, inherit); animation: 560ms cubic-bezier(.2, .8, .2, 1) calc(260ms + var(--w) * var(--ks, 90ms)) backwards; }
+        .sline .w.hl { --wc: var(--ch); }
+        .sline u { text-decoration: none; color: var(--ci); -webkit-text-stroke-color: var(--ci); }
+        .k-rise .w { overflow: hidden; padding-block: 0.06em; } .k-rise .w i { animation-name: kwrise; }
+        .k-slam .w i { animation-name: kwslam; animation-duration: 380ms; animation-timing-function: cubic-bezier(.5, 0, .2, 1); }
+        .k-flip .w i { animation-name: kwflip; transform-origin: 50% 100%; }
+        .k-side .w i { animation-name: kwside; }
+        .k-drop .w i { animation-name: kwdrop; animation-timing-function: cubic-bezier(.3, 1.5, .5, 1); }
+        .k-spin .w i { animation-name: kwspin; animation-timing-function: cubic-bezier(.3, 1.5, .5, 1); }
+        .k-fill .w i { animation-name: kwfill; animation-duration: 900ms; animation-timing-function: linear; -webkit-text-stroke: 1.5px var(--wc, var(--ci)); }
+        .k-skew .w i { animation-name: kwskew; }
+        @keyframes kwrise { from { transform: translateY(108%); } }
+        @keyframes kwslam { from { transform: scale(2.6); opacity: 0; } }
+        @keyframes kwflip { from { transform: perspective(400px) rotateX(-92deg); opacity: 0; } }
+        @keyframes kwside { from { transform: translateX(calc(var(--sg) * 48px)); opacity: 0; } }
+        @keyframes kwdrop { from { transform: translateY(-70px) rotate(calc(var(--sg) * 9deg)); opacity: 0; } 50% { opacity: 1; } }
+        @keyframes kwspin { from { transform: scale(0.4) rotate(calc(var(--sg) * -16deg)); opacity: 0; } 50% { opacity: 1; } }
+        @keyframes kwfill { 0% { color: transparent; opacity: 0; transform: scale(0.9); } 25% { opacity: 1; transform: none; } 65% { color: transparent; } }
+        @keyframes kwskew { from { transform: translateX(-34px) skewX(-18deg); opacity: 0; } }
+        /* Shapes: big flat pieces hanging off the edges, on the cover and (.sdeco, faint) drifting behind the slide */
+        .sdeco { position: absolute; inset: 0; z-index: -1; overflow: hidden; container-type: size; pointer-events: none; }
+        .shp { position: absolute; left: var(--x); top: var(--y); width: var(--s); height: var(--s); margin: calc(var(--s) / -2) 0 0 calc(var(--s) / -2);
+            transform: rotate(var(--r)); animation: shdrift var(--sd, 9s) ease-in-out infinite alternate; }
+        .shp i { display: block; width: 100%; height: 100%; background: var(--sc); animation: shin 720ms cubic-bezier(.3, 1.4, .5, 1) calc(var(--j) * 90ms + 60ms + var(--t0, 0ms)) backwards; }
+        .shp .ring { background: none; border: calc(var(--s) * 0.17) solid var(--sc); border-radius: 50%; box-sizing: border-box; } .shp .circle { border-radius: 50%; }
+        .shp .quarter { border-radius: 100% 0 0 0; } .shp .half { height: 50%; border-radius: 999px 999px 0 0; } .shp .pill { height: 36%; margin-top: 32%; border-radius: 999px; }
+        .shp .square { border-radius: 6%; } .shp .tri { clip-path: polygon(50% 4%, 100% 96%, 0 96%); }
+        .shp .plus { clip-path: polygon(34% 0, 66% 0, 66% 34%, 100% 34%, 100% 66%, 66% 66%, 66% 100%, 34% 100%, 34% 66%, 0 66%, 0 34%, 34% 34%); }
+        .shp .star { clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+        .shp .blocks { background: conic-gradient(from 90deg at 18% 18%, transparent 90deg, var(--sc) 0) 0 0 / 25% 25%; }
+        @keyframes shin { from { transform: scale(0) rotate(-50deg); } }
+        @keyframes shdrift { to { transform: translate(var(--mx), var(--my)) rotate(calc(var(--r) + var(--mr))); } }
+        @media (min-width: 720px) {
+            .story .frame { width: auto; height: min(100dvh - 40px, 900px); aspect-ratio: 9 / 16; border-radius: 10px; border: 1px solid var(--line); }
+        }
+        @media (prefers-reduced-motion: reduce) { .sbars .on b { transform: none; } }
+        /* The same slide as a picture: no bars, no buttons, nothing moving */
+        .story.still { position: static; width: 450px; height: 800px; animation: none; }
+        .story.still *, .story.still *::before { animation: none !important; }
+        .story.still .stop { top: 20px; } .story.still .stage { padding-top: 54px; }
+        /* Desktop mode: the same slides laid out wide, 800 × 420 (the wide card's shape) and scaled to the window. Slides
+           marked `two` put their .hf1 / .hf2 halves side by side; on a phone those wrappers vanish and the pieces stack.
+           Rendered as pictures too (?card=slide&wide&s=<key>, at 1.5× = 1200 × 630) */
+        .stage .hf1, .stage .hf2, .stage .late { display: contents; }
+        .stage .late > * { order: 9; } .stage .wonly { display: none; }
+        .story.wide .frame { flex: none; width: 800px; height: 420px; aspect-ratio: auto; transform: scale(var(--k, 1)); border-radius: 8px; border: 1px solid var(--line); }
+        .story.wide .sbars { top: 8px; } .story.wide .stop { top: 16px; left: 22px; right: 14px; }
+        .story.wide .sfoot { left: 24px; right: 24px; bottom: 12px; }
+        .story.wide .stage { padding: 50px 24px 36px; gap: 10px; }
+        .story.wide .stage.two { flex-direction: row; align-items: stretch; gap: 22px; }
+        .story.wide .stage.two > .hf1, .story.wide .stage.two > .hf2 { display: flex; flex-direction: column; justify-content: center; gap: 10px; flex: 1 1 0; min-width: 0; }
+        .story.wide .stage .wonly { display: flex; }
+        .story.wide .stage .year { font-size: 112px; }
+        .story.wide .stage .title { padding-block: 10px; } .story.wide .stage .title h2 { font-size: 22px; }
+        .story.wide .stage .snum { padding: 10px 12px; } .story.wide .stage .snum .num { font-size: 28px; }
+        .story.wide .stage .strip { --c: calc((365px - 53 * var(--g)) / 54); }
+        .story.wide .stage .feat { max-height: none; min-height: 0; } .story.wide .stage .feat h3 { font-size: 22px; }
+        .story.wide .stage .grow { min-height: 58px; padding-block: 8px; }
+        .story.wide .stage .done { grid-template-columns: repeat(var(--cw, 4), 1fr); } .story.wide .stage .dn { height: var(--thw, 130px); }
+        .story.wide .stage .done .dn:last-child:nth-child(odd) { grid-column: auto; }
+        .story.wide .stage.two .done { grid-template-columns: 1fr 1fr; } .story.wide .stage.two .dn { height: 100px; } .story.wide .stage.two .done .dn:last-child:nth-child(odd) { grid-column: 1 / -1; }
+        .story.wide .stage .mini { padding: 9px 12px; } .story.wide .stage .mini .num { font-size: 22px; margin-top: 5px; }
+        .story.wide .stage .card { padding: 10px 12px; } .story.wide .stage .bars { height: 44px; margin-top: 8px; }
+        .story.wide .stage .rr { padding-block: 5px; } .story.wide .stage .rr .ic, .story.wide .stage .end .ic { width: 40px; height: 40px; }
+        .story.wide .stage.s-end { text-align: left; align-items: center; gap: 34px; }
+        .story.wide .stage.s-end .slot { justify-content: flex-start !important; } .story.wide .stage.s-end .btns { justify-content: flex-start; }
+        .story.wide .scover { padding: 56px 44px 40px; } .story.wide .sline .px { margin-bottom: 12px; } .story.wide .sline h2 { font-size: calc(var(--fs) * 1.3); }
+        .story.wide .sfan { height: 210px; margin: 0; }
+        .story.wide .sfan img { top: 44px; height: 122px; aspect-ratio: 1200 / 630; margin-left: -116px; transform: translateX(calc(var(--x) * 0.55)) rotate(var(--r)); transform-origin: 50% 160%; }
+        .story.still.wide { width: 800px; height: 420px; } .story.still.wide .frame { transform: none; border: 0; border-radius: 0; }
+        .story.still.wide .stop { top: 16px; } .story.still.wide .stage { padding-top: 50px; }
+        .story .x.mode svg { width: 15px; height: 15px; }
+
+        /* ── Share images: ?card=link (1200 × 630) and ?card=story (1080 × 1920), each in three styles (&style=cover | blocks,
+              none = card), rendered by scripts/render-recap.js ── */
+        body.shot { overflow: hidden; }
+        .shotc { position: relative; overflow: hidden; background: var(--bg); isolation: isolate; }
+        .shotc .bgart { position: absolute; inset: -60px; width: calc(100% + 120px); height: calc(100% + 120px); object-fit: cover; filter: blur(30px) saturate(1.3); opacity: 0.6; z-index: -3; }
+        .shotc::before { content: ''; position: absolute; inset: 0; z-index: -2; }
+        .shotc .covart { position: absolute; object-fit: cover; z-index: -1; }
+        .shotc .brand img { width: 1.5em; height: 1.5em; }
+        .shotc .year { filter: drop-shadow(0 14px 50px rgba(var(--a), 0.35)); margin: 0; }
+        .shotc .ttl { font-family: var(--display); font-weight: 800; line-height: 1; text-transform: uppercase; color: #fff; }
+        .shotc .ttl small { display: block; font-family: var(--body); font-weight: 500; line-height: 1.2; color: var(--dim); text-transform: none; }
+        .shotc .st .num { font-weight: 800; line-height: 1; } .shotc .st span { display: block; color: var(--dim); }
+        .shotc .r { display: flex; flex-direction: column; min-width: 0; } .shotc .r > .px { color: rgb(var(--a)); }
+        .shotc .game .px { color: rgb(var(--a)); text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9); } .shotc .game h3 { font-family: var(--display); font-weight: 800; line-height: 1.02; text-wrap: balance; text-shadow: 0 2px 24px rgba(0, 0, 0, 0.85); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+        .shotc .game p { margin: 0; color: var(--text); } .shotc .game p b { font-family: var(--display); font-weight: 700; }
+        .sc-row { position: relative; display: grid; align-items: center; overflow: hidden; isolation: isolate; background: #0d1018; border: 1px solid rgba(255, 255, 255, 0.12); }
+        .sc-row::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(9, 11, 18, 0.78) 0, rgba(9, 11, 18, 0.2) 12%, rgba(9, 11, 18, 0) 30%); }
+        .sc-row .rk { display: grid; place-items: center; aspect-ratio: 1; font: 800 0.72em/1 var(--display); color: #fff; background: rgba(9, 11, 18, 0.72); border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 0.16em; }
+        .sc-row:first-of-type { border-color: rgba(var(--a), 0.7); }
+        .sc-row:first-of-type .rk { color: rgb(var(--a)); border-color: rgba(var(--a), 0.5); }
+        .sc-row h3 { margin: 0; font-family: var(--display); font-weight: 700; line-height: 1.15; text-shadow: 0 1px 10px rgba(0, 0, 0, 0.95); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+        .sc-row .v { font-family: var(--display); font-weight: 700; white-space: nowrap; text-align: right; }
+        .sc-row .v small { display: block; font: 500 0.62em/1.3 var(--body); color: var(--dim); }
+        /* The year's days as one strip, weeks as columns (Monday on top), with the months above */
+        .strip.cells { display: grid; grid-template-columns: none; grid-template-rows: repeat(7, var(--c)); grid-auto-flow: column; grid-auto-columns: var(--c); grid-auto-rows: auto; gap: var(--g); }
+        .mlab { display: grid; grid-auto-flow: column; grid-auto-columns: var(--c); gap: var(--g); color: var(--mute); margin-bottom: 0.9em; }
+        .mlab span { grid-row: 1; white-space: nowrap; }
+        .bfacts { display: flex; } .bfacts div { min-width: 0; white-space: nowrap; } .bfacts b { display: block; font-family: var(--display); font-weight: 700; color: var(--text); white-space: nowrap; }
+
+        .sc-link { width: 1200px; height: 630px; padding: 46px 54px; }
+        .sc-link::before { background: radial-gradient(90% 120% at 0% 0%, rgba(var(--a), 0.28), transparent 60%), linear-gradient(100deg, rgba(9, 11, 18, 0.72) 0%, rgba(9, 11, 18, 0.9) 60%, rgba(9, 11, 18, 0.96) 100%); }
+        .sc-link .l { display: flex; flex-direction: column; min-width: 0; height: 100%; }
+        .sc-link .brand { font-size: 22px; }
+        .sc-link .slot { margin-top: 26px; } .sc-link .px { font-size: 13px; }
+        .sc-link .year { font-size: 244px; margin: 16px 0 0 -8px; }
+        .sc-link .ttl { margin-top: 20px; font-size: 38px; white-space: nowrap; } .sc-link .ttl small { margin-top: 8px; font-size: 20px; }
+        .sc-link .st { margin-top: auto; display: flex; gap: 34px; }
+        .sc-link .st .num { font-size: 44px; } .sc-link .st span { margin-top: 6px; font-size: 17px; }
+        .sc-link .r { gap: 10px; justify-content: center; } .sc-link .r > .px { margin-bottom: 4px; }
+        .sc-link .sc-row { grid-template-columns: 34px 132px minmax(0, 1fr) auto; gap: 14px; min-height: 82px; padding: 10px 16px 10px 12px; border-radius: 8px; font-size: 26px; }
+        .sc-link .sc-row h3 { font-size: 20px; } .sc-link .sc-row .v { font-size: 22px; }
+        .sc-link.v-card { display: grid; grid-template-columns: 590px 1fr; gap: 44px; }
+        /* Wide cover: the #1 game's art sharp on the right, the year on the left over a dark fade */
+        .sc-link.v-cover::before { background: linear-gradient(90deg, rgba(9, 11, 18, 0.96) 0%, rgba(9, 11, 18, 0.9) 34%, rgba(9, 11, 18, 0) 70%); z-index: 0; }
+        .sc-link.v-cover > * { z-index: 1; position: relative; }
+        .sc-link.v-cover .covart { position: absolute; z-index: -1; top: 0; right: 0; width: 860px; height: 100%; object-position: 60% 30%; }
+        .sc-link.v-cover::after { content: ''; position: absolute; right: 0; bottom: 0; width: 860px; height: 300px; background: linear-gradient(180deg, rgba(9, 11, 18, 0), rgba(9, 11, 18, 0.9)); }
+        .sc-link.v-cover .l { width: 600px; }
+        .sc-link.v-cover .game { position: absolute; z-index: 2; right: 54px; bottom: 46px; width: 470px; text-align: right; }
+        .sc-link.v-cover .game h3 { margin: 10px 0 8px; font-size: 40px; } .sc-link.v-cover .game p { font-size: 19px; }
+        /* Wide blocks: the whole year as one strip */
+        .sc-link.v-blocks { display: flex; flex-direction: column; }
+        .sc-link.v-blocks .hd { display: flex; align-items: flex-end; gap: 40px; margin-top: 16px; }
+        .sc-link.v-blocks .year { font-size: 170px; margin: 0 0 0 -6px; }
+        .sc-link.v-blocks .hr { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 24px; padding-bottom: 12px; } .sc-link.v-blocks .ttl, .sc-link.v-blocks .st { margin: 0; }
+        .sc-link.v-blocks .stripw { margin-top: auto; --c: 17px; --g: 3.2px; } .sc-link.v-blocks .strip i { border-radius: 3px; }
+        .sc-link.v-blocks .bfacts { margin-top: 26px; gap: 44px; font-size: 16px; color: var(--dim); align-items: flex-end; }
+        .sc-link.v-blocks .bfacts b { font-size: 24px; margin-bottom: 4px; } .sc-link.v-blocks .bfacts .site { margin-left: auto; } .sc-link.v-blocks .bfacts .site b { font-size: 18px; margin: 0; }
+
+        /* Shelf and Title, both shapes */
+        .shelf { display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: minmax(0, 1fr); min-height: 0; }
+        .stile { position: relative; overflow: hidden; display: flex; flex-direction: column; min-width: 0; background: #0d1018; border: 1px solid rgba(255, 255, 255, 0.16); }
+        .stile:first-child:nth-last-child(odd) { grid-column: 1 / -1; }
+        .stile.gold { border-color: rgba(229, 177, 67, 0.75); } .stile.silver { border-color: rgba(184, 196, 206, 0.6); }
+        .stile .art { flex: 1; min-height: 0; width: 100%; max-width: none; object-fit: cover; object-position: 50% 25%; display: block; }
+        .stile .rk { position: absolute; top: 0.5em; left: 0.5em; display: grid; place-items: center; width: 1.7em; height: 1.7em; font: 800 0.8em/1 var(--display); color: #fff; background: rgba(9, 11, 18, 0.85); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 0.25em; }
+        .stile:first-child .rk { color: rgb(var(--a)); border-color: rgba(var(--a), 0.6); }
+        /* The name sits on a solid bar under the art, never on it: art is too busy to read text over */
+        .stile .cap { display: flex; align-items: baseline; justify-content: space-between; gap: 0.7em; padding: 0.55em 0.75em; background: #0d1018; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+        .stile h3 { flex: 1 1 0; margin: 0; min-width: 0; font: 700 1em/1.2 var(--display); color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .stile .cap span { flex: none; font-size: 0.78em; color: var(--dim); white-space: nowrap; } .stile .cap b { color: var(--text); font-family: var(--display); font-size: 1.15em; }
+        .stile.gold .cap b { color: #e5b143; } .stile.silver .cap b { color: #b8c4ce; }
+        .shotc .big { font-family: var(--display); font-weight: 800; line-height: 0.95; text-transform: uppercase; color: rgb(var(--a)); text-shadow: 0 10px 60px rgba(var(--a), 0.4); }
+        .shotc .big small { display: block; font-family: var(--body); font-weight: 500; line-height: 1.2; color: var(--text); text-transform: none; text-shadow: none; }
+        .shotc .big .px { color: var(--dim); text-shadow: none; }
+        .tf { display: flex; flex-direction: column; } .tf div { display: grid; align-items: baseline; border-top: 1px solid rgba(255, 255, 255, 0.12); }
+        .tf h3 { margin: 0; font-family: var(--display); font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .tf b { font-family: var(--display); font-weight: 800; color: rgb(var(--a)); white-space: nowrap; }
+
+        .sc-link.v-shelf { display: grid; grid-template-columns: 590px 1fr; gap: 44px; }
+        .sc-link.v-shelf .shelf { gap: 10px; font-size: 16px; } .sc-link.v-shelf .stile { border-radius: 8px; }
+        .sc-link.v-title { display: flex; flex-direction: column; }
+        .sc-link.v-title .top { display: flex; align-items: center; justify-content: space-between; } .sc-link.v-title .slot { margin: 0; }
+        .sc-link.v-title .big { margin: auto 0; } .sc-link.v-title .big .px { margin-bottom: 14px; font-size: 15px; } .sc-link.v-title .big small { margin-top: 16px; font-size: 26px; }
+        .sc-link.v-title .bot { display: flex; align-items: flex-end; gap: 34px; } .sc-link.v-title .year { font-size: 112px; margin: 0 0 -8px -4px; } .sc-link.v-title .st { margin: 0; }
+        .sc-link.v-title .st span { white-space: nowrap; }
+        .sc-link.v-title .site { margin-left: auto; white-space: nowrap; font: 700 15px/1 var(--display); color: var(--dim); }
+
+        .sc-story.v-shelf .shelf { flex: 1; margin-top: 50px; gap: 16px; font-size: 27px; } .sc-story.v-shelf .stile { border-radius: 12px; }
+        .sc-story.v-shelf .foot { margin-top: 0; } .sc-story.v-shelf .year { font-size: 300px; }
+        .sc-story.v-title .big { margin-top: 70px; } .sc-story.v-title .big .px { margin-bottom: 22px; } .sc-story.v-title .big small { margin-top: 26px; font-size: 38px; }
+        .sc-story.v-title .year { font-size: 250px; margin-top: 50px; }
+        .sc-story.v-title .tf { margin-top: 50px; } .sc-story.v-title .tf div { grid-template-columns: 250px minmax(0, 1fr) auto; gap: 24px; padding: 24px 0; }
+        .sc-story.v-title .tf h3 { font-size: 32px; } .sc-story.v-title .tf b { font-size: 36px; }
+
+        .sc-story { width: 1080px; height: 1920px; padding: 140px 76px 150px; display: flex; flex-direction: column; }
+        .sc-story::before { background: radial-gradient(100% 50% at 50% 0%, rgba(var(--a), 0.3), transparent 70%), linear-gradient(180deg, rgba(9, 11, 18, 0.6) 0%, rgba(9, 11, 18, 0.9) 45%, rgba(9, 11, 18, 0.97) 100%); }
+        .sc-story .brand { font-size: 34px; }
+        .sc-story .slot { margin-top: 44px; } .sc-story .px { font-size: 20px; } .sc-story .slot i { width: 14px; height: 14px; }
+        .sc-story .year { font-size: 380px; margin: 20px 0 0 -14px; }
+        .sc-story .ttl { margin-top: 34px; font-size: 62px; } .sc-story .ttl small { margin-top: 12px; font-size: 30px; line-height: 1.25; }
+        .sc-story .st { margin-top: 44px; display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; }
+        .sc-story .st .num { font-size: 76px; } .sc-story .st span { margin-top: 8px; font-size: 26px; }
+        .sc-story .r { margin-top: 46px; gap: 14px; } .sc-story .r > .px { margin-bottom: 6px; }
+        .sc-story .sc-row { grid-template-columns: 52px 250px minmax(0, 1fr) auto; gap: 22px; min-height: 106px; padding: 10px 26px 10px 18px; border-radius: 12px; font-size: 40px; }
+        .sc-story .sc-row h3 { font-size: 33px; } .sc-story .sc-row .v { font-size: 36px; }
+        .sc-story .foot { margin-top: auto; padding-top: 30px; font-size: 26px; color: var(--dim); white-space: nowrap; }
+        .sc-story .foot .fl { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin-top: 26px; font-size: 24px; }
+        .sc-story .foot b { color: var(--text); font: 700 24px/1 var(--display); }
+        .sc-story .stripw { --c: 14px; --g: 3.4px; } .sc-story .strip i { border-radius: 3px; }
+        /* Story cover: the #1 game's art sharp over the top half, the year under it */
+        .sc-story.v-cover::before { z-index: 0; background: linear-gradient(180deg, rgba(9, 11, 18, 0.55) 0%, rgba(9, 11, 18, 0) 14%, rgba(9, 11, 18, 0) 30%, rgba(9, 11, 18, 0.9) 50%, var(--bg) 58%); }
+        .sc-story.v-cover > * { position: relative; z-index: 1; }
+        .sc-story.v-cover .covart { position: absolute; z-index: -1; inset: 0 0 auto; width: 100%; height: 1120px; object-position: 60% 30%; }
+        .sc-story.v-cover .game { margin-top: auto; }
+        .sc-story.v-cover .game h3 { margin: 18px 0 14px; font-size: 84px; } .sc-story.v-cover .game p { font-size: 30px; }
+        .sc-story.v-cover .year { font-size: 330px; margin-top: 46px; }
+        .sc-story.v-cover .foot { margin-top: 50px; padding: 0; }
+        /* Story blocks: the twelve months as blocks */
+        .sc-story.v-blocks .months { margin-top: 56px; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 34px; }
+        .sc-story.v-blocks .mo .px { margin-bottom: 12px; }
+        .sc-story.v-blocks .mo .cells { gap: 4px; grid-auto-rows: calc((100cqw - 24px) / 7); } .sc-story.v-blocks .mo .cells i { border-radius: 4px; }
+        .sc-story.v-blocks .cells i.best { outline-width: 3px; }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <!--data-->
+    <script>
+    (() => {
+        const D = JSON.parse(document.getElementById('recap').textContent);
+        const R = D.recap, YEARS = D.years, BASE = D.base, T = R.totals;
+        const Q = new URLSearchParams(location.search), CARD = Q.get('card');
+        const STYLE = ['cover', 'blocks', 'shelf', 'title'].includes(Q.get('style')) ? Q.get('style') : 'card';     // which of the five share pictures
+        const RA_ICON = BASE + 'assets/icon-ra.png', ICON = { ra: RA_ICON, steam: BASE + 'assets/icon-steam.png', xbox: BASE + 'assets/icon-xbox.png' };
+        const PLATFORM = { ra: 'RetroAchievements', steam: 'Steam', xbox: 'Xbox' }, PCOLOR = { ra: 'var(--ra)', steam: 'var(--steam)', xbox: 'var(--xbox)' };
+        // Card colours, like the translucent plastics memory cards came in; a year keeps its colour
+        const COLORS = ['167, 139, 250', '255, 122, 144', '255, 179, 71', '95, 180, 255', '63, 224, 197', '190, 227, 86'];
+        const colorOf = y => COLORS[y % COLORS.length];
+        document.documentElement.style.setProperty('--a', colorOf(R.year));
+
+        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        const n = v => Number(v).toLocaleString('en-US');
+        const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        const MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+        const day = d => `${+d.slice(8)} ${MONTHS[+d.slice(5, 7) - 1]}`;
+        // The picture from config.json (a URL, or a path in the repo like the hub reads it), else the repo's avatar
+        const avatarUrl = !R.user.avatar ? `${BASE}assets/avatar.png` : /^(https?:)?\/\//.test(R.user.avatar) ? R.user.avatar : BASE + R.user.avatar.replace(/^\.?\//, '');
+        const time = m => m >= 60 ? `${Math.floor(m / 60)}h${m % 60 ? ` ${m % 60}m` : ''}` : `${m}m`;
+        const hrs = m => m >= 600 ? n(Math.round(m / 60)) : (Math.round(m / 6) / 10).toString();
+        const plural = (v, one, many = one + 's') => v === 1 ? one : many;
+
+        // Xbox images are full-size originals: both image servers resize on request (images-eds only at these widths)
+        const EDS = [64, 128, 150, 200, 208, 300, 424];
+        const xboxImg = (url, w) => !url ? url : url.includes('store-images.s-microsoft.com') ? `${url}${url.includes('?') ? '&' : '?'}w=${w}`
+            : url.includes('images-eds') ? `${url}&w=${EDS.find(x => x >= w) ?? 424}` : url;
+        const sized = (g, url, w) => g.platform === 'xbox' ? xboxImg(url, w) : url;
+        // An <img> that walks a list of addresses until one loads (Steam's old games have no hero, RA's no picked art)
+        const img = (srcs, cls = '', alt = '') => {
+            const list = srcs.filter(Boolean);
+            return list.length ? `<img class="${cls}" src="${esc(list[0])}" data-next="${esc(list.slice(1).join('|'))}" alt="${esc(alt)}" loading="${CARD ? 'eager' : 'lazy'}" decoding="async">` : '';
+        };
+        document.addEventListener('error', e => {
+            const el = e.target;
+            if (el.tagName !== 'IMG' || el.dataset.next == null) return;
+            const rest = el.dataset.next.split('|').filter(Boolean);
+            if (rest.length) { el.dataset.next = rest.slice(1).join('|'); el.src = rest[0]; } else { delete el.dataset.next; el.style.visibility = 'hidden'; }
+        }, true);
+        const bigArt = (g, w = 1280) => [sized(g, g.hero, w), g.platform === 'steam' ? g.cover : null, g.shot, sized(g, g.cover, 424), sized(g, g.icon, 300)];
+        const midArt = g => [g.heroThumb, g.platform === 'steam' ? g.cover : null, g.shot, sized(g, g.hero, 640), sized(g, g.cover, 424), sized(g, g.icon, 300)];
+        const pix = g => g.platform === 'ra' && !g.hero;      // RA screenshots and icons are pixel art: scale them crisp
+        // Row art: wide art behind the left of a row (hero, else cover or screenshot); only a square icon left = blurred, as colour
+        const rowArt = g => {
+            const steam = g.platform === 'steam';
+            const wide = [g.heroThumb, steam ? g.hero : sized(g, g.hero, 640), steam ? g.cover : sized(g, g.cover, 424), g.shot].filter(Boolean);
+            return img([...wide, sized(g, g.icon, 300)], 'rowart' + (wide.length ? '' : ' soft'));
+        };
+        const tierTag = (t, label) => t ? `<span class="tag ${t}">${t === 'completed' ? '★' : '⚑'} ${esc(label ?? (t === 'completed' ? 'Completed' : 'Beaten'))}</span>` : '';
+        const platTag = g => `<span class="tag"><img src="${ICON[g.platform]}" alt="">${esc(g.console ?? PLATFORM[g.platform])}</span>`;
+        const svg = { share: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v14"/></svg>',
+            link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>',
+            down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M6 11l6 6 6-6M4 21h16"/></svg>',
+            x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+            play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 4.5v15l12-7.5z"/></svg>',
+            tall: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="2"/></svg>',
+            wide: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/></svg>',
+            again: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></svg>' };
+
+        const byTime = R.rankBy === 'time';
+        const finished = T.completed + T.beaten;
+        const slotNo = YEARS.findIndex(y => y.year === R.year) + 1;
+        const top1 = R.top[0];
+        const brand = `<span class="brand"><img src="${BASE}assets/favicon.svg" alt="">Savepoint <span>Memory Card</span></span>`;
+        const yearArt = top1 ? ` style="background-image: linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(${colorOf(R.year)}, 0.55) 100%), url('${esc(bigArt(top1).find(Boolean) ?? '')}'); background-blend-mode: soft-light, normal;"` : '';
+
+        // Headline numbers, the same four on the page and on both images
+        const headline = [
+            byTime ? { v: hrs(T.minutes), unit: 'h', lab: 'Played' } : null,
+            { v: n(T.unlocks), lab: plural(T.unlocks, 'Unlock') },
+            { v: n(T.games), lab: plural(T.games, 'Game') },
+            { v: n(finished), lab: 'Finished' },
+            byTime ? null : { v: n(T.activeDays), lab: plural(T.activeDays, 'Day') + ' played' },
+        ].filter(Boolean);
+
+        // The year's blocks: one cell per day, Monday first
+        const level = v => v >= 8 ? 4 : v >= 4 ? 3 : v >= 2 ? 2 : 1;
+        const JAN1 = Date.UTC(R.year, 0, 1), pad = d => '<i class="x"></i>'.repeat((new Date(d).getUTCDay() + 6) % 7);
+        const cell = i => {
+            const iso = new Date(JAN1 + i * 864e5).toISOString().slice(0, 10);
+            const u = R.heat[i], p = R.played?.[i] ?? 0, future = R.asOf && iso > R.asOf;
+            const cls = future ? 'f' : u ? `l${level(u)}` : p ? 'p' : '';
+            const tip = future ? '' : `${day(iso)}: ${u ? `${u} ${plural(u, 'unlock')}` : 'no unlocks'}${p ? `, ${time(p)} played` : ''}`;
+            return `<i class="${cls}${R.bestDay?.day === iso ? ' best' : ''}"${tip ? ` title="${tip}"` : ''}></i>`;
+        };
+        const monthCells = m => {
+            const first = Date.UTC(R.year, m, 1), len = new Date(Date.UTC(R.year, m + 1, 0)).getUTCDate(), start = Math.round((first - JAN1) / 864e5);
+            return pad(first) + Array.from({ length: len }, (_, d) => cell(start + d)).join('');
+        };
+        const yearCells = () => pad(JAN1) + R.heat.map((_, i) => cell(i)).join('');   // weeks as columns, Monday on top
+
+        // The same days as one strip: weeks as columns, the months named above
+        const wk0 = (new Date(JAN1).getUTCDay() + 6) % 7;
+        const strip = (labels = true) => `<div class="stripw">${labels ? `<div class="mlab px">${MONTHS.map((m, i) => `<span style="grid-column:${Math.floor((Math.round((Date.UTC(R.year, i, 1) - JAN1) / 864e5) + wk0) / 7) + 1}">${m}</span>`).join('')}</div>` : ''}<span class="strip cells">${yearCells()}</span></div>`;
+
+        // Pieces the page, the story and the share pictures all draw
+        const daysSoFar = R.asOf ? Math.round((Date.parse(R.asOf) - JAN1) / 864e5) + 1 : R.heat.length;
+        const monthTotal = m => R.months[m].ra + R.months[m].steam + R.months[m].xbox;
+        const listName = byTime ? 'Most played' : 'Most unlocked';
+        const gameFacts = g => [
+            g.minutes ? { v: time(g.minutes), l: 'played' } : null,
+            { v: n(g.unlocks), l: plural(g.unlocks, 'unlock') },
+            { v: `${Math.round(g.share)}%`, l: byTime ? 'of play time' : 'of all unlocks' },
+        ].filter(Boolean);
+        const rowVal = g => byTime && g.minutes ? [time(g.minutes), `${n(g.unlocks)} ${plural(g.unlocks, 'unlock')}`] : [n(g.unlocks), plural(g.unlocks, 'unlock')];
+        // A ranked game: its art fading out from the left behind the rank, the name and the numbers
+        const rowHtml = (g, rank, tag = 'div', cls = '', attrs = '') => `
+            <${tag} class="grow ${cls}" ${attrs}>${rowArt(g)}
+                <span class="rk">${rank}</span><span></span>
+                <div style="min-width:0"><h3>${esc(g.name)}</h3><div class="meta"><img src="${ICON[g.platform]}" alt="">
+                    ${g.tier ? `<span class="${g.tier === 'completed' ? 'gold' : 'silver'}">${g.tier === 'completed' ? '★ Completed' : '⚑ Beaten'}</span>` : `<span>${esc(g.console ?? PLATFORM[g.platform])}</span>`}</div></div>
+                <div class="val"><div class="num">${rowVal(g)[0]}</div><span>${rowVal(g)[1]}</span></div>
+                <i class="meter" style="width:${Math.max(2, 100 * g.share / top1.share)}%"></i>
+            </${tag}>`;
+        const tileHtml = (g, tag = 'div', cls = '', attrs = '') => `
+            <${tag} class="dn ${cls} ${g.tier}${pix(g) ? ' pix' : ''}" ${attrs}>
+                ${img(midArt(g), 'art')}${tierTag(g.tier, g.label)}
+                <h3>${esc(g.name)}</h3><p><img src="${ICON[g.platform]}" alt=""><span>${g.console ? `${esc(g.console)} · ` : ''}${day(g.day)}${!g.console && g.fact?.pct != null ? ` · ${g.fact.pct}% rarity` : ''}</span></p>
+            </${tag}>`;
+        const monthsHtml = `<div class="months">${MONTHS.map((name, m) => `<div class="mo${R.peakMonth === m ? ' peak' : ''}"><div class="px"><span>${name}</span><b>${monthTotal(m) || ''}</b></div><div class="cells">${monthCells(m)}</div></div>`).join('')}</div>`;
+        const minis = cls => `
+            <div class="mini ${cls}"><div class="px">Longest streak</div><div class="num">${R.streak.days}<small>${plural(R.streak.days, 'day')}</small></div><p>${R.streak.days > 1 ? `${day(R.streak.from)} to ${day(R.streak.to)}` : 'No two days in a row'}</p></div>
+            ${R.bestDay ? `<div class="mini ${cls}"><div class="px">Biggest day</div><div class="num">${R.bestDay.unlocks}<small>${plural(R.bestDay.unlocks, 'unlock')}</small></div><p>${day(R.bestDay.day)} · ${esc(R.bestDay.game.name)}</p></div>` : ''}
+            ${R.peakMonth != null ? `<div class="mini ${cls}"><div class="px">Busiest month</div><div class="num">${MONTHS_LONG[R.peakMonth].slice(0, 3)}<small>${n(monthTotal(R.peakMonth))} unlocks</small></div><p>${byTime && R.months[R.peakMonth].minutes ? `${time(R.months[R.peakMonth].minutes)} played` : `${Math.round(100 * monthTotal(R.peakMonth) / T.unlocks)}% of the year`}</p></div>` : ''}
+            <div class="mini ${cls}"><div class="px">Rare finds</div><div class="num gold">${n(T.rare)}<small>under 10%</small></div><p>${T.unlocks ? `${Math.round(100 * T.rare / T.unlocks)}% of all unlocks` : ''}</p></div>`;
+        // The renderer waits for this: fonts in, every image loaded or given up
+        const shotReady = () => {
+            const settled = () => [...document.images].every(i => i.complete && (i.naturalWidth || i.dataset.next == null || i.style.visibility === 'hidden'));
+            const wait = () => document.fonts.ready.then(() => settled() ? (document.body.dataset.ready = '1') : setTimeout(wait, 80));
+            wait();
+        };
+        // ── Share pictures: ?card=link|story in one of five styles (&style=cover|blocks|shelf|title, none = card) ──
+        if (CARD === 'link' || CARD === 'story') {
+            const rows = R.top.slice(0, 5).map((g, i) => `<div class="sc-row">${rowArt(g)}<span class="rk">${i + 1}</span><span></span><h3>${esc(g.name)}</h3>
+                <span class="v">${rowVal(g)[0]}<small>${rowVal(g)[1]}</small></span></div>`).join('');
+            const st = `<div class="st">${headline.slice(0, 4).map(h => `<div><div class="num">${h.v}${h.unit ?? ''}</div><span>${h.lab}</span></div>`).join('')}</div>`;
+            const slot = `<div class="slot px"><i></i>${esc(R.user.name)} <b>· ${R.partial ? `so far, to ${day(R.asOf)}` : 'year in games'}</b></div>`;
+            const year = `<h1 class="year"${yearArt}>${R.year}</h1>`;
+            const ttl = `<div class="ttl">${esc(R.title.name)}<small>${esc(R.title.why)}</small></div>`;
+            const list = `<div class="r"><div class="px">${listName}</div>${rows}</div>`;
+            const bg = top1 ? img(bigArt(top1), 'bgart') : '';
+            const cov = top1 ? img(bigArt(top1, 1920), 'covart' + (pix(top1) ? ' pixart' : '')) : '';
+            const game = top1 ? `<div class="game"><div class="px">${listName}</div><h3>${esc(top1.name)}</h3>
+                <p>${gameFacts(top1).map(f => `<b>${f.v}</b> ${f.l}`).join(' · ')}</p></div>` : '';
+            const site = `${esc(D.site.replace(/^https?:\/\//, ''))}/memory-card/${R.year}`;
+            const days = `${n(T.activeDays)} of ${daysSoFar} days played`;
+            const foot = body => `<div class="foot">${body}<div class="fl"><b>${site}</b><span>${days}</span></div></div>`;
+            const bfacts = [
+                [n(T.activeDays), `of ${daysSoFar} days played`],
+                [`${R.streak.days} ${plural(R.streak.days, 'day')}`, 'longest streak'],
+                R.bestDay ? [`${R.bestDay.unlocks} ${plural(R.bestDay.unlocks, 'unlock')}`, `biggest day, ${day(R.bestDay.day)}`] : null,
+                R.peakMonth != null ? [MONTHS_LONG[R.peakMonth], 'busiest month'] : null,
+            ].filter(Boolean).map(([v, l]) => `<div><b>${v}</b>${l}</div>`).join('');
+            // Shelf: the year's games as art tiles, the top games first, then the finished ones; an odd count gives the first a full row
+            const shelfOf = max => {
+                const seen = new Set(), all = [...R.top, ...R.completions].filter(g => !seen.has(g.key) && seen.add(g.key)).slice(0, max);
+                const list = all.length % 2 || all.length < 3 ? all : all.slice(0, all.length - 1);
+                return `<div class="shelf">${list.map((g, i) => `<div class="stile ${g.tier === 'completed' ? 'gold' : g.tier ? 'silver' : ''}">${img(i ? midArt(g) : bigArt(g), 'art' + (pix(g) ? ' pixart' : ''))}
+                    ${i < R.top.length ? `<span class="rk">${i + 1}</span>` : ''}
+                    <div class="cap"><h3>${esc(g.name)}</h3><span>${i < R.top.length ? `<b>${rowVal(g)[0]}</b>${byTime && g.minutes ? '' : ` ${rowVal(g)[1]}`}` : `<b>${g.tier === 'completed' ? '★' : '⚑'}</b> ${day(g.day)}`}</span></div></div>`).join('')}</div>`;
+            };
+            // Title: the title earned as the picture, sized so its longest word fits the width
+            const words = R.title.name.split(' '), longest = Math.max(...words.map(w => w.length));
+            const big = (width, max, oneLine) => `<div class="big" style="font-size:${Math.min(max, Math.floor(width / ((oneLine ? R.title.name.length : longest) * 0.7)))}px"><div class="px">Title earned</div>${esc(R.title.name)}<small>${esc(R.title.why)}</small></div>`;
+            const tfacts = `<div class="tf">${[
+                top1 ? [listName, top1.name, rowVal(top1)[0]] : null,
+                R.rarest[0] ? ['Rarest find', R.rarest[0].name, `${R.rarest[0].pct}%`] : null,
+                ['Longest streak', R.streak.days > 1 ? `${day(R.streak.from)} to ${day(R.streak.to)}` : 'No two days in a row', `${R.streak.days} ${plural(R.streak.days, 'day')}`],
+                R.bestDay ? ['Biggest day', `${day(R.bestDay.day)} · ${R.bestDay.game.name}`, `${R.bestDay.unlocks}`] : null,
+            ].filter(Boolean).map(([l, name, v]) => `<div><span class="px">${l}</span><h3>${esc(name)}</h3><b>${v}</b></div>`).join('')}</div>`;
+            const cards = {
+                link: {
+                    shelf: `${bg}<div class="l">${brand}${slot}${year}${ttl}${st}</div>${shelfOf(7)}`,
+                    title: `${bg}<div class="top">${brand}${slot}</div>${big(1090, 150, true)}<div class="bot">${year}${st}<b class="site">${site}</b></div>`,
+                    card: `${bg}<div class="l">${brand}${slot}${year}${ttl}${st}</div>${list}`,
+                    cover: `${cov || bg}<div class="l">${brand}${slot}${year}${ttl}${st}</div>${game}`,
+                    blocks: `${bg}${brand}${slot}<div class="hd">${year}<div class="hr">${ttl}${st}</div></div>${strip()}<div class="bfacts">${bfacts}<div class="site"><b>${site}</b></div></div>`,
+                },
+                story: {
+                    shelf: `${bg}${brand}${slot}${year}${ttl}${st}${shelfOf(7)}${foot('')}`,
+                    title: `${bg}${brand}${slot}${big(928, 210, false)}${year}${st}${tfacts}${foot(strip())}`,
+                    card: `${bg}${brand}${slot}${year}${ttl}${st}${list}${foot(strip())}`,
+                    cover: `${cov || bg}${brand}${slot}${game}${year}${ttl}${st}${foot(strip())}`,
+                    blocks: `${bg}${brand}${slot}${year}${ttl}${st}${monthsHtml}${foot('')}`,
+                },
+            };
+            document.body.classList.add('shot');
+            document.getElementById('app').innerHTML = `<div class="shotc sc-${CARD} v-${STYLE}">${cards[CARD][STYLE]}</div>`;
+            document.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
+            shotReady();
+            return;
+        }
+
+        // ── The page ──────────────────────────────────────────────────────────────────
+        const prev = YEARS[slotNo - 2], next = YEARS[slotNo];
+        const yearUrl = y => `${BASE}memory-card/${y}/`;
+        const hero = `
+            <div class="left">
+                <div class="slot px"><i></i>Slot ${slotNo} <b>of ${YEARS.length}</b></div>
+                <div class="yrow"><div class="year" aria-hidden="true"${yearArt}>${R.year}</div></div>
+                <nav class="ynav" aria-label="Other years">
+                    ${prev ? `<a href="${yearUrl(prev.year)}">‹ ${prev.year}</a>` : `<span>‹</span>`}
+                    ${next ? `<a href="${yearUrl(next.year)}">${next.year} ›</a>` : `<span>›</span>`}
+                    <a href="#slots">All years</a>
+                </nav>
+            </div>
+            <div class="who"><img src="${esc(avatarUrl)}" alt="" onerror="this.onerror=null;this.src='${BASE}assets/avatar.png'">
+                <div><h1>${esc(R.user.name)}’s ${R.year} in games</h1>
+                <p>${R.partial ? `<span class="chip live"><i></i>So far, to ${day(R.asOf)}</span>` : `<span class="chip">Year complete</span>`}</p></div></div>
+            <div class="title"><div class="px">Title earned</div><h2>${esc(R.title.name)}</h2><p>${esc(R.title.why)}</p></div>
+            <div class="stats">
+                ${byTime ? `<div class="stat"><div class="num"><span data-count="${Math.round(T.minutes / 60)}">${hrs(T.minutes)}</span><small>hours</small></div><div class="lab">Played</div>
+                    ${R.trackedFrom ? `<div class="sub"><span class="chip">Tracked since ${day(R.trackedFrom)}</span></div>` : ''}</div>` : ''}
+                <div class="stat"><div class="num"><span data-count="${T.unlocks}">${n(T.unlocks)}</span></div><div class="lab">${plural(T.unlocks, 'Unlock')}</div>
+                    <div class="sub">${['ra', 'steam', 'xbox'].filter(p => T.byPlatform[p]).map(p => `<span class="chip"><i class="dot" style="background:${PCOLOR[p]}"></i>${n(T.byPlatform[p])}</span>`).join('')}</div></div>
+                <div class="stat"><div class="num"><span data-count="${T.games}">${n(T.games)}</span></div><div class="lab">${plural(T.games, 'Game')} played</div>
+                    ${T.newGames ? `<div class="sub"><span class="chip">${n(T.newGames)} new</span></div>` : ''}</div>
+                <div class="stat"><div class="num"><span data-count="${finished}">${n(finished)}</span></div><div class="lab">${plural(finished, 'Game')} finished</div>
+                    ${finished ? `<div class="sub">${T.completed ? `<span class="chip gold">★ ${T.completed} completed</span>` : ''}${T.beaten ? `<span class="chip silver">⚑ ${T.beaten} beaten</span>` : ''}</div>` : ''}</div>
+                ${byTime ? '' : `<div class="stat"><div class="num"><span data-count="${T.activeDays}">${n(T.activeDays)}</span></div><div class="lab">${plural(T.activeDays, 'Day')} with an unlock</div>
+                    ${T.rare ? `<div class="sub"><span class="chip gold">${n(T.rare)} rare</span></div>` : ''}</div>`}
+            </div>`;
+
+        const topHtml = !top1 ? '' : `
+            <section><div class="sh rv"><h2>${byTime ? 'Most played' : 'Most unlocked'}</h2><span class="px">Top ${R.top.length}</span></div>
+            <div class="top">
+                <a class="feat rv" href="${esc(top1.url ?? '#')}" target="_blank" rel="noopener">
+                    ${img(bigArt(top1), 'art' + (pix(top1) ? ' pixart' : ''))}
+                    <div class="rank"><small>Save file</small>01</div>
+                    <div class="in"><div class="tags">${platTag(top1)}${tierTag(top1.tier)}</div><h3>${esc(top1.name)}</h3>
+                    <div class="facts">${gameFacts(top1).map(f => `<div class="fact"><div class="num">${f.v}</div><span>${f.l}</span></div>`).join('')}</div></div>
+                </a>
+                <div class="rows">${R.top.slice(1).map((g, i) => rowHtml(g, i + 2, 'a', 'rv', `href="${esc(g.url ?? '#')}" target="_blank" rel="noopener" style="transition-delay:${(i + 1) * 60}ms"`)).join('')}</div>
+            </div></section>`;
+
+        const blocksHtml = `
+            <section><div class="sh rv"><h2>${n(T.activeDays)} blocks used</h2><span class="px">of ${daysSoFar} days</span></div>
+            <div class="card rv">
+                ${monthsHtml}
+                <div class="key"><span>Fewer<span class="cells"><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i></span>more unlocks</span>
+                    ${byTime ? `<span><i class="one" style="background:rgba(var(--a),0.2)"></i>Played, no unlock</span>` : ''}
+                    ${R.bestDay ? `<span><i class="one" style="background:rgb(var(--a));outline:2px solid #fff;outline-offset:1px;margin:0 3px"></i>Biggest day</span>` : ''}</div>
+            </div>
+            <div class="duo">
+                ${minis('rv')}
+            </div></section>`;
+
+        const doneHtml = !R.completions.length ? '' : `
+            <section><div class="sh rv"><h2>Seen through</h2><span class="px">${T.completed ? `★ ${T.completed} ` : ''}${T.beaten ? `⚑ ${T.beaten}` : ''}</span></div>
+            <div class="done">${R.completions.map((g, i) => tileHtml(g, 'a', 'rv', `href="${esc(g.url ?? '#')}" target="_blank" rel="noopener" style="transition-delay:${Math.min(i, 7) * 40}ms"`)).join('')}</div></section>`;
+
+        const rareHtml = !R.rarest.length ? '' : `
+            <section><div class="sh rv"><h2>Rarest finds</h2><span class="px">One per game</span></div>
+            <div class="rare">${R.rarest.map((u, i) => `
+                <a class="rr rv" href="${esc(u.game.url ?? '#')}" target="_blank" rel="noopener" style="transition-delay:${i * 50}ms" title="${esc(u.desc ?? '')}">
+                    ${img([sized(u.game, u.icon, 128), sized(u.game, u.game.icon, 128)], 'ic') || '<span class="ic"></span>'}
+                    <div style="min-width:0"><h3>${esc(u.name)}</h3><p><img src="${ICON[u.game.platform]}" alt=""><span>${esc(u.game.name)} · ${day(u.day)}</span></p></div>
+                    <div class="pct"><div class="num">${u.pct}%</div><span>of players</span></div>
+                </a>`).join('')}</div></section>`;
+
+        const maxHour = Math.max(...R.hours, 1), maxWd = Math.max(...R.weekdays, 1), maxMonth = Math.max(...MONTHS.map((_, m) => monthTotal(m)), 1);
+        const topWd = R.weekdays.indexOf(Math.max(...R.weekdays));
+        const partHours = { morning: [5, 6, 7, 8, 9, 10, 11], afternoon: [12, 13, 14, 15, 16], evening: [17, 18, 19, 20, 21], night: [22, 23, 0, 1, 2, 3, 4] };
+        const hot = R.dayPart ? partHours[R.dayPart.id] : [];
+        const plats = ['ra', 'steam', 'xbox'].filter(p => T.byPlatform[p] || T.gamesBy[p]);
+        const rhythmHtml = !T.unlocks ? '' : `
+            <section><div class="sh rv"><h2>Rhythm</h2><span class="px">${esc(R.tz.split('/').pop().replace('_', ' '))} time</span></div>
+            <div class="bento">
+                <div class="card rv"><h3>Time of day</h3><div class="big">${esc(R.dayPart.label)}<small>${R.dayPart.pct}% of unlocks, ${R.dayPart.range.replace('–', ':00 to ')}:00</small></div>
+                    <div class="bars">${R.hours.map((v, h) => `<div title="${String(h).padStart(2, '0')}:00 · ${v}"><i class="${hot.includes(h) ? 'hot' : ''}" style="height:${100 * v / maxHour}%"></i></div>`).join('')}</div>
+                    <div class="axis sparse"><span>00</span><span>06</span><span>12</span><span>18</span><span>23</span></div></div>
+                <div class="card rv"><h3>Day of the week</h3><div class="big">${WEEKDAYS[topWd]}s<small>${Math.round(100 * R.weekdays[topWd] / T.unlocks)}% of unlocks landed here</small></div>
+                    <div class="bars">${R.weekdays.map((v, d) => `<div title="${WEEKDAYS[d]} · ${v}"><i class="${d === topWd ? 'hot' : ''}" style="height:${100 * v / maxWd}%"></i></div>`).join('')}</div>
+                    <div class="axis">${WEEKDAYS.map(d => `<span>${d[0]}</span>`).join('')}</div></div>
+                <div class="card rv"><h3>Month by month</h3><div class="big">${MONTHS_LONG[R.peakMonth]}<small>${n(monthTotal(R.peakMonth))} unlocks at the peak</small></div>
+                    <div class="bars">${MONTHS.map((name, m) => `<div title="${name} · ${monthTotal(m)}">${['xbox', 'steam', 'ra'].filter(p => R.months[m][p]).map(p => `<i class="${p}" style="height:${100 * R.months[m][p] / maxMonth}%"></i>`).join('') || '<i style="height:0;background:rgba(255,255,255,0.12)"></i>'}</div>`).join('')}</div>
+                    <div class="axis">${MONTHS.map(m => `<span>${m[0]}</span>`).join('')}</div></div>
+                <div class="card rv"><h3>Platforms</h3>
+                    <div class="split">${plats.map(p => `<i style="flex:${Math.max(T.byPlatform[p], 0.01)};background:${PCOLOR[p]}"></i>`).join('')}</div>
+                    <div class="plats">${plats.map(p => `<div class="plat"><img src="${ICON[p]}" alt=""><span>${PLATFORM[p]}<small>${T.gamesBy[p]} ${plural(T.gamesBy[p], 'game')}</small></span><span class="num">${n(T.byPlatform[p])}</span></div>`).join('')}</div>
+                    ${T.points || T.gamerscore ? `<div class="key" style="margin-top:14px">${T.points ? `<span><b class="num gold">${n(T.points)}</b> RA points</span>` : ''}${T.gamerscore ? `<span><b class="num gold">${n(T.gamerscore)}</b> gamerscore</span>` : ''}</div>` : ''}</div>
+            </div></section>`;
+
+        const endCard = (u, label) => !u ? '' : `<a class="end rv" href="${esc(u.game.url ?? '#')}" target="_blank" rel="noopener">
+            ${img([sized(u.game, u.icon, 128), sized(u.game, u.game.icon, 128)], 'ic') || '<span class="ic"></span>'}
+            <div style="min-width:0"><div class="px">${label} · ${day(u.day)}</div><h3>${esc(u.name)}</h3><p>${esc(u.game.name)}</p></div></a>`;
+        const endsHtml = !R.first ? '' : `
+            <section><div class="sh rv"><h2>Bookends</h2></div>
+            <div class="ends">${endCard(R.first, 'First unlock')}${endCard(R.last, R.partial ? 'Latest unlock' : 'Last unlock')}</div></section>`;
+
+        const slotsHtml = `
+            <section id="slots"><div class="sh rv"><h2>Every slot</h2><span class="px">${YEARS.length} years saved</span></div>
+            <div class="slots">${[...YEARS].reverse().map((y, i) => `
+                <a class="sl rv${y.year === R.year ? ' on' : ''}" href="${yearUrl(y.year)}" style="--c:${colorOf(y.year)};transition-delay:${Math.min(i, 8) * 30}ms"${y.year === R.year ? ' aria-current="page"' : ''}>
+                    ${y.top ? img([y.top.cover, y.top.icon].map(u => xboxImg(u, 424)), '') : ''}
+                    <div class="num">${y.year}</div><div class="px">${esc(y.title)}</div>
+                    <p>${y.minutes ? `${hrs(y.minutes)}h · ` : ''}${n(y.unlocks)} unlocks</p>
+                </a>`).join('')}</div></section>`;
+
+        const notes = [
+            `Days and hours in ${esc(R.tz.replace('_', ' '))} time`,
+            R.trackedFrom ? `Play time tracked since ${day(R.trackedFrom)}` : !byTime ? 'No play time logged this year: ranked by unlocks' : null,
+            R.farms ? `${R.farms.games} achievement ${plural(R.farms.games, 'farm')} left out (${n(R.farms.unlocks)} unlocks)` : null,
+        ].filter(Boolean);
+
+        // ── Story slides: each one a full card, shown in the story and rendered as a picture. Slides with nothing to show are left out ──
+        const slideFile = (key, wide) => `${R.year}-slide-${key}${wide ? '-wide' : ''}.jpg`;
+        const slidePic = (key, wide) => `${BASE}memory-card/share/${slideFile(key, wide)}`;
+        const DESK = matchMedia('(min-width: 900px) and (min-aspect-ratio: 5/4)');      // where the story and its pictures go wide
+        const count = v => { const d = String(v).replace(/\D/g, ''); return /^[\d,.\s]+$/.test(String(v)) && +d >= 10 ? ` data-count="${d}"` : ''; };
+        const uIcon = u => img([sized(u.game, u.icon, 128), sized(u.game, u.game.icon, 128)], 'ic') || '<span class="ic"></span>';
+        const sRare = u => `<div class="rr sa">${uIcon(u)}<div style="min-width:0"><h3>${esc(u.name)}</h3><p><img src="${ICON[u.game.platform]}" alt=""><span>${esc(u.game.name)} · ${day(u.day)}</span></p></div>
+            <div class="pct"><div class="num">${u.pct}%</div><span>of players</span></div></div>`;
+        const sEnd = (u, label) => !u ? '' : `<div class="end sa">${uIcon(u)}<div style="min-width:0"><div class="px">${label} · ${day(u.day)}</div><h3>${esc(u.name)}</h3><p>${esc(u.game.name)}</p></div></div>`;
+        const sTiles = (list, max) => { const shown = Math.min(list.length, max), rows = Math.ceil(shown / 2), wrows = shown > 4 ? 2 : 1;      // wide: up to four across
+            return `<div class="done" style="--th:${Math.min(180, Math.floor(540 / rows))}px;--thw:${wrows > 1 ? 128 : 240}px;--cw:${Math.ceil(shown / wrows)}">${list.slice(0, max).map(g => tileHtml(g, 'div', 'sa pop')).join('')}</div>${list.length > max ? `<p class="lead sa">and ${list.length - max} more</p>` : ''}`; };
+        const fewDone = R.completions.length > 0 && R.completions.length < 3;      // too few for a slide of their own: they join the rarest finds
+        const tierLine = `${T.completed ? `★ ${T.completed} ` : ''}${T.beaten ? `⚑ ${T.beaten}` : ''}`;
+        const SLIDES = [
+            { key: 'year', name: 'The year', two: true, html: `<div class="hf1"><div class="slot px sa"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · ${R.partial ? `so far, to ${day(R.asOf)}` : 'year complete'}</b></div>
+                <div class="year sa yr"${yearArt}>${R.year}</div><h2 class="sa">${esc(R.user.name)}’s year in games</h2>
+                <div class="title sa"><div class="px">Title earned</div><h2>${esc(R.title.name)}</h2><p>${esc(R.title.why)}</p></div></div>
+                <div class="hf2"><div class="snums">${headline.map(h => `<div class="snum sa pop"><div class="num"><span${count(h.v)}>${h.v}</span>${h.unit ? '<small>hours</small>' : ''}</div><span>${h.lab}</span></div>`).join('')}</div>
+                ${plats.length > 1 ? `<div class="splat sa"><div class="split">${plats.map(p => `<i style="flex:${Math.max(T.byPlatform[p], 0.01)};background:${PCOLOR[p]}"></i>`).join('')}</div>
+                    <p>${plats.map(p => `<span><img src="${ICON[p]}" alt=""><b>${n(T.byPlatform[p])}</b> unlocks</span>`).join('')}</p></div>` : ''}
+                <div class="sa wipe">${strip()}</div><p class="lead sa">${n(T.activeDays)} of ${daysSoFar} days played</p></div>` },
+            top1 && { key: 'top', name: listName, two: R.top.length > 1, html: `<div class="hf1"><div class="shead sa"><h2>${listName}</h2><span class="px">Top ${R.top.length}</span></div>
+                <div class="feat sa">${img(bigArt(top1), 'art' + (pix(top1) ? ' pixart' : ''))}<div class="rank"><small>Save file</small>01</div>
+                    <div class="in"><div class="tags">${platTag(top1)}${tierTag(top1.tier)}</div><h3>${esc(top1.name)}</h3>
+                    <div class="facts">${[...gameFacts(top1), top1.sessions ? { v: n(top1.sessions), l: plural(top1.sessions, 'session') } : null, top1.total ? { v: `${top1.unlockedAll ?? top1.unlocks}/${top1.total}`, l: 'achievements' } : null]
+                        .filter(Boolean).map(f => `<div class="fact"><div class="num">${f.v}</div><span>${f.l}</span></div>`).join('')}</div></div></div></div>
+                ${R.top.length > 1 ? `<div class="hf2"><div class="rows">${R.top.slice(1).map((g, i) => rowHtml(g, i + 2, 'div', 'sa')).join('')}</div></div>` : ''}` },
+            R.completions.length >= 3 && { key: 'done', name: 'Seen through', html: `<div class="shead sa"><h2>Seen through</h2><span class="px">${tierLine}</span></div>${sTiles(R.completions, 8)}` },
+            T.unlocks && { key: 'blocks', name: 'Blocks', two: true, html: `<div class="hf1"><div class="shead sa"><h2>${n(T.activeDays)} blocks used</h2><span class="px">of ${daysSoFar} days</span></div>
+                <div class="sa wipe">${strip()}</div><div class="duo">${minis('sa pop')}</div></div>
+                <div class="hf2"><div class="duo"><div class="card sa"><h3>Time of day</h3><div class="big">${esc(R.dayPart.label)}<small>${R.dayPart.pct}% of unlocks</small></div>
+                        <div class="bars">${R.hours.map((v, h) => `<div><i class="${hot.includes(h) ? 'hot' : ''}" style="height:${100 * v / maxHour}%"></i></div>`).join('')}</div>
+                        <div class="axis sparse"><span>00</span><span>06</span><span>12</span><span>18</span><span>23</span></div></div>
+                    <div class="card sa"><h3>Day of the week</h3><div class="big">${WEEKDAYS[topWd]}s<small>${Math.round(100 * R.weekdays[topWd] / T.unlocks)}% of unlocks</small></div>
+                        <div class="bars">${R.weekdays.map((v, d) => `<div><i class="${d === topWd ? 'hot' : ''}" style="height:${100 * v / maxWd}%"></i></div>`).join('')}</div>
+                        <div class="axis">${WEEKDAYS.map(d => `<span>${d[0]}</span>`).join('')}</div></div></div>
+                <div class="card sa"><h3>Month by month</h3>
+                    <div class="bars">${MONTHS.map((_, m) => `<div>${['xbox', 'steam', 'ra'].filter(p => R.months[m][p]).map(p => `<i class="${p}" style="height:${100 * R.months[m][p] / maxMonth}%"></i>`).join('') || '<i style="height:0;background:rgba(255,255,255,0.12)"></i>'}</div>`).join('')}</div>
+                    <div class="axis">${MONTHS.map(m => `<span>${m[0]}</span>`).join('')}</div></div></div>` },
+            (R.rarest.length || R.first) && (() => {
+                // Up to three blocks (finished games when too few for their own slide, rarest finds, first / last unlock) in two halves;
+                // the bookends always come last when stacked (.late), and get a heading of their own only when wide (.wonly)
+                const seen = fewDone ? `<div class="shead sa"><h2>Seen through</h2><span class="px">${tierLine}</span></div>${sTiles(R.completions, 2)}` : '';
+                const rare = R.rarest.length ? `<div class="shead sa"><h2>Rarest finds</h2><span class="px">One per game</span></div><div class="rare">${R.rarest.slice(0, fewDone ? 3 : 5).map(sRare).join('')}</div>` : '';
+                const ends = R.first ? `<div class="late"><div class="shead sa${rare ? ' wonly' : ''}"><h2>Bookends</h2></div><div class="ends">${sEnd(R.first, 'First unlock')}${sEnd(R.last, R.partial ? 'Latest unlock' : 'Last unlock')}</div></div>` : '';
+                const halves = seen ? [seen + ends, rare] : rare ? [rare, ends] : [ends, ''];
+                return { key: 'rare', name: 'Rarest finds', two: !!halves[1], html: `<div class="hf1">${halves[0]}</div>${halves[1] ? `<div class="hf2">${halves[1]}</div>` : ''}` };
+            })(),
+        ].filter(Boolean);
+        // ── Story choreography: what makes one year's story play unlike another's. Everything is drawn from a seed (the year
+        //    and the owner's name), so a year always plays the same way and no two years share a plan: the line on each
+        //    cover, its colouring, the shapes on it, how its words land, the shapes it arrives and leaves through, and
+        //    where the slide's pieces come from, in which order and how fast ──
+        const hash = t => [...t].reduce((h, c) => Math.imul(h ^ c.charCodeAt(0), 16777619), 2166136261) >>> 0;
+        const rng = seed => () => { seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+        const shuffled = (list, r) => { const a = [...list]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+        const WHO = hash(R.user.name), SEED = hash(`${R.year}·${R.user.name}`);
+        const sg = i => i % 2 ? 1 : -1;
+        // Where a piece starts from: (index, random) → the custom properties of the `sin` keyframe
+        const MOVES = [() => ({ dy: '30px' }), () => ({ dy: '-30px' }), () => ({ dx: '-46px', dy: '0px' }), () => ({ dx: '46px', dy: '0px' }), i => ({ dx: `${sg(i) * 46}px`, dy: '0px' }),
+            i => ({ dy: '24px', dr: `${sg(i) * 5}deg` }), () => ({ dy: '0px', ds: 0.8 }), () => ({ dy: '-8px', rx: '-78deg' }), i => ({ dy: '0px', ry: `${sg(i) * 72}deg` }), () => ({ dy: '36px', dr: '-6deg', ds: 0.9 }),
+            (i, r) => ({ dx: `${Math.round(r() * 110 - 55)}px`, dy: `${Math.round(r() * 80 - 40)}px`, dr: `${Math.round(r() * 22 - 11)}deg` }), () => ({ dx: '120px', dy: '0px' })];
+        const POPS = [() => ({ dy: '0px', ds: 0.55 }), i => ({ dy: '0px', ry: `${sg(i) * 90}deg` }), () => ({ dy: '-48px', ds: 1 }), i => ({ dy: '0px', dr: `${sg(i) * 14}deg`, ds: 0.5 }), () => ({ dy: '42px', ds: 0.9 }), () => ({ dy: '0px', rx: '90deg', ds: 1 }),
+            (i, r) => ({ dx: `${Math.round(r() * 90 - 45)}px`, dy: `${Math.round(r() * 90 - 45)}px`, ds: 0.7 })];
+        const YRS = [{ dy: '0px', ds: 1.14 }, { dx: '-80px', dy: '0px', ds: 1 }, { dy: '0px', ds: 0.5 }, { dy: '70px', ds: 1 }, { dy: '0px', dr: '-8deg', ds: 1.25 }, { dy: '0px', rx: '80deg', ds: 1 }];
+        const WIPES = ['inset(0 100% 0 0)', 'inset(0 0 0 100%)', 'inset(0 50% 0 50%)'];
+        const EASES = ['cubic-bezier(.2, .7, .2, 1)', 'cubic-bezier(.3, 1.45, .45, 1)', 'cubic-bezier(.16, 1, .3, 1)'];
+        // Shapes the cover arrives or leaves through: clip-path, closed → open
+        const MASKS = [...['0% 0%', '100% 0%', '0% 100%', '100% 100%'].map(c => [`circle(0% at ${c})`, `circle(150% at ${c})`]), ['circle(0% at 50% 50%)', 'circle(75% at 50% 50%)'],
+            ['inset(0 100% 0 0)', 'inset(0 0 0 0)'], ['inset(0 0 0 100%)', 'inset(0 0 0 0)'], ['inset(100% 0 0 0)', 'inset(0 0 0 0)'], ['inset(0 0 100% 0)', 'inset(0 0 0 0)'],
+            ['inset(0 50% 0 50%)', 'inset(0 0 0 0)'], ['inset(50% 0 50% 0)', 'inset(0 0 0 0)'],
+            ['polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%)', 'polygon(50% -100%, 200% 50%, 50% 200%, -100% 50%)'],
+            ['polygon(0% 0%, 0% 0%, -60% 100%, -60% 100%)', 'polygon(0% 0%, 160% 0%, 100% 100%, -60% 100%)'], ['polygon(100% 0%, 100% 0%, 160% 100%, 160% 100%)', 'polygon(100% 0%, -60% 0%, 0% 100%, 160% 100%)']];
+        const KINDS = ['rise', 'slam', 'flip', 'side', 'drop', 'spin', 'fill', 'skew'];
+        const SHAPES = ['circle', 'ring', 'quarter', 'half', 'pill', 'square', 'tri', 'plus', 'star', 'blocks'];
+        const INKS = [['rgba(9, 11, 18, 0.16)', 'rgba(255, 255, 255, 0.3)'], ['rgb(var(--a))', 'rgba(255, 255, 255, 0.1)'], ['rgba(var(--a), 0.6)', 'rgba(0, 0, 0, 0.28)']];       // shape colours per cover colouring
+        const shapesHtml = (r, spots, inks, [s0, s1], drift) => shuffled(spots, r).slice(0, drift ? 2 : 3).map(([x, y], j) => {
+            const size = Math.round(s0 + r() * (s1 - s0));
+            return `<span class="shp" style="--x:${x + Math.round(r() * 12 - 6)}%;--y:${y + Math.round(r() * 12 - 6)}%;--s:${size}cqmin;--r:${Math.round(r() * 360)}deg;--j:${j};--sc:${inks[j % inks.length]};--mx:${Math.round((r() - 0.5) * drift)}px;--my:${Math.round((r() - 0.5) * drift)}px;--mr:${Math.round((r() - 0.5) * (drift ? 70 : 24))}deg;--sd:${(7 + r() * 5).toFixed(1)}s"><i class="${SHAPES[Math.floor(r() * SHAPES.length)]}"></i></span>`;
+        }).join('');
+        // The lines: [fits this year?, text]. One per cover, taken in turn by year so neighbouring years never open a slide alike.
+        // Written to no one in particular, so they read right to the owner and to a visitor. <b> marks the word in the highlight colour
+        const B = v => `<b>${v}</b>`, short = g => g && g.name.length <= 24, wk = R.weekdays.filter(Boolean).length > 1;
+        const LINES = {
+            year: [[1, `${B(R.year)}. Press start.`], [1, `One year. One card. ${B(R.year)}.`], [T.unlocks >= 100, `${B(n(T.unlocks))} unlocks. Every one earned.`], [T.activeDays >= 60, `${B(T.activeDays)} days of showing up.`],
+                [1, `Save file found: ${B(R.year)}.`], [1, `A year well played.`], [T.games >= 20, `${B(T.games)} games. No regrets.`], [T.minutes >= 6000, `${B(hrs(T.minutes))} hours. Worth every minute.`],
+                [1, `Slot ${B(slotNo)}. Here is what got saved.`], [T.unlocks < 40, `A small year. It still counts.`], [R.partial, `Still going. ${B(R.year)} so far.`], [!R.partial, `Rewind to ${B(R.year)}.`],
+                [!R.partial, `Remember ${B(R.year)}? The card does.`], [T.newGames >= 10, `${B(T.newGames)} new games. Curiosity wins.`], [1, `Now loading: ${B(R.year)}.`], [T.unlocks >= 40, `Progress is progress. ${B(n(T.unlocks))} times.`]],
+            top: [[1, `One game ran the year.`], [short(top1), `${B(esc(top1?.name))}. Obviously.`], [top1?.minutes >= 600, `${B(hrs(top1?.minutes))} hours in one world.`], [1, `Favourites earn their spot.`],
+                [1, `The save that kept getting loaded.`], [short(top1), `Top of the stack: ${B(esc(top1?.name))}.`], [top1?.sessions >= 10, `${B(top1?.sessions)} sessions. Always one more.`], [1, `Some games just stick.`],
+                [top1?.unlocks >= 20, `${B(top1?.unlocks)} unlocks from a single game.`], [byTime, `This one got the hours.`], [short(top1), `Player’s choice: ${B(esc(top1?.name))}.`], [1, `Hard to put down. Clearly.`],
+                [1, `Time well spent looks like this.`], [R.top.length > 2, `${B(R.top.length)} games made the cut. One led.`]],
+            done: [[1, `${B(R.completions.length)} games seen through.`], [1, `Started. Finished. Repeat.`], [1, `Credits rolled ${B(R.completions.length)} times.`], [1, `Plenty get started. These got finished.`],
+                [T.completed >= 1, `${B(T.completed)} at 100%. Nothing left behind.`], [1, `The backlog: ${B(R.completions.length)} lighter.`], [1, `The end, ${B(R.completions.length)} times over.`], [1, `Finishing is a skill.`],
+                [1, `Seen through to the last screen.`], [1, `Every cleared list began with one unlock.`], [1, `${B(R.completions.length)} done. Next.`], [1, `Final bosses: handled.`], [T.beaten >= 1, `${B(T.beaten)} beaten. The credits were earned.`]],
+            blocks: [[T.activeDays >= 30, `${B(T.activeDays)} days. That is a habit.`], [R.streak?.days >= 5, `${B(R.streak?.days)} days in a row. No skips.`], [1, `Show up. Play. Repeat.`], [R.dayPart, `${B(esc(R.dayPart?.label))} is prime time.`],
+                [R.bestDay?.unlocks >= 10, `Best day: ${B(R.bestDay?.unlocks)} unlocks. What a run.`], [1, `Every lit block is a day well spent.`], [T.activeDays >= 100, `Consistency beats intensity. ${B(T.activeDays)} days.`], [1, `A little, often. It adds up.`],
+                [wk, `${B(WEEKDAYS[topWd] + 's')} carried the year.`], [1, `The calendar does not lie.`], [1, `Blocks filled, one day at a time.`], [T.sessions >= 50, `${B(n(T.sessions))} sessions. Each one a choice.`],
+                [T.activeDays < 40, `Few days. Big days.`], [1, `One block at a time.`]],
+            rare: [[R.rarest[0], `Only ${B(R.rarest[0]?.pct + '%')} of players got this far.`], [R.rarest.length, `The hard ones count double.`], [R.rarest.length, `Rare finds. Proper bragging rights.`], [R.rarest.length, `Most players never see these.`],
+                [T.rare >= 2, `${B(T.rare)} rare unlocks. Patience pays.`], [R.rarest.length, `Difficulty is just a longer road.`], [R.rarest.length, `Off the beaten path.`], [R.rarest.length, `Earned, not handed out.`],
+                [R.first, `First unlock to last: the whole arc.`], [R.first, `Where it began. Where it stands.`], [R.rarest.length, `The ones worth the retries.`], [R.rarest.length, `Top shelf.`], [!R.rarest.length, `Every year has a first step.`]],
+            end: [[1, `That is the card.`], [1, `Saved. Do not turn off the power.`], [1, `Good game.`], [!R.partial, `One more year in the bank.`], [1, `Not bad. Not bad at all.`], [1, `Game saved.`], [!R.partial, `Roll credits.`],
+                [1, `Same time next year?`], [R.partial, `Still writing this one.`], [1, `Slot ${B(slotNo)} filled.`], [T.unlocks >= 40, `A year to be proud of.`], [1, `Well played.`], [R.partial, `${B(R.year)} is not over yet.`]],
+            after: [[1, `The next slot is empty. Go fill it.`], [1, `Progress saved. Keep going.`], [1, `On to the next one.`], [1, `The backlog is waiting.`], [R.partial, `The year is not over. Neither is the list.`], [1, `See you at the next save point.`], [1, `Continue?`]],
+        };
+        const lineFor = (key, salt = 0) => { const fits = (LINES[key] ?? LINES.end).filter(x => x[0]); return fits[(R.year + WHO + salt) % fits.length][1]; };
+        const storyPlan = () => {
+            const r = rng(SEED), moves = shuffled(MOVES, r), pops = shuffled(POPS, r), masks = shuffled(MASKS, r), kinds = shuffled(KINDS, r), looks = shuffled([0, 1, 2], r);
+            const ease = EASES[Math.floor(r() * EASES.length)], yr = YRS[Math.floor(r() * YRS.length)], step = [50, 70, 90, 110][Math.floor(r() * 4)], turn = Math.floor(r() * 3), out = 3 + Math.floor(r() * (MASKS.length - 4));
+            return k => ({ move: moves[k % moves.length], pop: pops[k % pops.length], yr, ease, step, wipe: WIPES[(k + turn) % WIPES.length], order: (k + turn) % 3,       // 0 in order, 1 backwards, 2 shuffled
+                enter: masks[k % masks.length], leave: masks[(k + out) % masks.length], kind: kinds[k % kinds.length], look: looks[k % looks.length], r: rng(SEED + (k + 1) * 7919) });
+        };
+        const storyFrame = (inner, chrome = '') => `${top1 ? img(bigArt(top1), 'sbg') : ''}${chrome}${inner}
+            <div class="sfoot"><b>${esc(R.user.name)}’s ${R.year}</b><span>${esc(D.site.replace(/^https?:\/\//, ''))}/memory-card/${R.year}</span></div>`;
+        if (CARD === 'slide') {
+            const sl = SLIDES.find(x => x.key === Q.get('s')) ?? SLIDES[0], wide = Q.has('wide');
+            document.body.classList.add('shot');
+            document.body.dataset.slides = SLIDES.map(x => x.key).join(',');       // the renderer reads the list from here
+            document.getElementById('app').innerHTML = `<div class="story still${wide ? ' wide' : ''}"><div class="frame">${storyFrame(`<div class="stage s-${sl.key}${sl.two ? ' two' : ''}">${sl.html}</div>`, `<div class="stop">${brand}</div>`)}</div></div>`;
+            document.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
+            shotReady();
+            return;
+        }
+
+        document.getElementById('app').innerHTML = `
+            <div class="backdrop">${top1 ? img(bigArt(top1), '') : ''}</div>
+            <div class="wrap">
+                <div class="bar"><a href="${BASE}" aria-label="Savepoint home">${brand}</a><span class="sp"></span>
+                    <button class="btn go" data-play>${svg.play}Play</button><button class="btn" data-share>${svg.share}Share</button></div>
+                <div class="hero">${hero}</div>
+                ${topHtml}${blocksHtml}${doneHtml}${rareHtml}${rhythmHtml}${endsHtml}${slotsHtml}
+                <div class="cta rv"><h2>Pass the card around</h2><p>${esc(R.user.name)}’s ${R.year}, as a picture or a link.</p>
+                    <div class="btns"><button class="btn go" data-share>${svg.share}Share ${R.year}</button><button class="btn" data-copy>${svg.link}<span>Copy link</span></button></div>
+                    <div class="notes">${notes.map(t => `<span class="chip">${t}</span>`).join('')}</div></div>
+                <footer>Saved with <a href="${BASE}">Savepoint</a> · data from RetroAchievements, Steam and Xbox</footer>
+            </div>`;
+        document.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
+
+        // Reveal on scroll (only when motion is welcome); what's on screen at load shows at once
+        const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (!calm && 'IntersectionObserver' in window) {
+            document.documentElement.classList.add('reveal');
+            const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });
+            document.querySelectorAll('.rv').forEach(el => io.observe(el));
+        }
+        // Numbers count up once, on the page and on each slide
+        const countUp = root => { if (!calm) root.querySelectorAll('[data-count]').forEach(el => {
+            const end = +el.dataset.count, final = el.textContent, t0 = performance.now(), dur = 900;
+            if (end < 10) return;
+            const tick = t => { const k = Math.max(0, Math.min(1, (t - t0) / dur)), e = 1 - Math.pow(1 - k, 3); el.textContent = k < 1 ? n(Math.round(end * e)) : final; if (k < 1) requestAnimationFrame(tick); };
+            requestAnimationFrame(tick);
+        }); };
+        countUp(document);
+
+        // ── Sharing: the pictures are rendered at deploy time, so sharing is fetching a file ──
+        const pageUrl = `${D.site}/memory-card/${R.year}/`;
+        const shareTitle = `${R.user.name}'s Memory Card ${R.year}`;
+        const STYLES = [['card', 'Card'], ['cover', 'Cover'], ['blocks', 'Blocks'], ['shelf', 'Shelf'], ['title', 'Title']];
+        const picName = (kind, style = 'card') => `${R.year}-${kind}${style === 'card' ? '' : `-${style}`}.jpg`;
+        const imageUrl = (kind, style) => `${BASE}memory-card/share/${picName(kind, style)}`;
+        const copy = async (btn) => {
+            const label = btn.querySelector('span') ?? btn, old = label.textContent;
+            try { await navigator.clipboard.writeText(pageUrl); label.textContent = 'Link copied'; }
+            catch { label.textContent = 'Copy failed'; }
+            setTimeout(() => { label.textContent = old; }, 1600);
+        };
+        // Shares the picture as a file where the device can, the link where it can't, and saves it otherwise
+        const sendPic = async (url, name) => {
+            try {
+                const res = await fetch(url);
+                if (!res.ok) return 'failed';
+                const file = new File([await res.blob()], name, { type: 'image/jpeg' });
+                if (navigator.canShare?.({ files: [file] })) await navigator.share({ files: [file], title: shareTitle, text: `${shareTitle} ${pageUrl}` });
+                else if (navigator.share) await navigator.share({ title: shareTitle, url: pageUrl });
+                else { const a = Object.assign(document.createElement('a'), { href: url, download: name }); document.body.append(a); a.click(); a.remove(); return 'saved'; }
+                return 'shared';
+            } catch (err) { return err?.name === 'AbortError' ? 'cancelled' : 'failed'; }
+        };
+        const openShare = (from = 'story', wide = DESK.matches) => {
+            // Three sections, one picture picked from thumbnails in each: the tall and the wide picture in their five styles, and the story's
+            // slides (wide ones on a desktop, or when the story was playing wide)
+            let kind = from, pick = '';
+            const picks = () => kind === 'slides' ? SLIDES.map(x => ({ id: `slide-${x.key}`, name: x.name, url: slidePic(x.key, wide), file: slideFile(x.key, wide) }))
+                : STYLES.map(([id, name]) => ({ id, name, url: imageUrl(kind, id), file: picName(kind, id) }));
+            const el = document.createElement('div');
+            el.className = 'scrim';
+            el.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Share ${R.year}">
+                <header><h2>Share ${R.year}</h2><button class="x" data-close aria-label="Close">${svg.x}</button></header>
+                <div class="pick"><div class="seg" aria-label="Shape"><button data-kind="story">Tall</button><button data-kind="link">Wide</button><button data-kind="slides">Story</button></div></div>
+                <div class="thumbs" aria-label="Picture"></div>
+                <div class="pv"></div>
+                <div class="acts"><button class="btn go" data-send>${svg.share}<span>Share picture</span></button><a class="btn" data-save download>${svg.down}Save picture</a></div>
+                <div class="linkrow"><span>${esc(pageUrl.replace(/^https?:\/\//, ''))}</span><button class="btn" data-copy>${svg.link}<span>Copy link</span></button></div></div>`;
+            const pv = el.querySelector('.pv'), save = el.querySelector('[data-save]'), send = el.querySelector('[data-send]'), thumbs = el.querySelector('.thumbs');
+            let cur, drawn;
+            const show = () => {
+                const list = picks();
+                cur = list.find(x => x.id === pick) ?? list[0]; pick = cur.id;
+                el.querySelectorAll('[data-kind]').forEach(b => b.classList.toggle('on', b.dataset.kind === kind));
+                if (drawn !== kind) {
+                    drawn = kind;
+                    thumbs.className = `thumbs k-${kind}${kind === 'slides' && wide ? ' k-wide' : ''}`;
+                    thumbs.innerHTML = list.map(x => `<button class="th" data-pick="${x.id}" aria-label="${esc(x.name)}" title="${esc(x.name)}"><img src="${x.url}" alt="" loading="lazy" onerror="this.parentNode.remove()"></button>`).join('');
+                }
+                thumbs.querySelectorAll('.th').forEach(b => b.classList.toggle('on', b.dataset.pick === pick));
+                const pic = new Image();
+                pic.alt = `${shareTitle}, ${kind === 'link' ? 'wide picture' : kind === 'slides' ? 'story card' : 'tall picture'}, ${cur.name}`;
+                pic.onload = () => { pv.replaceChildren(pic); };
+                pic.onerror = () => { pv.innerHTML = '<p>The picture for this year isn’t built yet. The link still works.</p>'; };
+                pic.src = cur.url;
+                save.href = cur.url; save.download = `memory-card-${cur.file}`;
+            };
+            const close = () => { el.remove(); document.documentElement.style.overflow = ''; document.removeEventListener('keydown', onKey); };
+            const onKey = e => { if (e.key === 'Escape') close(); };
+            el.addEventListener('click', async e => {
+                const t = e.target.closest('button, a');
+                if (e.target === el || t?.dataset.close != null) return close();
+                if (t?.dataset.kind) { kind = t.dataset.kind; return show(); }
+                if (t?.dataset.pick) { pick = t.dataset.pick; t.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' }); return show(); }
+                if (t?.dataset.copy != null) return copy(t);
+                if (t?.dataset.send != null) {
+                    const label = send.querySelector('span'), got = await sendPic(cur.url, `memory-card-${cur.file}`);
+                    if (got === 'saved' || got === 'failed') { label.textContent = got === 'saved' ? 'Saved instead' : 'Couldn’t share'; setTimeout(() => { label.textContent = 'Share picture'; }, 1600); }
+                }
+            });
+            document.addEventListener('keydown', onKey);
+            document.documentElement.style.overflow = 'hidden';
+            document.body.append(el);
+            show();
+            el.querySelector('[data-close]').focus();
+        };
+        // ── Story: the slides played back. Each bar on top fills while its slide shows and its end moves on; tap right / left
+        //    to step, hold to pause. The share button sends the picture of the slide on screen; the last slide opens the Share sheet ──
+        const openStory = () => {
+            // Wide on a desktop, where a button in the top bar switches between the two shapes (remembered on this device)
+            let wide = DESK.matches && (() => { try { return localStorage.getItem('mc:storyShape') !== 'tall'; } catch { return true; } })();
+            const endHtml = () => `<div class="hf1"><div class="sfan sa">${(n => SLIDES.slice(0, 3).map((x, i) => `<img src="${slidePic(x.key, wide)}" alt="" style="--r:${(i - (n - 1) / 2) * 9}deg;--x:${(i - (n - 1) / 2) * 62}px;--i:${i}" onerror="this.remove()">`).join(''))(Math.min(3, SLIDES.length))}</div></div>
+                <div class="hf2"><div class="slot px sa" style="justify-content:center"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · saved</b></div>
+                <h2 class="sa">${R.year} saved</h2>
+                <p class="lead sa">${esc(R.title.name)} · ${headline.slice(0, 3).map(h => `<b>${h.v}</b> ${h.unit ? 'hours' : h.lab.toLowerCase()}`).join(' · ')}</p>
+                <p class="lead sa">${lineFor('after', 3)}</p>
+                <div class="btns sa"><button class="btn go" data-share>${svg.share}Share ${R.year}</button></div></div>`;
+            const slides = [...SLIDES.map(x => ({ ...x, ms: 8000 })), { key: null, name: 'Saved', two: true, ms: 8000, get html() { return endHtml(); } }];
+            const plan = storyPlan();
+            // A cover's line as words that land one by one; punctuation after a highlighted word stays with it, in the plain colour
+            const lineHtml = (text, kicker, kind) => {
+                const words = [];
+                text.split(/(<b>.*?<\/b>)/).forEach(part => part.replace(/<\/?b>/g, '').split(/\s+/).filter(Boolean).forEach(t => {
+                    if (/^[.,:;?!]/.test(t) && words.length) words[words.length - 1].tail = t; else words.push({ t, hl: part.startsWith('<b>') }); }));
+                const len = words.reduce((a, w) => a + w.t.length + 1, 0), fs = len <= 18 ? 14 : len <= 26 ? 12.5 : len <= 38 ? 11 : len <= 50 ? 9.6 : 8.4;
+                return { count: words.length, html: `<div class="sline k-${kind}" style="--fs:${fs}cqmin;--ks:${words.length > 7 ? 60 : 90}ms"><span class="px">${kicker}</span><h2>${words.map((w, i) =>
+                    `<span class="w${w.hl ? ' hl' : ''}" style="--w:${i};--sg:${sg(i)}"><i>${w.t}${w.tail ? `<u>${w.tail}</u>` : ''}</i></span>`).join(' ')}</h2></div>` };
+            };
+            let at = 0, held = false, holdTimer = 0, toastTimer = 0;
+            const el = document.createElement('div');
+            el.className = 'story';
+            el.innerHTML = `<div class="frame" role="dialog" aria-modal="true" aria-label="${R.year} played back">${storyFrame('', `
+                <div class="sbars">${slides.map(() => '<i><b></b></i>').join('')}</div>
+                <div class="stop">${brand}<button class="x mode" data-mode ${DESK.matches ? '' : 'hidden'}></button><button class="x" data-shot aria-label="Share this card">${svg.share}</button><button class="x" data-close aria-label="Close">${svg.x}</button></div>`)}</div>`;
+            const frame = el.firstElementChild, foot = el.querySelector('.sfoot'), bars = [...el.querySelectorAll('.sbars i')], shot = el.querySelector('[data-shot]'), mode = el.querySelector('[data-mode]');
+            const fit = () => el.style.setProperty('--k', Math.min((innerWidth - 40) / 800, (innerHeight - 40) / 420, 1.7).toFixed(3));      // the wide frame is drawn at 800 × 420 and scaled
+            const shape = () => {
+                el.classList.toggle('wide', wide);
+                mode.innerHTML = wide ? svg.tall : svg.wide;
+                mode.setAttribute('aria-label', wide ? 'Tall cards' : 'Wide cards'); mode.title = wide ? 'Tall cards' : 'Wide cards';
+            };
+            // A slide opens on its cover (the line), which swaps the slide in once it fills the frame and then leaves; `quick`
+            // (and reduced motion) swaps at once, without a cover
+            const go = (k, quick) => {
+                if (k < 0 || k >= slides.length) return;
+                at = k;
+                const sl = slides[at], p = plan(at), cover = !calm && !quick;
+                const line = lineHtml(lineFor(sl.key ?? 'end'), at ? esc(sl.name) : `Slot ${slotNo} of ${YEARS.length}`, p.kind), hold = Math.min(2600, 1500 + line.count * 110);
+                bars.forEach(b => { b.className = ''; });
+                void frame.offsetWidth;                                  // so a bar shown again starts over
+                bars.forEach((b, j) => { b.className = j < at ? 'past' : j === at ? 'on' : ''; });
+                el.style.setProperty('--dur', `${sl.ms + (cover ? hold : 0)}ms`);
+                shot.hidden = !sl.key;
+                frame.querySelectorAll('.scover').forEach(c => c.remove());
+                const swap = () => {
+                    frame.querySelectorAll('.stage, .sdeco').forEach(old => { if (cover || !old.matches('.stage')) return old.remove(); old.classList.add('out'); setTimeout(() => old.remove(), 230); });
+                    const stage = document.createElement('div'), t0 = cover ? hold - 450 : 0;
+                    stage.className = `stage s-${sl.key ?? 'end'}${sl.two ? ' two' : ''}`;
+                    stage.style.cssText = `--t0:${t0}ms;--st:${p.step}ms;--ee:${p.ease}`;
+                    stage.innerHTML = sl.html;
+                    const pieces = [...stage.querySelectorAll('.sa')], turn = p.order === 2 ? shuffled(pieces.map((_, i) => i), p.r) : null;
+                    pieces.forEach((e, i) => {
+                        e.style.setProperty('--i', turn ? turn[i] : p.order ? pieces.length - 1 - i : i);
+                        const from = e.classList.contains('wipe') ? { w0: p.wipe } : e.classList.contains('yr') ? p.yr : (e.classList.contains('pop') ? p.pop : p.move)(i, p.r);
+                        for (const v in from) e.style.setProperty(`--${v}`, from[v]);
+                    });
+                    stage.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
+                    frame.insertBefore(stage, foot);
+                    if (!calm) stage.insertAdjacentHTML('beforebegin', `<div class="sdeco" style="--t0:${t0}ms">${shapesHtml(p.r, [[0, 0], [100, 0], [0, 100], [100, 100], [0, 50], [100, 50], [50, 100]], ['rgba(var(--a), 0.14)', 'rgba(255, 255, 255, 0.05)'], [50, 90], 70)}</div>`);
+                    if (!cover) countUp(stage);
+                };
+                if (!cover) return swap();
+                const c = document.createElement('div');
+                c.className = `scover p${p.look}`;
+                c.style.cssText = `--c0:${p.enter[0]};--c1:${p.enter[1]};--o0:${p.leave[0]};--o1:${p.leave[1]};--hold:${hold}ms`;
+                c.innerHTML = shapesHtml(rng(SEED + (at + 1) * 104729), [[0, 0], [100, 0], [0, 100], [100, 100], [50, 0], [50, 100]], INKS[p.look], [46, 78], 0) + line.html;
+                c.swap = swap;
+                frame.append(c);
+            };
+            const toast = text => {
+                clearTimeout(toastTimer); frame.querySelector('.stoast')?.remove();
+                frame.insertAdjacentHTML('beforeend', `<div class="stoast">${text}</div>`);
+                toastTimer = setTimeout(() => frame.querySelector('.stoast')?.remove(), 1800);
+            };
+            const sharePic = async key => {                               // the story waits while the share sheet is up
+                hold(true);
+                const got = await sendPic(slidePic(key, wide), `memory-card-${slideFile(key, wide)}`);
+                hold(false);
+                if (got === 'saved') toast('Picture saved'); else if (got === 'failed') toast('This picture isn’t built yet');
+            };
+            const close = () => { el.remove(); document.documentElement.style.overflow = ''; document.removeEventListener('keydown', onKey); removeEventListener('resize', fit); };
+            const hold = on => { held = on; el.classList.toggle('paused', on); };
+            const onKey = e => {
+                if (e.key === 'Escape') close();
+                else if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(at + 1); }
+                else if (e.key === 'ArrowLeft') go(at - 1);
+            };
+            el.addEventListener('animationend', e => { const a = e.animationName; if (a === 'sbar') go(at + 1); else if (a === 'scin') e.target.swap?.(); else if (a === 'scout') e.target.remove(); });
+            el.addEventListener('animationstart', e => { if (e.animationName === 'scout') countUp(frame.querySelector('.stage')); });        // numbers count as the cover leaves
+            el.addEventListener('contextmenu', e => e.preventDefault());
+            frame.addEventListener('pointerdown', e => { if (!e.target.closest('button')) holdTimer = setTimeout(() => hold(true), 220); });
+            frame.addEventListener('pointercancel', () => { clearTimeout(holdTimer); hold(false); });
+            frame.addEventListener('pointerup', e => {
+                clearTimeout(holdTimer);
+                if (e.target.closest('button')) return;
+                if (held) return hold(false);
+                const box = frame.getBoundingClientRect();
+                go(e.clientX - box.left < box.width * 0.3 ? at - 1 : at + 1);
+            });
+            el.addEventListener('click', e => {
+                const t = e.target.closest('button');
+                if (e.target === el || t?.dataset.close != null) return close();
+                if (t?.dataset.shot != null) return sharePic(slides[at].key);
+                if (t?.dataset.mode != null) { wide = !wide; try { localStorage.setItem('mc:storyShape', wide ? 'wide' : 'tall'); } catch {} shape(); return go(at, true); }
+                if (t?.dataset.share != null) { close(); openShare('slides', wide); }
+            });
+            document.addEventListener('keydown', onKey);
+            document.documentElement.style.overflow = 'hidden';
+            document.body.append(el);
+            addEventListener('resize', fit);
+            fit(); shape();
+            go(0);
+        };
+        document.addEventListener('click', e => {
+            const t = e.target.closest('[data-share], [data-copy], [data-play]');
+            if (!t || t.closest('.scrim, .story')) return;
+            if (t.dataset.play != null) openStory(); else if (t.dataset.share != null) openShare(); else copy(t);
+        });
+    })();
+    </script>
+</body>
+</html>
