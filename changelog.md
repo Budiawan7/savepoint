@@ -7,8 +7,12 @@ Memory Card's story opens every slide with a line of moving type, plays differen
 
 - new: **Memory Card** story slides open on a cover with a line of moving type
   A full-colour card with one short line about the year, then it opens through a shape onto the slide.
-- new: **Memory Card** story plays differently every year
-  The lines, colours, shapes and the way pieces fly in are drawn from the year and your name, so no two years match.
+- new: **Memory Card** story plays differently every year, and for every player
+  The lines, colours, shapes and the way pieces fly in are drawn from the year and your name, so no two years match and no two players share a story.
+- new: **Memory Card** story covers in many more lines and styles
+  About 1,700 lines to draw from, and covers that change their typeface, layout, tilt, pattern and the way the number is marked, some with a giant ghost number or a scrolling band.
+- improved: **Memory Card** year colour comes from the year's top game
+  Each year takes the main colour of its top game's art. Before, six colours took turns by year number.
 - new: **Memory Card** story opens wide on a desktop
   Each slide is laid out in two halves to fill the screen. A button in the top bar switches back to the tall cards.
 - new: **Memory Card** story cards as wide pictures
