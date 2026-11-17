@@ -1,5 +1,13 @@
 # Changelog
 
+## v26.11.17
+Memory Card's year list is readable by other pages
+
+### Structure
+
+- improved: **Memory Card** publishes every year's title, colour and numbers in `years.json`
+  Another page of yours, a home page for example, can draw your years from it.
+
 ## v26.11.16
 Memory Card's story opens every slide with a line of moving type, plays differently each year, and goes wide on a desktop
 
