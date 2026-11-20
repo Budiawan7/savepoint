@@ -1,5 +1,24 @@
 # Changelog
 
+## v26.11.20
+
+Eight more Steam games can be marked beaten
+
+### Steam
+
+- improved: **Beaten** marks for Eiyuden Chronicle: Rising and Little Noah: Scion of Paradise
+  Each counts as beaten once its final-boss achievement unlocks: This Treasure I've Found and New Journey's Beginning.
+- improved: **Beaten** marks for six more story games
+  Crimson Desert, Monster Hunter Wilds, Red Dead Redemption 2, Ghost of Tsushima, Assassin's Creed Unity and The Division 2 (all three strongholds).
+
+## v26.11.17
+Memory Card's year list is readable by other pages
+
+### Structure
+
+- improved: **Memory Card** publishes every year's title, colour and numbers in `years.json`
+  Another page of yours, a home page for example, can draw your years from it.
+
 ## v26.11.16
 Memory Card's story opens every slide with a line of moving type, plays differently each year, and goes wide on a desktop
 
