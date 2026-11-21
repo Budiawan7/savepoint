@@ -14,7 +14,7 @@
             "iconUrl": "c05f04fc5033ff67d2078db084751b45eba3b91d.jpg",
             "iconGrayUrl": "9c663d35bef6c1851a0646efc4c8ff69d2f43ff9.jpg",
             "hidden": false,
-            "globalPct": 76.9
+            "globalPct": 76.8
         },
         {
             "apiName": "MasterCamper",
@@ -25,7 +25,7 @@
             "iconUrl": "2df91d42db90145457a0561585d88108054d66f7.jpg",
             "iconGrayUrl": "93d03a8d684ee0a2aa55cae660b209da11418a78.jpg",
             "hidden": false,
-            "globalPct": 58.3
+            "globalPct": 58.2
         },
         {
             "apiName": "MazeHunter",
@@ -311,7 +311,7 @@
             "iconUrl": "30efce32e45de2979d7405ca7a6df2b5bc957cae.jpg",
             "iconGrayUrl": "19446c5736708aee5d9e0302ba222c92e60382f8.jpg",
             "hidden": false,
-            "globalPct": 29.2
+            "globalPct": 29.1
         },
         {
             "apiName": "UltimateHunter",
@@ -344,7 +344,7 @@
             "iconUrl": "790e5659ae8d8b915e47e57d753080df8724eb98.jpg",
             "iconGrayUrl": "40334f1caf8253b49bc393c9829124179419713f.jpg",
             "hidden": false,
-            "globalPct": 11.4
+            "globalPct": 11.5
         },
         {
             "apiName": "ConqueroroftheAbysses",
@@ -388,7 +388,7 @@
             "iconUrl": "438eb62a1e3d50927128a39f3cd52586d2d517bb.jpg",
             "iconGrayUrl": "d60a7958aa75e93ed58f0568c622fd5995fcc169.jpg",
             "hidden": false,
-            "globalPct": 0.9
+            "globalPct": 1
         },
         {
             "apiName": "36",

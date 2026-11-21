@@ -1,5 +1,5 @@
 {
-"metadata": {"generatedAt":"2026-11-21T08:15:19.807Z","year":2026,"count":698},
+"metadata": {"generatedAt":"2026-11-21T16:09:32.435Z","year":2026,"count":722},
 "unlocks": [
 {"t":"2026-01-01T09:33:28Z","g":1151340,"a":"ACHIEVEMENT_6","n":"Recruitment Blues","r":13.1},
 {"t":"2026-01-01T14:53:46Z","g":1151340,"a":"ACHIEVEMENT_10","n":"Bunker Buster","r":15.7},
@@ -698,5 +698,29 @@
 {"t":"2026-11-21T03:46:48Z","g":648800,"a":"ach_boarKiller_10","n":"Intermediate Warthog Hunter!","r":15.8},
 {"t":"2026-11-21T04:46:23Z","g":648800,"a":"ach_excevator_50","n":"Expert Excavator!","r":3},
 {"t":"2026-11-21T05:44:25Z","g":648800,"a":"ach_cemetary","n":"An Ocean Cemetery!","r":15.6},
-{"t":"2026-11-21T06:40:36Z","g":648800,"a":"ach_captureAnimal_50","n":"Expert Wrangler!","r":1.2}
+{"t":"2026-11-21T06:40:36Z","g":648800,"a":"ach_captureAnimal_50","n":"Expert Wrangler!","r":1.2},
+{"t":"2026-11-21T08:56:57Z","g":261030,"a":"ACH_17_FRESH_FISH","n":"Fresh Fish","r":74.8},
+{"t":"2026-11-21T09:23:55Z","g":261030,"a":"ACH_18_LONG_WAY_DOWN","n":"Long Way Down","r":73.9},
+{"t":"2026-11-21T09:35:37Z","g":261030,"a":"ACH_19_ONE_LONG_DAY","n":"One Long Day","r":73.5},
+{"t":"2026-11-21T09:47:52Z","g":261030,"a":"ACH_20_ALWAYS_THE_QUIET_ONES","n":"Always the Quiet Ones","r":73.2},
+{"t":"2026-11-21T09:56:50Z","g":261030,"a":"ACH_21_NOT_IN_NOTTINGHAM","n":"Not in Nottingham","r":73},
+{"t":"2026-11-21T10:05:07Z","g":261030,"a":"ACH_22_COME_HITHER","n":"Come Hither","r":72.9},
+{"t":"2026-11-21T10:10:56Z","g":261030,"a":"ACH_23_REHABILITATED","n":"Rehabilitated","r":72.9},
+{"t":"2026-11-21T10:17:28Z","g":261030,"a":"ACH_24_EYE_OF_THE_STORM","n":"Eye of the Storm","r":72},
+{"t":"2026-11-21T11:08:28Z","g":261030,"a":"ACH_25_BEST_LAID_PLANS","n":"Best Laid Plans","r":71.5},
+{"t":"2026-11-21T11:25:44Z","g":261030,"a":"ACH_26_PATH_LESS_TRAVELED","n":"Path Less Traveled","r":71.1},
+{"t":"2026-11-21T11:42:39Z","g":261030,"a":"ACH_27_A_HEAVY_BURDEN","n":"A Heavy Burden","r":71},
+{"t":"2026-11-21T11:56:23Z","g":261030,"a":"ACH_29_MAKING_AN_OBSERVATION","n":"Making an Observation","r":70.6},
+{"t":"2026-11-21T12:14:46Z","g":261030,"a":"ACH_28_HISTORY_LESSON","n":"History Lesson","r":70.4},
+{"t":"2026-11-21T12:30:49Z","g":261030,"a":"ACH_30_ALL_FALL_DOWN","n":"All Fall Down","r":70.1},
+{"t":"2026-11-21T12:39:17Z","g":261030,"a":"ACH_31_ON_FOOT","n":"On Foot","r":70},
+{"t":"2026-11-21T12:45:52Z","g":261030,"a":"ACH_32_BEYOND_THE_TREES","n":"Beyond the Trees","r":69.9},
+{"t":"2026-11-21T12:57:15Z","g":261030,"a":"ACH_33_BLOOD_AND_IRON","n":"Blood and Iron","r":66.5},
+{"t":"2026-11-21T13:10:49Z","g":261030,"a":"ACH_34_MILES_TO_GO","n":"Miles To Go","r":66.2},
+{"t":"2026-11-21T13:31:13Z","g":261030,"a":"ACH_35_RIGHT_OF_FROST","n":"Right of Frost","r":65.9},
+{"t":"2026-11-21T13:39:38Z","g":261030,"a":"ACH_36_CENTER_CANNOT_HOLD","n":"Center Cannot Hold","r":65.9},
+{"t":"2026-11-21T14:09:52Z","g":261030,"a":"ACH_37_ALL_THE_DARK_NIGHT","n":"All the Dark Night","r":65.5},
+{"t":"2026-11-21T14:17:11Z","g":261030,"a":"ACH_38_WE_SLOWLY_DROVE","n":"We Slowly Drove","r":65.5},
+{"t":"2026-11-21T14:21:44Z","g":261030,"a":"ACH_39_KINDLY_STOP_FOR_ME","n":"Kindly Stop for Me","r":65.4},
+{"t":"2026-11-21T15:00:51Z","g":261030,"a":"ACH_40_ALL_THE_DEAD_LIE_DOWN","n":"All The Dead Lie Down","r":64.8}
 ]}

@@ -1,6 +1,246 @@
 {
     "recentAchievements": [
         {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_40_ALL_THE_DEAD_LIE_DOWN",
+            "displayName": "All The Dead Lie Down",
+            "description": "Completed Episode 5: \"No Going Back\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/728c8e1d7c0c8cff76b7b041b887e45882ca2fd6.jpg",
+            "unlockedAt": "2026-11-21T15:00:51.000Z",
+            "globalPct": 64.8
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_39_KINDLY_STOP_FOR_ME",
+            "displayName": "Kindly Stop for Me",
+            "description": "Found your way through.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/b6836f5d2ca25cea04df4e1ae3e8201933daba7a.jpg",
+            "unlockedAt": "2026-11-21T14:21:44.000Z",
+            "globalPct": 65.4
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_38_WE_SLOWLY_DROVE",
+            "displayName": "We Slowly Drove",
+            "description": "Reached the terminus.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/385e10007c1d8bef736b5c6120b009f7a7f23664.jpg",
+            "unlockedAt": "2026-11-21T14:17:11.000Z",
+            "globalPct": 65.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_37_ALL_THE_DARK_NIGHT",
+            "displayName": "All the Dark Night",
+            "description": "Made it through to morning.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/16accb56ba496f6ade4c22a19075667bd781c17b.jpg",
+            "unlockedAt": "2026-11-21T14:09:52.000Z",
+            "globalPct": 65.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_36_CENTER_CANNOT_HOLD",
+            "displayName": "Center Cannot Hold",
+            "description": "Reached the other side.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/f6927022cee6ea1dedbc96aff2b94cd034ca6512.jpg",
+            "unlockedAt": "2026-11-21T13:39:38.000Z",
+            "globalPct": 65.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_35_RIGHT_OF_FROST",
+            "displayName": "Right of Frost",
+            "description": "Stopped for the night.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/049d4288d10b67fec1a605e8dca835776036b6c7.jpg",
+            "unlockedAt": "2026-11-21T13:31:13.000Z",
+            "globalPct": 65.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_34_MILES_TO_GO",
+            "displayName": "Miles To Go",
+            "description": "Took a breather.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/22739e15697ef8e363a6d9436c28a65e74e0265e.jpg",
+            "unlockedAt": "2026-11-21T13:10:49.000Z",
+            "globalPct": 66.2
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_33_BLOOD_AND_IRON",
+            "displayName": "Blood and Iron",
+            "description": "Made it out alive.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/47b34d63a59fc1c209c3b399265cc980e1ac4afc.jpg",
+            "unlockedAt": "2026-11-21T12:57:15.000Z",
+            "globalPct": 66.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_32_BEYOND_THE_TREES",
+            "displayName": "Beyond the Trees",
+            "description": "Completed Episode 4: \"Amid the Ruins\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/a1809e4144947fbe3dce54622d936539133787d4.jpg",
+            "unlockedAt": "2026-11-21T12:45:52.000Z",
+            "globalPct": 69.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_31_ON_FOOT",
+            "displayName": "On Foot",
+            "description": "Got back on the road.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/c2e17be72579c8ca2c1ca6e67cde9687a41d0483.jpg",
+            "unlockedAt": "2026-11-21T12:39:17.000Z",
+            "globalPct": 70
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_30_ALL_FALL_DOWN",
+            "displayName": "All Fall Down",
+            "description": "Survived the attack.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/86b0a53ee1da7c708623d75757da65c574526785.jpg",
+            "unlockedAt": "2026-11-21T12:30:49.000Z",
+            "globalPct": 70.1
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_28_HISTORY_LESSON",
+            "displayName": "History Lesson",
+            "description": "Reached the museum.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/de95d4f036ec2cfafaa66de603e1b3a9fb998019.jpg",
+            "unlockedAt": "2026-11-21T12:14:46.000Z",
+            "globalPct": 70.4
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_29_MAKING_AN_OBSERVATION",
+            "displayName": "Making an Observation",
+            "description": "Found the Observation Deck.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/9ccc3b36d5c5cdafe90ffde962da10103020bd7f.jpg",
+            "unlockedAt": "2026-11-21T11:56:23.000Z",
+            "globalPct": 70.6
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_27_A_HEAVY_BURDEN",
+            "displayName": "A Heavy Burden",
+            "description": "Returned to the meeting place.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/65ab049667fddcbfb2ac24868e666d5b731628ae.jpg",
+            "unlockedAt": "2026-11-21T11:42:39.000Z",
+            "globalPct": 71
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_26_PATH_LESS_TRAVELED",
+            "displayName": "Path Less Traveled",
+            "description": "Learned new survival skills.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/1ce2b70f20f13ef1b0dc7e807bb0cf6356158923.jpg",
+            "unlockedAt": "2026-11-21T11:25:44.000Z",
+            "globalPct": 71.1
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_25_BEST_LAID_PLANS",
+            "displayName": "Best Laid Plans",
+            "description": "Got separated from the group.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/858c571543880267ef9d2fea80ce78b948c33d73.jpg",
+            "unlockedAt": "2026-11-21T11:08:28.000Z",
+            "globalPct": 71.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_24_EYE_OF_THE_STORM",
+            "displayName": "Eye of the Storm",
+            "description": "Completed Episode 3: \"In Harm's Way\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/110fdf4f3343ae29dd9d6a84069980358f21314f.jpg",
+            "unlockedAt": "2026-11-21T10:17:28.000Z",
+            "globalPct": 72
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_23_REHABILITATED",
+            "displayName": "Rehabilitated",
+            "description": "Gave what you got.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/2f345671e48b3f3c5f4f740b67bc7c0781a96736.jpg",
+            "unlockedAt": "2026-11-21T10:10:56.000Z",
+            "globalPct": 72.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_22_COME_HITHER",
+            "displayName": "Come Hither",
+            "description": "Invited some friends into the compound.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/756909fe37e0e67382f3a5119a4937ae0ad63742.jpg",
+            "unlockedAt": "2026-11-21T10:05:07.000Z",
+            "globalPct": 72.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_21_NOT_IN_NOTTINGHAM",
+            "displayName": "Not in Nottingham",
+            "description": "Got beaten down.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/464cfc8a395f19c7463cde02efee2b0b4a7ebdec.jpg",
+            "unlockedAt": "2026-11-21T09:56:50.000Z",
+            "globalPct": 73
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_20_ALWAYS_THE_QUIET_ONES",
+            "displayName": "Always the Quiet Ones",
+            "description": "Committed larceny.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/95ca79e8f5ac03b4ccfcd00ff149d4701d1190f9.jpg",
+            "unlockedAt": "2026-11-21T09:47:52.000Z",
+            "globalPct": 73.2
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_19_ONE_LONG_DAY",
+            "displayName": "One Long Day",
+            "description": "Made it through your first day.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/a9e19f65f3e79706faceb075b41f333b670bd7a4.jpg",
+            "unlockedAt": "2026-11-21T09:35:37.000Z",
+            "globalPct": 73.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_18_LONG_WAY_DOWN",
+            "displayName": "Long Way Down",
+            "description": "Witnessed a murder.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/c641e5ce8057d657da24995a614240c93051c165.jpg",
+            "unlockedAt": "2026-11-21T09:23:55.000Z",
+            "globalPct": 73.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_17_FRESH_FISH",
+            "displayName": "Fresh Fish",
+            "description": "Arrived at your new home.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/c211681c964156772555a729f6cb3f421846fddb.jpg",
+            "unlockedAt": "2026-11-21T08:56:57.000Z",
+            "globalPct": 74.8
+        },
+        {
             "appId": 648800,
             "gameName": "Raft",
             "apiName": "ach_captureAnimal_50",
@@ -578,7 +818,7 @@
             "description": "Complete the “From the Ashes\" quest.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/438eb62a1e3d50927128a39f3cd52586d2d517bb.jpg",
             "unlockedAt": "2026-10-31T13:23:40.000Z",
-            "globalPct": 0.9
+            "globalPct": 1
         },
         {
             "appId": 3321460,

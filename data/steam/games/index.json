@@ -2040,67 +2040,67 @@
             "appId": 261030,
             "hasAchievements": true,
             "total": 40,
-            "unlocked": 16,
+            "unlocked": 40,
             "gameName": "The Walking Dead: Season Two",
-            "playtimeForever": 206,
-            "lastPlayedTs": "2026-11-21T00:00:39.000Z",
+            "playtimeForever": 542,
+            "lastPlayedTs": "2026-11-21T15:04:48.000Z",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8dd081faf73fb7ff57151a1498b7025e8fc85dc4.jpg",
-            "lastUnlockedAt": "2026-11-20T23:56:03.000Z",
-            "lastUnlockName": "Reunion",
+            "lastUnlockedAt": "2026-11-21T15:00:51.000Z",
+            "lastUnlockName": "All The Dead Lie Down",
             "preview": [
                 {
-                    "apiName": "ACH_16_REUNION",
-                    "displayName": "Reunion",
+                    "apiName": "ACH_40_ALL_THE_DEAD_LIE_DOWN",
+                    "displayName": "All The Dead Lie Down",
                     "unlocked": true,
-                    "unlockedAt": "2026-11-20T23:56:03.000Z",
-                    "iconUrl": "621298c42acb335d3939d22998b5c0f52119b780.jpg",
-                    "iconGrayUrl": "2016436d43b6caf387b77d7133e8d6faa2c5cd40.jpg",
-                    "globalPct": 76.1
+                    "unlockedAt": "2026-11-21T15:00:51.000Z",
+                    "iconUrl": "728c8e1d7c0c8cff76b7b041b887e45882ca2fd6.jpg",
+                    "iconGrayUrl": "52e639ccd135c5282babf68f3071e5fa30102779.jpg",
+                    "globalPct": 64.8
                 },
                 {
-                    "apiName": "ACH_15_PAST_MIDNIGHT",
-                    "displayName": "Past Midnight",
+                    "apiName": "ACH_39_KINDLY_STOP_FOR_ME",
+                    "displayName": "Kindly Stop for Me",
                     "unlocked": true,
-                    "unlockedAt": "2026-11-20T23:40:33.000Z",
-                    "iconUrl": "8fa090f2e60aa7f4a82d996840cf0c02be201255.jpg",
-                    "iconGrayUrl": "2016436d43b6caf387b77d7133e8d6faa2c5cd40.jpg",
-                    "globalPct": 77.5
+                    "unlockedAt": "2026-11-21T14:21:44.000Z",
+                    "iconUrl": "b6836f5d2ca25cea04df4e1ae3e8201933daba7a.jpg",
+                    "iconGrayUrl": "52e639ccd135c5282babf68f3071e5fa30102779.jpg",
+                    "globalPct": 65.4
                 },
                 {
-                    "apiName": "ACH_14_OLD_FRIENDS",
-                    "displayName": "Old Friends",
+                    "apiName": "ACH_38_WE_SLOWLY_DROVE",
+                    "displayName": "We Slowly Drove",
                     "unlocked": true,
-                    "unlockedAt": "2026-11-20T23:10:45.000Z",
-                    "iconUrl": "2ea45effe42ecac6a1b717f5c5feaad402b6ac27.jpg",
-                    "iconGrayUrl": "2016436d43b6caf387b77d7133e8d6faa2c5cd40.jpg",
-                    "globalPct": 78.8
+                    "unlockedAt": "2026-11-21T14:17:11.000Z",
+                    "iconUrl": "385e10007c1d8bef736b5c6120b009f7a7f23664.jpg",
+                    "iconGrayUrl": "52e639ccd135c5282babf68f3071e5fa30102779.jpg",
+                    "globalPct": 65.5
                 },
                 {
-                    "apiName": "ACH_13_A_STRANGER",
-                    "displayName": "A Stranger",
+                    "apiName": "ACH_37_ALL_THE_DARK_NIGHT",
+                    "displayName": "All the Dark Night",
                     "unlocked": true,
-                    "unlockedAt": "2026-11-20T23:00:01.000Z",
-                    "iconUrl": "8f32cc98e413cffc06c1c20b20ea020c9df2306a.jpg",
-                    "iconGrayUrl": "2016436d43b6caf387b77d7133e8d6faa2c5cd40.jpg",
-                    "globalPct": 79.1
+                    "unlockedAt": "2026-11-21T14:09:52.000Z",
+                    "iconUrl": "16accb56ba496f6ade4c22a19075667bd781c17b.jpg",
+                    "iconGrayUrl": "52e639ccd135c5282babf68f3071e5fa30102779.jpg",
+                    "globalPct": 65.5
                 },
                 {
-                    "apiName": "ACH_12_OVER_THE_BRIDGE",
-                    "displayName": "Over the Bridge",
+                    "apiName": "ACH_36_CENTER_CANNOT_HOLD",
+                    "displayName": "Center Cannot Hold",
                     "unlocked": true,
-                    "unlockedAt": "2026-11-20T22:53:53.000Z",
-                    "iconUrl": "627ba710a559b539e400245f8dd604e46e729aa6.jpg",
-                    "iconGrayUrl": "2016436d43b6caf387b77d7133e8d6faa2c5cd40.jpg",
-                    "globalPct": 79.2
+                    "unlockedAt": "2026-11-21T13:39:38.000Z",
+                    "iconUrl": "f6927022cee6ea1dedbc96aff2b94cd034ca6512.jpg",
+                    "iconGrayUrl": "52e639ccd135c5282babf68f3071e5fa30102779.jpg",
+                    "globalPct": 65.9
                 },
                 {
-                    "apiName": "ACH_11_MOVING_ON",
-                    "displayName": "Moving On",
+                    "apiName": "ACH_35_RIGHT_OF_FROST",
+                    "displayName": "Right of Frost",
                     "unlocked": true,
-                    "unlockedAt": "2026-11-20T22:44:42.000Z",
-                    "iconUrl": "c33093965215f1c9793d8f89a5846a27cd91c78c.jpg",
-                    "iconGrayUrl": "2016436d43b6caf387b77d7133e8d6faa2c5cd40.jpg",
-                    "globalPct": 79.5
+                    "unlockedAt": "2026-11-21T13:31:13.000Z",
+                    "iconUrl": "049d4288d10b67fec1a605e8dca835776036b6c7.jpg",
+                    "iconGrayUrl": "52e639ccd135c5282babf68f3071e5fa30102779.jpg",
+                    "globalPct": 65.9
                 }
             ]
         },
