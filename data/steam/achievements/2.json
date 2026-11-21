@@ -918,7 +918,7 @@
             "description": "Find all notes in Varuna Point.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
             "unlockedAt": "2026-07-16T15:41:47.000Z",
-            "globalPct": 16.3
+            "globalPct": 16.2
         },
         {
             "appId": 648800,
@@ -1368,7 +1368,7 @@
             "description": "Purchase an item at a trading post.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/76d6773aaa41413311bd30d96c68ded895209193.jpg",
             "unlockedAt": "2026-07-04T08:55:11.000Z",
-            "globalPct": 26.8
+            "globalPct": 26.7
         },
         {
             "appId": 1091500,
@@ -1668,7 +1668,7 @@
             "description": "Kill 1 Warthog.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/f3f188117147249b4b5897593f8b31071cc28b95.jpg",
             "unlockedAt": "2026-06-27T09:56:18.000Z",
-            "globalPct": 60.3
+            "globalPct": 60.2
         },
         {
             "appId": 3017860,
@@ -1818,7 +1818,7 @@
             "description": "Complete all main quests.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/790e5659ae8d8b915e47e57d753080df8724eb98.jpg",
             "unlockedAt": "2026-06-13T06:38:01.000Z",
-            "globalPct": 11.5
+            "globalPct": 11.4
         },
         {
             "appId": 3321460,
@@ -1888,7 +1888,7 @@
             "description": "",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/2036e072186cd4af3c31335c367236299660d245.jpg",
             "unlockedAt": "2026-05-30T15:53:29.000Z",
-            "globalPct": 28
+            "globalPct": 27.9
         },
         {
             "appId": 3556750,
@@ -1948,7 +1948,7 @@
             "description": "Complete chapter 7 of main quests.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/30efce32e45de2979d7405ca7a6df2b5bc957cae.jpg",
             "unlockedAt": "2026-05-30T13:50:32.000Z",
-            "globalPct": 29.1
+            "globalPct": 29.2
         },
         {
             "appId": 2507950,

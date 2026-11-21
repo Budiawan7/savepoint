@@ -3,6 +3,16 @@
         {
             "appId": 648800,
             "gameName": "Raft",
+            "apiName": "ach_captureAnimal_50",
+            "displayName": "Expert Wrangler!",
+            "description": "Capture 50 animals.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/65a367b2e33b90669fbe1e080ef7ec485a2bd772.jpg",
+            "unlockedAt": "2026-11-21T06:40:36.000Z",
+            "globalPct": 1.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
             "apiName": "ach_cemetary",
             "displayName": "An Ocean Cemetery!",
             "description": "",
@@ -568,7 +578,7 @@
             "description": "Complete the “From the Ashes\" quest.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/438eb62a1e3d50927128a39f3cd52586d2d517bb.jpg",
             "unlockedAt": "2026-10-31T13:23:40.000Z",
-            "globalPct": 1
+            "globalPct": 0.9
         },
         {
             "appId": 3321460,

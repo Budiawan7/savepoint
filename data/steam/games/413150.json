@@ -47,7 +47,7 @@
             "iconUrl": "f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg",
             "iconGrayUrl": "836d9237fd8fea1556e1697a6186a50c5be26d02.jpg",
             "hidden": false,
-            "globalPct": 32.5
+            "globalPct": 32.4
         },
         {
             "apiName": "4",
@@ -91,7 +91,7 @@
             "iconUrl": "da975460e6ca17e1cf397d598d4eb9c65502f786.jpg",
             "iconGrayUrl": "ecc68d32d9c812da5bc43676d4c3315113682f95.jpg",
             "hidden": false,
-            "globalPct": 32.1
+            "globalPct": 32
         },
         {
             "apiName": "9",
@@ -124,7 +124,7 @@
             "iconUrl": "8d54a60fa7642a6f48eeccc39821bce1cfc0a55d.jpg",
             "iconGrayUrl": "cc4fe12baec1205c2ca85cf72b34c1dae156ac4b.jpg",
             "hidden": false,
-            "globalPct": 22.5
+            "globalPct": 22.4
         },
         {
             "apiName": "13",
@@ -421,7 +421,7 @@
             "iconUrl": "1ec2b88c7f5e482edfc962a649360b40c38a4401.jpg",
             "iconGrayUrl": "0633bdab9800ec8f3458167f9da582bc708ff4f0.jpg",
             "hidden": false,
-            "globalPct": 40.9
+            "globalPct": 40.8
         },
         {
             "apiName": "Achievement_MasterOfTheFiveWays",
@@ -576,7 +576,7 @@
             "unlockedAt": "2021-07-21T14:49:22.000Z",
             "iconUrl": "f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg",
             "iconGrayUrl": "836d9237fd8fea1556e1697a6186a50c5be26d02.jpg",
-            "globalPct": 32.5
+            "globalPct": 32.4
         },
         {
             "apiName": "32",
@@ -594,7 +594,7 @@
             "unlockedAt": "2021-01-11T03:41:16.000Z",
             "iconUrl": "1ec2b88c7f5e482edfc962a649360b40c38a4401.jpg",
             "iconGrayUrl": "0633bdab9800ec8f3458167f9da582bc708ff4f0.jpg",
-            "globalPct": 40.9
+            "globalPct": 40.8
         },
         {
             "apiName": "28",

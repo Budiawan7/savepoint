@@ -4181,7 +4181,7 @@
                     "unlockedAt": "2021-07-21T14:49:22.000Z",
                     "iconUrl": "f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg",
                     "iconGrayUrl": "836d9237fd8fea1556e1697a6186a50c5be26d02.jpg",
-                    "globalPct": 32.5
+                    "globalPct": 32.4
                 },
                 {
                     "apiName": "32",
@@ -4199,7 +4199,7 @@
                     "unlockedAt": "2021-01-11T03:41:16.000Z",
                     "iconUrl": "1ec2b88c7f5e482edfc962a649360b40c38a4401.jpg",
                     "iconGrayUrl": "0633bdab9800ec8f3458167f9da582bc708ff4f0.jpg",
-                    "globalPct": 40.9
+                    "globalPct": 40.8
                 },
                 {
                     "apiName": "28",
@@ -6188,14 +6188,23 @@
             "appId": 648800,
             "hasAchievements": true,
             "total": 104,
-            "unlocked": 95,
+            "unlocked": 96,
             "gameName": "Raft",
-            "playtimeForever": 4901,
-            "lastPlayedTs": "2026-11-21T05:41:21.000Z",
+            "playtimeForever": 4990,
+            "lastPlayedTs": "2026-11-21T07:10:43.000Z",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
-            "lastUnlockedAt": "2026-11-21T05:44:25.000Z",
-            "lastUnlockName": "An Ocean Cemetery!",
+            "lastUnlockedAt": "2026-11-21T06:40:36.000Z",
+            "lastUnlockName": "Expert Wrangler!",
             "preview": [
+                {
+                    "apiName": "ach_captureAnimal_50",
+                    "displayName": "Expert Wrangler!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T06:40:36.000Z",
+                    "iconUrl": "65a367b2e33b90669fbe1e080ef7ec485a2bd772.jpg",
+                    "iconGrayUrl": "38ac4edc91be062acafd1ab6200d8f3619362161.jpg",
+                    "globalPct": 1.2
+                },
                 {
                     "apiName": "ach_cemetary",
                     "displayName": "An Ocean Cemetery!",
@@ -6240,15 +6249,6 @@
                     "iconUrl": "906ad0d09f8e2e275f1fc5ef662c14ff3fe419e7.jpg",
                     "iconGrayUrl": "20eec4125f79031112e6d701d04fc330a4b40fe6.jpg",
                     "globalPct": 0.9
-                },
-                {
-                    "apiName": "ach_stoneBirdKiller_10",
-                    "displayName": "Intermediate Screecher Hunter!",
-                    "unlocked": true,
-                    "unlockedAt": "2026-11-18T14:05:09.000Z",
-                    "iconUrl": "0c7ac44dfce99a8900f5e4cba5bc49d8ab6832a0.jpg",
-                    "iconGrayUrl": "62f44737ef9659cced3a5d5d3f3a209d4467c517.jpg",
-                    "globalPct": 3.1
                 }
             ]
         },

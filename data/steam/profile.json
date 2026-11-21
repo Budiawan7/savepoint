@@ -1,23 +1,23 @@
 {
     "metadata": {
-        "extractionTimestamp": "2026-11-21T06:08:12.097Z"
+        "extractionTimestamp": "2026-11-21T08:15:06.358Z"
     },
     "profile": {
         "steamId": "76561198397857065",
         "displayName": "DiggieDaw",
         "avatar": "https://avatars.steamstatic.com/a3229cfe368bf08019ea50ad1f39d65a711f76ac_full.jpg",
         "profileUrl": "https://steamcommunity.com/id/budiawan/",
-        "status": 1,
-        "lastOnline": "2026-11-21T00:02:02.000Z",
+        "status": 3,
+        "lastOnline": "2026-11-21T07:11:02.000Z",
         "countryCode": "ID"
     },
     "stats": {
         "totalGames": 453,
-        "totalPlaytimeMin": 379994,
-        "totalPlaytimeHrs": 6333,
+        "totalPlaytimeMin": 380083,
+        "totalPlaytimeHrs": 6335,
         "gamesWithPlaytime": 185,
         "totalAchievements": 8488,
-        "unlockedAchievements": 2936,
+        "unlockedAchievements": 2937,
         "gamesWithAchievements": 124,
         "perfectCount": 16,
         "completionPct": 34,
@@ -27,12 +27,12 @@
         {
             "appId": 648800,
             "name": "Raft",
-            "playtime2Weeks": 1328,
-            "playtimeForever": 4901,
+            "playtime2Weeks": 1361,
+            "playtimeForever": 4990,
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
             "storeUrl": "https://store.steampowered.com/app/648800",
-            "lastPlayedTs": "2026-11-21T05:41:21.000Z",
-            "achUnlocked": 95,
+            "lastPlayedTs": "2026-11-21T07:10:43.000Z",
+            "achUnlocked": 96,
             "achTotal": 104
         },
         {
@@ -49,7 +49,7 @@
         {
             "appId": 3321460,
             "name": "Crimson Desert Enhanced",
-            "playtime2Weeks": 1555,
+            "playtime2Weeks": 1508,
             "playtimeForever": 14741,
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/f260267377759a5fea6b651817c9a413c6b562b0.jpg",
             "storeUrl": "https://store.steampowered.com/app/3321460",
@@ -83,21 +83,21 @@
     "mostRecentGame": {
         "appId": 648800,
         "name": "Raft",
-        "playtime2Weeks": 1328,
-        "playtimeForever": 4901,
+        "playtime2Weeks": 1361,
+        "playtimeForever": 4990,
         "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
         "storeUrl": "https://store.steampowered.com/app/648800",
-        "lastPlayedTs": "2026-11-21T05:41:21.000Z"
+        "lastPlayedTs": "2026-11-21T07:10:43.000Z"
     },
     "mostRecentUnlock": {
         "appId": 648800,
         "gameName": "Raft",
-        "apiName": "ach_cemetary",
-        "displayName": "An Ocean Cemetery!",
-        "description": "",
-        "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/d69689068b1c5d99eccc77a7e4cd26ef1ad49007.jpg",
-        "unlockedAt": "2026-11-21T05:44:25.000Z",
-        "globalPct": 15.6
+        "apiName": "ach_captureAnimal_50",
+        "displayName": "Expert Wrangler!",
+        "description": "Capture 50 animals.",
+        "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/65a367b2e33b90669fbe1e080ef7ec485a2bd772.jpg",
+        "unlockedAt": "2026-11-21T06:40:36.000Z",
+        "globalPct": 1.2
     },
     "perfectGames": [
         {
