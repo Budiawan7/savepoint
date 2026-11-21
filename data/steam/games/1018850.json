@@ -1,0 +1,334 @@
+{
+    "appId": 1018850,
+    "hasAchievements": true,
+    "total": 24,
+    "unlocked": 0,
+    "gameName": "Smile For Me",
+    "achievements": [
+        {
+            "apiName": "ACH_SATISFY_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Goodie Two-Shoes",
+            "description": " Satisfy a Habitician",
+            "iconUrl": "05c81b8f7021cc1979b567a9a7327346ee36c4de.jpg",
+            "iconGrayUrl": "3fd0d8eecf37b0686b52415ec5f36d6e26d9acad.jpg",
+            "hidden": false,
+            "globalPct": 67.4
+        },
+        {
+            "apiName": "ACH_HABIT_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Nosey Posey",
+            "description": " Find every diary page",
+            "iconUrl": "53862ab20a3de6412cdad58aa88e8ff6fd905c63.jpg",
+            "iconGrayUrl": "846f715e9130149cb6bf1d06d3eac72964639422.jpg",
+            "hidden": false,
+            "globalPct": 36
+        },
+        {
+            "apiName": "ACH_VARIOUS_4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Hired Gun",
+            "description": "Hit Ronbo with a golf ball",
+            "iconUrl": "6b25061bcef2386fcef584676b89bfb5854e4229.jpg",
+            "iconGrayUrl": "9ca7ba7a112bd08bf921c6ffa760c626c9fdbb9a.jpg",
+            "hidden": false,
+            "globalPct": 53.9
+        },
+        {
+            "apiName": "ACH_VARIOUS_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Tiny, Feathery Man",
+            "description": " Grip a Y’owl for Borbra",
+            "iconUrl": "8f72b67f992d7157bbd7c3097b3386b59b21b51a.jpg",
+            "iconGrayUrl": "7e5a7dbd83f5e4ab851fbd3f61a2ef2864e87764.jpg",
+            "hidden": false,
+            "globalPct": 40.4
+        },
+        {
+            "apiName": "ACH_VARIOUS_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " One Man’s Trash",
+            "description": " Discover a hidden sweetheart",
+            "iconUrl": "70c9ccf056452d81cdea097c7ebc0b942d621b74.jpg",
+            "iconGrayUrl": "cec8dfa433e0f7b7edb5e7937d56eebf696a24a4.jpg",
+            "hidden": false,
+            "globalPct": 41.7
+        },
+        {
+            "apiName": "ACH_VARIOUS_5",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Dentist for a Day",
+            "description": "Clean Kamal's teeth",
+            "iconUrl": "1394eef461b0bb8272316b3d6cbe6926b38b7449.jpg",
+            "iconGrayUrl": "c92880832af4364aa718917693323a8aec9320b8.jpg",
+            "hidden": false,
+            "globalPct": 40.7
+        },
+        {
+            "apiName": "ACH_VARIOUS_6",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Crown-ing Achievement",
+            "description": " Get a very high score at Whack-a-Molar",
+            "iconUrl": "56bd2c39bd6cded407d8d602c69c2760a253b840.jpg",
+            "iconGrayUrl": "1db5fb03264e9faa0236bea756d3551e72cec6a2.jpg",
+            "hidden": false,
+            "globalPct": 27.9
+        },
+        {
+            "apiName": "ACH_VARIOUS_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Master Photographer",
+            "description": " You really went and did it, huh?",
+            "iconUrl": "153132cd63b0a1fc2653cdddb09c457edf73daa4.jpg",
+            "iconGrayUrl": "0e1484f26be05b8dee03b6550e5df682a2cf1e90.jpg",
+            "hidden": false,
+            "globalPct": 40.9
+        },
+        {
+            "apiName": "ACH_PROGRESS_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Friend of Clowns",
+            "description": " Unlock the Carnival",
+            "iconUrl": "861a282d953da77489fe1368bc2e1f7c196885ff.jpg",
+            "iconGrayUrl": "52648752c0fa2c5dfea747c7714f5b1ca424bbee.jpg",
+            "hidden": false,
+            "globalPct": 49.7
+        },
+        {
+            "apiName": "ACH_PROGRESS_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Who's There?",
+            "description": " Unlock the Lounge",
+            "iconUrl": "dedd6018ce735c0a3e30a55273776580e637b966.jpg",
+            "iconGrayUrl": "40d6c9f928b96fba981f63cca2489e1e67383f20.jpg",
+            "hidden": false,
+            "globalPct": 43.7
+        },
+        {
+            "apiName": "ACH_PROGRESS_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Miss Fortune",
+            "description": " Unlock the Terrace",
+            "iconUrl": "e076a31d029a925852bfa42cc07da7a02f0cfd15.jpg",
+            "iconGrayUrl": "1669aab21a54e242abfa70a40178a575bb1795c5.jpg",
+            "hidden": false,
+            "globalPct": 41.6
+        },
+        {
+            "apiName": "ACH_SATISFY_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Pesky Bee",
+            "description": " Satisfy 15 habiticians",
+            "iconUrl": "567826002f97e95b50f071c8eb32500801b96601.jpg",
+            "iconGrayUrl": "fe8b40cdc70558a6431dbe96943b84163756bd3e.jpg",
+            "hidden": false,
+            "globalPct": 41.1
+        },
+        {
+            "apiName": "ACH_SATISFY_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Flower Brat",
+            "description": " Satisfy every habitician ",
+            "iconUrl": "5c6077bdec0e0cc30fd4a4313e4e35ee48135d10.jpg",
+            "iconGrayUrl": "cb8c07c4aa3e82dbbe21e54e023c80c1f1ee83f3.jpg",
+            "hidden": false,
+            "globalPct": 39.5
+        },
+        {
+            "apiName": "ACH_DUALITY_1_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " True Anarchist",
+            "description": " Find an alternative route",
+            "iconUrl": "b6ad8536dcdac99af4eac785cea72437ba7b1fe7.jpg",
+            "iconGrayUrl": "6764e6162e70064d8261bdca33883a62dc2dbf8c.jpg",
+            "hidden": false,
+            "globalPct": 27.9
+        },
+        {
+            "apiName": "ACH_DUALITY_1_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Good Neighbor",
+            "description": " Help a friend in need",
+            "iconUrl": "db348d34ab75198ca451a8134b38f59ced6229d0.jpg",
+            "iconGrayUrl": "1b9a7c6dfb005ba110d575bad123848a7f9b43d8.jpg",
+            "hidden": false,
+            "globalPct": 30.5
+        },
+        {
+            "apiName": "ACH_DUALITY_2_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Out of Quack",
+            "description": " Dispose of the Duck",
+            "iconUrl": "0d2198f88d8c392268fba8254f9583bfbbdd1583.jpg",
+            "iconGrayUrl": "2702ef9f4fac5b8a3a76bd21185144e1c2f07bbc.jpg",
+            "hidden": false,
+            "globalPct": 36.5
+        },
+        {
+            "apiName": "ACH_DUALITY_2_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Pursuit of Quackiness",
+            "description": " Find the Duck’s true owner",
+            "iconUrl": "e81f81aa651f5cb1c3a04e602032915f63e9f3d0.jpg",
+            "iconGrayUrl": "045bce67d559f58b121752ec290637663ef4be80.jpg",
+            "hidden": false,
+            "globalPct": 20
+        },
+        {
+            "apiName": "ACH_DUALITY_3_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Life of the Party",
+            "description": " Accept a smooch",
+            "iconUrl": "14c338fb4b2a89f9c5216f102d421047d714d7cd.jpg",
+            "iconGrayUrl": "d82dfced61eac94b669bb1f293b44103e7902dab.jpg",
+            "hidden": false,
+            "globalPct": 40.6
+        },
+        {
+            "apiName": "ACH_DUALITY_3_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Heartbreaker",
+            "description": " No thank you ma’am",
+            "iconUrl": "b27004fcc5e58ee30e65ffc69b6d09ab0430f9ee.jpg",
+            "iconGrayUrl": "2ab5eb4f63472ddc9b199910a69ac55e89f9128c.jpg",
+            "hidden": false,
+            "globalPct": 22.3
+        },
+        {
+            "apiName": "ACH_HABIT_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Teeth.",
+            "description": " The secret’s out...",
+            "iconUrl": "21917563f5ec796e1e528bd723ea40861954beb9.jpg",
+            "iconGrayUrl": "1c8c97c77fe5606bd6ed6a65e0ec11f221981cbe.jpg",
+            "hidden": false,
+            "globalPct": 41.2
+        },
+        {
+            "apiName": "ACH_PROGRESS_4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " The way back home",
+            "description": " Escape the Habitat",
+            "iconUrl": "e30985c6278855dd1a229dbf8bca875e037d6609.jpg",
+            "iconGrayUrl": "1c3d008be098f64283d7d1d2610f20c2dc16353a.jpg",
+            "hidden": false,
+            "globalPct": 39.9
+        },
+        {
+            "apiName": "ACH_UNSATISFIED",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Residual Melancholy",
+            "description": " Leave unfinished business at the Habitat",
+            "iconUrl": "be0413582afd8a3fe40419b8acbb99801c4245dd.jpg",
+            "iconGrayUrl": "eaba1766b79787885750b49c83918fbf300d0781.jpg",
+            "hidden": false,
+            "globalPct": 28.1
+        },
+        {
+            "apiName": "ACH_HABIT_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Smile For You",
+            "description": " Some crimes can’t be forgiven.",
+            "iconUrl": "7af049813d89ab75eabe0fb4811c2af27c177f00.jpg",
+            "iconGrayUrl": "3cce8a63ebbfac750468d44c3af0e3cc7366a48d.jpg",
+            "hidden": false,
+            "globalPct": 28.1
+        },
+        {
+            "apiName": "ACH_SATISFY_4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": " Flower Friend",
+            "description": " Forgive and forget.",
+            "iconUrl": "6f124e17f93286f9ffe9818e274779b0b41c4b38.jpg",
+            "iconGrayUrl": "e172e1e6372b6d893a546b2f8eb4b01e603ee071.jpg",
+            "hidden": false,
+            "globalPct": 34.7
+        }
+    ],
+    "playtimeForever": 129,
+    "lastPlayedTs": "2021-01-01T12:58:40.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1018850/878cf74b64097d6849052e1afd0996f03cd8da65.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "ACH_SATISFY_1",
+            "displayName": " Goodie Two-Shoes",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "05c81b8f7021cc1979b567a9a7327346ee36c4de.jpg",
+            "iconGrayUrl": "3fd0d8eecf37b0686b52415ec5f36d6e26d9acad.jpg",
+            "globalPct": 67.4
+        },
+        {
+            "apiName": "ACH_HABIT_1",
+            "displayName": " Nosey Posey",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "53862ab20a3de6412cdad58aa88e8ff6fd905c63.jpg",
+            "iconGrayUrl": "846f715e9130149cb6bf1d06d3eac72964639422.jpg",
+            "globalPct": 36
+        },
+        {
+            "apiName": "ACH_VARIOUS_4",
+            "displayName": " Hired Gun",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "6b25061bcef2386fcef584676b89bfb5854e4229.jpg",
+            "iconGrayUrl": "9ca7ba7a112bd08bf921c6ffa760c626c9fdbb9a.jpg",
+            "globalPct": 53.9
+        },
+        {
+            "apiName": "ACH_VARIOUS_2",
+            "displayName": " Tiny, Feathery Man",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "8f72b67f992d7157bbd7c3097b3386b59b21b51a.jpg",
+            "iconGrayUrl": "7e5a7dbd83f5e4ab851fbd3f61a2ef2864e87764.jpg",
+            "globalPct": 40.4
+        },
+        {
+            "apiName": "ACH_VARIOUS_3",
+            "displayName": " One Man’s Trash",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "70c9ccf056452d81cdea097c7ebc0b942d621b74.jpg",
+            "iconGrayUrl": "cec8dfa433e0f7b7edb5e7937d56eebf696a24a4.jpg",
+            "globalPct": 41.7
+        },
+        {
+            "apiName": "ACH_VARIOUS_5",
+            "displayName": " Dentist for a Day",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "1394eef461b0bb8272316b3d6cbe6926b38b7449.jpg",
+            "iconGrayUrl": "c92880832af4364aa718917693323a8aec9320b8.jpg",
+            "globalPct": 40.7
+        }
+    ]
+}

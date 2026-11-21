@@ -1,0 +1,235 @@
+{
+    "appId": 553310,
+    "hasAchievements": true,
+    "total": 15,
+    "unlocked": 0,
+    "gameName": "Lethal League Blaze",
+    "achievements": [
+        {
+            "apiName": "KILLED_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Mass KO Production",
+            "description": "Hit three players in a row",
+            "iconUrl": "b18c2ff7f724761989063bd004c52ec7962a5eb9.jpg",
+            "iconGrayUrl": "c0ec32c366e0d6c1e9c9c86a676ede8e4ff34007.jpg",
+            "hidden": false,
+            "globalPct": 28.3
+        },
+        {
+            "apiName": "RALLY_10",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Lethal Rivals",
+            "description": "Rally the ball back and forth for at least ten times",
+            "iconUrl": "f63f173f0b45f070b49c78bf33ee2fbac9c51307.jpg",
+            "iconGrayUrl": "25b8906892b7ef9db51aa82222c0a7a5cc094d8e.jpg",
+            "hidden": false,
+            "globalPct": 8.6
+        },
+        {
+            "apiName": "SPEED_1K",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Chrono Warp",
+            "description": "Reach a ball speed of one thousand",
+            "iconUrl": "ffa0c3ece2ace437c6b7f065a93f4243c79e1322.jpg",
+            "iconGrayUrl": "b9f87baade86917d0bf529ecf554133f85296d8d.jpg",
+            "hidden": false,
+            "globalPct": 56.6
+        },
+        {
+            "apiName": "SPEED_1M",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Grand Slam",
+            "description": "Reach a ball speed of one million",
+            "iconUrl": "438c4a2bb036a159a7f2315764e1a95975ba9c73.jpg",
+            "iconGrayUrl": "9eadd07ff5672cd8cc1e9c7c8380c92de15b9e56.jpg",
+            "hidden": false,
+            "globalPct": 6
+        },
+        {
+            "apiName": "BUNT_1000",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Clutch",
+            "description": "Bunt the ball at 1000 speed or above",
+            "iconUrl": "1003e19c111174721e66c36bde0fee7b6845ecf7.jpg",
+            "iconGrayUrl": "f3268ca6ab49415c8a7bd5f07bd1aaf8da4225ae.jpg",
+            "hidden": false,
+            "globalPct": 25.7
+        },
+        {
+            "apiName": "MATCH_100",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Rookie Player",
+            "description": "Play 100 matches",
+            "iconUrl": "6c1593e335eb9bcecc82f23115753ede37b76214.jpg",
+            "iconGrayUrl": "6d242c741b2e2190ccebc8b3740bebb8b624a719.jpg",
+            "hidden": false,
+            "globalPct": 18
+        },
+        {
+            "apiName": "MATCH_500",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Adept Player",
+            "description": "Play 500 matches",
+            "iconUrl": "ea2513d6d273cc44777b287bc21bd3a2f9504e4b.jpg",
+            "iconGrayUrl": "6bfc394c8990cfb27386cd1b63841191cd16c126.jpg",
+            "hidden": false,
+            "globalPct": 2.3
+        },
+        {
+            "apiName": "MATCH_1000",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ace Player",
+            "description": "Play 1000 matches",
+            "iconUrl": "afd199dfa2671292c3d4ca8a28e1b08464f6e37a.jpg",
+            "iconGrayUrl": "0d624a64e42d61306605c2f347c1cd6cf3175448.jpg",
+            "hidden": false,
+            "globalPct": 1.1
+        },
+        {
+            "apiName": "COMPLETE_ANY",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "King Me",
+            "description": "Beat the arcade mode",
+            "iconUrl": "060094370ef1fa03d74d1c4a9b6e8da5bde003e7.jpg",
+            "iconGrayUrl": "fea11b2a74361e49d27473e91fa3dbf2c306b1f5.jpg",
+            "hidden": false,
+            "globalPct": 25.8
+        },
+        {
+            "apiName": "COMPLETE_NO_LOSE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Doombox Slam Dunk",
+            "description": "Beat the arcade mode without using any continues",
+            "iconUrl": "360605fb0f2b3b6026ccdd1da2d2e4ddf4f221c4.jpg",
+            "iconGrayUrl": "4662e081e753f422a2fe7749d107a3b1afce5195.jpg",
+            "hidden": false,
+            "globalPct": 20.8
+        },
+        {
+            "apiName": "COMPLETE_ALL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Full House",
+            "description": "Beat the arcade mode with every character",
+            "iconUrl": "0446d3142c5669b3529564b51bf3d003318587f9.jpg",
+            "iconGrayUrl": "81a1fc0ae3e3cfa714cb778053c04aed03b5a2f6.jpg",
+            "hidden": false,
+            "globalPct": 1.9
+        },
+        {
+            "apiName": "COMPLETE_STORY",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Clear Skies",
+            "description": "Beat the story mode",
+            "iconUrl": "7c6e484c199bf6d2a883d0cc0a97df0e5e13dc1f.jpg",
+            "iconGrayUrl": "e3fa44c2f6c4150da4975726c42ad413088ccf34.jpg",
+            "hidden": false,
+            "globalPct": 22.8
+        },
+        {
+            "apiName": "COMPLETE_STORY_ALL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Multiverse",
+            "description": "Get a checkmark on every event in the story mode",
+            "iconUrl": "e31780adc98527a7f352248bd76ee6946060e7b7.jpg",
+            "iconGrayUrl": "1d5d68cfb1a3aa5ec404bcb19d42bd418111457f.jpg",
+            "hidden": false,
+            "globalPct": 12.4
+        },
+        {
+            "apiName": "VOLLEY_16",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Vicious Volley",
+            "description": "Hit the ball back and forth in Lethal Volley for 16 times",
+            "iconUrl": "9cdfef6354a58ad856d61ce1720cda610a3674b5.jpg",
+            "iconGrayUrl": "e801bac18c7cbe47ec4573faf20b397699e08e0b.jpg",
+            "hidden": false,
+            "globalPct": 1.8
+        },
+        {
+            "apiName": "STRIKERS_250",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Heavy Impact Striker",
+            "description": "Hit a goal in Strikers with a ball of at least 250 speed",
+            "iconUrl": "d46c0670a1b3bb8bb3346263f279f0aa499959f1.jpg",
+            "iconGrayUrl": "505f2cecd131eddd5cdac5d059a79d2bdc0703b0.jpg",
+            "hidden": false,
+            "globalPct": 6.3
+        }
+    ],
+    "playtimeForever": 229,
+    "lastPlayedTs": "2020-11-10T01:37:47.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/553310/6288b5eef47d603f11c1551b2c77913fd7f89d77.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "KILLED_3",
+            "displayName": "Mass KO Production",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "b18c2ff7f724761989063bd004c52ec7962a5eb9.jpg",
+            "iconGrayUrl": "c0ec32c366e0d6c1e9c9c86a676ede8e4ff34007.jpg",
+            "globalPct": 28.3
+        },
+        {
+            "apiName": "RALLY_10",
+            "displayName": "Lethal Rivals",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "f63f173f0b45f070b49c78bf33ee2fbac9c51307.jpg",
+            "iconGrayUrl": "25b8906892b7ef9db51aa82222c0a7a5cc094d8e.jpg",
+            "globalPct": 8.6
+        },
+        {
+            "apiName": "SPEED_1K",
+            "displayName": "Chrono Warp",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "ffa0c3ece2ace437c6b7f065a93f4243c79e1322.jpg",
+            "iconGrayUrl": "b9f87baade86917d0bf529ecf554133f85296d8d.jpg",
+            "globalPct": 56.6
+        },
+        {
+            "apiName": "SPEED_1M",
+            "displayName": "Grand Slam",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "438c4a2bb036a159a7f2315764e1a95975ba9c73.jpg",
+            "iconGrayUrl": "9eadd07ff5672cd8cc1e9c7c8380c92de15b9e56.jpg",
+            "globalPct": 6
+        },
+        {
+            "apiName": "BUNT_1000",
+            "displayName": "Clutch",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "1003e19c111174721e66c36bde0fee7b6845ecf7.jpg",
+            "iconGrayUrl": "f3268ca6ab49415c8a7bd5f07bd1aaf8da4225ae.jpg",
+            "globalPct": 25.7
+        },
+        {
+            "apiName": "MATCH_100",
+            "displayName": "Rookie Player",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "6c1593e335eb9bcecc82f23115753ede37b76214.jpg",
+            "iconGrayUrl": "6d242c741b2e2190ccebc8b3740bebb8b624a719.jpg",
+            "globalPct": 18
+        }
+    ]
+}

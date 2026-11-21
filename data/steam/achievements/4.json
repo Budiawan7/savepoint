@@ -1,0 +1,2124 @@
+{
+    "recentAchievements": [
+        {
+            "appId": 3017860,
+            "gameName": "DOOM: The Dark Ages",
+            "apiName": "NEW_ACHIEVEMENT_1_3",
+            "displayName": "Jailbreak",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3017860/05b05c47b77c08c45c29cecba5deef61169d2571.jpg",
+            "unlockedAt": "2026-02-21T18:09:33.000Z",
+            "globalPct": 45.9
+        },
+        {
+            "appId": 3017860,
+            "gameName": "DOOM: The Dark Ages",
+            "apiName": "NEW_ACHIEVEMENT_1_14",
+            "displayName": "Gimme That",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3017860/baf5e91ca928162941ab64881ea77d8e90b4b76d.jpg",
+            "unlockedAt": "2026-02-21T17:48:42.000Z",
+            "globalPct": 46
+        },
+        {
+            "appId": 3017860,
+            "gameName": "DOOM: The Dark Ages",
+            "apiName": "NEW_ACHIEVEMENT_1_10",
+            "displayName": "Komodo Champion Down!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3017860/61b80d7d4db6197ce07bc99ca10f65ae1b50feed.jpg",
+            "unlockedAt": "2026-02-21T05:45:16.000Z",
+            "globalPct": 47.9
+        },
+        {
+            "appId": 3017860,
+            "gameName": "DOOM: The Dark Ages",
+            "apiName": "NEW_ACHIEVEMENT_1_12",
+            "displayName": "Fully Loaded",
+            "description": "Complete the Mastery Challenge for a single weapon.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3017860/6652f5675b10c61169a49c83ab5b127ce134ef4b.jpg",
+            "unlockedAt": "2026-02-20T15:52:09.000Z",
+            "globalPct": 47.5
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_58",
+            "displayName": "Friends in Low Places",
+            "description": "Become allies with Crater",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/09aeedfeed39cf62b9175b125ea88b7b715866a6.jpg",
+            "unlockedAt": "2026-02-17T06:34:02.000Z",
+            "globalPct": 5.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BOULDER_LORD",
+            "displayName": "Boulder Lord",
+            "description": "Prove your worth against the Moon Lord's worst.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/5cbdb2ef87620f6c1a58c79d90e8fa13df64f7b4.jpg",
+            "unlockedAt": "2026-02-16T13:02:21.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GRAVE_MISTAKE",
+            "displayName": "Grave Mistake",
+            "description": "“Accidentally” kill a friend with your tombstone.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/b820762ec697085af4cab77a1ba10d4bd44bf457.jpg",
+            "unlockedAt": "2026-02-14T14:23:32.000Z",
+            "globalPct": 1.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ITS_SHALING_OUTSIDE",
+            "displayName": "It’s Shaling Outside",
+            "description": "Survive the dreaded rain of boulders.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/07ee1d2989607c794babd086d660ada8810314fe.jpg",
+            "unlockedAt": "2026-02-08T14:37:05.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_57",
+            "displayName": "A Solid Foundation",
+            "description": "Become allies with Foundation",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/5838a348954f4cff4f7667be78e31c83a1ed3468.jpg",
+            "unlockedAt": "2026-02-06T21:31:22.000Z",
+            "globalPct": 4.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "MINI_ME",
+            "displayName": "Mini-Me",
+            "description": "Become a Moon Lord impersonator.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/2a2fb4ec7df42bb9851e13f8ec88746b970cd5bd.jpg",
+            "unlockedAt": "2026-02-05T19:44:49.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 524220,
+            "gameName": "NieR:Automata™",
+            "apiName": "ACH_CLEAR_DESERT_AREA",
+            "displayName": "It's a Healthy Baby Boy!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/524220/9c038749e650134ddbe142a76c7a920e98947a82.jpg",
+            "unlockedAt": "2026-02-02T14:40:16.000Z",
+            "globalPct": 61
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "QUEEN_MACHINE",
+            "displayName": "Queen Machine",
+            "description": "Defeated the combined form of the 3 mechanical giants.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/d2cc2fa90e9d5237dcafa061b3a32593b81ec3d0.jpg",
+            "unlockedAt": "2026-02-01T19:13:48.000Z",
+            "globalPct": 0.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "TRAINING_DAY",
+            "displayName": "Training Day",
+            "description": "Get your villagers fully combat ready.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/d608a4a962f21ec31d762587303cb46eeab53970.jpg",
+            "unlockedAt": "2026-02-01T18:38:02.000Z",
+            "globalPct": 3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BOOK_WORM",
+            "displayName": "Book Worm",
+            "description": "Catalogue every creature in the world.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/f3351f5cde10910d02ffefb118b5b62519609f60.jpg",
+            "unlockedAt": "2026-02-01T18:38:01.000Z",
+            "globalPct": 1.2
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "TRASH_COMPACTOR",
+            "displayName": "Trash Compactor",
+            "description": "Research 50% of all items in Journey Mode.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/9f6daa8811878bef7e34a7e0b147f1795985ca44.jpg",
+            "unlockedAt": "2026-02-01T18:28:58.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "EXTRA_LIFE",
+            "displayName": "Extra Life",
+            "description": "Die as a hardcore character and survive to tell the tale.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/a37354ac72189e0fc5004d9fcfb6fc152639c55f.jpg",
+            "unlockedAt": "2026-02-01T18:18:52.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ROLLIN_IN_YOUR_GRAVE",
+            "displayName": "Rollin’ In Your Grave",
+            "description": "Take a ride in your final resting place.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/cd3425358bd2760cdf49ef15d0598fce9235f786.jpg",
+            "unlockedAt": "2026-02-01T18:06:22.000Z",
+            "globalPct": 0.8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "MY_PEOPLE_NEED_ME",
+            "displayName": "My People Need Me",
+            "description": "Embark on a one way trip into outer space.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/033c42ec01776eda64cdc4aac53c4251afa6ce13.jpg",
+            "unlockedAt": "2026-02-01T18:02:27.000Z",
+            "globalPct": 0.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "FEAR_THE_SUN",
+            "displayName": "Fear The Sun",
+            "description": "Dawn the garb of a vampire and get a sunburn.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/0f7433fb1db6414bd4f5e10965c38ee5078fa3cc.jpg",
+            "unlockedAt": "2026-02-01T17:53:52.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "FORTUNE_FAVORS_THE_BOULD",
+            "displayName": "Fortune Favors the Bould",
+            "description": "Discover a friendly boulder.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/60f21cf3ca3149c7c61d15dd1042d7a0ad71cfbc.jpg",
+            "unlockedAt": "2026-02-01T17:49:08.000Z",
+            "globalPct": 8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ON_FLEEK",
+            "displayName": "On Fleek",
+            "description": "Spot the sun on a “cool” day.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/f82e79301ae9bbdb2d95a69527ac5ab44faf00a2.jpg",
+            "unlockedAt": "2026-02-01T17:28:26.000Z",
+            "globalPct": 1.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "INTERDIMENSIONAL_RECYCLING",
+            "displayName": "Interdimensional Recycling",
+            "description": "Give the Dryad a can of Joja Cola.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c1ac7ace184cd9e9bc13fd463e8449eea9b227c0.jpg",
+            "unlockedAt": "2026-02-01T17:18:11.000Z",
+            "globalPct": 1.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "NEW_DIGS",
+            "displayName": "New Digs",
+            "description": "Give any villager a new look.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/cd103cb3f0c7a67c6a7cb658832b350d459a4e52.jpg",
+            "unlockedAt": "2026-02-01T17:03:26.000Z",
+            "globalPct": 3.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ORGANIZED_CHAOS",
+            "displayName": "Organized Chaos",
+            "description": "Find the ultra rare Rod of Discord.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/d219db52b6812007c8794d10ca58960d599767c1.jpg",
+            "unlockedAt": "2026-02-01T16:59:21.000Z",
+            "globalPct": 2.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SPICY_LICKS",
+            "displayName": "Spicy Licks",
+            "description": "Jam out on a six stringed instrument.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/7ee84aed998d979b5a23472e8d979114d7787a27.jpg",
+            "unlockedAt": "2026-02-01T16:57:05.000Z",
+            "globalPct": 4.2
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "TERRARIST",
+            "displayName": "Terrarist",
+            "description": "Scare your villagers with a stink bug sword.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/288472afaebc9d01595540fe2446ee7a43abc1df.jpg",
+            "unlockedAt": "2026-02-01T16:56:17.000Z",
+            "globalPct": 1.2
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SEA_YOU_LATER",
+            "displayName": "Sea You Later",
+            "description": "Craft the final upgrade to the Cell Phone.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/48d887d78e3360c3291684a75d5f3beb40ec5ddf.jpg",
+            "unlockedAt": "2026-02-01T16:50:43.000Z",
+            "globalPct": 2.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "CONSERVATIONIST",
+            "displayName": "Conservationist",
+            "description": "Support sustainable logging by planting 100 acorns.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c3427a13a22c146f2f17b459c6a9de89818ab809.jpg",
+            "unlockedAt": "2026-02-01T16:43:03.000Z",
+            "globalPct": 3.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GOING_OLDSCHOOL",
+            "displayName": "Going Oldschool",
+            "description": "Bring back the original title screen.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/04998850ce652bde23901e5a4a5838d03d88c725.jpg",
+            "unlockedAt": "2026-02-01T16:39:30.000Z",
+            "globalPct": 11.1
+        },
+        {
+            "appId": 524220,
+            "gameName": "NieR:Automata™",
+            "apiName": "ACH_CLEAR_QUEST_FIRST_TIME",
+            "displayName": "First Errand",
+            "description": "Complete your first quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/524220/f31eb13d16a028fb3de23f5623955b8441e57c7c.jpg",
+            "unlockedAt": "2026-02-01T09:13:37.000Z",
+            "globalPct": 66.4
+        },
+        {
+            "appId": 524220,
+            "gameName": "NieR:Automata™",
+            "apiName": "ACH_RECOVERY_SELF_CORPSE",
+            "displayName": "The Circle of Death",
+            "description": "Have your body collected.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/524220/076ec7fa27bb95797b07da45c3b65af5c3a447a9.jpg",
+            "unlockedAt": "2026-02-01T08:38:48.000Z",
+            "globalPct": 51.3
+        },
+        {
+            "appId": 2246340,
+            "gameName": "Monster Hunter Wilds",
+            "apiName": "MEDAL_041",
+            "displayName": "Giant Crown Collector",
+            "description": "Obtained a gold crown for 10 or more monsters in the Hunting Log.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2246340/4892108fcf89dec2e32ab155629ab1621c7ecc0d.jpg",
+            "unlockedAt": "2026-01-31T13:47:15.000Z",
+            "globalPct": 15.1
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_53",
+            "displayName": "Go for the Gold",
+            "description": "Complete \"Buried Treasure\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/ee35b5fb3b6aa5c46d910cce2dfe608f8ee1f6b9.jpg",
+            "unlockedAt": "2026-01-30T21:02:25.000Z",
+            "globalPct": 7.1
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_30",
+            "displayName": "Code Cruncher",
+            "description": "Hack 50 Terminals",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/f4d88591c33590c95c83ef7b30d35a39ee45c903.jpg",
+            "unlockedAt": "2026-01-28T19:26:30.000Z",
+            "globalPct": 6.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_72",
+            "displayName": "Weed Killer",
+            "description": "Kill 100 Overgrown with fire",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/706d8da0cb2fc4d8b9ff2d57a28d10e13f48a5a6.jpg",
+            "unlockedAt": "2026-01-28T18:46:21.000Z",
+            "globalPct": 2.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_65",
+            "displayName": "Seeking Refuge",
+            "description": "Complete 10 Favors for people in The Whitespring Refuge",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/f1215816531e5a16d7471319ef1cb23264b72b19.jpg",
+            "unlockedAt": "2026-01-25T12:27:51.000Z",
+            "globalPct": 1.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_26",
+            "displayName": "LITerally",
+            "description": "Read 20 Magazines",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/1a96bbb10ac1b01e36d620aa09f74de3eeff179a.jpg",
+            "unlockedAt": "2026-01-25T12:14:39.000Z",
+            "globalPct": 8.6
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "SurvivalistBadge",
+            "displayName": "Survivalist Badge",
+            "description": "Escape the island without ever losing consciousness.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/080311b4db37226006349b94c06f17520ee13fa7.jpg",
+            "unlockedAt": "2026-01-23T16:47:41.000Z",
+            "globalPct": 18.7
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "ClutchBadge",
+            "displayName": "Clutch Badge",
+            "description": "Resurrect 3 scouts in a single expedition.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/c330833ce80ea47ee0093bacceda296dc7565e5c.jpg",
+            "unlockedAt": "2026-01-23T16:16:42.000Z",
+            "globalPct": 21.9
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "PlundererBadge",
+            "displayName": "Plunderer Badge",
+            "description": "Open 15 luggages in a single expedition.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/7904cc232eac6ffb345a96f2a265b1db4c1c535e.jpg",
+            "unlockedAt": "2026-01-23T15:59:44.000Z",
+            "globalPct": 40.1
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_68",
+            "displayName": "Rip and Tear",
+            "description": "Kill 10 Lesser Devils with a melee weapon",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/61310d98d8bd1ccab50f98c55c3f6ca4a6c918bd.jpg",
+            "unlockedAt": "2026-01-23T13:13:40.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_66",
+            "displayName": "Troglodiced",
+            "description": "Kill 100 Trogs with an Auto Axe",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/728d90ced2ed1cbedfe9b3a5394dac192b16b65d.jpg",
+            "unlockedAt": "2026-01-22T15:40:12.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_69",
+            "displayName": "The House Always Wins",
+            "description": "Build 5 casino games in your CAMP",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/8f2380a98730cc893083a109787f82a706cb55ff.jpg",
+            "unlockedAt": "2026-01-16T06:57:09.000Z",
+            "globalPct": 1.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_16",
+            "displayName": "Mistress of Mystery",
+            "description": "Complete \"Mistress of Mystery\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/7c5f6420fdaab944cbadafaba848e53c501d9932.jpg",
+            "unlockedAt": "2026-01-15T19:52:48.000Z",
+            "globalPct": 6.9
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_29",
+            "displayName": "Gimme Gimme!",
+            "description": "Pick 50 Locks",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/76b842ccab93d27ff16a2ea2193be3ab7948db6b.jpg",
+            "unlockedAt": "2026-01-14T13:16:52.000Z",
+            "globalPct": 24.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_19",
+            "displayName": "Monster Mash",
+            "description": "Complete the \"Monster Mash\" Event",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/7016ce97c68e4115a724cf81ef14bbf02fcbeb9f.jpg",
+            "unlockedAt": "2026-01-13T17:02:44.000Z",
+            "globalPct": 4.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_64",
+            "displayName": "Welcome To The Pitt",
+            "description": "Lead and complete \"Union Dues\" and \"From Ashes to Fire\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/92d90c41ab4b8009a1f89ff51a3dd6b72584a25c.jpg",
+            "unlockedAt": "2026-01-13T17:02:44.000Z",
+            "globalPct": 3.4
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_67",
+            "displayName": "America’s Playground",
+            "description": "Lead and complete “Tax Evasion” and “The Most Sensational Game”",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/df6f7574cbae0b4a4d9539ef4bd6c805c2100bac.jpg",
+            "unlockedAt": "2026-01-13T15:31:15.000Z",
+            "globalPct": 3.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_21",
+            "displayName": "Breach and Clear",
+            "description": "Win the \"Breach and Clear\" Event",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/7171676cdaa15e341cdd85a158ce6035d1a9d8d5.jpg",
+            "unlockedAt": "2026-01-12T14:57:37.000Z",
+            "globalPct": 12.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_70",
+            "displayName": "Community Service",
+            "description": "Lead and Complete \"The Human Condition\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/b0c56f239fbcd86db69cc85882a874ea52a4f191.jpg",
+            "unlockedAt": "2026-01-11T10:57:21.000Z",
+            "globalPct": 2.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_56",
+            "displayName": "Behind the Curtain",
+            "description": "Complete Beckett's story",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/978cdfb1290a64c7206e5947280c7b68e071e91f.jpg",
+            "unlockedAt": "2026-01-11T07:55:26.000Z",
+            "globalPct": 7.2
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "NomadBadge",
+            "displayName": "Nomad Badge",
+            "description": "Climb past the MESA.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/97cb4ca98da4fccf015d3dd893937b3a9172f62e.jpg",
+            "unlockedAt": "2026-01-10T18:16:37.000Z",
+            "globalPct": 36.2
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "ForestryBadge",
+            "displayName": "Forestry Badge",
+            "description": "Climb past the ROOTS.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/d7fbe6dcb35a51e67be5f38023b99b7cc90e4dd1.jpg",
+            "unlockedAt": "2026-01-10T17:41:15.000Z",
+            "globalPct": 33
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "TreadLightlyBadge",
+            "displayName": "Tread Lightly Badge",
+            "description": "Climb past the ROOTS without ever having more than 25% spores.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/4cfa107040054253f82d9d3dbf69a97d84701c19.jpg",
+            "unlockedAt": "2026-01-10T17:41:15.000Z",
+            "globalPct": 18
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "WebSecurityBadge",
+            "displayName": "Web Security Badge",
+            "description": "Escape a spider's web and survive.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/27f25eb3ec8fb4e7245aec8b48705a0812738773.jpg",
+            "unlockedAt": "2026-01-10T17:16:15.000Z",
+            "globalPct": 26.2
+        },
+        {
+            "appId": 3527290,
+            "gameName": "PEAK",
+            "apiName": "AscenderBadge",
+            "displayName": "High Altitude Badge",
+            "description": "Climb 5000m total.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3527290/ec338a888bb02b501e139b3f5184a83c1589a0d5.jpg",
+            "unlockedAt": "2026-01-10T16:46:19.000Z",
+            "globalPct": 47.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_27",
+            "displayName": "Ground Zero",
+            "description": "Be at Ground Zero of a Nuclear Blast",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/08e9a97ff6d5552e19318324a5cd7308e105fd60.jpg",
+            "unlockedAt": "2026-01-10T09:00:01.000Z",
+            "globalPct": 4.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_44",
+            "displayName": "Photo Bomber",
+            "description": "Take 20 Photos",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/44cb587751705d0dc5101572aaa4f2a73885e738.jpg",
+            "unlockedAt": "2026-01-10T06:50:51.000Z",
+            "globalPct": 9.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_41",
+            "displayName": "Good Grief!",
+            "description": "Kill 20 Players",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/9d57caf090f527230ef0021fcff685ceb753896d.jpg",
+            "unlockedAt": "2026-01-09T18:18:18.000Z",
+            "globalPct": 2.1
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_34",
+            "displayName": "Field Medic",
+            "description": "Revive 20 Fallen Players",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/ea5d1f459fbbfc24d038c454c03572b57e37231c.jpg",
+            "unlockedAt": "2026-01-09T17:52:18.000Z",
+            "globalPct": 8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_39",
+            "displayName": "Bounty Hunter",
+            "description": "Kill a Wanted Player",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/c3afb08325a1ff40f19f92869cf41512a2a48ab8.jpg",
+            "unlockedAt": "2026-01-09T17:50:11.000Z",
+            "globalPct": 7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_40",
+            "displayName": "Kill or Be Killed",
+            "description": "Kill Another Player",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/b313be7b83145b39195ff2515072909a19837f35.jpg",
+            "unlockedAt": "2026-01-09T17:50:10.000Z",
+            "globalPct": 12.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_7",
+            "displayName": "Heart of the Enemy",
+            "description": "Complete \"Heart of the Enemy\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/d11b8d64649fe7763a1296340ba04081dc9f8e15.jpg",
+            "unlockedAt": "2026-01-09T17:36:54.000Z",
+            "globalPct": 7.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_17",
+            "displayName": "Personal Matters",
+            "description": "Complete \"Personal Matters\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/f96894dc3bdf04e0aaf36b1f84b45ce4cb77e144.jpg",
+            "unlockedAt": "2026-01-09T17:14:21.000Z",
+            "globalPct": 12.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_18",
+            "displayName": "Queen of the Hunt",
+            "description": "Complete \"Queen of the Hunt\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/07bff1caf43fa8beee395dcb6d8c385a14152fbc.jpg",
+            "unlockedAt": "2026-01-09T16:29:11.000Z",
+            "globalPct": 10.4
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_54",
+            "displayName": "A Golden Future",
+            "description": "Complete \"All That Glitters\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/311b21f2f42a836054e6879638bce98c3b90258c.jpg",
+            "unlockedAt": "2026-01-09T13:50:01.000Z",
+            "globalPct": 8.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_31",
+            "displayName": "Monet of Murder",
+            "description": "Mod 50 Weapons",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/46faab270b5a6f56b7d10b496f2633530ea3588e.jpg",
+            "unlockedAt": "2026-01-08T16:40:26.000Z",
+            "globalPct": 16.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_55",
+            "displayName": "Wish Upon A Star",
+            "description": "Complete Sofia's story",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/0cdf23afc2ab0548dd6fb183ff8d53224a883d51.jpg",
+            "unlockedAt": "2026-01-08T16:29:48.000Z",
+            "globalPct": 7.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_71",
+            "displayName": "Devil's Bargain",
+            "description": "Complete \"Sins of the Father\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/4832daebfeb3a2ae888c2a2cf982151b68ab4947.jpg",
+            "unlockedAt": "2026-01-07T16:15:15.000Z",
+            "globalPct": 4.9
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_cursedDoll",
+            "displayName": "Cursed Doll",
+            "description": "Die 10 times",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/e5338e8c47af9398344fbbbb77050c2061460b86.jpg",
+            "unlockedAt": "2026-01-06T20:12:15.000Z",
+            "globalPct": 86.1
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_calcium",
+            "displayName": "Calcium",
+            "description": "Kill 1 000 Skeletons",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/cb16ae0fb8f97e99b3f26b56f4f600491ede0a77.jpg",
+            "unlockedAt": "2026-01-06T20:12:14.000Z",
+            "globalPct": 90.1
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_armorTome",
+            "displayName": "Armor Tome",
+            "description": "Kill 5 000 enemies as Sir Oofie",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/2c7faec2c74c63e052c01cdcbaada8dc8f5b6e01.jpg",
+            "unlockedAt": "2026-01-06T19:50:01.000Z",
+            "globalPct": 72.3
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_axe",
+            "displayName": "Axe",
+            "description": "Kill 2 000 enemies using the Sword",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/ac0974c934a5a8e22cab5227eebe225a19076b97.jpg",
+            "unlockedAt": "2026-01-06T19:50:01.000Z",
+            "globalPct": 76.8
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_revolver",
+            "displayName": "Revolver",
+            "description": "Kill 7 500 enemies",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/1da954d64a2cedf58836e1c27709acce8e64b06e.jpg",
+            "unlockedAt": "2026-01-06T19:50:01.000Z",
+            "globalPct": 90.1
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_aegis",
+            "displayName": "Aegis",
+            "description": "Block 500 damage with Armor as Sir Oofie",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/37428132ab523ca88a568c64f7c827c5ae0a3681.jpg",
+            "unlockedAt": "2026-01-06T19:37:38.000Z",
+            "globalPct": 78.5
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_santaHat",
+            "displayName": "Santa Hat",
+            "description": "Open the present hidden on Forest",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/1a3fab2380f2d802c6edcdf07e45bce31534b192.jpg",
+            "unlockedAt": "2026-01-06T18:25:32.000Z",
+            "globalPct": 46.1
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_key",
+            "displayName": "Key",
+            "description": "Purchase 25 chests",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/a19bdb3e6c435b084de0aec0c160922e128d7830.jpg",
+            "unlockedAt": "2026-01-06T18:23:14.000Z",
+            "globalPct": 91.4
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_xpTome",
+            "displayName": "XP Tome",
+            "description": "Break 20 pots in a single run",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/57fb9ec6a919c7652d3deae66d941103dfb86885.jpg",
+            "unlockedAt": "2026-01-06T18:17:45.000Z",
+            "globalPct": 86.6
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_quantityTome",
+            "displayName": "Quantity Tome",
+            "description": "Fire 5 000 projectiles",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/d75a47d12bb07c1479701abb2681ef00a459d3bf.jpg",
+            "unlockedAt": "2026-01-06T18:09:54.000Z",
+            "globalPct": 93.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_46",
+            "displayName": "Shwag",
+            "description": "Collect 10 Bobbleheads",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/c6872f55be6f179f43303fdbdd8fee32dc96d0a2.jpg",
+            "unlockedAt": "2026-01-05T12:53:21.000Z",
+            "globalPct": 15.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_63",
+            "displayName": "Gold Star Crafter",
+            "description": "Craft a 1 star legendary mod, a 2 star legendary mod, and a 3 star legendary mod",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/b51a0ba214450341fd3c16a4e0aca9aa16b32117.jpg",
+            "unlockedAt": "2026-01-04T17:47:22.000Z",
+            "globalPct": 6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_61",
+            "displayName": "Steel Brethren",
+            "description": "Complete “The Catalyst”",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/70c935078f3ba1ec15f4654879061e9b0bcfca98.jpg",
+            "unlockedAt": "2026-01-04T15:42:52.000Z",
+            "globalPct": 11.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_36",
+            "displayName": "Retro Now",
+            "description": "Play a Holotape Game",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/89ad454f9f6253fc4b1fd90db0ff188d5fc68b0d.jpg",
+            "unlockedAt": "2026-01-03T09:06:24.000Z",
+            "globalPct": 21
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_15",
+            "displayName": "Appalachian HOA",
+            "description": "Build 100 C.A.M.P. Items",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/1a01173a54c7fc4ae0d3bd2a8d776dbd46ef122b.jpg",
+            "unlockedAt": "2026-01-02T16:31:34.000Z",
+            "globalPct": 26.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_50",
+            "displayName": "I Am Become Death",
+            "description": "Complete \"I Am Become Death\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/9e29316f827d2f260e9fb787137b64c8f8195ffc.jpg",
+            "unlockedAt": "2026-01-02T14:43:26.000Z",
+            "globalPct": 11.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_12",
+            "displayName": "Officer on Deck",
+            "description": "Complete \"Officer on Deck\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/33c7c9a9d420fde67ee144f522c78f51e09181d6.jpg",
+            "unlockedAt": "2026-01-02T08:25:07.000Z",
+            "globalPct": 13.9
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_60",
+            "displayName": "The New Fort Knox",
+            "description": "Gain 1500 gold bullion",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/a32b618bdb4d1441b39db9b70d67408ed275ea4e.jpg",
+            "unlockedAt": "2026-01-02T08:20:44.000Z",
+            "globalPct": 14.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_11",
+            "displayName": "One of Us",
+            "description": "Complete \"One of Us\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/4e572bba7939aae7ea0f8675b1f89e2b1326e9c7.jpg",
+            "unlockedAt": "2026-01-01T15:36:35.000Z",
+            "globalPct": 15.1
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_10",
+            "displayName": "Bunker Buster",
+            "description": "Complete \"Bunker Buster\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/8f4eeab51d62b3d1253219a0d8b3c8e560e17742.jpg",
+            "unlockedAt": "2026-01-01T14:53:46.000Z",
+            "globalPct": 15.7
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_6",
+            "displayName": "Recruitment Blues",
+            "description": "Complete \"Recruitment Blues\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/20902fb239cbc66406c77cd9e5f352d7c316bad1.jpg",
+            "unlockedAt": "2026-01-01T09:33:28.000Z",
+            "globalPct": 13.1
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_25",
+            "displayName": "Fallout Forever",
+            "description": "Reach Level 100",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/4b887909d331bc93069c0750c61f26603b76e13a.jpg",
+            "unlockedAt": "2025-12-31T14:41:50.000Z",
+            "globalPct": 12.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_22",
+            "displayName": "Never Go it Alone!",
+            "description": "Join 20 Teams",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/8b04f27163e18fb7f60f29e5ade0bd35e10332fe.jpg",
+            "unlockedAt": "2025-12-31T10:51:04.000Z",
+            "globalPct": 20.4
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_52",
+            "displayName": "Overdue Reunions",
+            "description": "Find the Overseer",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/092f6c9f2420cf3d4da112e0c3cf747f7a98e20e.jpg",
+            "unlockedAt": "2025-12-30T15:59:41.000Z",
+            "globalPct": 34.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_59",
+            "displayName": "Gold Rush",
+            "description": "Gain 300 gold bullion",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/9097a261c8adaa040c948179838e3690b8406338.jpg",
+            "unlockedAt": "2025-12-30T10:58:25.000Z",
+            "globalPct": 21.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_20",
+            "displayName": "Scorched Earth",
+            "description": "Win the \"Scorched Earth' Event",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/eb846b33c16fcda3f1728a0a9990cb806e463289.jpg",
+            "unlockedAt": "2025-12-30T10:00:34.000Z",
+            "globalPct": 21.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_9",
+            "displayName": "Coming to Fruition",
+            "description": "Complete \"Coming to Fruition\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/02e1df1662bab59e6aea2f6653dc79ef92353e2e.jpg",
+            "unlockedAt": "2025-12-30T08:57:35.000Z",
+            "globalPct": 14.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_35",
+            "displayName": "Moneybags",
+            "description": "Possess 10,000 Caps",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/5c3499aa5472cdff00ff3da7f0d2988df5c64edd.jpg",
+            "unlockedAt": "2025-12-29T15:51:11.000Z",
+            "globalPct": 23.9
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_14",
+            "displayName": "We Must Rebuild",
+            "description": "Build 20 C.A.M.P. Items",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/bcc18518aea87ada57e3b0478b1d7b406b37aeab.jpg",
+            "unlockedAt": "2025-12-29T09:23:47.000Z",
+            "globalPct": 40.9
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_38",
+            "displayName": "Pioneer Scout",
+            "description": "Discover 100 Locations",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/13c54e65c288f21d3ead707c9e20b38ac711fc3a.jpg",
+            "unlockedAt": "2025-12-29T08:05:34.000Z",
+            "globalPct": 28.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_23",
+            "displayName": "Second Skin",
+            "description": "Craft 5 Pieces of Armor",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/79b98b1627d44dc17ff716ca31a554be06aacba8.jpg",
+            "unlockedAt": "2025-12-29T07:17:15.000Z",
+            "globalPct": 33.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_8",
+            "displayName": "Key to the Past",
+            "description": "Complete \"Key to the Past\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/605fb9db06d05d54bf591bdf68c0f3354394148b.jpg",
+            "unlockedAt": "2025-12-28T20:58:32.000Z",
+            "globalPct": 17.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_49",
+            "displayName": "American Hero",
+            "description": "Reach Level 50",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/799c6fe2d145a783bdeb74f2995e4928d209c12c.jpg",
+            "unlockedAt": "2025-12-28T20:34:16.000Z",
+            "globalPct": 21.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_62",
+            "displayName": "Smooth Operator",
+            "description": "Earn Elder Rewards from a Daily Op",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/b09bb93373353abb509ba2be2247f3c4f6de6c08.jpg",
+            "unlockedAt": "2025-12-28T19:25:09.000Z",
+            "globalPct": 13.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_37",
+            "displayName": "Giant Slayer",
+            "description": "Kill 5 Giant Creatures",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/cd492741590d7898217f5f410302711b2b0d0a4b.jpg",
+            "unlockedAt": "2025-12-27T19:45:04.000Z",
+            "globalPct": 33.4
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_5",
+            "displayName": "Into the Fire",
+            "description": "Complete \"Into the Fire\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/6bb513a94f518f94dda842b1947319ae31adca63.jpg",
+            "unlockedAt": "2025-12-27T17:54:03.000Z",
+            "globalPct": 25.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_42",
+            "displayName": "Pest Control",
+            "description": "Kill 300 Creatures",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/5ae85b69b2556b3e13f48a1d2ee36c532b68d606.jpg",
+            "unlockedAt": "2025-12-27T17:54:03.000Z",
+            "globalPct": 39.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_3",
+            "displayName": "Final Departure",
+            "description": "Complete \"Final Departure\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/b6059815c1b8eaa261c5a80e4b0b4d8ce0685f9b.jpg",
+            "unlockedAt": "2025-12-27T15:02:30.000Z",
+            "globalPct": 35.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_51",
+            "displayName": "Wayward Child",
+            "description": "Complete \"The Elusive Crane\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/c9d2fcbccd45b84ac28e7abf28e8024cec36db44.jpg",
+            "unlockedAt": "2025-12-27T14:36:59.000Z",
+            "globalPct": 27.4
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_COLLECT_ORE",
+            "displayName": "Rock 'n' Roll",
+            "description": "Mine these ores",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/cdc9f490c827fd6d509a9ce7c980073431d63365.jpg",
+            "unlockedAt": "2025-12-27T10:18:39.000Z",
+            "globalPct": 29.2
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_FRIENDLY_FIRE",
+            "displayName": "Friendly Fire",
+            "description": "Kill another prospector",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/24d2b39f55ae982824afe1216be027917a9bc01c.jpg",
+            "unlockedAt": "2025-12-27T09:39:50.000Z",
+            "globalPct": 16.4
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_FIRST_DEATH",
+            "displayName": "Whoops!",
+            "description": "First time your prospector dies",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/a89398f643ba08303a5395423963d8d24ef60085.jpg",
+            "unlockedAt": "2025-12-27T08:54:56.000Z",
+            "globalPct": 65.1
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_FALL_SURVIVE",
+            "displayName": "What Fall Damage?",
+            "description": "Survive a Terrible Fall",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/c7d8e2141ab65179c926bbb79ea69b135831d677.jpg",
+            "unlockedAt": "2025-12-26T15:26:58.000Z",
+            "globalPct": 13.6
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_TUTORIAL",
+            "displayName": "Baby Steps",
+            "description": "Complete the tutorial",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/b4e370ed6c81377a40f5816501fca0f0433207ed.jpg",
+            "unlockedAt": "2025-12-26T15:08:26.000Z",
+            "globalPct": 22
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_MEDIC",
+            "displayName": "Medic!",
+            "description": "Revive a downed prospector",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/3df3801175d7b9d52f0742e1c2efb7bf965296cb.jpg",
+            "unlockedAt": "2025-12-26T14:01:33.000Z",
+            "globalPct": 37
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_48",
+            "displayName": "Appalachian Trailblazer",
+            "description": "Reach Level 25",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/69a017c72e1d74e33a816467f5f8ef98acea3e81.jpg",
+            "unlockedAt": "2025-12-25T19:46:30.000Z",
+            "globalPct": 31.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_28",
+            "displayName": "Perked Up",
+            "description": "Fully Rank Up one Perk",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/27cafa2d3c36789d6dbf5902fe2d184db48efcdc.jpg",
+            "unlockedAt": "2025-12-25T19:09:02.000Z",
+            "globalPct": 44.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_2",
+            "displayName": "First Contact",
+            "description": "Complete \"First Contact\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/f6053aa91e9f19392e665cbfb9f5424ce5174c1d.jpg",
+            "unlockedAt": "2025-12-25T19:01:16.000Z",
+            "globalPct": 47.8
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_4",
+            "displayName": "Second Helpings",
+            "description": "Complete \"Second Helpings\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/70ccd503358c207c65567236e2323066d8ceaaba.jpg",
+            "unlockedAt": "2025-12-25T19:01:16.000Z",
+            "globalPct": 43.2
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_24",
+            "displayName": "A Fighting Chance",
+            "description": "Craft a Weapon",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/f1c4f098e246bda0844171534660f5e3323284fc.jpg",
+            "unlockedAt": "2025-12-25T16:38:31.000Z",
+            "globalPct": 59
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_SHOOT_FISH",
+            "displayName": "Pain In The Bass",
+            "description": "Catch a fish with a bow and arrow",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/10c72ebea5fb62d6c14574f524686d8ec7f3c08e.jpg",
+            "unlockedAt": "2025-12-25T10:25:49.000Z",
+            "globalPct": 29.6
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_SURVIVE",
+            "displayName": "Survival 101",
+            "description": "Pick up a stick, stone, or oxite",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/e72a92b3e3ce59af0057cc38066500f6c9b94a7f.jpg",
+            "unlockedAt": "2025-12-25T07:53:39.000Z",
+            "globalPct": 79.6
+        },
+        {
+            "appId": 1149460,
+            "gameName": "Icarus",
+            "apiName": "ACH_WEAR_ARMOR",
+            "displayName": "Armored and Dangerous",
+            "description": "Equip a full set of armor",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1149460/b5145383d9c66e061c8b4c0c33587a3af572240f.jpg",
+            "unlockedAt": "2025-12-25T07:46:58.000Z",
+            "globalPct": 72.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_13",
+            "displayName": "Happy C.A.M.P.er",
+            "description": "Build a C.A.M.P.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/bd4cecd1a536b06dc846f3956b0fbeda1e9f850d.jpg",
+            "unlockedAt": "2025-12-24T19:46:56.000Z",
+            "globalPct": 62.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_33",
+            "displayName": "A Real Challenger",
+            "description": "Complete 20 Challenges",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/2548733c04a3ad9b8c3f5206cc90ecc29ed0a45d.jpg",
+            "unlockedAt": "2025-12-24T19:38:10.000Z",
+            "globalPct": 68.5
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_43",
+            "displayName": "Junker Funk",
+            "description": "Gather 200 Pieces of Junk",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/6d0649a69b6e49182b4401a187c4866fd97f9843.jpg",
+            "unlockedAt": "2025-12-24T18:33:39.000Z",
+            "globalPct": 72.5
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_forbiddenJuice",
+            "displayName": "Forbidden Juice",
+            "description": "Crit 100 times",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/2a8ca52617ed0164206863d6517d971985b871a7.jpg",
+            "unlockedAt": "2025-12-22T13:30:53.000Z",
+            "globalPct": 95.3
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_ghost",
+            "displayName": "Ghost",
+            "description": "Survive the Final Swarm for 60s",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/322999a0920ffc6ddf67cd0a505f333cf80ab267.jpg",
+            "unlockedAt": "2025-12-22T13:30:53.000Z",
+            "globalPct": 95.9
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_bossBuster",
+            "displayName": "Boss Buster",
+            "description": "Defeat a Stage Boss in under 30 seconds",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/c1939ca13ee36238e54bf67491d5fe193c32e667.jpg",
+            "unlockedAt": "2025-12-22T13:28:21.000Z",
+            "globalPct": 80.8
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_clank",
+            "displayName": "CL4NK",
+            "description": "Complete Forest Tier 1",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/1d0e0e32661d98c747a812009b6711e9dc34f86a.jpg",
+            "unlockedAt": "2025-12-22T13:28:21.000Z",
+            "globalPct": 92.3
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_tacticalGlasses",
+            "displayName": "Tactical Glasses",
+            "description": "Defeat a Miniboss in 25s",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/f9b459e73aba093d2bf22e713e32629fd8a264f5.jpg",
+            "unlockedAt": "2025-12-22T13:27:49.000Z",
+            "globalPct": 94.3
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_bananarang",
+            "displayName": "Bananarang",
+            "description": "Find the hidden Banana",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/9b5474c53e9a407867cc93cd341392c92e2f4862.jpg",
+            "unlockedAt": "2025-12-22T13:23:05.000Z",
+            "globalPct": 93.4
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_battery",
+            "displayName": "Battery",
+            "description": "Upgrade Cooldown Tome to Level 5",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/4c378fd9006af550a537466bc7a9ff876c05ef4c.jpg",
+            "unlockedAt": "2025-12-22T13:21:48.000Z",
+            "globalPct": 86.4
+        },
+        {
+            "appId": 3405340,
+            "gameName": "Megabonk",
+            "apiName": "a_aura",
+            "displayName": "Aura",
+            "description": "Don't take any damage for 2 minutes",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3405340/3aee736b207ab3e709226e5f247fe2d66cff6500.jpg",
+            "unlockedAt": "2025-12-22T13:20:28.000Z",
+            "globalPct": 95.5
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_45",
+            "displayName": "Ain't He the Cutest?",
+            "description": "Collect a Bobblehead",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/5e018fa133282c04538c3c9a6df23ddc9265b291.jpg",
+            "unlockedAt": "2025-12-21T12:05:29.000Z",
+            "globalPct": 55.3
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_47",
+            "displayName": "Wild West Virginian",
+            "description": "Reach Level 10",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/5300e30a44c868d58f9f4b6a791cd47dfb3e045f.jpg",
+            "unlockedAt": "2025-12-21T12:05:29.000Z",
+            "globalPct": 56.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_32",
+            "displayName": "Tested Mettle",
+            "description": "Complete 5 Challenges",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/628892b28093ab1df0056bda0e2267375936c727.jpg",
+            "unlockedAt": "2025-12-21T12:05:28.000Z",
+            "globalPct": 86.6
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "apiName": "ACHIEVEMENT_1",
+            "displayName": "Reclamation Day!",
+            "description": "Leave Vault 76",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/2d9c2ba6f4bfccf96478be07d1382212500019b3.jpg",
+            "unlockedAt": "2025-12-21T12:04:25.000Z",
+            "globalPct": 83.7
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvP03",
+            "displayName": "Horseshoes and Hand Grenades",
+            "description": "Down an encountered Raider with a grenade.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/095a9cfc5c6ae8653aeb595795cc5299774f6596.jpg",
+            "unlockedAt": "2025-12-15T14:11:56.000Z",
+            "globalPct": 36.2
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta02",
+            "displayName": "The Long Haul",
+            "description": "Reach a total lifetime loot value of 1 000 000.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/98fefef3b5f5415cb91308c30d7f8c5bf005a8d6.jpg",
+            "unlockedAt": "2025-12-15T14:00:13.000Z",
+            "globalPct": 49.4
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta05",
+            "displayName": "Back from the Brink",
+            "description": "Revive a squadmate ten times.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/8917058d5ecdaab92dfc7eb41dfc1199f1dac184.jpg",
+            "unlockedAt": "2025-12-15T13:45:38.000Z",
+            "globalPct": 40.1
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc10",
+            "displayName": "Today You, Tomorrow Me",
+            "description": "Revive an encountered Raider with a Defibrillator.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/ef2bf4fc11656a27cbf6c9cd797f6827d0f04f94.jpg",
+            "unlockedAt": "2025-12-15T13:34:41.000Z",
+            "globalPct": 30.6
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE07",
+            "displayName": "Into the Breach",
+            "description": "Destroy a Bastion.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/b4ca2e0225d4b158b51e2048b54c1386d85193d6.jpg",
+            "unlockedAt": "2025-12-11T15:47:41.000Z",
+            "globalPct": 37.8
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc01",
+            "displayName": "In the Nick of Time",
+            "description": "Safely return to Speranza with less than 5 seconds left in the round.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/8e5793563e07f8c9e1d79a3685e5d8b476864180.jpg",
+            "unlockedAt": "2025-12-11T15:26:54.000Z",
+            "globalPct": 37.4
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE06",
+            "displayName": "Bringing Down the Big Guns",
+            "description": "Destroy a Rocketeer.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/2e212dc57251004a3d5e7919e76a2c2615837fb8.jpg",
+            "unlockedAt": "2025-12-10T16:43:11.000Z",
+            "globalPct": 46.7
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc12",
+            "displayName": "For Science!",
+            "description": "Get gas, stun, and burn statuses at the same time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/c092bc45dd66a5c63dcf75fee411ab4ee7ef582c.jpg",
+            "unlockedAt": "2025-12-09T13:15:01.000Z",
+            "globalPct": 2
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc06",
+            "displayName": "No Going Back",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/98a0304ab9d30429fb359ce17e68d56a5f76769e.jpg",
+            "unlockedAt": "2025-12-09T13:10:19.000Z",
+            "globalPct": 47.2
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT11",
+            "displayName": "Pack Leader",
+            "description": "Pick up all Campaign collectibles",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/041a4cde9e6dd7cd891c060d556b5aac68f0d784.jpg",
+            "unlockedAt": "2025-12-07T17:14:23.000Z",
+            "globalPct": 1.6
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT10",
+            "displayName": "Wolves of War",
+            "description": "Pick up 20 Campaign collectibles",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/4790f504ac2e243ae3e060bc4f3408de107105c5.jpg",
+            "unlockedAt": "2025-12-07T13:38:02.000Z",
+            "globalPct": 1.9
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT09",
+            "displayName": "Hounds of War",
+            "description": "Pick up 10 Campaign collectibles",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/3f53d5b34882e0bbf810a2e893e712878c91af45.jpg",
+            "unlockedAt": "2025-12-07T09:30:22.000Z",
+            "globalPct": 2.5
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT14",
+            "displayName": "One Stone",
+            "description": "Eliminate 3 enemies with a single grenade in Single Player",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/c0d2f93cd05b93295982d3449be1213f7fab5a5a.jpg",
+            "unlockedAt": "2025-12-07T08:59:39.000Z",
+            "globalPct": 12.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT08",
+            "displayName": "Dogs of War",
+            "description": "Pick up 5 Campaign collectibles",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/98ec07d329f103ea552e6f71fe05653b05e88fc1.jpg",
+            "unlockedAt": "2025-12-06T20:04:20.000Z",
+            "globalPct": 4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT12",
+            "displayName": "Peak Performance",
+            "description": "Complete a Single Player mission on the hardest difficulty",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/77a32ee9f542c7c3008ed23dff011172282e5caf.jpg",
+            "unlockedAt": "2025-12-06T19:57:48.000Z",
+            "globalPct": 3
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT16",
+            "displayName": "End of an Era",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/ec2f70126dc76471138ad3a05ef444c8b4f1e327.jpg",
+            "unlockedAt": "2025-12-06T19:25:34.000Z",
+            "globalPct": 4.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT51",
+            "displayName": "Dog of War",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/249298ba2ba8157de7eca84e453111a413b013c2.jpg",
+            "unlockedAt": "2025-12-06T10:48:00.000Z",
+            "globalPct": 8.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT44",
+            "displayName": "Collector",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/629e837942216efa73a695a14f93452e5b6b0acf.jpg",
+            "unlockedAt": "2025-12-06T08:42:29.000Z",
+            "globalPct": 32.8
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT06",
+            "displayName": "Cloak and Dagger",
+            "description": "Complete the Battlefield 6 Campaign",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/2cf23b9ba327c86ae9fd11fe82a538572e9dd656.jpg",
+            "unlockedAt": "2025-12-06T07:57:46.000Z",
+            "globalPct": 9.5
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT24",
+            "displayName": "No Reinforcements",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/21972c64d39f7307588fe086e498accab616b3d6.jpg",
+            "unlockedAt": "2025-12-06T07:38:33.000Z",
+            "globalPct": 6.6
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta01",
+            "displayName": "The Big Haul",
+            "description": "Return to Speranza with 50 000 worth of loot.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/df730ceeb5b128b6ee0ec4fecd46f0f2223ba420.jpg",
+            "unlockedAt": "2025-12-05T16:39:50.000Z",
+            "globalPct": 53.6
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc11",
+            "displayName": "Top of the World",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/9a39bcf6635d222b13ff0a2f7964fa34de5d1a0f.jpg",
+            "unlockedAt": "2025-12-05T16:04:11.000Z",
+            "globalPct": 42.6
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT05",
+            "displayName": "Damned If You Do",
+            "description": "Complete Operation Ember Strike",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/212d2d9d21976710b26b1738e2b0668efc404882.jpg",
+            "unlockedAt": "2025-12-04T19:21:49.000Z",
+            "globalPct": 10
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT23",
+            "displayName": "Being Watched",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/c8dbc0b23e7a21e0fd270d543ce4fa3aad4f6ca0.jpg",
+            "unlockedAt": "2025-12-04T18:45:14.000Z",
+            "globalPct": 5.7
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT04",
+            "displayName": "High Roller",
+            "description": "Complete Nile Guard",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/e87339709a9beca45b512e7e3b7dcd6f83f5ed72.jpg",
+            "unlockedAt": "2025-12-04T18:30:41.000Z",
+            "globalPct": 10.6
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT22",
+            "displayName": "Roadside Assistance",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/484bbc39cdb7650d1e595d91bb80c00f76b04889.jpg",
+            "unlockedAt": "2025-12-04T18:19:14.000Z",
+            "globalPct": 6.8
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT37",
+            "displayName": "1200",
+            "description": "Get 6 sidearm headshot kills in a Multiplayer match",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/0ee90d395ad8b0bc99646e84dc61d0deabcf4306.jpg",
+            "unlockedAt": "2025-12-03T19:36:33.000Z",
+            "globalPct": 5.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT03",
+            "displayName": "Secret Service",
+            "description": "Complete No Sleep and Moving Mountains",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/2c1bd5cad972a4c494c1931f9afaaa26b3fff0ec.jpg",
+            "unlockedAt": "2025-12-03T15:57:12.000Z",
+            "globalPct": 11.2
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT15",
+            "displayName": "Armor Annihilation",
+            "description": "Destroy 10 enemy vehicles in Single Player",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/665d9a49325780af09afc857d091668bd1c04ce7.jpg",
+            "unlockedAt": "2025-12-03T15:33:46.000Z",
+            "globalPct": 13.9
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT21",
+            "displayName": "Bullseye Blitz",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/d9661076c2b8534a4898aa52b4f364c3d0f4a1c0.jpg",
+            "unlockedAt": "2025-12-03T15:18:34.000Z",
+            "globalPct": 2.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT20",
+            "displayName": "Looks Like A Nail",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/ee1356b61f160f4a0fdbb2e4afa1f86c6298c4ec.jpg",
+            "unlockedAt": "2025-12-03T14:42:04.000Z",
+            "globalPct": 2.2
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT02",
+            "displayName": "Devil in the Dark",
+            "description": "Complete Night Raid",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/0b8f78ce16dd7329797543666b47180f7faf32cf.jpg",
+            "unlockedAt": "2025-12-03T14:30:39.000Z",
+            "globalPct": 14
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT19",
+            "displayName": "Sidearm Savant",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/c06fd3276ae7b36700e8dac0866465134c38ddba.jpg",
+            "unlockedAt": "2025-12-03T14:30:39.000Z",
+            "globalPct": 1.4
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvP01",
+            "displayName": "Unyielding",
+            "description": "Knock out 10 Raiders.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/f5b090294a798f8f18170b0d1fc9fc659d1c8271.jpg",
+            "unlockedAt": "2025-12-02T15:25:24.000Z",
+            "globalPct": 48.8
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE03",
+            "displayName": "Trail of Destruction",
+            "description": "Destroy 100 ARC enemies.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/2c6ff31bf411d949984fe7eb606a92ce3968aeaa.jpg",
+            "unlockedAt": "2025-12-02T14:16:21.000Z",
+            "globalPct": 56
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvP08",
+            "displayName": "Heart of Gold",
+            "description": "Be thanked 10 times in direct response to something you did.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/8c1d2f8bc2782bd1ba5c410ff4e18c9e5cb8aca4.jpg",
+            "unlockedAt": "2025-12-02T13:56:58.000Z",
+            "globalPct": 32.8
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT01",
+            "displayName": "Rock of Gibraltar",
+            "description": "Complete The Rock and Operation Gladius",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/91b79cfadb3d9ef18f9dd94ed8c3052e3f0429df.jpg",
+            "unlockedAt": "2025-12-02T12:30:59.000Z",
+            "globalPct": 15.9
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT18",
+            "displayName": "Deep-Six",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/758b09dabe7fda373d7edb4c2709d0fdde78f2b3.jpg",
+            "unlockedAt": "2025-12-02T12:03:47.000Z",
+            "globalPct": 14.2
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT27",
+            "displayName": "Sergeant Redford",
+            "description": "Reach Rank 25",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/e069f1d8036e155a09e054ea2e4a628fe7fc8f2e.jpg",
+            "unlockedAt": "2025-11-30T17:41:18.000Z",
+            "globalPct": 34.2
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT36",
+            "displayName": "Heavy Weaponry",
+            "description": "Get 5 kills with LMGs without reloading in Multiplayer",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/1a31b47488d95d427f1857cc69db6fa99e61063b.jpg",
+            "unlockedAt": "2025-11-30T17:41:18.000Z",
+            "globalPct": 20.1
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT32",
+            "displayName": "Wrench Monkey",
+            "description": "Repair vehicles for 2042 damage in Multiplayer",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/75ae7d44428d5d6f971a1b5b359e6bae7c1f538c.jpg",
+            "unlockedAt": "2025-11-30T15:38:19.000Z",
+            "globalPct": 21.1
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT17",
+            "displayName": "Efficiency",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/1ef85c0e1f03d23d94aa8896bf48ab83c79aa63c.jpg",
+            "unlockedAt": "2025-11-30T10:28:34.000Z",
+            "globalPct": 17.6
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT13",
+            "displayName": "Liquidator",
+            "description": "Headshot kill 50 Enemies in the Campaign.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/acc8e2fdc6b47946fc164c8a3fe797a6328032a5.jpg",
+            "unlockedAt": "2025-11-30T10:21:46.000Z",
+            "globalPct": 18.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT00",
+            "displayName": "Stand Alone",
+            "description": "Complete Always Faithful",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/30fc2a6cc0f2e271c90187a7e76be65ce87d4f15.jpg",
+            "unlockedAt": "2025-11-30T10:08:56.000Z",
+            "globalPct": 22.4
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT07",
+            "displayName": "In Memoriam",
+            "description": "Pick up a Campaign collectible",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/b4e639eef3a6ed280dd31868ee1c945d62a495c9.jpg",
+            "unlockedAt": "2025-11-30T09:49:20.000Z",
+            "globalPct": 14.4
+        },
+        {
+            "appId": 534380,
+            "gameName": "Dying Light 2: Reloaded Edition",
+            "apiName": "ACH_5",
+            "displayName": "On the Trail of the Enemy",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/534380/a546200a5d746c4a651fb6eb0541f910fa85248a.jpg",
+            "unlockedAt": "2025-11-29T09:27:49.000Z",
+            "globalPct": 58.5
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc05",
+            "displayName": "Long Shot",
+            "description": "Hit a target over 250 meters away.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/ffc5a582f24c63a466b554b004fed156bf52626d.jpg",
+            "unlockedAt": "2025-11-28T18:09:44.000Z",
+            "globalPct": 39
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE02",
+            "displayName": "Racking Them Up",
+            "description": "Destroy 50 ARC enemies.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/11f15b3e48bb8c76112a15960a2dc15c0e5c25fb.jpg",
+            "unlockedAt": "2025-11-28T18:08:40.000Z",
+            "globalPct": 64.6
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvP02",
+            "displayName": "A Vendetta Is Born",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/ca17d9eb870a6f0a4dd67ccb1f6ee83c99be28ba.jpg",
+            "unlockedAt": "2025-11-28T17:49:11.000Z",
+            "globalPct": 52.2
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Expl05",
+            "displayName": "Into Thin Air",
+            "description": "Safely return to Speranza through a Raider Hatch.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/9baa83e58f0e0cda1437fe083b84dc5672dd5b73.jpg",
+            "unlockedAt": "2025-11-28T16:13:00.000Z",
+            "globalPct": 65.6
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc09",
+            "displayName": "See You Never",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/d101c2729fbfebcaef0eb6d64c7ee814e88064a4.jpg",
+            "unlockedAt": "2025-11-28T16:13:00.000Z",
+            "globalPct": 62.3
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta10",
+            "displayName": "Getting Serious",
+            "description": "Upgrade a Workshop station to level 2.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/b6d39db71af6902d5a21995b60b8016bbf8b930f.jpg",
+            "unlockedAt": "2025-11-28T15:56:58.000Z",
+            "globalPct": 58.9
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta09",
+            "displayName": "In Your Element",
+            "description": "Reach level 10.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/3a64d9ef4f9570c0745a1982820ff3f9e45e4f51.jpg",
+            "unlockedAt": "2025-11-28T13:32:19.000Z",
+            "globalPct": 69.6
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta11",
+            "displayName": "Same Song, Same Verse",
+            "description": "Set off two car alarms in a single round.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/216e03812a709db56f1392b5e2155558e23bca9a.jpg",
+            "unlockedAt": "2025-11-28T13:22:14.000Z",
+            "globalPct": 38.1
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta03",
+            "displayName": "Expert Weaponsmith",
+            "description": "Upgrade a weapon to Tier IV.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/4c8092ae726849e21b3081fea257e5aef7f821f7.jpg",
+            "unlockedAt": "2025-11-28T08:12:57.000Z",
+            "globalPct": 55.5
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT41",
+            "displayName": "Punished",
+            "description": "Get 129 kills in Multiplayer.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/cecf674d7d80cfdde5f21bc49f0cd4b68d1d2798.jpg",
+            "unlockedAt": "2025-11-27T19:18:04.000Z",
+            "globalPct": 42.3
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT26",
+            "displayName": "Lance Corporal Matkovic",
+            "description": "Reach Rank 14",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/2379514048937d36b36a6a24067d6122dc71c7cf.jpg",
+            "unlockedAt": "2025-11-27T15:52:00.000Z",
+            "globalPct": 40.8
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc02",
+            "displayName": "Not Over Till It's Over",
+            "description": "Safely return to Speranza while downed.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/f72db3a866adfa66deb693ff0aeb753cdb516ebb.jpg",
+            "unlockedAt": "2025-11-27T09:09:36.000Z",
+            "globalPct": 69.3
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Expl01",
+            "displayName": "Scavenger",
+            "description": "Search 50 loot containers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/34b6e5ff472ded407816555ce6ef6a3657fbf678.jpg",
+            "unlockedAt": "2025-11-27T08:05:50.000Z",
+            "globalPct": 78.2
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc04",
+            "displayName": "Bells and Whistles",
+            "description": "Have 4 weapon mods on a single weapon.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/63a975cf91e2f4693d66c890af8d077ffa7a9068.jpg",
+            "unlockedAt": "2025-11-27T07:23:13.000Z",
+            "globalPct": 59.8
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT25",
+            "displayName": "Private First Class Montes",
+            "description": "Reach Rank 9",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/3b82b159694a593fb0ace2c7cb23e17a42da6eb5.jpg",
+            "unlockedAt": "2025-11-26T15:56:10.000Z",
+            "globalPct": 44.1
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE11",
+            "displayName": "Comparative Study",
+            "description": "Use 4 different weapons to deal damage in the Practice Range.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/5247a69dd6bf7082877ba4d145f9c237691c543a.jpg",
+            "unlockedAt": "2025-11-26T15:39:56.000Z",
+            "globalPct": 15.9
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Misc03",
+            "displayName": "Practice Makes Perfect",
+            "description": "Visit the Practice Range.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/51a257b8f2937605bc5035c1156b7633c71e63a1.jpg",
+            "unlockedAt": "2025-11-26T15:36:53.000Z",
+            "globalPct": 28.1
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Expl02",
+            "displayName": "Well-Traveled",
+            "description": "Safely return from Dam Battlegrounds, Buried City and Spaceport.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/3f530c30196249ca0330b991deef14889f6a643e.jpg",
+            "unlockedAt": "2025-11-26T15:33:40.000Z",
+            "globalPct": 65.4
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE13",
+            "displayName": "Mechanical Failure",
+            "description": "Shoot a thruster off a Wasp.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/afd8ad62ce7601da4681cc04262016d8bb8d9810.jpg",
+            "unlockedAt": "2025-11-26T15:33:02.000Z",
+            "globalPct": 85.3
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvE01",
+            "displayName": "Shots Fired",
+            "description": "Deal 1000 damage to ARC enemies.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/e81b1b3105235c95f422919cc51400cec62d9f48.jpg",
+            "unlockedAt": "2025-11-26T15:26:55.000Z",
+            "globalPct": 86.1
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta04",
+            "displayName": "Well-Armed",
+            "description": "Have two weapons of Tier II or higher equipped in a round.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/1292fb7d06a78eaf579da7fcc13902dd1da739a6.jpg",
+            "unlockedAt": "2025-11-26T15:22:37.000Z",
+            "globalPct": 64.9
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Meta08",
+            "displayName": "Self-Sufficient",
+            "description": "Install a station in your Workshop.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/38e5461e001d9cef970fe6312c6c2152fd8f12b1.jpg",
+            "unlockedAt": "2025-11-26T14:55:33.000Z",
+            "globalPct": 81.3
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Expl06",
+            "displayName": "Behind Closed Doors",
+            "description": "Visit a locked room on Dam Battlegrounds, Buried City or Spaceport.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/f5ed6b9bb65d5e871990f81c8ab1435b3fef104b.jpg",
+            "unlockedAt": "2025-11-26T14:23:20.000Z",
+            "globalPct": 68.5
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "Expl04",
+            "displayName": "Rite of Passage",
+            "description": "Safely return to Speranza for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/e30604fc940158d2502f216c0ac5487727b0b8ee.jpg",
+            "unlockedAt": "2025-11-26T14:02:48.000Z",
+            "globalPct": 92.4
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvP06",
+            "displayName": "The Friends We Made Along The Way",
+            "description": "Return to Speranza together with an encountered Raider.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/a931d910c8cd47600ab5f4349aefa580a3bcd2da.jpg",
+            "unlockedAt": "2025-11-26T14:02:47.000Z",
+            "globalPct": 80.4
+        },
+        {
+            "appId": 1808500,
+            "gameName": "ARC Raiders",
+            "apiName": "PvP04",
+            "displayName": "Crossed the Threshold",
+            "description": "Knock out a Raider.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1808500/d8f9715a61f9c33d2b9926f6c1a8058319c18895.jpg",
+            "unlockedAt": "2025-11-26T13:55:37.000Z",
+            "globalPct": 77.4
+        },
+        {
+            "appId": 534380,
+            "gameName": "Dying Light 2: Reloaded Edition",
+            "apiName": "ACH_4",
+            "displayName": "Under Pressure",
+            "description": "Activate your first Water Tower.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/534380/80c0fe9030a80f34a761d719277af5f93d6d25cb.jpg",
+            "unlockedAt": "2025-11-23T16:50:59.000Z",
+            "globalPct": 62.2
+        },
+        {
+            "appId": 534380,
+            "gameName": "Dying Light 2: Reloaded Edition",
+            "apiName": "ACH_25",
+            "displayName": "Flag Burning",
+            "description": "Clear your first Bandit Camp.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/534380/b3b1b8cc612f27924d95f1e2c8dbd220792311e3.jpg",
+            "unlockedAt": "2025-11-23T15:20:18.000Z",
+            "globalPct": 63.9
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT52",
+            "displayName": "Mozambique Here!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/b352539423f5ab0e1882507f39579932411e6d47.jpg",
+            "unlockedAt": "2025-11-23T09:00:51.000Z",
+            "globalPct": 12
+        }
+    ]
+}

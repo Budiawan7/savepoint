@@ -1,0 +1,378 @@
+{
+    "appId": 1096410,
+    "hasAchievements": true,
+    "total": 28,
+    "unlocked": 0,
+    "gameName": "Vampire: The Masquerade - Coteries of New York",
+    "achievements": [
+        {
+            "apiName": "EMBRACE_BRUJAH",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Rebel Yell",
+            "description": "Become Embraced into the Brujah clan.",
+            "iconUrl": "51cc65b967928d70f80c7cb1de81a70bf5e8ee54.jpg",
+            "iconGrayUrl": "362c1b8201148496c2c090841b4e43b7c46e68e9.jpg",
+            "hidden": false,
+            "globalPct": 39.4
+        },
+        {
+            "apiName": "EMBRACE_TOREADOR",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Beyond The Canvas",
+            "description": "Become Embraced into the Toreador clan.",
+            "iconUrl": "9bce07fe799ddc55bc076d5e8389ce69f0e3b854.jpg",
+            "iconGrayUrl": "1c6ae93bf665d4b2f0eeed95ac38aed48ec26657.jpg",
+            "hidden": false,
+            "globalPct": 27.8
+        },
+        {
+            "apiName": "EMBRACE_VENTRUE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Managerial Call",
+            "description": "Become Embraced into the Ventrue clan.",
+            "iconUrl": "6a9eab2213bd4a5b15cd079e1294166bb7e09126.jpg",
+            "iconGrayUrl": "7303ea1add67f097e4d1da6d42b0a8bfc42cef51.jpg",
+            "hidden": false,
+            "globalPct": 44.3
+        },
+        {
+            "apiName": "RECRUITMENT_FAIL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "A Recruitment Fiasco",
+            "description": "Fail to recruit somebody into your coterie.",
+            "iconUrl": "1804f6ba4e9eeb8755f55d15e4ef0c47aecd553f.jpg",
+            "iconGrayUrl": "c8a7f03ae7148f09b114a972b7a420d1a730097f.jpg",
+            "hidden": false,
+            "globalPct": 20.7
+        },
+        {
+            "apiName": "RECRUIT_AGATHON",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Enchanted To Meet You",
+            "description": "Convince Agathon to cooperate with you.",
+            "iconUrl": "4ca3f9e37d7cff9260e00d22c807718871a8cbef.jpg",
+            "iconGrayUrl": "9568cb77fcd096cb8fc3091c9061eced0128df4c.jpg",
+            "hidden": false,
+            "globalPct": 37.1
+        },
+        {
+            "apiName": "RECRUIT_DANGELO",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sweet Smell of Success",
+            "description": "Convince D'Angelo to cooperate with you.",
+            "iconUrl": "99a56fe5fac5cef412d321302611fda1339c320a.jpg",
+            "iconGrayUrl": "861a52a9fd2a8a01e9ed42bdd624bcf9b9505b4a.jpg",
+            "hidden": false,
+            "globalPct": 39.7
+        },
+        {
+            "apiName": "RECRUIT_HOPE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Good Job, Mods",
+            "description": "Convince Hope to cooperate with you.",
+            "iconUrl": "3abf3d78c06ffae22ef688d278e6691b4459ed56.jpg",
+            "iconGrayUrl": "a88aeae192b6fcfb76f81898df0030109eac9e4e.jpg",
+            "hidden": false,
+            "globalPct": 40.1
+        },
+        {
+            "apiName": "RECRUIT_TAMIKA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "A Walk in the Park",
+            "description": "Convince Tamika to cooperate with you.",
+            "iconUrl": "519d6085598e11505db26cc0f3d0b5bf2d27ca85.jpg",
+            "iconGrayUrl": "8cb2e58ed5fbc3fc4164a18e05de9fd416e23041.jpg",
+            "hidden": false,
+            "globalPct": 34.3
+        },
+        {
+            "apiName": "COMPLETE_AGATHON",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Burn After Reading",
+            "description": "Complete Agathon's questline.",
+            "iconUrl": "41e1e7572e42fca821541fa3515ca1e3f3dd85c0.jpg",
+            "iconGrayUrl": "94ae9d4f85cdad157e5666a002ac192edea0d770.jpg",
+            "hidden": false,
+            "globalPct": 20.9
+        },
+        {
+            "apiName": "COMPLETE_DANGELO",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bye, My Lovely",
+            "description": "Complete D'Angelo's questline.",
+            "iconUrl": "730b33a6d71fed52744b84382bb6c500a9919b5c.jpg",
+            "iconGrayUrl": "4039cda075ddd64a31ff456992bb6961c2e7d605.jpg",
+            "hidden": false,
+            "globalPct": 22.4
+        },
+        {
+            "apiName": "COMPLETE_HOPE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Extremely Online Gal",
+            "description": "Complete Hope's questlline.",
+            "iconUrl": "41d2c1b20e8c45544f48b8e67380fe9d623d9ef8.jpg",
+            "iconGrayUrl": "affedc4278dec8930b40f29b05f24239ddddfef5.jpg",
+            "hidden": false,
+            "globalPct": 21.1
+        },
+        {
+            "apiName": "COMPLETE_TAMIKA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Wild at Heart",
+            "description": "Complete Tamika's questline.",
+            "iconUrl": "a1dac43cbf8e653e6bdf40c086a31edc883f689a.jpg",
+            "iconGrayUrl": "a50639079c6fb6d0ea05c8ae6d1c7eb35a505f5a.jpg",
+            "hidden": false,
+            "globalPct": 20.2
+        },
+        {
+            "apiName": "COMPLETE_FRANK",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Journalistic Intervention",
+            "description": "Complete Frank Dougherty's questline (\"A Nosy Reporter\").",
+            "iconUrl": "d8b2e659c0afca9907c1561cbc1b25493fa59f14.jpg",
+            "iconGrayUrl": "2c7f4f918cb82c78a99a6ea08b022a72cea529d4.jpg",
+            "hidden": false,
+            "globalPct": 25.8
+        },
+        {
+            "apiName": "COMPLETE_ADELAIDE_POSITIVE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Every Breath You Take",
+            "description": "Complete Adelaide Davis' questline (\"Somebody's Watching Me\") as her latest obsession.",
+            "iconUrl": "9c6a89d574c735e28b74375a48d232c7c0caa71b.jpg",
+            "iconGrayUrl": "078b770f251418268f17e9df2129ebd998c44798.jpg",
+            "hidden": false,
+            "globalPct": 22.9
+        },
+        {
+            "apiName": "COMPLETE_ADELAIDE_NEGATIVE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Get Out Of Here, Stalker",
+            "description": "Complete Adelaide Davis' questline (\"Somebody's Watching Me\") as her bitter foe.",
+            "iconUrl": "a298f63c059a1f7faf6c07e91aa7809a3ef4d4a0.jpg",
+            "iconGrayUrl": "8ee2e7bd2819cbf9f74c0d1f3b5be7e6ea1252a6.jpg",
+            "hidden": false,
+            "globalPct": 11.9
+        },
+        {
+            "apiName": "COMPLETE_BENOIT",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Faith Of The Furious",
+            "description": "Complete Benoit Segal's questline (\"Faith and Myth\").",
+            "iconUrl": "d6d6dea09b6fdd4b7d6f93e9c9291a82a496e58f.jpg",
+            "iconGrayUrl": "fbf56b4f3208d2db461cb399a921c9709e354894.jpg",
+            "hidden": false,
+            "globalPct": 18.5
+        },
+        {
+            "apiName": "ELYSIUM_RUN",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "As Far As Your Legs Can Carry You",
+            "description": "",
+            "iconUrl": "e69aff8381b2c89b2bc6139056953918dd403015.jpg",
+            "iconGrayUrl": "89a4e9d2c31c46c966fccd3134f28747795b6e3d.jpg",
+            "hidden": true,
+            "globalPct": 13.4
+        },
+        {
+            "apiName": "ELYSIUM_DIE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "...Damned If You Don't",
+            "description": "",
+            "iconUrl": "584572b10b17f41a322fb1d7dd57521236d98df7.jpg",
+            "iconGrayUrl": "83b5b1a2619990e1585fdeb7196c837d9417fff1.jpg",
+            "hidden": true,
+            "globalPct": 19.8
+        },
+        {
+            "apiName": "COMPLETE_GAME",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "...Damned If You Do",
+            "description": "Rage against your fate and complete the game with any character.",
+            "iconUrl": "f413f4161d7002705002607e36e355e55428c20f.jpg",
+            "iconGrayUrl": "2ea668875786ab89e3b04d5a741ac0e8f8b9f553.jpg",
+            "hidden": false,
+            "globalPct": 35.2
+        },
+        {
+            "apiName": "FINALE_AGATHON",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Arcane Support",
+            "description": "",
+            "iconUrl": "a50551d675bd87395175d7a20d87537a7e01cad9.jpg",
+            "iconGrayUrl": "14968d0111049c51bc322040f2f6e3589ab7b3a1.jpg",
+            "hidden": true,
+            "globalPct": 20.8
+        },
+        {
+            "apiName": "FINALE_DANGELO",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Trouble Is My Business",
+            "description": "",
+            "iconUrl": "de285178f0c8a203d2bb85d3c5c5a5835ed602cd.jpg",
+            "iconGrayUrl": "cce776343bd466162ae8c70c66516fc2e8330bdd.jpg",
+            "hidden": true,
+            "globalPct": 25.4
+        },
+        {
+            "apiName": "FINALE_HOPE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hope is a Dangerous Thing...",
+            "description": "",
+            "iconUrl": "7a3090bc3951c0afbfe8f1c398201666fed7f8de.jpg",
+            "iconGrayUrl": "04822cec3596417ed9e4cd44fea4734d25e238a5.jpg",
+            "hidden": true,
+            "globalPct": 18.9
+        },
+        {
+            "apiName": "FINALE_TAMIKA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Beast Mode",
+            "description": "",
+            "iconUrl": "c7b8d3bb726c5a7c99765568a83ea3398256748b.jpg",
+            "iconGrayUrl": "42f7619302625985bca2e9adfc1212f21a9ae688.jpg",
+            "hidden": true,
+            "globalPct": 23.9
+        },
+        {
+            "apiName": "FINALE_ALONE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "A Face Only A Mother Could Love",
+            "description": "",
+            "iconUrl": "bb671e2ad6d281dfdf98ffe2e3d03f793165d325.jpg",
+            "iconGrayUrl": "9892e0688328a74865e4f61b11b0eae301378c9c.jpg",
+            "hidden": true,
+            "globalPct": 4.6
+        },
+        {
+            "apiName": "TOUCHSTONE_BRUJAH",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Like A Moth To An Old Flame",
+            "description": "Meet somebody you used to know in life as the Brujah.",
+            "iconUrl": "d2afbe674d22ace49048a19b66b0fb694932ed3c.jpg",
+            "iconGrayUrl": "9ffa98c54f671bd0e4778aa5207df4364ea96631.jpg",
+            "hidden": false,
+            "globalPct": 20.5
+        },
+        {
+            "apiName": "TOUCHSTONE_TOREADOR",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Words That We Couldn't Say",
+            "description": "Meet somebody you used to know in life as the Toreador.",
+            "iconUrl": "2510f2c4711963975ff93ac3b77b45ce7cf4b40e.jpg",
+            "iconGrayUrl": "aee29bf331dacf3aa85b7561b8cb8c53fe24a05a.jpg",
+            "hidden": false,
+            "globalPct": 14.8
+        },
+        {
+            "apiName": "TOUCHSTONE_VENTRUE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Consider This My Resignation Letter",
+            "description": "Meet somebody you used to know in life as the Ventrue.",
+            "iconUrl": "e52b89471ea67e08be6d730a30efee2a49b74f70.jpg",
+            "iconGrayUrl": "c43e5a8fb5feb4c67736938d8f32adfd704a8024.jpg",
+            "hidden": false,
+            "globalPct": 23.8
+        },
+        {
+            "apiName": "COMPLETE_ALL_CLANS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The New York Trilogy",
+            "description": "Complete the game with all three characters.",
+            "iconUrl": "0461c539c7ffa1bfd15617c544e07716bd932c6a.jpg",
+            "iconGrayUrl": "1688b195a6e690f34dd408cb8baf1de93c3becf0.jpg",
+            "hidden": false,
+            "globalPct": 6
+        }
+    ],
+    "playtimeForever": 106,
+    "lastPlayedTs": "2020-11-09T01:09:35.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1096410/863e4407ef18c9b4649915a5a01125552826b778.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "EMBRACE_BRUJAH",
+            "displayName": "Rebel Yell",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "51cc65b967928d70f80c7cb1de81a70bf5e8ee54.jpg",
+            "iconGrayUrl": "362c1b8201148496c2c090841b4e43b7c46e68e9.jpg",
+            "globalPct": 39.4
+        },
+        {
+            "apiName": "EMBRACE_TOREADOR",
+            "displayName": "Beyond The Canvas",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "9bce07fe799ddc55bc076d5e8389ce69f0e3b854.jpg",
+            "iconGrayUrl": "1c6ae93bf665d4b2f0eeed95ac38aed48ec26657.jpg",
+            "globalPct": 27.8
+        },
+        {
+            "apiName": "EMBRACE_VENTRUE",
+            "displayName": "The Managerial Call",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "6a9eab2213bd4a5b15cd079e1294166bb7e09126.jpg",
+            "iconGrayUrl": "7303ea1add67f097e4d1da6d42b0a8bfc42cef51.jpg",
+            "globalPct": 44.3
+        },
+        {
+            "apiName": "RECRUITMENT_FAIL",
+            "displayName": "A Recruitment Fiasco",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "1804f6ba4e9eeb8755f55d15e4ef0c47aecd553f.jpg",
+            "iconGrayUrl": "c8a7f03ae7148f09b114a972b7a420d1a730097f.jpg",
+            "globalPct": 20.7
+        },
+        {
+            "apiName": "RECRUIT_AGATHON",
+            "displayName": "Enchanted To Meet You",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "4ca3f9e37d7cff9260e00d22c807718871a8cbef.jpg",
+            "iconGrayUrl": "9568cb77fcd096cb8fc3091c9061eced0128df4c.jpg",
+            "globalPct": 37.1
+        },
+        {
+            "apiName": "RECRUIT_DANGELO",
+            "displayName": "Sweet Smell of Success",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "99a56fe5fac5cef412d321302611fda1339c320a.jpg",
+            "iconGrayUrl": "861a52a9fd2a8a01e9ed42bdd624bcf9b9505b4a.jpg",
+            "globalPct": 39.7
+        }
+    ]
+}

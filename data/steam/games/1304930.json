@@ -1,0 +1,367 @@
+{
+    "appId": 1304930,
+    "hasAchievements": true,
+    "total": 27,
+    "unlocked": 0,
+    "gameName": "The Outlast Trials",
+    "achievements": [
+        {
+            "apiName": "achievement_big_saver",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Big Saver",
+            "description": "",
+            "iconUrl": "3efb651ac5d50a4c35312ef10d19fe2fa19d616b.jpg",
+            "iconGrayUrl": "c39a99d0042bbfc5987b8716cc0088c58c24b1d5.jpg",
+            "hidden": true,
+            "globalPct": 19.6
+        },
+        {
+            "apiName": "achievement_sleight_of_hand",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sleight of Hand",
+            "description": "",
+            "iconUrl": "b5e2d62a37702074279925a18d6ce506ea69fd27.jpg",
+            "iconGrayUrl": "6fb1da551235d1a0f9e51c8afb822fa32e906fae.jpg",
+            "hidden": true,
+            "globalPct": 3.4
+        },
+        {
+            "apiName": "achievement_mechanophiliac",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Mechanophiliac",
+            "description": "",
+            "iconUrl": "826411f2cf95af1cdee668f623c78a01f32bce84.jpg",
+            "iconGrayUrl": "cc79ae7b57d5c881daa25ef2ba53afe78d48e33f.jpg",
+            "hidden": true,
+            "globalPct": 17.7
+        },
+        {
+            "apiName": "achievement_together_we_are_stong",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Together We Are Strong",
+            "description": "",
+            "iconUrl": "b6d3c70209fec2ed3a663fe636f562954b624da1.jpg",
+            "iconGrayUrl": "cadc8414bbcafc221e7f89c45b92ee029e5c7642.jpg",
+            "hidden": true,
+            "globalPct": 12.7
+        },
+        {
+            "apiName": "achievement_crowd_control",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Crowd Control",
+            "description": "",
+            "iconUrl": "8b73bcae60f876bbb4a672afeb5edf69a68a2c1a.jpg",
+            "iconGrayUrl": "f07a1ba8c27dcb75d720d479f9c8ea73022072f9.jpg",
+            "hidden": true,
+            "globalPct": 4.7
+        },
+        {
+            "apiName": "achievement_hypochondriac",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hypochondriac",
+            "description": "",
+            "iconUrl": "d1d1c54ebdf22dd1636526d28d9369cb15632315.jpg",
+            "iconGrayUrl": "67d426c9965c078643ebf583dca947f4a0ef85a7.jpg",
+            "hidden": true,
+            "globalPct": 3.4
+        },
+        {
+            "apiName": "achievement_no_time_to_sleep",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sawbones",
+            "description": "",
+            "iconUrl": "3f7bf6e742cde3e65ad2527338db845abccfaa5f.jpg",
+            "iconGrayUrl": "ef8081eed3425746dc30853c271ccd6d27610ade.jpg",
+            "hidden": true,
+            "globalPct": 5.3
+        },
+        {
+            "apiName": "achievement_gotta_go_fast",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Speed Freak",
+            "description": "",
+            "iconUrl": "bf6fc6872a0c7ed2a578938af9aab5bfc022c39c.jpg",
+            "iconGrayUrl": "ef1467399281fee2b58b90b3a050ec1f7b347c3d.jpg",
+            "hidden": true,
+            "globalPct": 5.8
+        },
+        {
+            "apiName": "achievement_breathe_in",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Breathe In",
+            "description": "",
+            "iconUrl": "76ecc2721dc651cfcf83f3d510d511d75deab8bb.jpg",
+            "iconGrayUrl": "b5b7fba573c079d19f5d477d2e1ab481695946fd.jpg",
+            "hidden": true,
+            "globalPct": 3.6
+        },
+        {
+            "apiName": "achievement_power_surge",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Power Surge",
+            "description": "",
+            "iconUrl": "8a15178928020dfa3b9ed758c607f604cc87a7ab.jpg",
+            "iconGrayUrl": "895173b2ce9ddfa272afa7a74e5be0b349f3eb1e.jpg",
+            "hidden": true,
+            "globalPct": 14.2
+        },
+        {
+            "apiName": "achievement_bullseye",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bullseye",
+            "description": "",
+            "iconUrl": "fc53cc809368942724a63d5bbce1723d58782fa9.jpg",
+            "iconGrayUrl": "8b2dca5da43afbe85fd96c9fd409ad6cc66ba4f1.jpg",
+            "hidden": true,
+            "globalPct": 17.5
+        },
+        {
+            "apiName": "achievement_major_league_player",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Major League Player",
+            "description": "",
+            "iconUrl": "0b6ca17de8c45bf9bf63f3eba796803e21f8f6af.jpg",
+            "iconGrayUrl": "d38ae0a222ada5d881dba98e426e817c1277be0f.jpg",
+            "hidden": true,
+            "globalPct": 12.4
+        },
+        {
+            "apiName": "achievement_bamboozle",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bamboozler",
+            "description": "",
+            "iconUrl": "f3313ecdc812335ee11c9da26683fc982914aed9.jpg",
+            "iconGrayUrl": "3ce6621361de7d8e49656e4c41186f70290e6f13.jpg",
+            "hidden": true,
+            "globalPct": 9
+        },
+        {
+            "apiName": "achievement_chicken_shit",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Chicken in a Pot",
+            "description": "",
+            "iconUrl": "f8cd0aae9d8da71cf266279be95555acf008df2c.jpg",
+            "iconGrayUrl": "163c9593d6f2906816887791b2e234b094c4b52a.jpg",
+            "hidden": true,
+            "globalPct": 15.6
+        },
+        {
+            "apiName": "achievement_trigger_happy",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Trigger Happy",
+            "description": "",
+            "iconUrl": "80ea9024ddb04a667b815adf5dd25b9924bdcba8.jpg",
+            "iconGrayUrl": "1f1619b5be59d9d0388b423fb76e02e2034fade3.jpg",
+            "hidden": true,
+            "globalPct": 7
+        },
+        {
+            "apiName": "achievement_anger_issues",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Anger Issues",
+            "description": "",
+            "iconUrl": "4154db776cf24e3df94d7c42be1b022934f03cf2.jpg",
+            "iconGrayUrl": "b7edc626e605f0dbc141facc17b7c03cf38dbf92.jpg",
+            "hidden": true,
+            "globalPct": 8.4
+        },
+        {
+            "apiName": "achievement_determined",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Glutton for Therapy",
+            "description": "",
+            "iconUrl": "64b13efc716e5b3845a94d2ee7a85ca90bc220ab.jpg",
+            "iconGrayUrl": "de2c0a50d293277db0de44b549ce0c153ae3932e.jpg",
+            "hidden": true,
+            "globalPct": 17.2
+        },
+        {
+            "apiName": "achievement_boost_me_up",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Toastmaster",
+            "description": "",
+            "iconUrl": "66f289baa514596952cf62dd66634766d9e87e4a.jpg",
+            "iconGrayUrl": "ae7d92b9d54d515a950aa9211f38a33d9f2279eb.jpg",
+            "hidden": true,
+            "globalPct": 4
+        },
+        {
+            "apiName": "achievement_clear_vision",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Tapetum Lucidum",
+            "description": "",
+            "iconUrl": "d9d15e694e678cd70317a5f10d6c58971336ff3d.jpg",
+            "iconGrayUrl": "9019423a5c7eb7c033276ab2fb9af9bf7171af71.jpg",
+            "hidden": true,
+            "globalPct": 7.5
+        },
+        {
+            "apiName": "achievement_high_as_a_kite",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Vision Quest",
+            "description": "",
+            "iconUrl": "12212387ede9be246ac22250a92e814f8cf04f24.jpg",
+            "iconGrayUrl": "d30ef8ae63dc4c633cebae942886b88cdca13a3b.jpg",
+            "hidden": true,
+            "globalPct": 8.1
+        },
+        {
+            "apiName": "achievement_step_on_me_daddy",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Get Down",
+            "description": "",
+            "iconUrl": "dc1272f9199f687e0c805b6e54134cbb3e4289e0.jpg",
+            "iconGrayUrl": "1110af75ddea5c8479d01fe08ddcce0a66bbe69e.jpg",
+            "hidden": true,
+            "globalPct": 9.1
+        },
+        {
+            "apiName": "achievement_hemophiliac",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hemophiliac",
+            "description": "",
+            "iconUrl": "f0874430f9613c3b013ddbbd8b7de47f60878021.jpg",
+            "iconGrayUrl": "ee5898ffda432c4fed89cc2609359dc5899b9be5.jpg",
+            "hidden": true,
+            "globalPct": 10.9
+        },
+        {
+            "apiName": "achievement_hoarder",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hoarder",
+            "description": "",
+            "iconUrl": "9254af273ad6bd271a4f2d367cba981346e58c05.jpg",
+            "iconGrayUrl": "d2d7dc84d9fc0eca7b2d57da564fd1882ad64c99.jpg",
+            "hidden": true,
+            "globalPct": 7.4
+        },
+        {
+            "apiName": "achievement_drift_king",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Slip and Slider",
+            "description": "",
+            "iconUrl": "8f5ee6126832332139edc950397c1ccd2e6780ea.jpg",
+            "iconGrayUrl": "985006f24c82623910b3729c04e7ad5569e7df17.jpg",
+            "hidden": true,
+            "globalPct": 13.3
+        },
+        {
+            "apiName": "achievement_marathonian",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Marathoner",
+            "description": "",
+            "iconUrl": "bfc6be0494b7c570fed3fbf01b848f5c710a5a23.jpg",
+            "iconGrayUrl": "82f781d5ff6ecfb07bc69a7e7a9153654bfdd256.jpg",
+            "hidden": true,
+            "globalPct": 31.3
+        },
+        {
+            "apiName": "achievement_hunchback",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hunchback",
+            "description": "",
+            "iconUrl": "58fe265558b954f4c338e9720954adc4698b1640.jpg",
+            "iconGrayUrl": "e406039d2143c838f8d4ae4adbe83a4475479c6b.jpg",
+            "hidden": true,
+            "globalPct": 26.1
+        },
+        {
+            "apiName": "achievement_cant_touch_this",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Can't Touch This",
+            "description": "",
+            "iconUrl": "2a3c31356ec9b8656717affd6e4632c00abb7430.jpg",
+            "iconGrayUrl": "0e707e7cb425eacbc631205bd5385f10a67b21d5.jpg",
+            "hidden": true,
+            "globalPct": 3.8
+        }
+    ],
+    "playtimeForever": 129,
+    "lastPlayedTs": "2026-10-05T16:48:37.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1304930/159a7d66ffd179c920eefe07392e6a261e899965.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "achievement_big_saver",
+            "displayName": "Big Saver",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "3efb651ac5d50a4c35312ef10d19fe2fa19d616b.jpg",
+            "iconGrayUrl": "c39a99d0042bbfc5987b8716cc0088c58c24b1d5.jpg",
+            "globalPct": 19.6
+        },
+        {
+            "apiName": "achievement_sleight_of_hand",
+            "displayName": "Sleight of Hand",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "b5e2d62a37702074279925a18d6ce506ea69fd27.jpg",
+            "iconGrayUrl": "6fb1da551235d1a0f9e51c8afb822fa32e906fae.jpg",
+            "globalPct": 3.4
+        },
+        {
+            "apiName": "achievement_mechanophiliac",
+            "displayName": "Mechanophiliac",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "826411f2cf95af1cdee668f623c78a01f32bce84.jpg",
+            "iconGrayUrl": "cc79ae7b57d5c881daa25ef2ba53afe78d48e33f.jpg",
+            "globalPct": 17.7
+        },
+        {
+            "apiName": "achievement_together_we_are_stong",
+            "displayName": "Together We Are Strong",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "b6d3c70209fec2ed3a663fe636f562954b624da1.jpg",
+            "iconGrayUrl": "cadc8414bbcafc221e7f89c45b92ee029e5c7642.jpg",
+            "globalPct": 12.7
+        },
+        {
+            "apiName": "achievement_crowd_control",
+            "displayName": "Crowd Control",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "8b73bcae60f876bbb4a672afeb5edf69a68a2c1a.jpg",
+            "iconGrayUrl": "f07a1ba8c27dcb75d720d479f9c8ea73022072f9.jpg",
+            "globalPct": 4.7
+        },
+        {
+            "apiName": "achievement_hypochondriac",
+            "displayName": "Hypochondriac",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "d1d1c54ebdf22dd1636526d28d9369cb15632315.jpg",
+            "iconGrayUrl": "67d426c9965c078643ebf583dca947f4a0ef85a7.jpg",
+            "globalPct": 3.4
+        }
+    ]
+}

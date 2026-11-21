@@ -1,0 +1,202 @@
+{
+    "appId": 1172470,
+    "hasAchievements": true,
+    "total": 12,
+    "unlocked": 2,
+    "gameName": "Apex Legends",
+    "achievements": [
+        {
+            "apiName": "THE_PLAYER_0",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Player",
+            "description": "Reach player level 50",
+            "iconUrl": "cde23ba5b41f315f5d399064ed0bb9ff51fc1342.jpg",
+            "iconGrayUrl": "aa734b63cd00998c0f8316bc3819f65a0d896fd5.jpg",
+            "hidden": false,
+            "globalPct": 23.9
+        },
+        {
+            "apiName": "DECKED_OUT_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Decked Out",
+            "description": "Equip any 2 legendary equipment items at the same time",
+            "iconUrl": "dc4f9a6c122b4890a3852818cb14430a7ae692b9.jpg",
+            "iconGrayUrl": "7af27258469b7c3e435b53c0e649f30b2c446860.jpg",
+            "hidden": false,
+            "globalPct": 28.9
+        },
+        {
+            "apiName": "TEAM_PLAYER_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Team Player",
+            "description": "Respawn a teammate",
+            "iconUrl": "03754c9a8c98ec9362e245a8bd0e8cdbb2e22aea.jpg",
+            "iconGrayUrl": "1d13d67691b11678a9006323a240d4b393c98a44.jpg",
+            "hidden": false,
+            "globalPct": 40
+        },
+        {
+            "apiName": "FULLY_KITTED_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Fully Kitted",
+            "description": "Equip a fully kitted weapon",
+            "iconUrl": "8a11ed285547d9d5e04d3278c61255058da5cfce.jpg",
+            "iconGrayUrl": "5231c24d2c93614bac309e65f71bfc6646d6aa11.jpg",
+            "hidden": false,
+            "globalPct": 42.3
+        },
+        {
+            "apiName": "JUMPMASTER_4",
+            "unlocked": true,
+            "unlockedAt": "2020-11-06T14:20:16.000Z",
+            "displayName": "Jumpmaster",
+            "description": "Be the Jumpmaster 5 times",
+            "iconUrl": "2828944fd7bb6f31f3f26c957d2dd2aea1e5d3ab.jpg",
+            "iconGrayUrl": "24ec0c5a80c45936e8f9bc24323620f3b85c652e.jpg",
+            "hidden": false,
+            "globalPct": 46.8
+        },
+        {
+            "apiName": "WELL_ROUNDED_5",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Well-Rounded",
+            "description": "Deal 5,000 damage with 8 different Legends",
+            "iconUrl": "6f44b7a073fb4fe324f9f12b527a910046f2809c.jpg",
+            "iconGrayUrl": "26d2cb48419e87da5667845c964a4469e37fe1b4.jpg",
+            "hidden": false,
+            "globalPct": 16.7
+        },
+        {
+            "apiName": "KILL_LEADER_6",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Kill Leader",
+            "description": "Become the Kill Leader",
+            "iconUrl": "88c298423ddcf009d522b6833086bb51f9ee4fe6.jpg",
+            "iconGrayUrl": "8b78c3214a906a8f0f1189688af2f0713ed97d6e.jpg",
+            "hidden": false,
+            "globalPct": 41.4
+        },
+        {
+            "apiName": "APEX_OFFENSE_7",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Apex Assault",
+            "description": "Win a game as an assault character",
+            "iconUrl": "65bc35fdbe07c89fe3e3b06ab3079e6fc143cc38.jpg",
+            "iconGrayUrl": "a8a376133726bfabfd49ea1bbd865519fbeb8914.jpg",
+            "hidden": false,
+            "globalPct": 31.4
+        },
+        {
+            "apiName": "APEX_DEFENSE_8",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Apex Controller",
+            "description": "Win a game as a controller character",
+            "iconUrl": "31a63848bdf4ae32577c6d2bd35e4db6875033a0.jpg",
+            "iconGrayUrl": "d2de6652bbef1f9cf191526a0b1f4b6b2cb6137e.jpg",
+            "hidden": false,
+            "globalPct": 17.5
+        },
+        {
+            "apiName": "APEX_SUPPORT_9",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Apex Support",
+            "description": "Win a game as a support character",
+            "iconUrl": "527fbb4017b393f13d34bacb1fe58bcc616a1c27.jpg",
+            "iconGrayUrl": "44e05e3da4270f878b613d5a140629216da1754c.jpg",
+            "hidden": false,
+            "globalPct": 27.9
+        },
+        {
+            "apiName": "APEX_RECON_10",
+            "unlocked": true,
+            "unlockedAt": "2022-04-08T20:13:51.000Z",
+            "displayName": "Apex Recon",
+            "description": "Win a game as a recon character",
+            "iconUrl": "aab5291d3cad6c61b4c013494e3b87b9e59db9b1.jpg",
+            "iconGrayUrl": "e3815b001bf3cf12ca54949d0957929df0a17791.jpg",
+            "hidden": false,
+            "globalPct": 32.2
+        },
+        {
+            "apiName": "APEX_LEGEND_11",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Apex Legend",
+            "description": "Win a game with 8 different Legends",
+            "iconUrl": "b0f02c79abaea0b5be9a953d07d01dbbf0ebc45a.jpg",
+            "iconGrayUrl": "d4233a94eaacd25d4a881cb7c9dc952dfe877605.jpg",
+            "hidden": false,
+            "globalPct": 15.1
+        }
+    ],
+    "playtimeForever": 511,
+    "lastPlayedTs": "2024-03-29T15:01:41.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1172470/8986dd626da56db5f3fe09bc1b8871739de8b00d.jpg",
+    "lastUnlockedAt": "2022-04-08T20:13:51.000Z",
+    "lastUnlockName": "Apex Recon",
+    "preview": [
+        {
+            "apiName": "APEX_RECON_10",
+            "displayName": "Apex Recon",
+            "unlocked": true,
+            "unlockedAt": "2022-04-08T20:13:51.000Z",
+            "iconUrl": "aab5291d3cad6c61b4c013494e3b87b9e59db9b1.jpg",
+            "iconGrayUrl": "e3815b001bf3cf12ca54949d0957929df0a17791.jpg",
+            "globalPct": 32.2
+        },
+        {
+            "apiName": "JUMPMASTER_4",
+            "displayName": "Jumpmaster",
+            "unlocked": true,
+            "unlockedAt": "2020-11-06T14:20:16.000Z",
+            "iconUrl": "2828944fd7bb6f31f3f26c957d2dd2aea1e5d3ab.jpg",
+            "iconGrayUrl": "24ec0c5a80c45936e8f9bc24323620f3b85c652e.jpg",
+            "globalPct": 46.8
+        },
+        {
+            "apiName": "THE_PLAYER_0",
+            "displayName": "The Player",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "cde23ba5b41f315f5d399064ed0bb9ff51fc1342.jpg",
+            "iconGrayUrl": "aa734b63cd00998c0f8316bc3819f65a0d896fd5.jpg",
+            "globalPct": 23.9
+        },
+        {
+            "apiName": "DECKED_OUT_1",
+            "displayName": "Decked Out",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "dc4f9a6c122b4890a3852818cb14430a7ae692b9.jpg",
+            "iconGrayUrl": "7af27258469b7c3e435b53c0e649f30b2c446860.jpg",
+            "globalPct": 28.9
+        },
+        {
+            "apiName": "TEAM_PLAYER_2",
+            "displayName": "Team Player",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "03754c9a8c98ec9362e245a8bd0e8cdbb2e22aea.jpg",
+            "iconGrayUrl": "1d13d67691b11678a9006323a240d4b393c98a44.jpg",
+            "globalPct": 40
+        },
+        {
+            "apiName": "FULLY_KITTED_3",
+            "displayName": "Fully Kitted",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "8a11ed285547d9d5e04d3278c61255058da5cfce.jpg",
+            "iconGrayUrl": "5231c24d2c93614bac309e65f71bfc6646d6aa11.jpg",
+            "globalPct": 42.3
+        }
+    ]
+}

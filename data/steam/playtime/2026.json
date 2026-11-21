@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "generatedAt": "2026-11-21T06:12:04Z",
+        "year": 2026
+    },
+    "games": {
+        "261030": {
+            "name": "The Walking Dead: Season Two",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8dd081faf73fb7ff57151a1498b7025e8fc85dc4.jpg"
+        },
+        "648800": {
+            "name": "Raft",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg"
+        },
+        "3321460": {
+            "name": "Crimson Desert Enhanced",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/f260267377759a5fea6b651817c9a413c6b562b0.jpg"
+        }
+    },
+    "sessions": [
+        {
+            "start": "2026-11-16T20:20:15Z",
+            "end": "2026-11-16T21:39:15Z",
+            "gameId": 3321460,
+            "minutes": 79
+        },
+        {
+            "start": "2026-11-17T18:02:19Z",
+            "end": "2026-11-17T20:38:19Z",
+            "gameId": 3321460,
+            "minutes": 156
+        },
+        {
+            "start": "2026-11-18T11:30:18Z",
+            "end": "2026-11-18T14:36:18Z",
+            "gameId": 648800,
+            "minutes": 186
+        },
+        {
+            "start": "2026-11-19T20:02:41Z",
+            "end": "2026-11-19T21:14:41Z",
+            "gameId": 3321460,
+            "minutes": 72
+        },
+        {
+            "start": "2026-11-20T20:34:39Z",
+            "end": "2026-11-21T00:00:39Z",
+            "gameId": 261030,
+            "minutes": 206
+        },
+        {
+            "start": "2026-11-21T03:05:21Z",
+            "end": "2026-11-21T05:41:21Z",
+            "gameId": 648800,
+            "minutes": 156
+        }
+    ]
+}

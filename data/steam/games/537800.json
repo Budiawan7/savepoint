@@ -1,0 +1,400 @@
+{
+    "appId": 537800,
+    "hasAchievements": true,
+    "total": 30,
+    "unlocked": 0,
+    "gameName": "Bomber Crew",
+    "achievements": [
+        {
+            "apiName": "CompleteIntroMission",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bomber Crew",
+            "description": "Complete the first mission",
+            "iconUrl": "a7961a370ad04ad3d2f60c746643b898c065ee94.jpg",
+            "iconGrayUrl": "e66c5f3d7e32a85316df7600304412fb53962f39.jpg",
+            "hidden": false,
+            "globalPct": 75.1
+        },
+        {
+            "apiName": "SinkXSubmarines",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sinking Feeling",
+            "description": "Sink 5 Submarines",
+            "iconUrl": "db04e92c20e49e76e3526260a785609e727cc39f.jpg",
+            "iconGrayUrl": "5e9d94a1cdf2541adeb83b3287c1d1aafca7cdf8.jpg",
+            "hidden": false,
+            "globalPct": 40.2
+        },
+        {
+            "apiName": "WingEngineRepair",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Winging it",
+            "description": "Repair an engine mid-flight",
+            "iconUrl": "991ca54c927b5818a3c38556ecc6458acf1bbea6.jpg",
+            "iconGrayUrl": "ea667aadae20ed448be2a8e409fcee6885d6fcb4.jpg",
+            "hidden": false,
+            "globalPct": 52
+        },
+        {
+            "apiName": "MissionSuccess",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Mission Success",
+            "description": "Return to the airbase having successfully completed a mission",
+            "iconUrl": "de28266b1872d0ce4558613cc2b1946d0873fd40.jpg",
+            "iconGrayUrl": "423bb34059b06623c71365ce2fc5847fd397f2f7.jpg",
+            "hidden": false,
+            "globalPct": 56.9
+        },
+        {
+            "apiName": "DestroyTarget",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Target Destroyed",
+            "description": "Destroy an enemy target",
+            "iconUrl": "44eb330dd31a7a4a3d83cb78a219fd32c89ec5bc.jpg",
+            "iconGrayUrl": "f988c8519d760c05087e5395f26773b846f942b3.jpg",
+            "hidden": false,
+            "globalPct": 68.9
+        },
+        {
+            "apiName": "SevenSurvive",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Seven Survive Success",
+            "description": "Complete a successful mission with the full crew surviving",
+            "iconUrl": "809b134b6463203e8440fe48d624b384cddf5473.jpg",
+            "iconGrayUrl": "a3f9dc44b3a6a0263da3efa85668e76d28976aa3.jpg",
+            "hidden": false,
+            "globalPct": 55.8
+        },
+        {
+            "apiName": "TakePhoto",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Photographer",
+            "description": "Take a photo of an intel site",
+            "iconUrl": "e7ce8e17c7a83ebb58f59d3d80a96ebceba849d1.jpg",
+            "iconGrayUrl": "2f28b098fd89c2fca33530362d87ba972e500bdb.jpg",
+            "hidden": false,
+            "globalPct": 68.9
+        },
+        {
+            "apiName": "FullBailOut",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bail Out!",
+            "description": "Bail out your entire crew",
+            "iconUrl": "390792396118fa45716e7d7715b3b3ad79c88a48.jpg",
+            "iconGrayUrl": "625b17c858fb45a0576ec5fdef71bdf629e52961.jpg",
+            "hidden": false,
+            "globalPct": 4.7
+        },
+        {
+            "apiName": "Fighters50",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Fifty Fighters",
+            "description": "Destroy 50 enemy fighters",
+            "iconUrl": "d4c629766197d4e5d2c568f197b929498a3b3cc5.jpg",
+            "iconGrayUrl": "08b153804b7a1fd1d0127878f908917b6d0c5611.jpg",
+            "hidden": false,
+            "globalPct": 42.4
+        },
+        {
+            "apiName": "Targets20",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Twenty Targets",
+            "description": "Destroy 20 enemy targets",
+            "iconUrl": "11cd889e45ba92b1c3ff69cf2ff00c5bbd469321.jpg",
+            "iconGrayUrl": "f00983615d80dc763e62bf04ff26c3515da04717.jpg",
+            "hidden": false,
+            "globalPct": 36.6
+        },
+        {
+            "apiName": "Fighters250",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Fifty Fighters Five Times",
+            "description": "Destroy 250 enemy fighters",
+            "iconUrl": "8e6136dd5056f0729766bdec63fa3c41b8ccb009.jpg",
+            "iconGrayUrl": "528a743c2f0a3c33de28a5b4f76beda844fed657.jpg",
+            "hidden": false,
+            "globalPct": 24.5
+        },
+        {
+            "apiName": "Targets200",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Two hundred Targets",
+            "description": "Destroy 200 enemy targets",
+            "iconUrl": "df02b9bd0d4bd9ba796211f6bc7786e1dc195499.jpg",
+            "iconGrayUrl": "a7439fea1d4996765b9193a877be17af41798850.jpg",
+            "hidden": false,
+            "globalPct": 6
+        },
+        {
+            "apiName": "FinishOneEngine",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "One Engine",
+            "description": "Land at the airbase with only one working engine",
+            "iconUrl": "6e85462a8a1936c11b1765d1b4fe83b0bb7daaa3.jpg",
+            "iconGrayUrl": "7153a3759290c11055ea48b823c1de1c224e7ea7.jpg",
+            "hidden": false,
+            "globalPct": 14.8
+        },
+        {
+            "apiName": "SevenSurviveSeven",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Seven Survive Seven",
+            "description": "Complete 7 missions with the same full crew surviving",
+            "iconUrl": "620f7c02e848733d5e5b1b156ddf4abc861a8e9c.jpg",
+            "iconGrayUrl": "35e1a2f59fc8ea75e5f93cd3d9fa49f0ff60b166.jpg",
+            "hidden": false,
+            "globalPct": 31
+        },
+        {
+            "apiName": "TourOfDuty",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Tour Of Duty",
+            "description": "Have one of your crew survive 30 missions",
+            "iconUrl": "3a68eccaf2c72f5a7abf8f2e4e7d02c2cde24b44.jpg",
+            "iconGrayUrl": "2921d6168669dcefa81662863336de57bad4dbea.jpg",
+            "hidden": false,
+            "globalPct": 14.6
+        },
+        {
+            "apiName": "FinishLowFuel",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Running On Fumes",
+            "description": "Complete a mission and land at the airbase with less than 5% fuel remaining",
+            "iconUrl": "25ed6a86e8c5b50fc5c3dd77896729ac5a42e686.jpg",
+            "iconGrayUrl": "433ddd4d79f1a56a460d36d460d5f8d30043bfc9.jpg",
+            "hidden": false,
+            "globalPct": 20
+        },
+        {
+            "apiName": "FinishOneOrTwoCrew",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Skeleton Crew",
+            "description": "Complete a mission and land at the airbase with 2 or fewer crew members surviving",
+            "iconUrl": "8c076e4ce3d057d43c5d70721a3f4ad7451cdea5.jpg",
+            "iconGrayUrl": "28ab0d9c571e09aa6d24d17d7d65653ecc5bb165.jpg",
+            "hidden": false,
+            "globalPct": 3.4
+        },
+        {
+            "apiName": "V1Destroyed",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "V1 Destroyer",
+            "description": "Shoot down a V1 Rocket",
+            "iconUrl": "f0ad9922a81a361508670e056b5ea713d7c6b95e.jpg",
+            "iconGrayUrl": "0aa022fe029a800269d95ceaf0cc9c6ab622fcb5.jpg",
+            "hidden": false,
+            "globalPct": 17.3
+        },
+        {
+            "apiName": "FocusFour",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Focused Four",
+            "description": "Use 'focus' on all 4 gunner stations at once (Main Campaign)",
+            "iconUrl": "364f94b21f82988b35b45d3542d7ac99347304dc.jpg",
+            "iconGrayUrl": "d4dcd1f18a8f237b63ff904cd9862f4026cc2bcf.jpg",
+            "hidden": false,
+            "globalPct": 8.9
+        },
+        {
+            "apiName": "GrandSlam",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Grand Slam",
+            "description": "Destroy a target using the Grand Slam bomb",
+            "iconUrl": "6fee3afef4df2ab95c149e7cfc7725c8b43addde.jpg",
+            "iconGrayUrl": "2c0140be02d84f37bdb445ccb4b4fe78257c4e54.jpg",
+            "hidden": false,
+            "globalPct": 11.5
+        },
+        {
+            "apiName": "Qualified",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Qualified",
+            "description": "Fully level up a crew member",
+            "iconUrl": "ed48a8c4244b05f433c0f50540215ec696ccc8c8.jpg",
+            "iconGrayUrl": "fddf8e00f57d282fd710a6e6ed6a13048f4964de.jpg",
+            "hidden": false,
+            "globalPct": 14.6
+        },
+        {
+            "apiName": "DoubleQualified",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Double Qualified",
+            "description": "Fully level up a crew member in two skills",
+            "iconUrl": "80c237e8d8c47f9c43e9e917c8b67049dca52a92.jpg",
+            "iconGrayUrl": "121ccb910b521fc4e1fd76230751de3a520975ee.jpg",
+            "hidden": false,
+            "globalPct": 14.3
+        },
+        {
+            "apiName": "Rookie",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Rookie",
+            "description": "Fly 10 missions",
+            "iconUrl": "636e5ff5d53ea5172c157f3f5dabdc7fc6523318.jpg",
+            "iconGrayUrl": "b8a2a3225a08bb6ba72e7542dc644f8a4e250b37.jpg",
+            "hidden": false,
+            "globalPct": 39.6
+        },
+        {
+            "apiName": "Experienced",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Experienced",
+            "description": "Fly 25 missions",
+            "iconUrl": "1a5a97ab45f3fa292d45c4fc14cd8746c0462fcc.jpg",
+            "iconGrayUrl": "1ab42e18fd9c57443d5e9029a8dc2c9ad4fb5188.jpg",
+            "hidden": false,
+            "globalPct": 26.2
+        },
+        {
+            "apiName": "Veteran",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Veteran",
+            "description": "Fly 40 missions",
+            "iconUrl": "06af0025c13b2251f39f703cdfa6b8350367429b.jpg",
+            "iconGrayUrl": "fe7e85ddf86556a93d1158cee8d6ded723076df6.jpg",
+            "hidden": false,
+            "globalPct": 19
+        },
+        {
+            "apiName": "AceEncounter",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ace Encounter",
+            "description": "Encounter an Enemy Ace",
+            "iconUrl": "e9cc9739d60b597ab832339a0e99511ebeaf1808.jpg",
+            "iconGrayUrl": "f64ecbda64f900471019dffb6089181bc6298300.jpg",
+            "hidden": false,
+            "globalPct": 47.2
+        },
+        {
+            "apiName": "Ace1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ace in the Hole",
+            "description": "Defeat an Enemy Ace",
+            "iconUrl": "0edfabed8f5b1816e39124a4124a01f42264eaa9.jpg",
+            "iconGrayUrl": "e9f74d4363bbc63924ab4701e3f9357b1b0fa88e.jpg",
+            "hidden": false,
+            "globalPct": 32.6
+        },
+        {
+            "apiName": "Ace4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Four of a kind",
+            "description": "Defeat 4 Enemy Aces (in one campaign)",
+            "iconUrl": "0992a7b8cace499cc3ddd8f3d5c08e1e941aa680.jpg",
+            "iconGrayUrl": "586ad98514e5fe6d086182d1ec37c44408922d99.jpg",
+            "hidden": false,
+            "globalPct": 17.9
+        },
+        {
+            "apiName": "Ace8",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ace of Aces",
+            "description": "Defeat all Enemy Aces (in one campaign)",
+            "iconUrl": "d813d8eb4a84a051c0e0c37588bc043e1d439cd0.jpg",
+            "iconGrayUrl": "7302acc6174d929349eef734f9d7c3d75e3f32b8.jpg",
+            "hidden": false,
+            "globalPct": 10.5
+        },
+        {
+            "apiName": "FinalMission",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Bunker",
+            "description": "",
+            "iconUrl": "e3423a564c10191e9c9f076fd93de54798414770.jpg",
+            "iconGrayUrl": "a35a3a69abab8a6822c42ef0a4905408be7a2984.jpg",
+            "hidden": true,
+            "globalPct": 8.8
+        }
+    ],
+    "playtimeForever": 77,
+    "lastPlayedTs": "2021-02-05T06:11:33.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/537800/8af44d76dd3688b8b5b12a7fd9091f6d32fd3703.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "CompleteIntroMission",
+            "displayName": "Bomber Crew",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "a7961a370ad04ad3d2f60c746643b898c065ee94.jpg",
+            "iconGrayUrl": "e66c5f3d7e32a85316df7600304412fb53962f39.jpg",
+            "globalPct": 75.1
+        },
+        {
+            "apiName": "SinkXSubmarines",
+            "displayName": "Sinking Feeling",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "db04e92c20e49e76e3526260a785609e727cc39f.jpg",
+            "iconGrayUrl": "5e9d94a1cdf2541adeb83b3287c1d1aafca7cdf8.jpg",
+            "globalPct": 40.2
+        },
+        {
+            "apiName": "WingEngineRepair",
+            "displayName": "Winging it",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "991ca54c927b5818a3c38556ecc6458acf1bbea6.jpg",
+            "iconGrayUrl": "ea667aadae20ed448be2a8e409fcee6885d6fcb4.jpg",
+            "globalPct": 52
+        },
+        {
+            "apiName": "MissionSuccess",
+            "displayName": "Mission Success",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "de28266b1872d0ce4558613cc2b1946d0873fd40.jpg",
+            "iconGrayUrl": "423bb34059b06623c71365ce2fc5847fd397f2f7.jpg",
+            "globalPct": 56.9
+        },
+        {
+            "apiName": "DestroyTarget",
+            "displayName": "Target Destroyed",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "44eb330dd31a7a4a3d83cb78a219fd32c89ec5bc.jpg",
+            "iconGrayUrl": "f988c8519d760c05087e5395f26773b846f942b3.jpg",
+            "globalPct": 68.9
+        },
+        {
+            "apiName": "SevenSurvive",
+            "displayName": "Seven Survive Success",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "809b134b6463203e8440fe48d624b384cddf5473.jpg",
+            "iconGrayUrl": "a3f9dc44b3a6a0263da3efa85668e76d28976aa3.jpg",
+            "globalPct": 55.8
+        }
+    ]
+}

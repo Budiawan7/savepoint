@@ -1,0 +1,235 @@
+{
+    "appId": 765880,
+    "hasAchievements": true,
+    "total": 15,
+    "unlocked": 0,
+    "gameName": "The Occupation",
+    "achievements": [
+        {
+            "apiName": "ACH_CARLA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "First Meeting",
+            "description": "Attended Carla Burman's meeting.",
+            "iconUrl": "d49d468ad1af4cedb3194e34368016f382beb4a1.jpg",
+            "iconGrayUrl": "f3be93df4362f58962b175273d9adacbd3fd61e6.jpg",
+            "hidden": false,
+            "globalPct": 15.1
+        },
+        {
+            "apiName": "ACH_CHANCE_ALI",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Busted!",
+            "description": "",
+            "iconUrl": "5705654501724ed73e06a2ecc28347be9ba12221.jpg",
+            "iconGrayUrl": "187149a3405e5b7b09b6bc7b94cc31fdb4c6054b.jpg",
+            "hidden": true,
+            "globalPct": 8.7
+        },
+        {
+            "apiName": "ACH_BOWMAN",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bowman",
+            "description": "Attended Charles Bowman's meeting.",
+            "iconUrl": "f57a2151208a739621cb7634477c9d324360a9ad.jpg",
+            "iconGrayUrl": "5a4a2a2c4c386d36e4dae17ba4654bb41b7ef0fc.jpg",
+            "hidden": false,
+            "globalPct": 7.8
+        },
+        {
+            "apiName": "ACH_REPORTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reporter",
+            "description": "All Carson Offices' Leads completed.",
+            "iconUrl": "d4172617f6635c2e930d141cdb813cc6292496ef.jpg",
+            "iconGrayUrl": "c7659bf52cc4089ebf0367b3ffd448b3d8b1e1e7.jpg",
+            "hidden": false,
+            "globalPct": 5.2
+        },
+        {
+            "apiName": "ACH_JOURNALIST",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Journalist",
+            "description": "All Metacentre Leads completed.",
+            "iconUrl": "d6dbf1e060ff2625d7056483160c76e11ecd82be.jpg",
+            "iconGrayUrl": "8293ebd928a1e9659cd1d101cf6d146bad31b211.jpg",
+            "hidden": false,
+            "globalPct": 4.8
+        },
+        {
+            "apiName": "ACH_ALL_LEADS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Investigator",
+            "description": "All Leads completed.",
+            "iconUrl": "a5eab9e2b1a88500281a76419584f43cddb159c6.jpg",
+            "iconGrayUrl": "67a777e9b6b7044843d2d79e24b2c24c9c0882c8.jpg",
+            "hidden": false,
+            "globalPct": 4
+        },
+        {
+            "apiName": "ACH_SILHOUETTE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Silhouette",
+            "description": "Used the Silhouette server in the I.P.A.",
+            "iconUrl": "6df1ed7e7e59ce3235c8574347bd27fd2b552a96.jpg",
+            "iconGrayUrl": "8cccd9e54ee989463e19ee628223610a57a9da8e.jpg",
+            "hidden": false,
+            "globalPct": 9
+        },
+        {
+            "apiName": "ACH_COMPLETE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Miller Report",
+            "description": "Completed a playthrough of The Occupation.",
+            "iconUrl": "7638bfd4109c2799d6add59cb4ceeb1da9310eef.jpg",
+            "iconGrayUrl": "a8c5602ae5267b0c0db26efc704ad2be63d066b1.jpg",
+            "hidden": false,
+            "globalPct": 7.4
+        },
+        {
+            "apiName": "ACH_NO_OOB",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Cloak and Swagger",
+            "description": "Complete a playthrough without getting spotted out-of-bounds.",
+            "iconUrl": "4cbc10e4140dc2fc407ed613bf4ea8ef192a1fd9.jpg",
+            "iconGrayUrl": "dea91d3d4713d9c73c621bb21d36788d88990b7e.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "ACH_PUNCTUAL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Punctual",
+            "description": "Attended all meetings on time.",
+            "iconUrl": "62bff2272bbbcba0bceb6b97fccb02eeaaf3e325.jpg",
+            "iconGrayUrl": "11a3785d667c65fefcebc9d7fb4a812fbb454d07.jpg",
+            "hidden": false,
+            "globalPct": 8.8
+        },
+        {
+            "apiName": "ACH_TAPES",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Detective",
+            "description": "Collected all interview tapes.",
+            "iconUrl": "5cea1008850455f1ea9c08d5d5e8c9ee07bacde1.jpg",
+            "iconGrayUrl": "b63f90e845629ed1957358bb7d250f9b046c1475.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "ACH_VINYLS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Connoisseur",
+            "description": "Collected all vinyls.",
+            "iconUrl": "dd7996697db6b06cef3329bc2e5341e4ae0c4383.jpg",
+            "iconGrayUrl": "7541f113a5516f9204a53ec97e7cf083a9c507e1.jpg",
+            "hidden": false,
+            "globalPct": 2.2
+        },
+        {
+            "apiName": "ACH_CALLS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Collect Call",
+            "description": "Answered all of Mina's phone calls.",
+            "iconUrl": "c30ad924e1f94d6f2695d952d7f368cb33997dae.jpg",
+            "iconGrayUrl": "b04fabc389999175b2d2674072797ffa0b5b3074.jpg",
+            "hidden": false,
+            "globalPct": 4.7
+        },
+        {
+            "apiName": "ACH_BOO",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Boo!",
+            "description": "Startled Steve.",
+            "iconUrl": "629370faa678f8cbb936f3f7f63a39c9644f7933.jpg",
+            "iconGrayUrl": "e09052dca5713f78a17f687dc1a0abfdae9502bb.jpg",
+            "hidden": false,
+            "globalPct": 8.7
+        },
+        {
+            "apiName": "ACH_STICK_IT",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Stick it, buddy!",
+            "description": "Annoyed Steve.",
+            "iconUrl": "5bd87a4740a8eeebad2a5c35ccda070b04d46120.jpg",
+            "iconGrayUrl": "cf28c0bf50f9046cd50a03d8242b44ddd02f5805.jpg",
+            "hidden": false,
+            "globalPct": 5.9
+        }
+    ],
+    "playtimeForever": 95,
+    "lastPlayedTs": "2020-11-09T00:58:25.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/765880/14cee96c04fa9961caf3f03f0f8eeb52690f512f.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "ACH_CARLA",
+            "displayName": "First Meeting",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "d49d468ad1af4cedb3194e34368016f382beb4a1.jpg",
+            "iconGrayUrl": "f3be93df4362f58962b175273d9adacbd3fd61e6.jpg",
+            "globalPct": 15.1
+        },
+        {
+            "apiName": "ACH_CHANCE_ALI",
+            "displayName": "Busted!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "5705654501724ed73e06a2ecc28347be9ba12221.jpg",
+            "iconGrayUrl": "187149a3405e5b7b09b6bc7b94cc31fdb4c6054b.jpg",
+            "globalPct": 8.7
+        },
+        {
+            "apiName": "ACH_BOWMAN",
+            "displayName": "Bowman",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "f57a2151208a739621cb7634477c9d324360a9ad.jpg",
+            "iconGrayUrl": "5a4a2a2c4c386d36e4dae17ba4654bb41b7ef0fc.jpg",
+            "globalPct": 7.8
+        },
+        {
+            "apiName": "ACH_REPORTER",
+            "displayName": "Reporter",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "d4172617f6635c2e930d141cdb813cc6292496ef.jpg",
+            "iconGrayUrl": "c7659bf52cc4089ebf0367b3ffd448b3d8b1e1e7.jpg",
+            "globalPct": 5.2
+        },
+        {
+            "apiName": "ACH_JOURNALIST",
+            "displayName": "Journalist",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "d6dbf1e060ff2625d7056483160c76e11ecd82be.jpg",
+            "iconGrayUrl": "8293ebd928a1e9659cd1d101cf6d146bad31b211.jpg",
+            "globalPct": 4.8
+        },
+        {
+            "apiName": "ACH_ALL_LEADS",
+            "displayName": "Investigator",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "a5eab9e2b1a88500281a76419584f43cddb159c6.jpg",
+            "iconGrayUrl": "67a777e9b6b7044843d2d79e24b2c24c9c0882c8.jpg",
+            "globalPct": 4
+        }
+    ]
+}

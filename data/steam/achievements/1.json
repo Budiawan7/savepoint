@@ -1,0 +1,1954 @@
+{
+    "recentAchievements": [
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_cemetary",
+            "displayName": "An Ocean Cemetery!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/d69689068b1c5d99eccc77a7e4cd26ef1ad49007.jpg",
+            "unlockedAt": "2026-11-21T05:44:25.000Z",
+            "globalPct": 15.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_excevator_50",
+            "displayName": "Expert Excavator!",
+            "description": "Dig up 50 treasures.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7738966b0a8e6fd625d8f6adfc7f8b458591f667.jpg",
+            "unlockedAt": "2026-11-21T04:46:23.000Z",
+            "globalPct": 3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_boarKiller_10",
+            "displayName": "Intermediate Warthog Hunter!",
+            "description": "Kill 10 Warthogs.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5af5692e1aad10295486ae7e8d714376c752a998.jpg",
+            "unlockedAt": "2026-11-21T03:46:48.000Z",
+            "globalPct": 15.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_build_painter_200",
+            "displayName": "Intermediate Painter!",
+            "description": "Paint 200 blocks.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/988235dcf973f88e7f8f7e73d7c06dc6d5eef254.jpg",
+            "unlockedAt": "2026-11-21T03:38:46.000Z",
+            "globalPct": 5.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_stoneBirdKiller_50",
+            "displayName": "Expert Screecher Hunter!",
+            "description": "Kill 50 Screechers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/906ad0d09f8e2e275f1fc5ef662c14ff3fe419e7.jpg",
+            "unlockedAt": "2026-11-21T03:30:41.000Z",
+            "globalPct": 0.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_16_REUNION",
+            "displayName": "Reunion",
+            "description": "Completed Episode 2: \"A House Divided\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/621298c42acb335d3939d22998b5c0f52119b780.jpg",
+            "unlockedAt": "2026-11-20T23:56:03.000Z",
+            "globalPct": 76.1
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_15_PAST_MIDNIGHT",
+            "displayName": "Past Midnight",
+            "description": "Settled things with a new friend.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8fa090f2e60aa7f4a82d996840cf0c02be201255.jpg",
+            "unlockedAt": "2026-11-20T23:40:33.000Z",
+            "globalPct": 77.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_14_OLD_FRIENDS",
+            "displayName": "Old Friends",
+            "description": "Made it to the ski lodge.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/2ea45effe42ecac6a1b717f5c5feaad402b6ac27.jpg",
+            "unlockedAt": "2026-11-20T23:10:45.000Z",
+            "globalPct": 78.8
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_13_A_STRANGER",
+            "displayName": "A Stranger",
+            "description": "Met someone on a bridge.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8f32cc98e413cffc06c1c20b20ea020c9df2306a.jpg",
+            "unlockedAt": "2026-11-20T23:00:01.000Z",
+            "globalPct": 79.1
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_12_OVER_THE_BRIDGE",
+            "displayName": "Over the Bridge",
+            "description": "Found a way across the water.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/627ba710a559b539e400245f8dd604e46e729aa6.jpg",
+            "unlockedAt": "2026-11-20T22:53:53.000Z",
+            "globalPct": 79.2
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_11_MOVING_ON",
+            "displayName": "Moving On",
+            "description": "Left the cabin.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/c33093965215f1c9793d8f89a5846a27cd91c78c.jpg",
+            "unlockedAt": "2026-11-20T22:44:42.000Z",
+            "globalPct": 79.5
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_10_THE_INTRUDER",
+            "displayName": "The Intruder",
+            "description": "Talked to a stranger.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/6f48ea44715c14afa6d7e7554843c9eb149b3e47.jpg",
+            "unlockedAt": "2026-11-20T22:41:31.000Z",
+            "globalPct": 79.7
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_09_NEW_MORNING",
+            "displayName": "New Morning",
+            "description": "Helped someone through a difficult time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/22a3b7de09ad2691c3a1c0181b06d2153c196abb.jpg",
+            "unlockedAt": "2026-11-20T22:30:44.000Z",
+            "globalPct": 79.9
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_8_SPLIT_DECISION",
+            "displayName": "Split Decision",
+            "description": "Completed Episode 1: \"All That Remains\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/bca152dc54a1405d92a8fa2670e05fc62689313f.jpg",
+            "unlockedAt": "2026-11-20T22:16:40.000Z",
+            "globalPct": 82.2
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_7_HEADED_OUT",
+            "displayName": "Headed Out",
+            "description": "Headed out with the group.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/63bb5af0f7720bf6a338abdc5cd7bc198b53c4f8.jpg",
+            "unlockedAt": "2026-11-20T22:05:57.000Z",
+            "globalPct": 83.8
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_6_STILL_NOT_BITTEN",
+            "displayName": "Still. Not. Bitten.",
+            "description": "Took care of yourself.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/6f7515ae9d5c74d0740d718f6ea3567d0a303719.jpg",
+            "unlockedAt": "2026-11-20T21:56:32.000Z",
+            "globalPct": 84
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_5_SNEAKY",
+            "displayName": "Sneaky",
+            "description": "Got what you needed.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/3ac07feafc1ea6490623679c9c52f77b77d38488.jpg",
+            "unlockedAt": "2026-11-20T21:50:07.000Z",
+            "globalPct": 84.2
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_4_NOW_WHAT",
+            "displayName": "Now What?",
+            "description": "Arrived at the cabin.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/a4aae68d8ca2070edfdae2e8f57191f61bda68d6.jpg",
+            "unlockedAt": "2026-11-20T21:22:09.000Z",
+            "globalPct": 85.3
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_3_ON_THE_PATH",
+            "displayName": "On the Path",
+            "description": "Met new people.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/74fd750f378cfd332ba118e96a123fd1c81af3d3.jpg",
+            "unlockedAt": "2026-11-20T21:17:50.000Z",
+            "globalPct": 85.4
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_2_SHELTER",
+            "displayName": "Shelter",
+            "description": "Found a campsite.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/75e8911c9e1f4a898df49275a8edc2146a748d8f.jpg",
+            "unlockedAt": "2026-11-20T21:02:58.000Z",
+            "globalPct": 86.7
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "apiName": "ACH_101_1_RIVER_RUNS_COLD",
+            "displayName": "River Runs Cold",
+            "description": "Arrived at the shore.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/7b0bf559ae21a063b8cced7ecba6778d25409875.jpg",
+            "unlockedAt": "2026-11-20T20:58:04.000Z",
+            "globalPct": 87.5
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_stoneBirdKiller_10",
+            "displayName": "Intermediate Screecher Hunter!",
+            "description": "Kill 10 Screechers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/0c7ac44dfce99a8900f5e4cba5bc49d8ab6832a0.jpg",
+            "unlockedAt": "2026-11-18T14:05:09.000Z",
+            "globalPct": 3.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_beekeeper_10",
+            "displayName": "Bee Keeper!",
+            "description": "Have 10 beehives placed at once.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/41ef4f0469ba961afc0679d0b00e0e58d8c0972a.jpg",
+            "unlockedAt": "2026-11-18T13:04:57.000Z",
+            "globalPct": 2.1
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "HonorarySovereign",
+            "displayName": "Lord of Honor",
+            "description": "Complete all Challenges and Changes challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/dd97c5172615b7176bd786ef086c89446238f02a.jpg",
+            "unlockedAt": "2026-11-14T13:11:27.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_anglerFishKiller_10",
+            "displayName": "Intermediate Anglerfish Hunter!",
+            "description": "Kill 10 Anglerfish.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/40f069294e9a49366cffbfbb72b1b4db67c6d0a3.jpg",
+            "unlockedAt": "2026-11-14T05:02:07.000Z",
+            "globalPct": 3.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_grabbersNest",
+            "displayName": "Cache Collector!",
+            "description": "Locate all Grabber caches on Varuna Point.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/19323cd82fa0c6fb1016ace996bbac326955adc9.jpg",
+            "unlockedAt": "2026-11-14T04:42:33.000Z",
+            "globalPct": 7.7
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_pufferKiller_50",
+            "displayName": "Expert Poison-Puffer Hunter!",
+            "description": "Kill 50 Poison-puffers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/9d18aec4059bd4b87bd8476a6e6883c0a1f80c6f.jpg",
+            "unlockedAt": "2026-11-14T03:46:46.000Z",
+            "globalPct": 2.5
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allFoodBuffs",
+            "displayName": "Powered Up!",
+            "description": "Have all buffs from meals and drinks active on you at the same time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5dbd0de04c4d1a85f0a63594879528e1eb2bfeca.jpg",
+            "unlockedAt": "2026-11-14T02:32:55.000Z",
+            "globalPct": 1.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_bearKiller_50",
+            "displayName": "Expert Bear Hunter!",
+            "description": "Kill 50 Bears.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/0cfc588c27f73d1bd3c87e4b5c8e2d3a08512a83.jpg",
+            "unlockedAt": "2026-11-14T02:23:14.000Z",
+            "globalPct": 2.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "Gunmaster",
+            "displayName": "Master of Firearms",
+            "description": "Complete all gun challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/a28700b6deeca57541ec26322afbdf969f6576e7.jpg",
+            "unlockedAt": "2026-11-13T22:34:56.000Z",
+            "globalPct": 0.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "SiegeMaster",
+            "displayName": "Master of Artillery",
+            "description": "Complete all cannon challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/7cbe129dc0bb025e7bfc7dc4913b52559eff2eaf.jpg",
+            "unlockedAt": "2026-11-13T21:52:47.000Z",
+            "globalPct": 0.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "ShadowRuler",
+            "displayName": "Shadowlord",
+            "description": "Complete all Above the Law challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/3d5bcf197cad22d785aa622a1159a831c18acbd9.jpg",
+            "unlockedAt": "2026-11-12T19:53:56.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_researcher",
+            "displayName": "Bookworm!",
+            "description": "Research everything in the research table.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/71312ab0ec382ea70f58e62f00fd1ab3c6c880ec.jpg",
+            "unlockedAt": "2026-11-11T14:09:22.000Z",
+            "globalPct": 10.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_beeCaptures_25",
+            "displayName": "Expert Bee-nevolent!",
+            "description": "Capture 25 bees.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6d77541be738f96d5a2678b2bf63ebb84105c9df.jpg",
+            "unlockedAt": "2026-11-11T12:59:38.000Z",
+            "globalPct": 4.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_pipes_30",
+            "displayName": "Plumber Power!",
+            "description": "Have 30 pipes placed at once.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/24ff274a7747aba261162cced42a7881b624ca11.jpg",
+            "unlockedAt": "2026-11-11T12:35:59.000Z",
+            "globalPct": 7.5
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "BattlefieldWarlord",
+            "displayName": "Battlefield Conqueror",
+            "description": "Complete all battle challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/7dfe8c02c6cb6015df9e46c384cfe998ca9d2ae7.jpg",
+            "unlockedAt": "2026-11-10T18:55:37.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "GreatWeaponMaster",
+            "displayName": "Master of Two-Handed Weapons",
+            "description": "Complete all two-handed weapon challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/69affa1164fe87c2b391b5ccf54e92ad6b09d5d7.jpg",
+            "unlockedAt": "2026-11-10T17:06:01.000Z",
+            "globalPct": 1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_mamaBearKill",
+            "displayName": "Mother Lode!",
+            "description": "Slay the Mama Bear.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/4559b4ad77c4d172a1d25c38a91747b4308e2773.jpg",
+            "unlockedAt": "2026-11-08T09:11:29.000Z",
+            "globalPct": 12.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_secret_tangaroa_claw",
+            "displayName": "Boxed In!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/63c6dec0c7b38fc38cc217fe06802f87db1a6058.jpg",
+            "unlockedAt": "2026-11-08T08:16:39.000Z",
+            "globalPct": 7.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_hidden_tangaroa_room",
+            "displayName": "You Should Not Be Here!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/d895eccc9894f4b661e640814d1ab0d20acb908b.jpg",
+            "unlockedAt": "2026-11-08T08:06:40.000Z",
+            "globalPct": 6.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_botKiller_20",
+            "displayName": "Expert Disruptor!",
+            "description": "Disrupt 20 Butler-Bots.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/ec2793ecd76f15d1056ba7ace323413fccb4090c.jpg",
+            "unlockedAt": "2026-11-08T08:00:58.000Z",
+            "globalPct": 8.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_reach_pilotIsland",
+            "displayName": "Not A Great Landing!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/9df061c2b224cf3ba321483aec07ef77a28ea1a9.jpg",
+            "unlockedAt": "2026-11-08T05:34:33.000Z",
+            "globalPct": 14
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_excevator_20",
+            "displayName": "Intermediate Excavator!",
+            "description": "Dig up 20 treasures.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7b3c8361f19cca1395dda23bf7f3c86887739850.jpg",
+            "unlockedAt": "2026-11-08T04:57:19.000Z",
+            "globalPct": 7.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "UltimateHunter",
+            "displayName": "Ultimate Hunter",
+            "description": "Complete all hunting challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/aea72c848e3819ce2d1f880c4b72e1be49d9123e.jpg",
+            "unlockedAt": "2026-11-08T00:56:43.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "UnbreakableFighter",
+            "displayName": "Relentless Warrior",
+            "description": "Complete all training challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/e4767ae4b05c1ae6e0914947e6bc354284d3baa6.jpg",
+            "unlockedAt": "2026-11-08T00:08:16.000Z",
+            "globalPct": 0.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "Bowmaster",
+            "displayName": "Master of Bows",
+            "description": "Complete all bow challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/8c3495c4c5e0a4ae6f4475aca2cf2a0210c9b92c.jpg",
+            "unlockedAt": "2026-11-07T23:06:33.000Z",
+            "globalPct": 1.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_sharkKiller_50",
+            "displayName": "Expert Shark Hunter!",
+            "description": "Kill 50 sharks.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/03ececea4603b7e1c3ed2dc37bdad7d04d2b9ba3.jpg",
+            "unlockedAt": "2026-11-07T09:58:51.000Z",
+            "globalPct": 10.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_tier3Trader",
+            "displayName": "Expert Merchant!",
+            "description": "Reach tier 3 in the trading post.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7b34ca1af9a4cd5353199f11d90acea9629614ea.jpg",
+            "unlockedAt": "2026-11-07T09:30:10.000Z",
+            "globalPct": 12.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_tier2Trader",
+            "displayName": "Intermediate Merchant!",
+            "description": "Reach tier 2 in the trading post.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/4a706b427cda82a8755818db312bef79518f5cf3.jpg",
+            "unlockedAt": "2026-11-07T08:52:50.000Z",
+            "globalPct": 16.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_zip_1500m",
+            "displayName": "Expert Ziponaut!",
+            "description": "Travel 1500 meters with the zipline tool.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/99fce8182c31ceb3dabf948fa3809d8a9e24ed12.jpg",
+            "unlockedAt": "2026-11-07T08:17:28.000Z",
+            "globalPct": 2.5
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_pufferKiller_10",
+            "displayName": "Intermediate Poison-Puffer Hunter!",
+            "description": "Kill 10 Poison-puffers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/a32d12e917d8fb642fd2a4dc216f9b333472f68b.jpg",
+            "unlockedAt": "2026-11-07T08:04:08.000Z",
+            "globalPct": 18
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "37",
+            "displayName": "Forger of Tomorrow",
+            "description": "Complete the “Forged Resolve\" quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/0045b0ccc9a9662d39e453c52a826e7343ca6c9a.jpg",
+            "unlockedAt": "2026-11-06T17:18:40.000Z",
+            "globalPct": 0.6
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "RapierMaster",
+            "displayName": "Master of Rapiers",
+            "description": "Complete all rapier and shield challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/aec1f62bdb827b93d02c51a36b13eedbd236bb5e.jpg",
+            "unlockedAt": "2026-11-05T16:28:30.000Z",
+            "globalPct": 1
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "ExpertExplorer",
+            "displayName": "Expert Explorer",
+            "description": "Complete all exploration challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/eabcf404e3d39552127b70c60f422a515217f825.jpg",
+            "unlockedAt": "2026-11-04T15:03:56.000Z",
+            "globalPct": 0.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "Spearmaster",
+            "displayName": "Master of Spears",
+            "description": "Complete all spear challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/257444acc5d9411a3d3324d7cc8b814de492a070.jpg",
+            "unlockedAt": "2026-11-03T14:00:15.000Z",
+            "globalPct": 2.5
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "36",
+            "displayName": "Charter",
+            "description": "Complete the \"Beyond the Margins\" quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/cf856470d8db9599808cdd2d868b92ee828558c0.jpg",
+            "unlockedAt": "2026-10-31T17:24:39.000Z",
+            "globalPct": 1.2
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "35",
+            "displayName": "Dawn Politician",
+            "description": "Complete the “From the Ashes\" quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/438eb62a1e3d50927128a39f3cd52586d2d517bb.jpg",
+            "unlockedAt": "2026-10-31T13:23:40.000Z",
+            "globalPct": 1
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "Shieldmaster",
+            "displayName": "Master of Shields",
+            "description": "Complete all shield challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/3b1df180431b87706ad49798cb1361b9fa5bb6e4.jpg",
+            "unlockedAt": "2026-10-28T12:29:35.000Z",
+            "globalPct": 1.5
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "Swordmaster",
+            "displayName": "Master of Swords",
+            "description": "Complete all sword challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/076ddb13bb16683a13fff314b792314a133a0ded.jpg",
+            "unlockedAt": "2026-10-25T18:25:11.000Z",
+            "globalPct": 2.8
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "MazeHunter",
+            "displayName": "Maze Pathfinder",
+            "description": "Complete all maze challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/119768c5fce4b96db3c8a45c5b918f75844c1d2d.jpg",
+            "unlockedAt": "2026-10-25T18:00:03.000Z",
+            "globalPct": 2.5
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "PuzzleSolver",
+            "displayName": "Puzzle Solver",
+            "description": "Complete all ancient ruins challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/0482a83ab0498e6cce5f95027ab58c2c9ca4d2d3.jpg",
+            "unlockedAt": "2026-10-25T18:00:03.000Z",
+            "globalPct": 1.3
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "SceneryPilgrim",
+            "displayName": "Pilgrim of Wonders",
+            "description": "Complete all secret place challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/5e61be52f0a5f57b48c3e28df350927ecc5fb25f.jpg",
+            "unlockedAt": "2026-10-25T16:17:14.000Z",
+            "globalPct": 1.2
+        },
+        {
+            "appId": 3321460,
+            "gameName": "Crimson Desert Enhanced",
+            "apiName": "ConqueroroftheAbysses",
+            "displayName": "Conqueror of the Abysses",
+            "description": "Complete all Abyss challenges.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/686a3c4abed8551b5de3c9e7cf06d7742bf7a6f8.jpg",
+            "unlockedAt": "2026-10-24T18:32:33.000Z",
+            "globalPct": 2.9
+        },
+        {
+            "appId": 230410,
+            "gameName": "Warframe",
+            "apiName": "ACHIEVEMENT_68",
+            "displayName": "Gold Disciple",
+            "description": "Achieve the rank of Gold Disciple.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/230410/615b2af7cf477cd7c2afddc79d9c5494205b393f.jpg",
+            "unlockedAt": "2026-10-09T17:11:30.000Z",
+            "globalPct": 12.5
+        },
+        {
+            "appId": 230410,
+            "gameName": "Warframe",
+            "apiName": "ACHIEVEMENT_158",
+            "displayName": "The War Within",
+            "description": "Complete \"The War Within\" quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/230410/9a2bcab59c2384e5c4a84c370c81fa224e95e687.jpg",
+            "unlockedAt": "2026-10-09T17:11:30.000Z",
+            "globalPct": 13.3
+        },
+        {
+            "appId": 2238900,
+            "gameName": "STAR OCEAN THE SECOND STORY R",
+            "apiName": "Achievement_02",
+            "displayName": "A Fateful Encounter",
+            "description": "Proof of starting the adventure as Rena.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2238900/ed41308f3661c4d43df026167865ff712d2c83ea.jpg",
+            "unlockedAt": "2026-10-07T23:23:26.000Z",
+            "globalPct": 39.9
+        },
+        {
+            "appId": 2238900,
+            "gameName": "STAR OCEAN THE SECOND STORY R",
+            "apiName": "Achievement_14",
+            "displayName": "Hero of Light",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2238900/f4e38b208ab5a518d907d81b754e2efee4ad5b40.jpg",
+            "unlockedAt": "2026-10-07T23:14:16.000Z",
+            "globalPct": 26.9
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_22",
+            "displayName": "Patchwork",
+            "description": "Get 10 patches from commendations.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/549a2ca70540761301d07be179add5410ce67a19.jpg",
+            "unlockedAt": "2026-10-07T14:29:40.000Z",
+            "globalPct": 13.2
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_44",
+            "displayName": "Caged Animal",
+            "description": "Put an end to Emeline Shaw at the Manning National Zoo.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/c7e533fec19694e104bb6d3410fb25fdddf2fc77.jpg",
+            "unlockedAt": "2026-10-06T13:38:48.000Z",
+            "globalPct": 13.9
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_46",
+            "displayName": "Drilling Down",
+            "description": "Discover the Black Tusk's purpose at the Pentagon and thwart it.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/50cb4cfef1b5aaa9ba15314c4abc07930ea7338c.jpg",
+            "unlockedAt": "2026-10-06T12:14:15.000Z",
+            "globalPct": 12.1
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_56",
+            "displayName": "Under Lady Liberty's Gaze",
+            "description": "Complete the manhunt and eliminate Aaron Keener.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/ec3b8f742b2cb647d6d2368a46057b85b14f6f37.jpg",
+            "unlockedAt": "2026-10-05T19:01:43.000Z",
+            "globalPct": 13.8
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_54",
+            "displayName": "Liberation",
+            "description": "Prevent the missile launch and defeat Aaron Keener.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/7de03b5527367b99ba1745a697e65bea75b7fe9c.jpg",
+            "unlockedAt": "2026-10-05T19:01:42.000Z",
+            "globalPct": 13.8
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_52",
+            "displayName": "Plummeting Stock",
+            "description": "Defeat James Dragov at the NYC Stock Exchange.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/02f314b7d8dcd226d32885dfceb1c78cbefefe96.jpg",
+            "unlockedAt": "2026-10-05T18:04:06.000Z",
+            "globalPct": 16
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_38",
+            "displayName": "Best of the Best",
+            "description": "Invest in each type of upgrade available for a specialization.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/e475a3d75e29a418ed1a3fd2ff1b121d1a07d37f.jpg",
+            "unlockedAt": "2026-10-05T14:14:38.000Z",
+            "globalPct": 16
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_49",
+            "displayName": "You Can't Have Him",
+            "description": "Prevent Dolores Jones from capturing or killing the rogue Division agent Aaron Keener.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/540819410e4e534a0518afd1c0d7e6fb335925fc.jpg",
+            "unlockedAt": "2026-10-05T14:06:56.000Z",
+            "globalPct": 10.7
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_48",
+            "displayName": "To Sum It All Up",
+            "description": "Successfully extract Tchernenko after confronting and defeating Elijah Sumner.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/8e64ec7686cadf18cdd5480fe6abb3ec5fb3c9f0.jpg",
+            "unlockedAt": "2026-10-05T13:43:18.000Z",
+            "globalPct": 11.6
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_45",
+            "displayName": "Country Retreat",
+            "description": "Take part in the operation at Camp White Oak.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/860e9fb4b30c4081063c7f0915fe7f58828af76b.jpg",
+            "unlockedAt": "2026-10-05T12:57:21.000Z",
+            "globalPct": 15.5
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_51",
+            "displayName": "Deep Underground",
+            "description": "Shut down the Cleaners' drill and eliminate Javier Kajika.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/59fa0220b376dc9056f5c7c2344cc5ae4fcfde34.jpg",
+            "unlockedAt": "2026-10-04T18:33:32.000Z",
+            "globalPct": 16.6
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_50",
+            "displayName": "Jail Break",
+            "description": "Survive all of Theo Parnell's traps and defeat him.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/c759e6530d685d183e9694dfdd0ee6025ea26495.jpg",
+            "unlockedAt": "2026-10-04T16:26:33.000Z",
+            "globalPct": 18
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_53",
+            "displayName": "Boiling Point",
+            "description": "Shutdown the Cleaners' oil refinery and defeat Vivian Conley.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/adfd64c225d9cb06590f8fe1022afeae469c43a3.jpg",
+            "unlockedAt": "2026-10-04T15:22:04.000Z",
+            "globalPct": 16.6
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_57",
+            "displayName": "Extreme Manhunt",
+            "description": "Complete a Seasonal Manhunt mission on Challenge difficulty or above.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/42559a6fbd2d179c44435eb945eff4ff3666590e.jpg",
+            "unlockedAt": "2026-10-04T13:13:47.000Z",
+            "globalPct": 8
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_8",
+            "displayName": "Season Ticket",
+            "description": "Eliminate the Hyena council in the District Union Arena.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/b98ef6fae6664365e84c68c03e880eef5baa8424.jpg",
+            "unlockedAt": "2026-10-04T11:39:22.000Z",
+            "globalPct": 21.2
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_59",
+            "displayName": "Over The Hill",
+            "description": "Reach Level 40 with an agent.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/6e2fbb2b95427624095356911ed862c23ba7a552.jpg",
+            "unlockedAt": "2026-10-04T03:23:12.000Z",
+            "globalPct": 21.1
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_40",
+            "displayName": "King of the Skill",
+            "description": "Equip and use each skill.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/e6264262bcd0f22a438847c58eb620defbd12aa8.jpg",
+            "unlockedAt": "2026-10-04T02:24:51.000Z",
+            "globalPct": 8.1
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_41",
+            "displayName": "Dress to Impress",
+            "description": "Equip high-end gear (or above) in each slot.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/72922c73b3fff8e4d1fdadb935217949695aa6ab.jpg",
+            "unlockedAt": "2026-10-04T01:18:29.000Z",
+            "globalPct": 26.7
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_30",
+            "displayName": "Autograph Hunter",
+            "description": "Kill one enemy with each of the signature weapons (crossbow, sniper rifle & grenade launcher).",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/af7bf42a72c07e6ae9cd04f84371574bdf4e40e4.jpg",
+            "unlockedAt": "2026-10-04T01:10:19.000Z",
+            "globalPct": 7.1
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_37",
+            "displayName": "Specialized",
+            "description": "Equip your first specialization.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/89c9ab940bb4183b565943dca547cd8b5fe31198.jpg",
+            "unlockedAt": "2026-10-03T08:07:36.000Z",
+            "globalPct": 26.7
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_32",
+            "displayName": "Next Level Operative",
+            "description": "Reach Level 30.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/5b000ed1a1d8f8bb0390f995440fcac96490321e.jpg",
+            "unlockedAt": "2026-10-03T08:03:29.000Z",
+            "globalPct": 22.2
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_39",
+            "displayName": "Project Management",
+            "description": "Complete a project for both the Theater and Campus settlements.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/a2eac3fc18b5afca4035c5361011d38253ee570d.jpg",
+            "unlockedAt": "2026-10-02T19:43:49.000Z",
+            "globalPct": 19.6
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_13",
+            "displayName": "Rebuilding DC",
+            "description": "Fully upgrade all settlements.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/95a4674341444c3c69c5e46c19469f7201b4c1a6.jpg",
+            "unlockedAt": "2026-10-02T18:22:26.000Z",
+            "globalPct": 23.3
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_9",
+            "displayName": "Strategic Extraction",
+            "description": "Capture the Outcasts' Chief Strategist at the Potomac Event Center.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/bdee2d910f9f5c9db7e6eff8f48225492f32f6ea.jpg",
+            "unlockedAt": "2026-10-02T17:53:59.000Z",
+            "globalPct": 24.2
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_3",
+            "displayName": "Bunker Buster",
+            "description": "Recover essential SHD Network equipment from the Federal Emergency Bunker.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/26afdeee23835c8f6a5813397d28942c67e3c8a7.jpg",
+            "unlockedAt": "2026-10-02T17:19:45.000Z",
+            "globalPct": 24.2
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_2",
+            "displayName": "Opening the Vault",
+            "description": "Discover what the Hyenas stole from Air Force One.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/8c560e09170e231916f9edfbfbf7afa9976e8531.jpg",
+            "unlockedAt": "2026-10-02T16:43:36.000Z",
+            "globalPct": 28.9
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_18",
+            "displayName": "Help Me!",
+            "description": "Put out a call for backup.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/69b762c6ed5a5cfee806336665b1df30b65c2d60.jpg",
+            "unlockedAt": "2026-10-02T16:29:38.000Z",
+            "globalPct": 31.2
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_15",
+            "displayName": "Command and Control",
+            "description": "Discover 20 control points in DC.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/0ba360b375303334bf1eafa15008c721e5d3f8c9.jpg",
+            "unlockedAt": "2026-10-01T16:45:47.000Z",
+            "globalPct": 27.4
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_6",
+            "displayName": "Global Communications",
+            "description": "Reestablish the SHD Satellite Network at the Space Administration HQ.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/48ff35b5e4d7875c7bce92fcbee32ff69c43ca47.jpg",
+            "unlockedAt": "2026-09-30T16:41:22.000Z",
+            "globalPct": 31.3
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_20",
+            "displayName": "TV Cop",
+            "description": "Perform a slide across the hood of a car.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/c0579cd471f321e1e77c20864335ab59600ec5ff.jpg",
+            "unlockedAt": "2026-09-30T16:23:44.000Z",
+            "globalPct": 35
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_35",
+            "displayName": "Crafty Collector",
+            "description": "Collect 20 blueprints.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/818b477e00fa035c6f8e1aa07b446d22a8bcd5ae.jpg",
+            "unlockedAt": "2026-09-30T16:19:48.000Z",
+            "globalPct": 28.7
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_5",
+            "displayName": "Jailbreak",
+            "description": "Recover interrogation data from the American History Museum.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/0c03f493ecf3f177a61fab3cf6372de6155987a9.jpg",
+            "unlockedAt": "2026-09-30T15:15:36.000Z",
+            "globalPct": 40.3
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_33",
+            "displayName": "Strength in Numbers",
+            "description": "Create or join a clan.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/7c80abbe6635609dda14e675e37256689bd5d332.jpg",
+            "unlockedAt": "2026-09-30T12:46:11.000Z",
+            "globalPct": 21.7
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_7",
+            "displayName": "Getting the Word Out",
+            "description": "Seize control of the ViewPoint Museum from the True Sons.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/7244235d990907b9e3452cbde2d5213ff6869123.jpg",
+            "unlockedAt": "2026-09-30T12:20:39.000Z",
+            "globalPct": 44.3
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_4",
+            "displayName": "Sick Note",
+            "description": "Shut down Outcast activity at the DCD Headquarters.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/0f9d9e5677940f018d71888581bd1b0c5c165103.jpg",
+            "unlockedAt": "2026-09-29T19:52:09.000Z",
+            "globalPct": 27.5
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_21",
+            "displayName": "Negative Ramos!",
+            "description": "Shock enemy medics by shooting their defibrillator.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/7f161b561402ee77c4b11af253b442bee2ec68c9.jpg",
+            "unlockedAt": "2026-09-29T18:07:59.000Z",
+            "globalPct": 39.9
+        },
+        {
+            "appId": 534380,
+            "gameName": "Dying Light 2: Reloaded Edition",
+            "apiName": "ACH_7",
+            "displayName": "Get Outta My House!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/534380/bec1ac858a9067afe59d68497cbf865444427b30.jpg",
+            "unlockedAt": "2026-09-29T16:43:40.000Z",
+            "globalPct": 54.3
+        },
+        {
+            "appId": 534380,
+            "gameName": "Dying Light 2: Reloaded Edition",
+            "apiName": "ACH_6",
+            "displayName": "Light in the Darkness",
+            "description": "Activate your first Electrical Substation.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/534380/f8dfce4a58794a79d059112b053bb476f89dd22f.jpg",
+            "unlockedAt": "2026-09-29T16:18:10.000Z",
+            "globalPct": 56.8
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_16",
+            "displayName": "Group Therapy",
+            "description": "Take over a control point in a group without anyone being downed.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/19549cc5ef0b947563936acf18bc01ce7301946f.jpg",
+            "unlockedAt": "2026-09-29T15:09:02.000Z",
+            "globalPct": 35.5
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_58",
+            "displayName": "Shut that door (again)",
+            "description": "Shut two car doors while in cover.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/ff4e103b161c7c09f2cb4f85f5158f6ba21fa12f.jpg",
+            "unlockedAt": "2026-09-29T13:43:24.000Z",
+            "globalPct": 58.8
+        },
+        {
+            "appId": 2221490,
+            "gameName": "Tom Clancy's The Division 2",
+            "apiName": "TCTD2_Ach_1",
+            "displayName": "Checking In",
+            "description": "Rescue Eleanor Sawyer from the Hyenas in the Grand Washington Hotel.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2221490/248f54f45b22a10464ff10efa823ad9dfbe6ba87.jpg",
+            "unlockedAt": "2026-09-29T12:13:07.000Z",
+            "globalPct": 59.6
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_25_DRINK_CHALLENGEMODE",
+            "displayName": "Barista Expert",
+            "description": "Serve 25 correct drinks in a single session of challenge mode",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/092e8edc528a3a81bfb08780f0bd9e7de939059e.jpg",
+            "unlockedAt": "2026-09-27T00:26:11.000Z",
+            "globalPct": 6.3
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_10_DRINK_CHALLENGEMODE",
+            "displayName": "Barista Trainee",
+            "description": "Serve 10 correct drinks in a single session of challenge mode",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/5de4123d5ecf0157c3bf0052707262aa27c8d302.jpg",
+            "unlockedAt": "2026-09-27T00:16:55.000Z",
+            "globalPct": 11.7
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_TIME_SPENT_LATTEART",
+            "displayName": "Art Takes Time",
+            "description": "Spent a total of 1 hour making Latte Art",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/b364fbc365182591e5e1494da2f69975eaabdc6e.jpg",
+            "unlockedAt": "2026-09-27T00:12:58.000Z",
+            "globalPct": 5.8
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_UNLOCK_ALL_DRINK",
+            "displayName": "Master Brewer",
+            "description": "Unlock all special drinks",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/e1fe5fabd3ac2dc22b71bdd459e1319336f4a452.jpg",
+            "unlockedAt": "2026-09-26T23:10:06.000Z",
+            "globalPct": 13.1
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_AFTER_CREDIT",
+            "displayName": "The world's warmest violin",
+            "description": "Trigger the Akiko violin scene in After Credits",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/cafd287262cba03cea29283999a7342f367d90a2.jpg",
+            "unlockedAt": "2026-09-26T22:57:01.000Z",
+            "globalPct": 17.1
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_TOMODACHILL_EX_CHARACTER",
+            "displayName": "Special Cameo",
+            "description": "Find the Tomodachill posts of Seattle regulars",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/b0e404b044a75289bbe825eacf6e20471e67f139.jpg",
+            "unlockedAt": "2026-09-26T22:52:53.000Z",
+            "globalPct": 10
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_ONCE",
+            "displayName": "One Way to Find Out",
+            "description": "Play the story mode to conclusion once",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/1b7001e96565ac75a6fd679ad16d29340257669d.jpg",
+            "unlockedAt": "2026-09-26T22:52:38.000Z",
+            "globalPct": 33.9
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_ALL",
+            "displayName": "Seeing the Best in Yokai",
+            "description": "Finish the game with all the best ends",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/9fdf1a04a0e52f8249938b0d5ac11ab33825c543.jpg",
+            "unlockedAt": "2026-09-26T22:52:37.000Z",
+            "globalPct": 26.4
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_AYAME",
+            "displayName": "Last Hurrah in Ghost Town",
+            "description": "Unlock Ayame's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/b0100612c34c32556fc1e7fce0399ddf13ba7b35.jpg",
+            "unlockedAt": "2026-09-26T22:50:17.000Z",
+            "globalPct": 28.8
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_FUKU",
+            "displayName": "Desk Jockey No More",
+            "description": "Unlock Fuku's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/9c6aa302d8236b88f52d07e28be238b03991ff5b.jpg",
+            "unlockedAt": "2026-09-26T22:50:03.000Z",
+            "globalPct": 33.2
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_YUKI",
+            "displayName": "Goodbye Hiromi",
+            "description": "Unlock Yuki's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/6d7d8a1eb16de43e09a18e6b74318391a2a90dc0.jpg",
+            "unlockedAt": "2026-09-26T22:49:35.000Z",
+            "globalPct": 31.9
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_ASH",
+            "displayName": "A New Page",
+            "description": "Unlock Ash's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/5e061af6c5e6ab9dc6677ac2e1b107aa01b81037.jpg",
+            "unlockedAt": "2026-09-26T22:49:23.000Z",
+            "globalPct": 33.8
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_EMI",
+            "displayName": "Out Of Office",
+            "description": "Unlock Emi's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/54dc76e35ac46f8469bb3815feddf202a258d9b3.jpg",
+            "unlockedAt": "2026-09-26T22:49:21.000Z",
+            "globalPct": 33.7
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_MAKOTO",
+            "displayName": "New Me Activated",
+            "description": "Unlock Makoto's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/10c83d3ce8b4f8c9341672d8f926443c2d9db7e6.jpg",
+            "unlockedAt": "2026-09-26T22:49:09.000Z",
+            "globalPct": 32.9
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_KENJI",
+            "displayName": "Punching Out, Going Home",
+            "description": "Unlock Kenji's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/34e68364cf10cc7efcb5a0158735a9b332612b44.jpg",
+            "unlockedAt": "2026-09-26T22:49:07.000Z",
+            "globalPct": 32.2
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_VOCALS_CREDIT",
+            "displayName": "True Blue Nights",
+            "description": "Get the Blue Nights vocals to play over the credits",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/15036f4beaaa2e752131efc0d118f5f38f3669c1.jpg",
+            "unlockedAt": "2026-09-26T22:48:55.000Z",
+            "globalPct": 31
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_JUN",
+            "displayName": "Inspiration From the Source",
+            "description": "Unlock Jun's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/b4c57b01de28d413188f5aa053d1bb24bffc9f56.jpg",
+            "unlockedAt": "2026-09-26T22:48:53.000Z",
+            "globalPct": 31.3
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_BLUE",
+            "displayName": "Foot in the Door",
+            "description": "Unlock Blue's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/7561fd4c90ccf8575dcca26ad376c2aa64994d1b.jpg",
+            "unlockedAt": "2026-09-26T22:48:39.000Z",
+            "globalPct": 33.3
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_VIN",
+            "displayName": "With A Little Help From My Friends",
+            "description": "Unlock Vin's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/85dbe93a0bdfcfd1b38bb934684efb8b2d19baea.jpg",
+            "unlockedAt": "2026-09-26T22:48:25.000Z",
+            "globalPct": 33.2
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_FINISH_GOOD_ERIKA",
+            "displayName": "Peer Review: Approved",
+            "description": "Unlock Erika's Best End",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/4fd16b246e926cea67efe7c07405ce45ad5c48d7.jpg",
+            "unlockedAt": "2026-09-26T22:48:11.000Z",
+            "globalPct": 33.7
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_AYAME_AKIKO",
+            "displayName": "Messenger Between Worlds",
+            "description": "Get Ayame and Akiko to talk",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/698ba8a7e66e657d7096ac2a58124820dbb5d4b0.jpg",
+            "unlockedAt": "2026-09-26T22:25:34.000Z",
+            "globalPct": 28.6
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_UNLOCK_ALL_CHARACTER_MAX",
+            "displayName": "Social Media Fever",
+            "description": "Unlock all of the characters' social media profiles",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/71637cd67e0139f3ca4f4e590e8bf4a76c6d32d6.jpg",
+            "unlockedAt": "2026-09-26T22:23:05.000Z",
+            "globalPct": 27.3
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_UNLOCK_ALL_CHARACTER_FULLMAX",
+            "displayName": "Voted Barista of the Year",
+            "description": "Serve all the best drink orders",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/7dee249722f82f144544974eadd85518362c1281.jpg",
+            "unlockedAt": "2026-09-26T22:23:05.000Z",
+            "globalPct": 26.6
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_LISTEN_ALL_SONG",
+            "displayName": "Music Lover",
+            "description": "Listen to all of the songs",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/82a6f9bbac00516800005bdbc9106eed9301dc23.jpg",
+            "unlockedAt": "2026-09-26T22:15:47.000Z",
+            "globalPct": 13.5
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_RACHEL",
+            "displayName": "Father and Daughter",
+            "description": "Meet Rachel in Tokyo",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/8270d5dd313a310a9371dff69aeeb5eca3ff9220.jpg",
+            "unlockedAt": "2026-09-25T22:43:27.000Z",
+            "globalPct": 31.8
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_JUN",
+            "displayName": "The Dragon Within",
+            "description": "Get Jun to transform into a dragon",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/d1032dc7d32ec5938aac0e831b5fcb46d5b838e2.jpg",
+            "unlockedAt": "2026-09-25T21:38:42.000Z",
+            "globalPct": 33.6
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_TRASH_25_DRINKS",
+            "displayName": "Stop It!",
+            "description": "Trash a total of 25 drinks",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/8514cdab5702314a8da883ddba8098e9c99ba80d.jpg",
+            "unlockedAt": "2026-09-25T21:20:12.000Z",
+            "globalPct": 20
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_FUKU_YUKI_EMI",
+            "displayName": "The Ghost Busted",
+            "description": "View the selfie of the three ladies in a bar",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/2308192eac97749e5fbc8e4f1514386af14748e2.jpg",
+            "unlockedAt": "2026-09-25T20:07:58.000Z",
+            "globalPct": 36.3
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_VIN_BLUE",
+            "displayName": "Summer Love",
+            "description": "See Vin and Blue holding hands",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/c3369efa12027ee958371c1b176961a6d92a369d.jpg",
+            "unlockedAt": "2026-09-25T19:58:46.000Z",
+            "globalPct": 40.7
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_AYAME",
+            "displayName": "Madeleine de Ghost",
+            "description": "Serve bento to Ayame",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/08466c21f96ae2302f27f426614edde4fe7cea8e.jpg",
+            "unlockedAt": "2026-09-25T19:04:17.000Z",
+            "globalPct": 43
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_SECRET_STORY_KENJI",
+            "displayName": "One For the Head... One For the Heart",
+            "description": "Get Kenji to drink high and low",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/89e5f8c4a3e8ad2a3dfebd865d35e6b4a506072a.jpg",
+            "unlockedAt": "2026-09-22T21:05:16.000Z",
+            "globalPct": 44.7
+        },
+        {
+            "appId": 3161220,
+            "gameName": "Coffee Talk Tokyo",
+            "apiName": "ACH_UNLOCK_ALL_CHARACTER",
+            "displayName": "We Are All Friends",
+            "description": "Meet all of the main characters",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3161220/b9a51bae38ab50a10c50f2debf8c87a0d6fb53da.jpg",
+            "unlockedAt": "2026-09-20T16:31:57.000Z",
+            "globalPct": 59.7
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_3_0",
+            "displayName": "Boom Goes the Dynamite ",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/7efd8e6506625d06ba0a63512a90f0da70ce0d5d.jpg",
+            "unlockedAt": "2026-09-20T14:26:25.000Z",
+            "globalPct": 15.3
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_31",
+            "displayName": "A Survivor Is Born ",
+            "description": "Complete the game. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/4e3a977c724fa07d4692f33b2dd28ffa16e02666.jpg",
+            "unlockedAt": "2026-09-19T07:15:12.000Z",
+            "globalPct": 42
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_21",
+            "displayName": "Epic Fumble ",
+            "description": "Force an enemy to drop dynamite that kills two people when exploding. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/2eb6b630f57baca9c8b58ae90c997f8d95e07ea4.jpg",
+            "unlockedAt": "2026-09-19T07:02:52.000Z",
+            "globalPct": 42.4
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_1",
+            "displayName": "Historian ",
+            "description": "Find 75% of all documents. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/e862c13fd3b4c9e127d6d5de4c845818f289d218.jpg",
+            "unlockedAt": "2026-09-19T06:51:45.000Z",
+            "globalPct": 21.9
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_11",
+            "displayName": "Now We're Getting Serious ",
+            "description": "Fully mod and completely upgrade any weapon. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/3ebfcf6160f19e8df8fb14ade3b64170a3f1ea96.jpg",
+            "unlockedAt": "2026-09-19T05:32:19.000Z",
+            "globalPct": 23.1
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_28",
+            "displayName": "Intellectually Superior ",
+            "description": "Complete all optional tombs. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/d396939f20a60815d080e20a1ab6e50365028c45.jpg",
+            "unlockedAt": "2026-09-19T05:31:18.000Z",
+            "globalPct": 15
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_24",
+            "displayName": "Down and Dirty ",
+            "description": "Perform 15 finishers. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/28b90a466ebe27d98fb9be96b2130a78c265c7c1.jpg",
+            "unlockedAt": "2026-09-19T00:17:23.000Z",
+            "globalPct": 36
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_3_1",
+            "displayName": "Crab Cakes ",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/d7a549434552bd4b5cac97d887cda1c8b6356e05.jpg",
+            "unlockedAt": "2026-09-18T23:04:21.000Z",
+            "globalPct": 26.5
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_4",
+            "displayName": "Looking for Trouble ",
+            "description": "Find 25% of GPS caches. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/8f2c3e28aa648485cbe1ab7eab495235e8b99f03.jpg",
+            "unlockedAt": "2026-09-18T22:28:20.000Z",
+            "globalPct": 32.4
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_9",
+            "displayName": "Clever Girl ",
+            "description": "Purchase all skills in one category. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/b75f6232948cb470afb5eadfedc96b5d1caef581.jpg",
+            "unlockedAt": "2026-09-16T23:43:13.000Z",
+            "globalPct": 35.3
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_8",
+            "displayName": "Picky ",
+            "description": "Loot 200 enemies. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/bd0b8c172e965f22488f79ea50d9c6fa370a0225.jpg",
+            "unlockedAt": "2026-09-16T23:24:54.000Z",
+            "globalPct": 43.8
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_18",
+            "displayName": "Equalizer ",
+            "description": "Kill 75 enemies with the rifle. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/fe2bdde1f70d5a81dda93a0d8ce85577e0a88b98.jpg",
+            "unlockedAt": "2026-09-16T23:24:54.000Z",
+            "globalPct": 32.3
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_7",
+            "displayName": "Scrounger ",
+            "description": "Collect 5000 pieces of salvage. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/4a0b651d9e3080af3c3bce240153fef731bc45a5.jpg",
+            "unlockedAt": "2026-09-16T22:18:42.000Z",
+            "globalPct": 44.3
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_2",
+            "displayName": "Relic Hunter ",
+            "description": "Collect 25% of all relics. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/95c9bba38eef2b1c661630475b9542588270401a.jpg",
+            "unlockedAt": "2026-09-16T21:57:32.000Z",
+            "globalPct": 43.8
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_17",
+            "displayName": "Predator ",
+            "description": "Kill 50 enemies with the bow. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/7b89798ea907792e582302ee75112f259831e105.jpg",
+            "unlockedAt": "2026-09-16T21:52:44.000Z",
+            "globalPct": 54.6
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_13",
+            "displayName": "Big Game Hunter ",
+            "description": "Kill and loot 10 large animals (deer, boar, wolves). ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/4e76053118561c33cffd4cbf8c757dcc26aa92c1.jpg",
+            "unlockedAt": "2026-09-16T21:06:25.000Z",
+            "globalPct": 42.9
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_16",
+            "displayName": "Sharp Shooter ",
+            "description": "Perform 50 headshot kills in the single player campaign. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/7ec37bf1d7c5ebf76b46af0ba511b226ee31dcac.jpg",
+            "unlockedAt": "2026-09-16T20:57:28.000Z",
+            "globalPct": 53.6
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_0",
+            "displayName": "Bookworm ",
+            "description": "Find 25% of all documents. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/2d7b3857cc63cac88922754116a6c40744cf6d11.jpg",
+            "unlockedAt": "2026-09-16T20:57:00.000Z",
+            "globalPct": 54.4
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_23",
+            "displayName": "Opportunist ",
+            "description": "Kill 25 unaware enemies. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/759b1656f928c2b45d4903f0169579176955038d.jpg",
+            "unlockedAt": "2026-09-16T20:57:00.000Z",
+            "globalPct": 51.2
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_14",
+            "displayName": "Tastes Like Chicken! ",
+            "description": "Kill and loot 10 small animals (rabbits, chickens, rats). ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/8ca881392ffd18e344cc936e0e3bc9d325d90305.jpg",
+            "unlockedAt": "2026-09-16T20:10:44.000Z",
+            "globalPct": 20.8
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_20",
+            "displayName": "Gunslinger ",
+            "description": "Kill 35 enemies with the pistol. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/99dc58ae0f4f014df74a27d8cbff7eb70d382bb8.jpg",
+            "unlockedAt": "2026-09-16T19:40:14.000Z",
+            "globalPct": 48.9
+        },
+        {
+            "appId": 203160,
+            "gameName": "Tomb Raider",
+            "apiName": "NEW_ACHIEVEMENT_2_27",
+            "displayName": "One Smart Cookie ",
+            "description": "Complete one optional tomb. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/203160/b0fc73a9c40cef572789689e90db90749ab0c55b.jpg",
+            "unlockedAt": "2026-09-12T20:46:26.000Z",
+            "globalPct": 56.6
+        },
+        {
+            "appId": 2807960,
+            "gameName": "Battlefield™ 6",
+            "apiName": "ACHIEVEMENT29",
+            "displayName": "Front line ",
+            "description": "Take or Defend 41 sectors in Breakthrough",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2807960/f08b5a858f485391372524615ede3680d8e12543.jpg",
+            "unlockedAt": "2026-09-01T17:57:55.000Z",
+            "globalPct": 21.7
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_1",
+            "displayName": "First Blood",
+            "description": "Escape the pirates and survive in the wilderness.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/07ff0ae5e79913c8755b6cfd31f23d04df2127a0.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 20.7
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_2",
+            "displayName": "Magic Mushroom",
+            "description": "Return to the doctor with the cave mushrooms.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/c60ebf677749e56087a1bb1e50b179af8bed263d.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 15.8
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_3",
+            "displayName": "Worst Date Ever",
+            "description": "Escape the burning hotel.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/2469a54c7518c8f1313014ad62c909dc4edcf2df.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 13.3
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_4",
+            "displayName": "One of Us",
+            "description": "Complete the Rakyat initiation.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/99c359c13454546e25911f5ad74f1640e3200ae9.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 12.4
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_5",
+            "displayName": "Hands Off My Stoner",
+            "description": "Rescue your friend before he is sold as a slave.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/f16ea2079f61a4ed8fdb649ecffcaaecadafcf82.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 10.7
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_6",
+            "displayName": "Retake Wall Street",
+            "description": "Rescue your friend from torture.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/5cfac618f452a18fd57cec811bd362ea35547ada.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 9.8
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_7",
+            "displayName": "Have I Told You?",
+            "description": "Discover the definition of insanity.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/fb77b9a7e1c20c16e9d907b364304af1baff6f7e.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 9.5
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_8",
+            "displayName": "Taken for Granted",
+            "description": "Survive Vaas’s attack in the compound.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/b82281c54dc969d10b0e55c869e50caf0c4c7158.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 9.3
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_9",
+            "displayName": "Higher Than a Kite",
+            "description": "Reach the South Island alive. ",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/f19f5321958e4b951a935282419d13e859522e81.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 9.1
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_10",
+            "displayName": "Deep Cover",
+            "description": "Don’t blow cover during the interrogation.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/57f79876f1fcb3969a70f049e3d201145ddac16f.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 8.1
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_11",
+            "displayName": "Poker Night",
+            "description": "Win the poker game.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/995b304fcab1e909752b70c05a4ba22bcfa1ba43.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 7.6
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_12",
+            "displayName": "What a Trip",
+            "description": "Attend the final ceremony.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/1da89c1e8ef362418051bbf1e79945a5b8f740f8.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 7.4
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_14",
+            "displayName": "Inked Up",
+            "description": "Earn 5 skill tattoos.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/08516e09466e885a45b2c77414a73a2f9dbfa20a.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 14.9
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_16",
+            "displayName": "Money to Burn",
+            "description": "Spend $5000 at the shop.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/40b541f4a1303e626fa66afcfabf4a0654a4e351.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 11.5
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_18",
+            "displayName": "Rebel With a Cause",
+            "description": "Liberate 3 outposts.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/0fba9c684361af00578cc4b0e96994b0930556ea.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 13.4
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_19",
+            "displayName": "Island Liberator",
+            "description": "Liberate all outposts.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/3a3de6b723461f442d3cf5da0cac4bc3057d635a.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 5.4
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_20",
+            "displayName": "Unheard",
+            "description": "Liberate an outpost without triggering an alarm.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/8cb88df572e5e3b75d7a63060589c771e416b563.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 14.1
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_21",
+            "displayName": "Full Bars",
+            "description": "Activate 9 radio towers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/b792915c0a739a0585917fc6c0ade610a60eb595.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 10.5
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_22",
+            "displayName": "Archeology 101",
+            "description": "Gather a total of 60 relics.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/ed9fed445dfa365376bdbacb9fbe5286ec276024.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 2.6
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_24",
+            "displayName": "Memory to Spare",
+            "description": "Gather all the memory cards.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/f1cf3bf72448872c7960e07b5f6593856ee17322.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 3.6
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_25",
+            "displayName": "Jungle Journal",
+            "description": "Unlock 50 entries in the Survival Guide.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/37db14438251f76001396dd58ebca3863814422c.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 13.4
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_26",
+            "displayName": "Bagged and Tagged",
+            "description": "Complete a Path of the Hunter quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/390aff61b435ed07c2ad25e7c1bd652f483419ac.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 12.8
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_27",
+            "displayName": "Road Trip",
+            "description": "Complete a Supply Drop quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/7cfacd38cf75676e2a62ee725b08eab8b18a02d5.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 11.6
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_28",
+            "displayName": "In Cold Blood",
+            "description": "Complete a WANTED Dead quest.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/b074f7327e014d8d586d083f35c2a0fdc2e1730f.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 13.3
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_29",
+            "displayName": "Let the Trials Begin",
+            "description": "Beat any Trials of the Rakyat score.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/80cfdcef3c3ce85ff2b53cac548740c3b3e916f0.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 8.5
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_31",
+            "displayName": "Hunter Hunted",
+            "description": "Lure and kill a predator.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/9cb26d829d76bd4b3ba7ee3dc380cbc2ac454735.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 16.6
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_32",
+            "displayName": "Poacher",
+            "description": "Hunt and skin a rare animal.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/614e3943fbebcee0bd9bc835746b18c6cc676ef2.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 8.9
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_33",
+            "displayName": "Artsy Craftsy",
+            "description": "Craft 5 upgrades for your equipment.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/a5688a723067ccf03c78cbe47c0434b2fba85143.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 14
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_34",
+            "displayName": "Needle Exchange",
+            "description": "Craft 25 syringes.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/3f16069f7db29d9eea1f70c5f357c464ce234d37.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 8.4
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_38",
+            "displayName": "Love the Boom",
+            "description": "Kill 4 enemies simultaneously with one explosion (Single Player only).",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/9a3d87da1602405c3389fe39ee721c392e596c74.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 7.5
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_42",
+            "displayName": "Toxophilite",
+            "description": "Kill a target from 70m or more with the bow (Single Player only).",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/c0be71e807e4d6a0174baabfa0ab570cca03c684.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 3.1
+        },
+        {
+            "appId": 220240,
+            "gameName": "Far Cry® 3",
+            "apiName": "FarCry3_Ach_43",
+            "displayName": "Island Paparazzi",
+            "description": "Tag 25 enemies using the camera (Single Player only).",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/ebb922c166371beb8e193730af55636c454a8f37.jpg",
+            "unlockedAt": "2026-08-24T17:49:57.000Z",
+            "globalPct": 12.1
+        }
+    ]
+}

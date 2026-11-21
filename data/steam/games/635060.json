@@ -1,0 +1,345 @@
+{
+    "appId": 635060,
+    "hasAchievements": true,
+    "total": 25,
+    "unlocked": 0,
+    "gameName": "Castle of no Escape",
+    "achievements": [
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_0",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Face controller Jr.",
+            "description": "Start the game as a champion",
+            "iconUrl": "e18da98a96214bba2d65946088702826e2af19f6.jpg",
+            "iconGrayUrl": "1cce6125fbae55a6dd41f5c7e358a7107302deea.jpg",
+            "hidden": false,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bits and bites Jr.",
+            "description": "Start the game as a bandit",
+            "iconUrl": "a9c9a225172ae8024b63f610950494e1a444afb5.jpg",
+            "iconGrayUrl": "125351e0d860942ba369e98206b9923e0b47ffb3.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Papers of pain Jr.",
+            "description": "Start the game as a shamaness",
+            "iconUrl": "f27547daadd19d2c9b83d5baf94c7878b2b7e006.jpg",
+            "iconGrayUrl": "4165f8eb9b65db5e872dc4e500d6a59c3ca05d48.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Friendship wins Jr.",
+            "description": "Meet the friendly NPC",
+            "iconUrl": "8d1f352c46d7a7d1820a1f7f2f5f574fc459162a.jpg",
+            "iconGrayUrl": "9a40b00de72b9ee64ad852c5d5a3a1708aca4c7e.jpg",
+            "hidden": false,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Untouchable Jr.",
+            "description": "Successfully evade an attack",
+            "iconUrl": "54a789107586ba8d0e58cdaa242d5e0ac638ca37.jpg",
+            "iconGrayUrl": "54b2831d36c89d6a638fb198f965ffdf65c4a7f2.jpg",
+            "hidden": false,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_5",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "What's next? Jr.",
+            "description": "Find and use an orb",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.1
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_6",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "How about an armor? Jr.",
+            "description": "Open the first chest",
+            "iconUrl": "fe8b8922577788cf6bedf1e73c2a4546fb567130.jpg",
+            "iconGrayUrl": "455676698cf71f82c197eaffe57d99635cc61ee6.jpg",
+            "hidden": false,
+            "globalPct": 2.6
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_7",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "How about a weapon? Jr.",
+            "description": "Open the second chest",
+            "iconUrl": "fc7af788f6dc99f4d4e7f909ee353c056210c59c.jpg",
+            "iconGrayUrl": "2ba1745420af3f62ec8f9885bc0e0d04ac4734f1.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_8",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I know the way Jr.",
+            "description": "Try and fail to use a crystal orb",
+            "iconUrl": "8df27eb761ce1741e48473c91e9001e0d35b403a.jpg",
+            "iconGrayUrl": "d4bb02f20af95a2140d75b8daf638c7b53e3f416.jpg",
+            "hidden": false,
+            "globalPct": 2.3
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_9",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I didn't do nothing! Jr.",
+            "description": "Don't do anything for 10 seconds",
+            "iconUrl": "729a8151a3641a90ee6f40fb2001c7277f4a5442.jpg",
+            "iconGrayUrl": "fd13179dddfade73e652099338b3e61ebfeaeebf.jpg",
+            "hidden": false,
+            "globalPct": 2.6
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_10",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach the 2nd floor",
+            "description": "Reach the 2nd floor",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_11",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach the 3rd floor",
+            "description": "Reach the 3rd floor",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_12",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach the 4th floor",
+            "description": "Reach the 4th floor",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_13",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach the 5th floor",
+            "description": "Reach the 5th floor",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_14",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach the 6th floor",
+            "description": "Reach the 6th floor",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.6
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_15",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Vulgar Latin",
+            "description": "Read the book",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.6
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_16",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Anything inside?",
+            "description": "Find some gold in the chest",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_17",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Pool drinker",
+            "description": "Drink from the pool",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_18",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Gold Hunter",
+            "description": "Find some gold",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_19",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Flare Hunter",
+            "description": "Find some flares",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_20",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "What a hole",
+            "description": "Fall in the hole",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_21",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Been there, done that",
+            "description": "Visit every space on a floor",
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "hidden": false,
+            "globalPct": 2.4
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_22",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "And then they all die",
+            "description": "Kill every enemy on a floor",
+            "iconUrl": "cc57aa4038458858584826e6f84d29cf680b4754.jpg",
+            "iconGrayUrl": "7111c4d45698116261a0550c4048b900ebb2ca11.jpg",
+            "hidden": false,
+            "globalPct": 2.3
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_23",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Come again?",
+            "description": "Use a flare when you're forgetful or blind",
+            "iconUrl": "50927b1833e469b408d071545e247c09cd7715bd.jpg",
+            "iconGrayUrl": "6e10991a1da2554cfade51022e7de0d09792c16e.jpg",
+            "hidden": false,
+            "globalPct": 2.2
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_24",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "But there was a fourth one",
+            "description": "Select a secret character",
+            "iconUrl": "8d1f352c46d7a7d1820a1f7f2f5f574fc459162a.jpg",
+            "iconGrayUrl": "9a40b00de72b9ee64ad852c5d5a3a1708aca4c7e.jpg",
+            "hidden": false,
+            "globalPct": 2.3
+        }
+    ],
+    "playtimeForever": 229,
+    "lastPlayedTs": "2020-11-09T18:29:41.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/635060/e3eec3b165876edaca4052540306dd028199ee25.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_0",
+            "displayName": "Face controller Jr.",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "e18da98a96214bba2d65946088702826e2af19f6.jpg",
+            "iconGrayUrl": "1cce6125fbae55a6dd41f5c7e358a7107302deea.jpg",
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_1",
+            "displayName": "Bits and bites Jr.",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "a9c9a225172ae8024b63f610950494e1a444afb5.jpg",
+            "iconGrayUrl": "125351e0d860942ba369e98206b9923e0b47ffb3.jpg",
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_2",
+            "displayName": "Papers of pain Jr.",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "f27547daadd19d2c9b83d5baf94c7878b2b7e006.jpg",
+            "iconGrayUrl": "4165f8eb9b65db5e872dc4e500d6a59c3ca05d48.jpg",
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_3",
+            "displayName": "Friendship wins Jr.",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "8d1f352c46d7a7d1820a1f7f2f5f574fc459162a.jpg",
+            "iconGrayUrl": "9a40b00de72b9ee64ad852c5d5a3a1708aca4c7e.jpg",
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_4",
+            "displayName": "Untouchable Jr.",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "54a789107586ba8d0e58cdaa242d5e0ac638ca37.jpg",
+            "iconGrayUrl": "54b2831d36c89d6a638fb198f965ffdf65c4a7f2.jpg",
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_5",
+            "displayName": "What's next? Jr.",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "6ec602302b220e71312260cd386ea8dbdff9b899.jpg",
+            "iconGrayUrl": "74dae985e1b34675762fe367717e25d7db1634b2.jpg",
+            "globalPct": 2.1
+        }
+    ]
+}

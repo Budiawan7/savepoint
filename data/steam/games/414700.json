@@ -1,0 +1,334 @@
+{
+    "appId": 414700,
+    "hasAchievements": true,
+    "total": 24,
+    "unlocked": 1,
+    "gameName": "Outlast 2",
+    "achievements": [
+        {
+            "apiName": "Achievement_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Born Again",
+            "description": "Finish the game",
+            "iconUrl": "417a6605ea5a9df004218939f4a67ae559a224be.jpg",
+            "iconGrayUrl": "406f573431ab313577c85407da7e56d6a59348c0.jpg",
+            "hidden": false,
+            "globalPct": 22.9
+        },
+        {
+            "apiName": "Achievement_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sanctified",
+            "description": "Finish the game in Hard Mode",
+            "iconUrl": "4e334348c6b1a74743ea52808d6e58ac6039a550.jpg",
+            "iconGrayUrl": "88cdd52474cbf4d1cc59405593f16325ffb75d27.jpg",
+            "hidden": false,
+            "globalPct": 6.9
+        },
+        {
+            "apiName": "Achievement_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Preacher",
+            "description": "Finish the game in Nightmare Mode",
+            "iconUrl": "ba3da0fa8246be9d0d2b8f1068246c4032531352.jpg",
+            "iconGrayUrl": "7ecdf02a29b249c2af4c52b921707dcf8df6a10c.jpg",
+            "hidden": false,
+            "globalPct": 3.4
+        },
+        {
+            "apiName": "Achievement_4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Saint",
+            "description": "Finish the game in Insane Mode",
+            "iconUrl": "458b1048e8b69c5e21bd29e719f357c77ba695c7.jpg",
+            "iconGrayUrl": "c428b0708958ed2da3e65e3ec058f47032f6f2d1.jpg",
+            "hidden": false,
+            "globalPct": 2.1
+        },
+        {
+            "apiName": "Achievement_5",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Prophet",
+            "description": "Finish the game without hiding in a barrel or closet",
+            "iconUrl": "aca9e67d07c0601f9d47cb4d9564a5ba6d5b7316.jpg",
+            "iconGrayUrl": "fae1832a6936a7d8f4e8b24bb8bdb823d10cdba2.jpg",
+            "hidden": false,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "Achievement_6",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Messiah",
+            "description": "Finish the game in Insane Mode without reloading the camera battery",
+            "iconUrl": "b4af9e55bcaedc31f1ce2ab9bf52d3beb2a16453.jpg",
+            "iconGrayUrl": "4cdd52004c1d727d71ecd15968a24100c7b6906f.jpg",
+            "hidden": false,
+            "globalPct": 2
+        },
+        {
+            "apiName": "Achievement_7",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Asahel",
+            "description": "Finish the game in under 4 hours",
+            "iconUrl": "9eb8be5e01f10d5fee3d7fa1bd7747203372171b.jpg",
+            "iconGrayUrl": "1d270c405bc544d4174331a5b9e80ebbffe727e0.jpg",
+            "hidden": false,
+            "globalPct": 2.8
+        },
+        {
+            "apiName": "Achievement_8",
+            "unlocked": true,
+            "unlockedAt": "2020-02-09T06:54:19.000Z",
+            "displayName": "What God Has Joined",
+            "description": "",
+            "iconUrl": "494fa91b20bf691f912a4c100e9e5d99979b3122.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 67
+        },
+        {
+            "apiName": "Achievement_9",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Babylon",
+            "description": "",
+            "iconUrl": "da62e6cc126fdb517c48df2f8053a51f2ffc23c6.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 32.2
+        },
+        {
+            "apiName": "Achievement_10",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hang in there, Baby",
+            "description": "",
+            "iconUrl": "6504ef22161d6d2af84f8a7ecbc838b6e0ab3af8.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 29.4
+        },
+        {
+            "apiName": "Achievement_11",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Be Thou Clean",
+            "description": "",
+            "iconUrl": "715a25c610b7d7786a3a72cf6024bac0217aee7e.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 26.9
+        },
+        {
+            "apiName": "Achievement_12",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Golgotha",
+            "description": "",
+            "iconUrl": "f24aba705c95f7b9f5728c2fa429f5fe150b8756.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 25.4
+        },
+        {
+            "apiName": "Achievement_13",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sancti Sepulchri",
+            "description": "",
+            "iconUrl": "0c46fba4bb97d1cf234554ef279dc46f928f22c1.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 24
+        },
+        {
+            "apiName": "Achievement_14",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Let No Man Put Asunder",
+            "description": "",
+            "iconUrl": "ab105c0507ce5175767b1cbbbfd04b17743db9da.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 23
+        },
+        {
+            "apiName": "Achievement_15",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Revelations",
+            "description": "",
+            "iconUrl": "50134c64f1f28fba4d0a8be954730709f5455687.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 22.9
+        },
+        {
+            "apiName": "Achievement_16",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bible Study",
+            "description": "Collect 40 documents",
+            "iconUrl": "393ea61dd693f30a56715be98ecdd686118168b3.jpg",
+            "iconGrayUrl": "6800dc6d644fa045e5cdcaa9cd94832624bf9265.jpg",
+            "hidden": false,
+            "globalPct": 4.7
+        },
+        {
+            "apiName": "Achievement_17",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ordination",
+            "description": "Collect all documents ",
+            "iconUrl": "0292bc1ba9b1b6747d4db899ac6058c2a07d0827.jpg",
+            "iconGrayUrl": "fb7f836dcddf64599dbb6254025a3a5e4f693780.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "Achievement_18",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Road to Damascus",
+            "description": "Complete 30 recordings",
+            "iconUrl": "7e454775d7615aaac79ac2999469f11b45cc6006.jpg",
+            "iconGrayUrl": "bf19e6b3835c6a294b28908a7027acd1a0053e56.jpg",
+            "hidden": false,
+            "globalPct": 18.5
+        },
+        {
+            "apiName": "Achievement_19",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Apostle Paul",
+            "description": "Complete all recordings",
+            "iconUrl": "18323e1cf5ec51038c896f19c230f03c14965a0c.jpg",
+            "iconGrayUrl": "693774fe5bd3782a0222ccb1ebb51801fc61a610.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "Achievement_20",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Heal the Sick",
+            "description": "",
+            "iconUrl": "e53c132df7541d371e17ba4f00237dc8f989e41f.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 23.2
+        },
+        {
+            "apiName": "Achievement_21",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Thoroughly Baptized",
+            "description": "",
+            "iconUrl": "e82a4da06f1d1e55eb1d8e2a23198665e443cad9.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "Achievement_22",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Them That Hath Ears",
+            "description": "",
+            "iconUrl": "6923f655e75eb2dde5059f92b6fe33e138ccaa48.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 10.6
+        },
+        {
+            "apiName": "Achievement_23",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Slip and Slide",
+            "description": "",
+            "iconUrl": "34ee1c76e76b653a83d7f3d9d734091f2e20a234.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 3.1
+        },
+        {
+            "apiName": "Achievement_24",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Proper Penance",
+            "description": "",
+            "iconUrl": "c09671856c266b7d09c14f14777944e782f15448.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "hidden": true,
+            "globalPct": 2.9
+        }
+    ],
+    "playtimeForever": 227,
+    "lastPlayedTs": "2020-11-09T02:11:58.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/414700/f336155a1714d0d413dea897f63ef19ee1f7cf21.jpg",
+    "lastUnlockedAt": "2020-02-09T06:54:19.000Z",
+    "lastUnlockName": "What God Has Joined",
+    "preview": [
+        {
+            "apiName": "Achievement_8",
+            "displayName": "What God Has Joined",
+            "unlocked": true,
+            "unlockedAt": "2020-02-09T06:54:19.000Z",
+            "iconUrl": "494fa91b20bf691f912a4c100e9e5d99979b3122.jpg",
+            "iconGrayUrl": "57e78e5287ac42e8980256187e5b558385fd0359.jpg",
+            "globalPct": 67
+        },
+        {
+            "apiName": "Achievement_1",
+            "displayName": "Born Again",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "417a6605ea5a9df004218939f4a67ae559a224be.jpg",
+            "iconGrayUrl": "406f573431ab313577c85407da7e56d6a59348c0.jpg",
+            "globalPct": 22.9
+        },
+        {
+            "apiName": "Achievement_2",
+            "displayName": "Sanctified",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "4e334348c6b1a74743ea52808d6e58ac6039a550.jpg",
+            "iconGrayUrl": "88cdd52474cbf4d1cc59405593f16325ffb75d27.jpg",
+            "globalPct": 6.9
+        },
+        {
+            "apiName": "Achievement_3",
+            "displayName": "Preacher",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "ba3da0fa8246be9d0d2b8f1068246c4032531352.jpg",
+            "iconGrayUrl": "7ecdf02a29b249c2af4c52b921707dcf8df6a10c.jpg",
+            "globalPct": 3.4
+        },
+        {
+            "apiName": "Achievement_4",
+            "displayName": "Saint",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "458b1048e8b69c5e21bd29e719f357c77ba695c7.jpg",
+            "iconGrayUrl": "c428b0708958ed2da3e65e3ec058f47032f6f2d1.jpg",
+            "globalPct": 2.1
+        },
+        {
+            "apiName": "Achievement_5",
+            "displayName": "Prophet",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "aca9e67d07c0601f9d47cb4d9564a5ba6d5b7316.jpg",
+            "iconGrayUrl": "fae1832a6936a7d8f4e8b24bb8bdb823d10cdba2.jpg",
+            "globalPct": 2.7
+        }
+    ]
+}

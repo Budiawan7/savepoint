@@ -1,0 +1,422 @@
+{
+    "appId": 1326470,
+    "hasAchievements": true,
+    "total": 32,
+    "unlocked": 32,
+    "gameName": "Sons Of The Forest",
+    "achievements": [
+        {
+            "apiName": "ACH_THIS_CANT_BE_HEALTHY",
+            "unlocked": true,
+            "unlockedAt": "2024-06-14T12:49:50.000Z",
+            "displayName": "THIS CAN’T BE HEALTHY",
+            "description": "",
+            "iconUrl": "130f67b8530ce6245da67735b2253a15206f7076.jpg",
+            "iconGrayUrl": "7e08a815b01b60d5c307c2400d0de6f045b21dc0.jpg",
+            "hidden": true,
+            "globalPct": 16.8
+        },
+        {
+            "apiName": "ACH_WEAR_TECH_ARMOR",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T08:15:46.000Z",
+            "displayName": "DYNAMO",
+            "description": "",
+            "iconUrl": "1ab486ee73093951bb24cb984d353fa480e69ab2.jpg",
+            "iconGrayUrl": "82c97fc73e66e04684fa41b0ba38843910e458a7.jpg",
+            "hidden": true,
+            "globalPct": 12.1
+        },
+        {
+            "apiName": "ACH_COLLECT_WATCHES",
+            "unlocked": true,
+            "unlockedAt": "2026-06-16T14:39:42.000Z",
+            "displayName": "COLLECTOR",
+            "description": "",
+            "iconUrl": "a5eec71dc514ceddd69326424012d534422039c1.jpg",
+            "iconGrayUrl": "9cb56f239b058bdf585a182c931fe0d0eafb467f.jpg",
+            "hidden": true,
+            "globalPct": 12.5
+        },
+        {
+            "apiName": "ACH_COLLECT_MONEY",
+            "unlocked": true,
+            "unlockedAt": "2024-12-17T15:04:44.000Z",
+            "displayName": "1%",
+            "description": "",
+            "iconUrl": "fe2a8600628b09f9deb3b90ec8565a2d41e65b4f.jpg",
+            "iconGrayUrl": "c7cd1b4676513a6970b0c6db5f19dbf96acdd82a.jpg",
+            "hidden": true,
+            "globalPct": 18.4
+        },
+        {
+            "apiName": "ACH_EAT_ALL_EDIBLES",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T12:07:58.000Z",
+            "displayName": "FOODIE",
+            "description": "",
+            "iconUrl": "95ba817dcf298c2d7cc9d2a54c0223deccac9e5e.jpg",
+            "iconGrayUrl": "9f7d47a2546f48ffd47f0bb1103fbcb8d5afcf5d.jpg",
+            "hidden": true,
+            "globalPct": 1.1
+        },
+        {
+            "apiName": "ACH_SURVIVE_DAY_1",
+            "unlocked": true,
+            "unlockedAt": "2024-06-01T12:46:31.000Z",
+            "displayName": "SURVIVOR",
+            "description": "",
+            "iconUrl": "574d0dd3391c2d62357b912e51340e21502510cd.jpg",
+            "iconGrayUrl": "62a2cee997d175232a46fc8bbc8a25b99dd19527.jpg",
+            "hidden": true,
+            "globalPct": 89
+        },
+        {
+            "apiName": "ACH_SURVIVE_DAY_10",
+            "unlocked": true,
+            "unlockedAt": "2024-06-01T18:16:20.000Z",
+            "displayName": "WHAT COULD GO WRONG",
+            "description": "",
+            "iconUrl": "ff3982bcd15d7de6bbbed06d9c0f06aaa561a47e.jpg",
+            "iconGrayUrl": "0eee9882c68d2c0dff0de810f8811a9e8817043e.jpg",
+            "hidden": true,
+            "globalPct": 58.7
+        },
+        {
+            "apiName": "ACH_SURVIVE_DAY_25",
+            "unlocked": true,
+            "unlockedAt": "2024-06-08T15:42:13.000Z",
+            "displayName": "THIS PLACE ISN’T SO BAD",
+            "description": "",
+            "iconUrl": "b8b74d683d75a5b029d47284c8557c7f8ea26a54.jpg",
+            "iconGrayUrl": "6ec65e54dca483af743acb3a8b68403a3bb846e4.jpg",
+            "hidden": true,
+            "globalPct": 30.8
+        },
+        {
+            "apiName": "ACH_SURVIVE_DAY_50",
+            "unlocked": true,
+            "unlockedAt": "2024-09-01T12:40:32.000Z",
+            "displayName": "NEVER GOING HOME",
+            "description": "",
+            "iconUrl": "0d9bc163508b021846ce51df7a9b0bd3d904da7f.jpg",
+            "iconGrayUrl": "be11a66e993dad5625a3747c71a6ff0cb80f1778.jpg",
+            "hidden": true,
+            "globalPct": 10.4
+        },
+        {
+            "apiName": "ACH_TRUSTED",
+            "unlocked": true,
+            "unlockedAt": "2025-06-26T15:33:26.000Z",
+            "displayName": "TRUSTED",
+            "description": "",
+            "iconUrl": "8d6078acbed693b1b5ffd6020b0e151e155318b3.jpg",
+            "iconGrayUrl": "69f723880fa03a0d3ca561f978de848a26884740.jpg",
+            "hidden": true,
+            "globalPct": 15.2
+        },
+        {
+            "apiName": "ACH_OWN_ALL_CLOTHING",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T07:29:21.000Z",
+            "displayName": "FASHIONISTA",
+            "description": "",
+            "iconUrl": "44f3a7750725dd4e3a55425a8d4c7d124577eda5.jpg",
+            "iconGrayUrl": "b7eddba75008a03d15bab38580f5079ac118ee52.jpg",
+            "hidden": true,
+            "globalPct": 16.1
+        },
+        {
+            "apiName": "ACH_STRUCTURE_50_LOGS",
+            "unlocked": true,
+            "unlockedAt": "2024-06-04T14:11:31.000Z",
+            "displayName": "TRADESMAN",
+            "description": "",
+            "iconUrl": "678abf7ef62e1dfe1fb983ddea9375d17393ab56.jpg",
+            "iconGrayUrl": "748942a63b718d6d351b2d85d136f92b1acf4e9a.jpg",
+            "hidden": true,
+            "globalPct": 53.5
+        },
+        {
+            "apiName": "ACH_STRUCTURE_100_LOGS",
+            "unlocked": true,
+            "unlockedAt": "2024-06-09T14:53:07.000Z",
+            "displayName": "CONTRACTOR",
+            "description": "",
+            "iconUrl": "eba8a56cbf9297deea1b0eef9ad97c9643792143.jpg",
+            "iconGrayUrl": "849979d52e6b81dbbef41fdef692301f66d764aa.jpg",
+            "hidden": true,
+            "globalPct": 46.3
+        },
+        {
+            "apiName": "ACH_STRUCTURE_500_LOGS",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T12:37:46.000Z",
+            "displayName": "ARCHITECT",
+            "description": "",
+            "iconUrl": "bec7d82f33ae1c7813367af23cd6a46deccbffc6.jpg",
+            "iconGrayUrl": "4ce90ae0093d495e64be8b714eaf85b1b547df71.jpg",
+            "hidden": true,
+            "globalPct": 24.5
+        },
+        {
+            "apiName": "ACH_STRUCTURE_1000_LOGS",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T13:11:16.000Z",
+            "displayName": "CITY PLANNER",
+            "description": "",
+            "iconUrl": "6c75be7192ee566b300a015d55fdc4b65b054194.jpg",
+            "iconGrayUrl": "dd9a2597e1a2bfd6ee3690629ce940eff3b608b1.jpg",
+            "hidden": true,
+            "globalPct": 14.6
+        },
+        {
+            "apiName": "ACH_KILL_SLUGGIE",
+            "unlocked": true,
+            "unlockedAt": "2024-06-08T15:12:35.000Z",
+            "displayName": "PINATA",
+            "description": "",
+            "iconUrl": "732d162f0fc7a56e862ec7bc021e4143303123b5.jpg",
+            "iconGrayUrl": "59b34a6e4b5a0f43fdbc8daa2cbc2b7f6e99887b.jpg",
+            "hidden": true,
+            "globalPct": 42
+        },
+        {
+            "apiName": "ACH_KICKED_BY_HEAVY",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T08:06:07.000Z",
+            "displayName": "SUCKER FOR PUNISHMENT",
+            "description": "",
+            "iconUrl": "c8b7149e34c2e8e194e9e18d77d091c286522cc8.jpg",
+            "iconGrayUrl": "076b5b74681b5127bd79507285361033a8ca6688.jpg",
+            "hidden": true,
+            "globalPct": 12.6
+        },
+        {
+            "apiName": "ACH_VIRGINIA_GPS",
+            "unlocked": true,
+            "unlockedAt": "2024-06-12T14:16:30.000Z",
+            "displayName": "EVERY MOVE YOU MAKE",
+            "description": "",
+            "iconUrl": "b78cca7e125d9e3c29c80bdceca4c64b0dff0519.jpg",
+            "iconGrayUrl": "a1c039c30e4f80e298b83daf91a16496769f6d1b.jpg",
+            "hidden": true,
+            "globalPct": 27.4
+        },
+        {
+            "apiName": "ACH_CRAFT_ALL_WEAPONS",
+            "unlocked": true,
+            "unlockedAt": "2024-12-17T14:37:35.000Z",
+            "displayName": "MC CRAFTY",
+            "description": "",
+            "iconUrl": "772c9c22b2a2d4e752cb624444b18eb1d5157af5.jpg",
+            "iconGrayUrl": "2f90e2237c68bfbc7f999ef68a54cd4ad0b71bc9.jpg",
+            "hidden": true,
+            "globalPct": 20.3
+        },
+        {
+            "apiName": "ACH_EAT_RAW_FISH",
+            "unlocked": true,
+            "unlockedAt": "2024-06-12T15:30:42.000Z",
+            "displayName": "I DREAM OF SUSHI",
+            "description": "",
+            "iconUrl": "888eb47fecc4886240587fb866a5f2946e2bd869.jpg",
+            "iconGrayUrl": "72bda2255a4691ce81f2ab99b7989a5104b83acb.jpg",
+            "hidden": true,
+            "globalPct": 4.1
+        },
+        {
+            "apiName": "ACH_DIG_HOLES_100",
+            "unlocked": true,
+            "unlockedAt": "2024-08-11T08:53:17.000Z",
+            "displayName": "BADGER",
+            "description": "",
+            "iconUrl": "f901e15f71353cce8da33ba8ab6508286123bb66.jpg",
+            "iconGrayUrl": "4aba9cefe29137eb0050b4a04ad896c71b6c13fb.jpg",
+            "hidden": true,
+            "globalPct": 21.6
+        },
+        {
+            "apiName": "ACH_DIG_HOLES_1000",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T12:35:12.000Z",
+            "displayName": "I LIKE BLISTERS",
+            "description": "",
+            "iconUrl": "4a3956a7286bb70bdcf5ac8d3ba7660ed59ce286.jpg",
+            "iconGrayUrl": "b429c50520d4434c2ccf57681cee61c0326130a3.jpg",
+            "hidden": true,
+            "globalPct": 1.1
+        },
+        {
+            "apiName": "ACH_KILLED_BY_SHARK",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T07:40:42.000Z",
+            "displayName": "NEED A BIGGER BOAT",
+            "description": "",
+            "iconUrl": "a9ce4fcca2f047b7527c9d62c8a4e30fa6bfe5e1.jpg",
+            "iconGrayUrl": "19e10e6b4d9b4e5a73cbe345ad95bbc8316b8435.jpg",
+            "hidden": true,
+            "globalPct": 18.1
+        },
+        {
+            "apiName": "ACH_PRINT_ALL_ITEMS",
+            "unlocked": true,
+            "unlockedAt": "2024-08-25T10:21:58.000Z",
+            "displayName": "MAKER",
+            "description": "",
+            "iconUrl": "2ceb3a599ff50719fa188a2071f881cf57a2e39a.jpg",
+            "iconGrayUrl": "1a2bcafb67781fbcfb82a1b4e15ee96326ac2565.jpg",
+            "hidden": true,
+            "globalPct": 9.9
+        },
+        {
+            "apiName": "ACH_VIRGINIA_MAX_SENTIMENT",
+            "unlocked": true,
+            "unlockedAt": "2024-06-02T08:33:44.000Z",
+            "displayName": "CHIVALRY IS NOT DEAD",
+            "description": "",
+            "iconUrl": "bed86578f4030b6413bd60174d3da4bbe97fcc44.jpg",
+            "iconGrayUrl": "a3d5c4a7ed37b0525ec8579802ab47c83ce05fdb.jpg",
+            "hidden": true,
+            "globalPct": 12.4
+        },
+        {
+            "apiName": "ACH_LEAVE_THE_ISLAND",
+            "unlocked": true,
+            "unlockedAt": "2024-09-29T08:47:42.000Z",
+            "displayName": "FOUGHT DEMONS",
+            "description": "",
+            "iconUrl": "30bb87a3fc9182686210387c2c33311424c9028f.jpg",
+            "iconGrayUrl": "97db5bbf0597a3f4921441181247b3805b9db45f.jpg",
+            "hidden": true,
+            "globalPct": 13.9
+        },
+        {
+            "apiName": "ACH_STAY_BEHIND",
+            "unlocked": true,
+            "unlockedAt": "2024-09-29T09:03:38.000Z",
+            "displayName": "FIGHT DEMONS",
+            "description": "",
+            "iconUrl": "16401a396395b4d163b7070485c9a8d1297b64e8.jpg",
+            "iconGrayUrl": "125ae385de80ebeec45fc883e4b48dc096573668.jpg",
+            "hidden": true,
+            "globalPct": 23
+        },
+        {
+            "apiName": "ACH_FINISH_STORY_WITH_ALL_NPCS",
+            "unlocked": true,
+            "unlockedAt": "2024-09-29T08:47:42.000Z",
+            "displayName": "KEEP YOUR FRIENDS CLOSE",
+            "description": "",
+            "iconUrl": "86723214ba1fc70b78c39a3cf8b52aaf7b7c1d9c.jpg",
+            "iconGrayUrl": "54e6a3f41f0adfdd7c47186205b46d4f2da7fc67.jpg",
+            "hidden": true,
+            "globalPct": 11.5
+        },
+        {
+            "apiName": "ACH_PLATED_WEAPONS",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T08:55:45.000Z",
+            "displayName": "OOOH SHINY",
+            "description": "",
+            "iconUrl": "802f4060d222446d477956971ded0af432cbfdc7.jpg",
+            "iconGrayUrl": "2e0f119f14a13c1bb5e72298cf685dbb5c2aec11.jpg",
+            "hidden": true,
+            "globalPct": 1.2
+        },
+        {
+            "apiName": "ACH_DISCOVERED_BLUEPRINTS",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T08:12:03.000Z",
+            "displayName": "INTERIOR DESIGNER",
+            "description": "Find all the discoverable blueprints",
+            "iconUrl": "de6c8933304cd120939f61601fd893607e8432c8.jpg",
+            "iconGrayUrl": "ec937a37b9880776d9e1a2f6a9885c062fa6918d.jpg",
+            "hidden": false,
+            "globalPct": 2.9
+        },
+        {
+            "apiName": "ACH_FOUND_FOOTAGE",
+            "unlocked": true,
+            "unlockedAt": "2024-06-13T15:12:21.000Z",
+            "displayName": "BLOCKBUSTER",
+            "description": "Watch all the found footage recordings",
+            "iconUrl": "56db64e95dc24ef91d60d29202299704db78cdcd.jpg",
+            "iconGrayUrl": "c61fa5587482c5e667140bd345d7003caa4a2088.jpg",
+            "hidden": false,
+            "globalPct": 33.1
+        },
+        {
+            "apiName": "ACH_NOTE_PAGES",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T14:40:01.000Z",
+            "displayName": "GUMSHOE",
+            "description": "Collect all the note pages",
+            "iconUrl": "cce6df0d807e76c3398d3ba2bcdc9edd1dd64ada.jpg",
+            "iconGrayUrl": "a227bd718bddb7662f6d00f05ca9380363168939.jpg",
+            "hidden": false,
+            "globalPct": 0.8
+        }
+    ],
+    "playtimeForever": 6231,
+    "lastPlayedTs": "2026-08-01T17:26:48.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1326470/bd28fe592b339cff5a3eef743f31e3166c984c68.jpg",
+    "lastUnlockedAt": "2026-07-13T14:40:01.000Z",
+    "lastUnlockName": "GUMSHOE",
+    "preview": [
+        {
+            "apiName": "ACH_NOTE_PAGES",
+            "displayName": "GUMSHOE",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T14:40:01.000Z",
+            "iconUrl": "cce6df0d807e76c3398d3ba2bcdc9edd1dd64ada.jpg",
+            "iconGrayUrl": "a227bd718bddb7662f6d00f05ca9380363168939.jpg",
+            "globalPct": 0.8
+        },
+        {
+            "apiName": "ACH_STRUCTURE_1000_LOGS",
+            "displayName": "CITY PLANNER",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T13:11:16.000Z",
+            "iconUrl": "6c75be7192ee566b300a015d55fdc4b65b054194.jpg",
+            "iconGrayUrl": "dd9a2597e1a2bfd6ee3690629ce940eff3b608b1.jpg",
+            "globalPct": 14.6
+        },
+        {
+            "apiName": "ACH_STRUCTURE_500_LOGS",
+            "displayName": "ARCHITECT",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T12:37:46.000Z",
+            "iconUrl": "bec7d82f33ae1c7813367af23cd6a46deccbffc6.jpg",
+            "iconGrayUrl": "4ce90ae0093d495e64be8b714eaf85b1b547df71.jpg",
+            "globalPct": 24.5
+        },
+        {
+            "apiName": "ACH_DIG_HOLES_1000",
+            "displayName": "I LIKE BLISTERS",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T12:35:12.000Z",
+            "iconUrl": "4a3956a7286bb70bdcf5ac8d3ba7660ed59ce286.jpg",
+            "iconGrayUrl": "b429c50520d4434c2ccf57681cee61c0326130a3.jpg",
+            "globalPct": 1.1
+        },
+        {
+            "apiName": "ACH_EAT_ALL_EDIBLES",
+            "displayName": "FOODIE",
+            "unlocked": true,
+            "unlockedAt": "2026-07-13T12:07:58.000Z",
+            "iconUrl": "95ba817dcf298c2d7cc9d2a54c0223deccac9e5e.jpg",
+            "iconGrayUrl": "9f7d47a2546f48ffd47f0bb1103fbcb8d5afcf5d.jpg",
+            "globalPct": 1.1
+        },
+        {
+            "apiName": "ACH_PLATED_WEAPONS",
+            "displayName": "OOOH SHINY",
+            "unlocked": true,
+            "unlockedAt": "2026-07-12T08:55:45.000Z",
+            "iconUrl": "802f4060d222446d477956971ded0af432cbfdc7.jpg",
+            "iconGrayUrl": "2e0f119f14a13c1bb5e72298cf685dbb5c2aec11.jpg",
+            "globalPct": 1.2
+        }
+    ]
+}
