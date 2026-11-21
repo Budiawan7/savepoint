@@ -17,7 +17,7 @@
 
 ---
 
-Savepoint is a template. You make your own copy, add your API keys as secrets, and in about fifteen minutes you have a personal gaming hub at `https://<you>.github.io/savepoint/` that keeps itself up to date. It is designed for your phone first and installs as an app.
+Savepoint is a self-hosted gaming dashboard and achievement tracker for RetroAchievements, Steam and Xbox, made as a GitHub template. You make your own copy, add your API keys as secrets, and in about fifteen minutes you have a personal gaming hub at `https://<you>.github.io/savepoint/` that keeps itself up to date. It is designed for your phone first and installs as an app.
 
 <img src="docs/images/profiles.jpg" alt="Profile pages for RetroAchievements, Steam and Xbox on desktop and phone" width="100%">
 
