@@ -1,0 +1,202 @@
+{
+    "appId": 435790,
+    "hasAchievements": true,
+    "total": 12,
+    "unlocked": 0,
+    "gameName": "10 Second Ninja X",
+    "achievements": [
+        {
+            "apiName": "ACHIEVEMENT_0",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Think of the children",
+            "description": "",
+            "iconUrl": "f3ea8ec54f8a214c3f09265f8c96f0a9185cf0a2.jpg",
+            "iconGrayUrl": "563aaeb84130704fd7da4dcb26200ffd393cfa1d.jpg",
+            "hidden": true,
+            "globalPct": 10.8
+        },
+        {
+            "apiName": "ACHIEVEMENT_1",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "STOP - HE'S ALREADY DEAD!",
+            "description": "",
+            "iconUrl": "f294995fb818a48c763f4d1d42452f3ea0f32b20.jpg",
+            "iconGrayUrl": "8e5d882a8bd86cce6559edfd2c99a409009f85de.jpg",
+            "hidden": true,
+            "globalPct": 9.1
+        },
+        {
+            "apiName": "ACHIEVEMENT_2",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "AHHHHHHHHHHHHHHHH",
+            "description": "",
+            "iconUrl": "487526261d87ef82dcd8006e5c5aa144ed8f299e.jpg",
+            "iconGrayUrl": "c2f79f80897473d3f79c45b26fedff0fc72cd0cd.jpg",
+            "hidden": true,
+            "globalPct": 19.7
+        },
+        {
+            "apiName": "ACHIEVEMENT_3",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Just Getting Started",
+            "description": "Earn 25 Stars",
+            "iconUrl": "bf3b65de516899498f7d33bf8f01a0a8f285d276.jpg",
+            "iconGrayUrl": "087db947bd7701e1e46990f646f8c3c6bc249ce1.jpg",
+            "hidden": false,
+            "globalPct": 20.2
+        },
+        {
+            "apiName": "ACHIEVEMENT_4",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Smashing",
+            "description": "Earn 75 Stars",
+            "iconUrl": "159c67f80ea73a869432f487499e69b9d0ae930b.jpg",
+            "iconGrayUrl": "0cc950b1e17b1ce54b9fec334b15baa6db2a6d51.jpg",
+            "hidden": false,
+            "globalPct": 13.2
+        },
+        {
+            "apiName": "ACHIEVEMENT_5",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Wooooooooooooooah - Half way there",
+            "description": "Earn 150 Stars",
+            "iconUrl": "08ee5b21a04f379c6d17c269a80ae9dffa3c2e21.jpg",
+            "iconGrayUrl": "292def2c3ea95a44641ab6894ff963604f49d98b.jpg",
+            "hidden": false,
+            "globalPct": 10.9
+        },
+        {
+            "apiName": "ACHIEVEMENT_6",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Wooooooooooooooah - Livin' on a prayer",
+            "description": "Earn 300 stars & X rank all marathon modes",
+            "iconUrl": "825767ce864f20872ef17b02aff1473f8bac3740.jpg",
+            "iconGrayUrl": "63a4585dcf50969e22ae9addfb217f8deb1583f9.jpg",
+            "hidden": false,
+            "globalPct": 8.7
+        },
+        {
+            "apiName": "ACHIEVEMENT_7",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Yay - I'm a llama again!",
+            "description": "Equip a new character skin",
+            "iconUrl": "4d05cb53fb431775095e90d5d3fda6ba2f13474a.jpg",
+            "iconGrayUrl": "45cb8a01320673508edeeaa57fd58b4f26ecffb1.jpg",
+            "hidden": false,
+            "globalPct": 11.3
+        },
+        {
+            "apiName": "ACHIEVEMENT_8",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "No one else can do the things you do",
+            "description": "Complete Marathon Mode in every zone",
+            "iconUrl": "b3d46022c941810b48f3d83ae08ce9d3975f8be6.jpg",
+            "iconGrayUrl": "9c26fb250711a9ce7f2068e437df5e15f27f756e.jpg",
+            "hidden": false,
+            "globalPct": 8.6
+        },
+        {
+            "apiName": "ACHIEVEMENT_9",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "... & BENJI",
+            "description": "",
+            "iconUrl": "333c10f0319463a96138d9a2ac2f1ed81b1722fd.jpg",
+            "iconGrayUrl": "aa987e36d52990e2c6f226ff0bda04d25c407f4c.jpg",
+            "hidden": true,
+            "globalPct": 17.5
+        },
+        {
+            "apiName": "ACHIEVEMENT_10",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Greatbeard & Benji",
+            "description": "",
+            "iconUrl": "7fe160a2dc5491a7ccf411c10df66169a68e38d0.jpg",
+            "iconGrayUrl": "b04a91e6cbf317114e5e510eccc84662946a8f59.jpg",
+            "hidden": true,
+            "globalPct": 11.8
+        },
+        {
+            "apiName": "ACHIEVEMENT_11",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "SO CLOSE",
+            "description": "Finish a level with less than 0.03 seconds to the next star rating",
+            "iconUrl": "0d90a6098ab72b0985eb374f10badcd33c4c57bd.jpg",
+            "iconGrayUrl": "d81deac41e4128bddff5c33a70a1d31951a1913a.jpg",
+            "hidden": false,
+            "globalPct": 21.2
+        }
+    ],
+    "playtimeForever": 5,
+    "lastPlayedTs": "2020-05-25T10:46:28.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/435790/23b4f652d3c3c2716ba1d44181bfd1f39c556c69.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "ACHIEVEMENT_0",
+            "displayName": "Think of the children",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "f3ea8ec54f8a214c3f09265f8c96f0a9185cf0a2.jpg",
+            "iconGrayUrl": "563aaeb84130704fd7da4dcb26200ffd393cfa1d.jpg",
+            "globalPct": 10.8
+        },
+        {
+            "apiName": "ACHIEVEMENT_1",
+            "displayName": "STOP - HE'S ALREADY DEAD!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "f294995fb818a48c763f4d1d42452f3ea0f32b20.jpg",
+            "iconGrayUrl": "8e5d882a8bd86cce6559edfd2c99a409009f85de.jpg",
+            "globalPct": 9.1
+        },
+        {
+            "apiName": "ACHIEVEMENT_2",
+            "displayName": "AHHHHHHHHHHHHHHHH",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "487526261d87ef82dcd8006e5c5aa144ed8f299e.jpg",
+            "iconGrayUrl": "c2f79f80897473d3f79c45b26fedff0fc72cd0cd.jpg",
+            "globalPct": 19.7
+        },
+        {
+            "apiName": "ACHIEVEMENT_3",
+            "displayName": "Just Getting Started",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "bf3b65de516899498f7d33bf8f01a0a8f285d276.jpg",
+            "iconGrayUrl": "087db947bd7701e1e46990f646f8c3c6bc249ce1.jpg",
+            "globalPct": 20.2
+        },
+        {
+            "apiName": "ACHIEVEMENT_4",
+            "displayName": "Smashing",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "159c67f80ea73a869432f487499e69b9d0ae930b.jpg",
+            "iconGrayUrl": "0cc950b1e17b1ce54b9fec334b15baa6db2a6d51.jpg",
+            "globalPct": 13.2
+        },
+        {
+            "apiName": "ACHIEVEMENT_5",
+            "displayName": "Wooooooooooooooah - Half way there",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "08ee5b21a04f379c6d17c269a80ae9dffa3c2e21.jpg",
+            "iconGrayUrl": "292def2c3ea95a44641ab6894ff963604f49d98b.jpg",
+            "globalPct": 10.9
+        }
+    ]
+}

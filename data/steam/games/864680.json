@@ -1,0 +1,400 @@
+{
+    "appId": 864680,
+    "hasAchievements": true,
+    "total": 30,
+    "unlocked": 0,
+    "gameName": "Rover Mechanic Simulator",
+    "achievements": [
+        {
+            "apiName": "I_AM_A_MECHANIC",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I am a mechanic!",
+            "description": "Finish the tutorial orders.",
+            "iconUrl": "b45197e57964a063945ac96052aeac3e174c30f8.jpg",
+            "iconGrayUrl": "31ad2965d62d96c1b35e44532acd34a9e1fe52d9.jpg",
+            "hidden": false,
+            "globalPct": 24.5
+        },
+        {
+            "apiName": "FIRST_BLOOD",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "First blood!",
+            "description": "Repair Sojourner",
+            "iconUrl": "a9259076ece65833721ba803fa489b627e88d13a.jpg",
+            "iconGrayUrl": "c2b27cc856bef9b0019ce75ad63baf81d2ac833f.jpg",
+            "hidden": false,
+            "globalPct": 54.2
+        },
+        {
+            "apiName": "MER_TWINS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "MER Twins",
+            "description": "Repair rovers of both MER missions",
+            "iconUrl": "7a98a5b4898ce0f143a51a7792cacd161e24f2f1.jpg",
+            "iconGrayUrl": "1850bad0d85fe0d97d7070f4f8cdabfd5679a046.jpg",
+            "hidden": false,
+            "globalPct": 30.9
+        },
+        {
+            "apiName": "EHS_DONT_CARE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "EHS? I Don't Care!",
+            "description": "",
+            "iconUrl": "9cf0079c48d2af76a73337b1451299affe7a952c.jpg",
+            "iconGrayUrl": "3b83057c85fcd2612f4de906e621bccf5e56b8bf.jpg",
+            "hidden": true,
+            "globalPct": 8.3
+        },
+        {
+            "apiName": "THERE_IS_ALWAYS_ONE_LEFT",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "There is always one left!",
+            "description": "Remove 1000 screws.",
+            "iconUrl": "929dd79e81779f107c64d718bcee7010f244cf22.jpg",
+            "iconGrayUrl": "6a1f19b7766333d4c505c4405dfd4c617c3a09d0.jpg",
+            "hidden": false,
+            "globalPct": 8.7
+        },
+        {
+            "apiName": "IM_A_TECHNICIAN",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I'm a technician!",
+            "description": "Unlock all technician skills",
+            "iconUrl": "4206f03d3b050aa03f92382ef273eda1c7bd8384.jpg",
+            "iconGrayUrl": "761d50cba645f5c43b398c425c97cfc37c92565c.jpg",
+            "hidden": false,
+            "globalPct": 4.5
+        },
+        {
+            "apiName": "IM_AN_ECONOMIST",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I'm an economist!",
+            "description": "Unlock all economist skills",
+            "iconUrl": "13250bf4079d100a09f6979e939110e59f7ff9b8.jpg",
+            "iconGrayUrl": "3c389ff8f074ee0dd881aa66deb4f9ae6cff514c.jpg",
+            "hidden": false,
+            "globalPct": 3.5
+        },
+        {
+            "apiName": "IM_AN_ANALYST",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I'm an analyst!",
+            "description": "Unlock all analyst skills",
+            "iconUrl": "d637116354a6e5ecc8c7fee65ee591f1a5c35164.jpg",
+            "iconGrayUrl": "282e1b94ec03f9abaefdcb42893d37a74d067035.jpg",
+            "hidden": false,
+            "globalPct": 4.3
+        },
+        {
+            "apiName": "I_LOVE_RETRO",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I LOVE RETRO!",
+            "description": "",
+            "iconUrl": "d38772395412b651315dc072306067a33b61a36e.jpg",
+            "iconGrayUrl": "3763fd78c38b4673ef1a1f06e1097caca3628184.jpg",
+            "hidden": true,
+            "globalPct": 11.9
+        },
+        {
+            "apiName": "SERGEANT",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Sergeant",
+            "description": "Rise to the rank of Sergant!",
+            "iconUrl": "509a07724fadf835e0296451267b34e904825ce0.jpg",
+            "iconGrayUrl": "b5975ccc4b1f4e6b12d544cdfc4e75dd7fa1ad36.jpg",
+            "hidden": false,
+            "globalPct": 21.8
+        },
+        {
+            "apiName": "LIEUTENANT",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Lieutenant",
+            "description": "Rise to the rank of Lieutenant!",
+            "iconUrl": "fa6c45f4b9c2f2675fea02ee10d4ef7ce2e90ab0.jpg",
+            "iconGrayUrl": "515add7fec4bd0de07d9ec94306763eb96f669ab.jpg",
+            "hidden": false,
+            "globalPct": 9.5
+        },
+        {
+            "apiName": "CAPTAIN",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Captain!",
+            "description": "Rise to the rank of Captain!",
+            "iconUrl": "19d5ca4675309090a6486b1046964be606a09545.jpg",
+            "iconGrayUrl": "c0e88fb69f86e0d42e47a89ab8d54220657ca4bc.jpg",
+            "hidden": false,
+            "globalPct": 8.3
+        },
+        {
+            "apiName": "Major",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Major!",
+            "description": "Rise to the rank of Major!",
+            "iconUrl": "d5cd50f8ac3fbbdad541634fee4b987a53ba703f.jpg",
+            "iconGrayUrl": "1a34d75726703e37b00f7097dccb9b6175365c14.jpg",
+            "hidden": false,
+            "globalPct": 7.8
+        },
+        {
+            "apiName": "COLONEL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Colonel!",
+            "description": "Rise to the rank of Colonel!",
+            "iconUrl": "4cf09b988fdfd66af90ff4b02f75eb5bcd9f07d9.jpg",
+            "iconGrayUrl": "cfda423f67d1e0266098de297ac16046bda474b8.jpg",
+            "hidden": false,
+            "globalPct": 7.1
+        },
+        {
+            "apiName": "GENERAL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "General!",
+            "description": "Rise to the rank of General!",
+            "iconUrl": "f537342a4787b1be3c7bcc6509a86dc8c1607a2e.jpg",
+            "iconGrayUrl": "5c624a4e904aeff525ac913c956d4af93dbbc89f.jpg",
+            "hidden": false,
+            "globalPct": 5.7
+        },
+        {
+            "apiName": "THE_PILES_OF_REGOLITH",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Piles of Resources!",
+            "description": "Earn 100 000 Resources",
+            "iconUrl": "ec593dbfe3e620398dd6d82479e54ac8ba2d612e.jpg",
+            "iconGrayUrl": "9c36d403d930cb3c7b1b018c8eb399dd2d40b7f4.jpg",
+            "hidden": false,
+            "globalPct": 7.9
+        },
+        {
+            "apiName": "FLY_ME_TO_THE_MARS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Fly me to the Mars.",
+            "description": "",
+            "iconUrl": "e46a3624762e507c99068c9e7651b0b69f9c64ab.jpg",
+            "iconGrayUrl": "8fdb5b02eec5ad77d822f9e2583b507f93bd928a.jpg",
+            "hidden": true,
+            "globalPct": 7.6
+        },
+        {
+            "apiName": "CURIOUS",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Curious?",
+            "description": "",
+            "iconUrl": "b870a4af8c9ec2b16e9d04134f07c7e121302eb7.jpg",
+            "iconGrayUrl": "246e9c333ddada56bf009c26b2d9480dfc7a99ce.jpg",
+            "hidden": true,
+            "globalPct": 8.5
+        },
+        {
+            "apiName": "GIFT_JASMINE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Gift",
+            "description": "",
+            "iconUrl": "f06efb805fe9a8d27d2e3e8bda61c88a18877ec4.jpg",
+            "iconGrayUrl": "0d11fc19c6ee0c72c66399935515c313858050b2.jpg",
+            "hidden": true,
+            "globalPct": 7.5
+        },
+        {
+            "apiName": "ALARM",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Alarm!",
+            "description": "",
+            "iconUrl": "04742acc9998b8f9224ffe42a44297c54e31321b.jpg",
+            "iconGrayUrl": "a4405015554efa8060fcc972cceadcc9777aa438.jpg",
+            "hidden": true,
+            "globalPct": 12.9
+        },
+        {
+            "apiName": "PRINTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "PRINTER",
+            "description": "",
+            "iconUrl": "77d2647743ab212296a2b2a99209db6e94bfd647.jpg",
+            "iconGrayUrl": "15a73447170886280b153ca09f2d73d9a3b313da.jpg",
+            "hidden": true,
+            "globalPct": 3
+        },
+        {
+            "apiName": "GIVE_ME_BACK_MY_MONEY",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Give me back my money!",
+            "description": "",
+            "iconUrl": "6dde665e671329c98ef9616df33ba3215e728754.jpg",
+            "iconGrayUrl": "afbc8300651130575bdc2df7e97d824a2c0df8bd.jpg",
+            "hidden": true,
+            "globalPct": 5.6
+        },
+        {
+            "apiName": "GOLDEN_WHEEL",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Golden Wheel Awards!",
+            "description": "",
+            "iconUrl": "42224babc2c48987c0a8536e30ffb9494468fc74.jpg",
+            "iconGrayUrl": "fce0b6af385d7cdc90abcaeb338f47c300fe95a2.jpg",
+            "hidden": true,
+            "globalPct": 9.8
+        },
+        {
+            "apiName": "RADIOACTIVE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Radioactive",
+            "description": "",
+            "iconUrl": "0e0a50800aeb0ee3d6582d1504a04c688797bd8f.jpg",
+            "iconGrayUrl": "f7e3e26f4722a8242edcc2bf41014cdf64bb3f28.jpg",
+            "hidden": true,
+            "globalPct": 3.5
+        },
+        {
+            "apiName": "PERCY_IS_THAT_YOU",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Percy is that you?",
+            "description": "",
+            "iconUrl": "ce59c341e52d403c1e39062a95e58a092983df3e.jpg",
+            "iconGrayUrl": "26fcbcdf5b8ca622d284164f0e925739637f9316.jpg",
+            "hidden": true,
+            "globalPct": 3.7
+        },
+        {
+            "apiName": "IM_NAKED",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "I'm naked",
+            "description": "",
+            "iconUrl": "0fbe30458d664afc457af9b1039874d193a8ea12.jpg",
+            "iconGrayUrl": "15903eb9eb134df97e31a31a1f849240ed77ab55.jpg",
+            "hidden": true,
+            "globalPct": 1.8
+        },
+        {
+            "apiName": "CERBER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Cerber",
+            "description": "",
+            "iconUrl": "356df68c9125387be6fc696289ae58d1202d535a.jpg",
+            "iconGrayUrl": "f23b9714f8cc9cf066bdb6a32d54987a34970322.jpg",
+            "hidden": true,
+            "globalPct": 2.7
+        },
+        {
+            "apiName": "ZIGGY_STARDUST",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ziggy Stardust",
+            "description": "",
+            "iconUrl": "7be79733cc996606d85d44a842392d8ccaca282d.jpg",
+            "iconGrayUrl": "ca133ded70278ff8221507ef1c9adba1458c353f.jpg",
+            "hidden": true,
+            "globalPct": 2.2
+        },
+        {
+            "apiName": "PERSEVERANT",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Perseverant",
+            "description": "",
+            "iconUrl": "6f63cfadf529aee6a03fb11a5fdf9e556fc445f5.jpg",
+            "iconGrayUrl": "309e4b9ac736641084400c2801ce28ae2d6957bd.jpg",
+            "hidden": true,
+            "globalPct": 1.6
+        },
+        {
+            "apiName": "HERE_I_COME",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Here I come",
+            "description": "",
+            "iconUrl": "07dfd01ac9fcec5d108b86a464abc7740c672389.jpg",
+            "iconGrayUrl": "4a814bacfae84f6f89b9914b93bd2a1778d8debe.jpg",
+            "hidden": true,
+            "globalPct": 12.7
+        }
+    ],
+    "playtimeForever": 130,
+    "lastPlayedTs": "2021-01-01T12:58:28.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/864680/a7c201a732ccd87e9fd58e9ea71b693e5447131f.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "I_AM_A_MECHANIC",
+            "displayName": "I am a mechanic!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "b45197e57964a063945ac96052aeac3e174c30f8.jpg",
+            "iconGrayUrl": "31ad2965d62d96c1b35e44532acd34a9e1fe52d9.jpg",
+            "globalPct": 24.5
+        },
+        {
+            "apiName": "FIRST_BLOOD",
+            "displayName": "First blood!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "a9259076ece65833721ba803fa489b627e88d13a.jpg",
+            "iconGrayUrl": "c2b27cc856bef9b0019ce75ad63baf81d2ac833f.jpg",
+            "globalPct": 54.2
+        },
+        {
+            "apiName": "MER_TWINS",
+            "displayName": "MER Twins",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "7a98a5b4898ce0f143a51a7792cacd161e24f2f1.jpg",
+            "iconGrayUrl": "1850bad0d85fe0d97d7070f4f8cdabfd5679a046.jpg",
+            "globalPct": 30.9
+        },
+        {
+            "apiName": "EHS_DONT_CARE",
+            "displayName": "EHS? I Don't Care!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "9cf0079c48d2af76a73337b1451299affe7a952c.jpg",
+            "iconGrayUrl": "3b83057c85fcd2612f4de906e621bccf5e56b8bf.jpg",
+            "globalPct": 8.3
+        },
+        {
+            "apiName": "THERE_IS_ALWAYS_ONE_LEFT",
+            "displayName": "There is always one left!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "929dd79e81779f107c64d718bcee7010f244cf22.jpg",
+            "iconGrayUrl": "6a1f19b7766333d4c505c4405dfd4c617c3a09d0.jpg",
+            "globalPct": 8.7
+        },
+        {
+            "apiName": "IM_A_TECHNICIAN",
+            "displayName": "I'm a technician!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "4206f03d3b050aa03f92382ef273eda1c7bd8384.jpg",
+            "iconGrayUrl": "761d50cba645f5c43b398c425c97cfc37c92565c.jpg",
+            "globalPct": 4.5
+        }
+    ]
+}

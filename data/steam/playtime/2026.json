@@ -1,0 +1,152 @@
+{
+    "metadata": {
+        "generatedAt": "2026-11-28T06:56:52Z",
+        "year": 2026
+    },
+    "games": {
+        "261030": {
+            "name": "The Walking Dead: Season Two",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8dd081faf73fb7ff57151a1498b7025e8fc85dc4.jpg"
+        },
+        "413150": {
+            "name": "Stardew Valley",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg"
+        },
+        "648800": {
+            "name": "Raft",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg"
+        },
+        "1663850": {
+            "name": "REPLACED",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1663850/4b244ef005a6c9de554ec66ff7f1ad71a5617b98.jpg"
+        },
+        "2909400": {
+            "name": "FINAL FANTASY VII REBIRTH",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2909400/3dacad0a047962a94501d9d028c095993c48ce8b.jpg"
+        },
+        "3017860": {
+            "name": "DOOM: The Dark Ages",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3017860/f0d79db78568f80f3532151fed5d9633191d0ebe.jpg"
+        },
+        "3321460": {
+            "name": "Crimson Desert Enhanced",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/f260267377759a5fea6b651817c9a413c6b562b0.jpg"
+        }
+    },
+    "sessions": [
+        {
+            "start": "2026-11-16T20:20:15Z",
+            "end": "2026-11-16T21:39:15Z",
+            "gameId": 3321460,
+            "minutes": 79
+        },
+        {
+            "start": "2026-11-17T18:02:19Z",
+            "end": "2026-11-17T20:38:19Z",
+            "gameId": 3321460,
+            "minutes": 156
+        },
+        {
+            "start": "2026-11-18T11:30:18Z",
+            "end": "2026-11-18T14:36:18Z",
+            "gameId": 648800,
+            "minutes": 186
+        },
+        {
+            "start": "2026-11-19T20:02:41Z",
+            "end": "2026-11-19T21:14:41Z",
+            "gameId": 3321460,
+            "minutes": 72
+        },
+        {
+            "start": "2026-11-20T20:34:39Z",
+            "end": "2026-11-21T00:00:39Z",
+            "gameId": 261030,
+            "minutes": 206
+        },
+        {
+            "start": "2026-11-21T03:05:21Z",
+            "end": "2026-11-21T07:10:43Z",
+            "gameId": 648800,
+            "minutes": 245
+        },
+        {
+            "start": "2026-11-21T09:28:48Z",
+            "end": "2026-11-21T15:04:48Z",
+            "gameId": 261030,
+            "minutes": 336
+        },
+        {
+            "start": "2026-11-22T00:26:11Z",
+            "end": "2026-11-22T02:24:32Z",
+            "gameId": 1663850,
+            "minutes": 116
+        },
+        {
+            "start": "2026-11-22T05:44:14Z",
+            "end": "2026-11-22T07:03:14Z",
+            "gameId": 648800,
+            "minutes": 79
+        },
+        {
+            "start": "2026-11-22T10:02:59Z",
+            "end": "2026-11-22T12:09:59Z",
+            "gameId": 1663850,
+            "minutes": 127
+        },
+        {
+            "start": "2026-11-22T22:39:51Z",
+            "end": "2026-11-23T00:15:51Z",
+            "gameId": 1663850,
+            "minutes": 96
+        },
+        {
+            "start": "2026-11-23T23:44:23Z",
+            "end": "2026-11-24T01:10:23Z",
+            "gameId": 1663850,
+            "minutes": 86
+        },
+        {
+            "start": "2026-11-24T22:11:24Z",
+            "end": "2026-11-24T23:55:24Z",
+            "gameId": 1663850,
+            "minutes": 104
+        },
+        {
+            "start": "2026-11-25T21:53:47Z",
+            "end": "2026-11-25T23:19:47Z",
+            "gameId": 1663850,
+            "minutes": 86
+        },
+        {
+            "start": "2026-11-26T12:46:31Z",
+            "end": "2026-11-26T13:51:31Z",
+            "gameId": 1663850,
+            "minutes": 65
+        },
+        {
+            "start": "2026-11-28T00:10:55Z",
+            "end": "2026-11-28T00:57:55Z",
+            "gameId": 2909400,
+            "minutes": 47
+        },
+        {
+            "start": "2026-11-28T05:26:16Z",
+            "end": "2026-11-28T05:41:16Z",
+            "gameId": 648800,
+            "minutes": 15
+        },
+        {
+            "start": "2026-11-28T05:43:43Z",
+            "end": "2026-11-28T05:52:43Z",
+            "gameId": 3017860,
+            "minutes": 9
+        },
+        {
+            "start": "2026-11-28T06:00:39Z",
+            "end": "2026-11-28T06:30:39Z",
+            "gameId": 413150,
+            "minutes": 30
+        }
+    ]
+}

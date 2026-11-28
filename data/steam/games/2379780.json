@@ -1,0 +1,411 @@
+{
+    "appId": 2379780,
+    "hasAchievements": true,
+    "total": 31,
+    "unlocked": 5,
+    "gameName": "Balatro",
+    "achievements": [
+        {
+            "apiName": "BAL_01",
+            "unlocked": true,
+            "unlockedAt": "2025-01-19T10:09:54.000Z",
+            "displayName": "Ante Up!",
+            "description": "Reach Ante 4",
+            "iconUrl": "8cddd631acb7f6438c486c05311743c81bb6c87c.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 89.7
+        },
+        {
+            "apiName": "BAL_02",
+            "unlocked": true,
+            "unlockedAt": "2025-01-30T12:30:30.000Z",
+            "displayName": "Ante Upper!",
+            "description": "Reach Ante 8",
+            "iconUrl": "6c56b680fef6cfc0b791b97373e811c1a5ff1d37.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 74.4
+        },
+        {
+            "apiName": "BAL_03",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Heads Up",
+            "description": "Win a Run",
+            "iconUrl": "4a2956c85b5372509a57f8921918aee458058bdf.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 71.4
+        },
+        {
+            "apiName": "BAL_04",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Low Stakes",
+            "description": "Win a run on at least Red Stake difficulty",
+            "iconUrl": "dd13d58459711c378794da939b08b7983f346176.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 43.6
+        },
+        {
+            "apiName": "BAL_05",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Mid Stakes",
+            "description": "Win a run on at least Black Stake difficulty",
+            "iconUrl": "753ee8cabb8f63c415c4e44970c8c63b37700754.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 30.2
+        },
+        {
+            "apiName": "BAL_06",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "High Stakes",
+            "description": "Win a run on at least Gold Stake difficulty",
+            "iconUrl": "164a6270413fdb6471db4a09fa9ae76e4b18e7de.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 12.2
+        },
+        {
+            "apiName": "BAL_07",
+            "unlocked": true,
+            "unlockedAt": "2025-01-31T13:14:29.000Z",
+            "displayName": "Card Player",
+            "description": "Play at least 2500 Cards",
+            "iconUrl": "89a52d2490b3bb30b3ebd4d78e6ba42ad9a32256.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 58.1
+        },
+        {
+            "apiName": "BAL_08",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Card Discarder",
+            "description": "Discard at least 2500 Cards",
+            "iconUrl": "7cda764a01ac1404ac3f194450e8311d259b412e.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 48.4
+        },
+        {
+            "apiName": "BAL_09",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Nest Egg",
+            "description": "Have $400 or more during a single run",
+            "iconUrl": "0e5333b2b6d782317610e6ccf8f9aebddbc24ada.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 16.6
+        },
+        {
+            "apiName": "BAL_10",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Flushed",
+            "description": "Play a Flush with 5 Wild Cards",
+            "iconUrl": "f72d11c67a949f737fe19e85b205d267fbd455dd.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 3.9
+        },
+        {
+            "apiName": "BAL_11",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Speedrunner",
+            "description": "Win a run in 12 or fewer rounds",
+            "iconUrl": "85e03184c5c9c00e79bf217a93b961d92b593b67.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 20.1
+        },
+        {
+            "apiName": "BAL_12",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "ROI",
+            "description": "Buy 5 Vouchers by the end of Ante 4",
+            "iconUrl": "bedc566356cd2aff01c364c5d28e457398cbf8db.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 15.6
+        },
+        {
+            "apiName": "BAL_13",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Shattered",
+            "description": "Break 2 Glass Cards in a single hand",
+            "iconUrl": "383447ec9308e23b1297fab0a12f45539d4e38c6.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 17.9
+        },
+        {
+            "apiName": "BAL_14",
+            "unlocked": true,
+            "unlockedAt": "2025-01-21T12:26:24.000Z",
+            "displayName": "Royale",
+            "description": "Play a Royal Flush",
+            "iconUrl": "f96657ac51a7cfb76a0afbb92362593d1d7e2c3f.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 62.9
+        },
+        {
+            "apiName": "BAL_15",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Retrograde",
+            "description": "Get any poker hand to level 10",
+            "iconUrl": "6aaeb4d4b25e178e91315425a8b9d3e204ecd898.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 64.7
+        },
+        {
+            "apiName": "BAL_16",
+            "unlocked": true,
+            "unlockedAt": "2025-01-19T12:13:35.000Z",
+            "displayName": "10K",
+            "description": "Score 10,000 Chips in a single hand",
+            "iconUrl": "42bc43d7171bf1e590e3704a1045563eacc9215c.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 84.3
+        },
+        {
+            "apiName": "BAL_17",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "1,000K",
+            "description": "Score 1,000,000 Chips in a single hand",
+            "iconUrl": "a55b642e2986b818a9e2c56cfddcc8213b26682e.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 47.7
+        },
+        {
+            "apiName": "BAL_18",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "100,000K",
+            "description": "Score 100,000,000 Chips in a single hand",
+            "iconUrl": "cb2cfe6cd88e1c1769f20ba36c7ff1ead7ec0242.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 22.4
+        },
+        {
+            "apiName": "BAL_19",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Tiny Hands",
+            "description": "Thin your deck down to 20 or fewer cards",
+            "iconUrl": "1bb6658790b45b6c1efd1fac68c45d5646853bdc.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 6.9
+        },
+        {
+            "apiName": "BAL_20",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Big Hands",
+            "description": "Have 80 or more cards in your deck",
+            "iconUrl": "dbfd0636fdbaa4bfcfa7ac79eaed51d99f45d242.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 19.7
+        },
+        {
+            "apiName": "BAL_21",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "You Get What You Get",
+            "description": "Win a run without rerolling the shop",
+            "iconUrl": "ef51600bad9ee0f338cde583d16a786ee3032536.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 33.3
+        },
+        {
+            "apiName": "BAL_22",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Rule Bender",
+            "description": "Complete any challenge run",
+            "iconUrl": "420bcf57f3779a3afea55904d06fe1e5e40cadac.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 14
+        },
+        {
+            "apiName": "BAL_23",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Rule Breaker",
+            "description": "Complete every challenge run",
+            "iconUrl": "aae8438a6f5b9b719b1027052f05727cdcd4b634.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 2.2
+        },
+        {
+            "apiName": "BAL_24",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Legendary",
+            "description": "Discover a Legendary Joker",
+            "iconUrl": "4dc9bf05aaa990f8547eae90ae9dafecccaa9374.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 57.2
+        },
+        {
+            "apiName": "BAL_25",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Astronomy",
+            "description": "Discover every Planet card",
+            "iconUrl": "0decda8e30aca1c09e7ea411f2e677232a581c83.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 21.2
+        },
+        {
+            "apiName": "BAL_26",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Cartomancy",
+            "description": "Discover every Tarot card",
+            "iconUrl": "e873e467487b547fba760f7b8b8ce93c179c5e3e.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 60.8
+        },
+        {
+            "apiName": "BAL_27",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Clairvoyance",
+            "description": "Discover every Spectral card",
+            "iconUrl": "6fc77ec70586d4a4ec395b10af1c0276fe0cdc72.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 29.5
+        },
+        {
+            "apiName": "BAL_28",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Extreme Couponer",
+            "description": "Discover every Voucher",
+            "iconUrl": "0471d9277d26ba9f758ce01e6bab8f1687e81228.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 6.1
+        },
+        {
+            "apiName": "BAL_29",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Completionist",
+            "description": "Discover 100% of your collection",
+            "iconUrl": "9d3264dc164752ac2a7ada67cdabe33721ce42b0.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 4.3
+        },
+        {
+            "apiName": "BAL_30",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Completionist+",
+            "description": "Win with every deck on Gold Stake difficulty",
+            "iconUrl": "64787b53a89f5588b021d8198c94a657ba101c3e.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 1.7
+        },
+        {
+            "apiName": "BAL_31",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Completionist++",
+            "description": "Earn a Gold Sticker on every Joker",
+            "iconUrl": "61e80b0eb403fed6e631bc7869c7f9d9839b80cb.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "hidden": false,
+            "globalPct": 0.9
+        }
+    ],
+    "playtimeForever": 575,
+    "lastPlayedTs": "2025-06-17T18:54:02.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2379780/b6018068070ab0e23561694c11f7950dd6f4c752.jpg",
+    "lastUnlockedAt": "2025-01-31T13:14:29.000Z",
+    "lastUnlockName": "Card Player",
+    "preview": [
+        {
+            "apiName": "BAL_07",
+            "displayName": "Card Player",
+            "unlocked": true,
+            "unlockedAt": "2025-01-31T13:14:29.000Z",
+            "iconUrl": "89a52d2490b3bb30b3ebd4d78e6ba42ad9a32256.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "globalPct": 58.1
+        },
+        {
+            "apiName": "BAL_02",
+            "displayName": "Ante Upper!",
+            "unlocked": true,
+            "unlockedAt": "2025-01-30T12:30:30.000Z",
+            "iconUrl": "6c56b680fef6cfc0b791b97373e811c1a5ff1d37.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "globalPct": 74.4
+        },
+        {
+            "apiName": "BAL_14",
+            "displayName": "Royale",
+            "unlocked": true,
+            "unlockedAt": "2025-01-21T12:26:24.000Z",
+            "iconUrl": "f96657ac51a7cfb76a0afbb92362593d1d7e2c3f.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "globalPct": 62.9
+        },
+        {
+            "apiName": "BAL_16",
+            "displayName": "10K",
+            "unlocked": true,
+            "unlockedAt": "2025-01-19T12:13:35.000Z",
+            "iconUrl": "42bc43d7171bf1e590e3704a1045563eacc9215c.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "globalPct": 84.3
+        },
+        {
+            "apiName": "BAL_01",
+            "displayName": "Ante Up!",
+            "unlocked": true,
+            "unlockedAt": "2025-01-19T10:09:54.000Z",
+            "iconUrl": "8cddd631acb7f6438c486c05311743c81bb6c87c.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "globalPct": 89.7
+        },
+        {
+            "apiName": "BAL_03",
+            "displayName": "Heads Up",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "4a2956c85b5372509a57f8921918aee458058bdf.jpg",
+            "iconGrayUrl": "ad373492702cfa73ca588a9dd7d5325511c2bae1.jpg",
+            "globalPct": 71.4
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "appId": 1118240,
+    "hasAchievements": true,
+    "total": 10,
+    "unlocked": 10,
+    "gameName": "Lake",
+    "achievements": [
+        {
+            "apiName": "ACH_CITYENDING",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T21:23:04.000Z",
+            "displayName": "Life in the Fast Lane",
+            "description": "",
+            "iconUrl": "c5d5022e269ca6e682da8d32d15cafc2efa4c45b.jpg",
+            "iconGrayUrl": "f462dc0b226dd5d7c11b2ef7aa89cb97a37a8b99.jpg",
+            "hidden": true,
+            "globalPct": 8.4
+        },
+        {
+            "apiName": "ACH_STAYENDING",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T21:53:22.000Z",
+            "displayName": "Hometowner",
+            "description": "",
+            "iconUrl": "3f0ddf0ad8cd50da6aa50eb2e8b0e129e62888dd.jpg",
+            "iconGrayUrl": "7f408e7ad8babdf9b18700cc133ef4bdb7be5a7f.jpg",
+            "hidden": true,
+            "globalPct": 20.7
+        },
+        {
+            "apiName": "ACH_LEAVEENDING",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T21:23:04.000Z",
+            "displayName": "Free Spirit",
+            "description": "",
+            "iconUrl": "83f1535a76a909c1fd71039106cd16e401c90481.jpg",
+            "iconGrayUrl": "0cd681fb59617225c2c63209c5f81a302602e3c6.jpg",
+            "hidden": true,
+            "globalPct": 14.5
+        },
+        {
+            "apiName": "ACH_CATQUEST",
+            "unlocked": true,
+            "unlockedAt": "2025-10-06T18:43:41.000Z",
+            "displayName": "Cat Lover",
+            "description": "",
+            "iconUrl": "d26f91a0273379a644418c5b9edb99812962bfff.jpg",
+            "iconGrayUrl": "6c63260753d0ad7433480c1f2ab64d710732c7f4.jpg",
+            "hidden": true,
+            "globalPct": 50.6
+        },
+        {
+            "apiName": "ACH_MOVIEBOXQUEST",
+            "unlocked": true,
+            "unlockedAt": "2025-10-10T17:51:35.000Z",
+            "displayName": "Movie Carrier",
+            "description": "",
+            "iconUrl": "28eec804ad23c0f8f83fd21e34f64000d61c7fb8.jpg",
+            "iconGrayUrl": "7642016362750ef4b3f136a257e587d77c154c5b.jpg",
+            "hidden": true,
+            "globalPct": 36.9
+        },
+        {
+            "apiName": "ACH_JOBQUEST",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T18:50:20.000Z",
+            "displayName": "Workaholic",
+            "description": "",
+            "iconUrl": "add41c6e367f32b33e42c644e45293be050143d5.jpg",
+            "iconGrayUrl": "70c879dee4531cbd6bea01e18773fdabfec98d8c.jpg",
+            "hidden": true,
+            "globalPct": 33.5
+        },
+        {
+            "apiName": "ACH_CAMERAQUEST",
+            "unlocked": true,
+            "unlockedAt": "2025-10-10T17:33:14.000Z",
+            "displayName": "Shutter Bug",
+            "description": "",
+            "iconUrl": "7bbd163a9080d4868c56477baaade8455c668657.jpg",
+            "iconGrayUrl": "0df46516666a8afa1d3b318f73f730116c33e21e.jpg",
+            "hidden": true,
+            "globalPct": 29.8
+        },
+        {
+            "apiName": "ACH_FINDCHURCH",
+            "unlocked": true,
+            "unlockedAt": "2025-10-10T15:59:06.000Z",
+            "displayName": "Higher Ground",
+            "description": "",
+            "iconUrl": "7d0667f1010c19487ad41cc4883e58a9dfc1cd64.jpg",
+            "iconGrayUrl": "4facb9eb227be867ddf991dca73e7187a150046c.jpg",
+            "hidden": true,
+            "globalPct": 11.9
+        },
+        {
+            "apiName": "ACH_FINDWATCHTOWER",
+            "unlocked": true,
+            "unlockedAt": "2025-10-06T18:02:28.000Z",
+            "displayName": "Tower Watcher",
+            "description": "",
+            "iconUrl": "8a0bdf9abe55c142fe330cc836257ed123eef0ba.jpg",
+            "iconGrayUrl": "0d83cdcb2e9ce7696f0c4f0b3a33b72e52734fd1.jpg",
+            "hidden": true,
+            "globalPct": 15.6
+        },
+        {
+            "apiName": "ACH_FINDDETECTORIST",
+            "unlocked": true,
+            "unlockedAt": "2025-10-10T16:09:29.000Z",
+            "displayName": "Metal Detector",
+            "description": "",
+            "iconUrl": "2840440426c67733c31b0be7c09f16fdbeb0d27a.jpg",
+            "iconGrayUrl": "3c89118413a7d31e8969ebb71609931b61cbcdba.jpg",
+            "hidden": true,
+            "globalPct": 18.8
+        }
+    ],
+    "playtimeForever": 479,
+    "lastPlayedTs": "2025-10-11T21:58:10.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1118240/3c88ac0d9f17cef82a24811c967fa95ccddc7721.jpg",
+    "lastUnlockedAt": "2025-10-11T21:53:22.000Z",
+    "lastUnlockName": "Hometowner",
+    "preview": [
+        {
+            "apiName": "ACH_STAYENDING",
+            "displayName": "Hometowner",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T21:53:22.000Z",
+            "iconUrl": "3f0ddf0ad8cd50da6aa50eb2e8b0e129e62888dd.jpg",
+            "iconGrayUrl": "7f408e7ad8babdf9b18700cc133ef4bdb7be5a7f.jpg",
+            "globalPct": 20.7
+        },
+        {
+            "apiName": "ACH_CITYENDING",
+            "displayName": "Life in the Fast Lane",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T21:23:04.000Z",
+            "iconUrl": "c5d5022e269ca6e682da8d32d15cafc2efa4c45b.jpg",
+            "iconGrayUrl": "f462dc0b226dd5d7c11b2ef7aa89cb97a37a8b99.jpg",
+            "globalPct": 8.4
+        },
+        {
+            "apiName": "ACH_LEAVEENDING",
+            "displayName": "Free Spirit",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T21:23:04.000Z",
+            "iconUrl": "83f1535a76a909c1fd71039106cd16e401c90481.jpg",
+            "iconGrayUrl": "0cd681fb59617225c2c63209c5f81a302602e3c6.jpg",
+            "globalPct": 14.5
+        },
+        {
+            "apiName": "ACH_JOBQUEST",
+            "displayName": "Workaholic",
+            "unlocked": true,
+            "unlockedAt": "2025-10-11T18:50:20.000Z",
+            "iconUrl": "add41c6e367f32b33e42c644e45293be050143d5.jpg",
+            "iconGrayUrl": "70c879dee4531cbd6bea01e18773fdabfec98d8c.jpg",
+            "globalPct": 33.5
+        },
+        {
+            "apiName": "ACH_MOVIEBOXQUEST",
+            "displayName": "Movie Carrier",
+            "unlocked": true,
+            "unlockedAt": "2025-10-10T17:51:35.000Z",
+            "iconUrl": "28eec804ad23c0f8f83fd21e34f64000d61c7fb8.jpg",
+            "iconGrayUrl": "7642016362750ef4b3f136a257e587d77c154c5b.jpg",
+            "globalPct": 36.9
+        },
+        {
+            "apiName": "ACH_CAMERAQUEST",
+            "displayName": "Shutter Bug",
+            "unlocked": true,
+            "unlockedAt": "2025-10-10T17:33:14.000Z",
+            "iconUrl": "7bbd163a9080d4868c56477baaade8455c668657.jpg",
+            "iconGrayUrl": "0df46516666a8afa1d3b318f73f730116c33e21e.jpg",
+            "globalPct": 29.8
+        }
+    ]
+}

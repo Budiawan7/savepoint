@@ -1,0 +1,301 @@
+{
+    "appId": 898650,
+    "hasAchievements": true,
+    "total": 21,
+    "unlocked": 0,
+    "gameName": "The Shapeshifting Detective",
+    "achievements": [
+        {
+            "apiName": "play_it_again_sam",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play It Again Sam",
+            "description": "You need to learn when to keep your mouth shut.",
+            "iconUrl": "7f3aa685df83a962810a1ff74c5dfa117c87c4bc.jpg",
+            "iconGrayUrl": "85419ca2e2400db6acdd05ea446c15879aecfe24.jpg",
+            "hidden": false,
+            "globalPct": 72.4
+        },
+        {
+            "apiName": "you_had_one_job",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "You Had One Job",
+            "description": "You told Oscar you were a Shapeshifting Detective.",
+            "iconUrl": "8982e09823432b342c32b759fd930cf72137bd57.jpg",
+            "iconGrayUrl": "b176083a91f8736d67682d84db6dbbe9bbdf7fae.jpg",
+            "hidden": false,
+            "globalPct": 12.7
+        },
+        {
+            "apiName": "a_woman_scorned",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "A Woman Scorned",
+            "description": "You pushed Violet's buttons.",
+            "iconUrl": "0cfdcccfa0178a6ce00fc4af4097d6fe95c1390a.jpg",
+            "iconGrayUrl": "c6dcc2e22dc18f63f727ea737b13cdcab423bff0.jpg",
+            "hidden": false,
+            "globalPct": 18.8
+        },
+        {
+            "apiName": "patient_listener",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Patient Listener",
+            "description": "You listened to Lexie's ouija board theory.",
+            "iconUrl": "fb60d14953063a8c6318f77e1540ef8754276bca.jpg",
+            "iconGrayUrl": "27e3feab10c1fadd956fedc931798bf226824905.jpg",
+            "hidden": false,
+            "globalPct": 40
+        },
+        {
+            "apiName": "chameleon",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Chameleon",
+            "description": "You shifted into everyone!",
+            "iconUrl": "aa19f1251485e99c675398295d007bee4a2abd11.jpg",
+            "iconGrayUrl": "2e0032214af21e5d645078ccad75a75ec61973f9.jpg",
+            "hidden": false,
+            "globalPct": 21.2
+        },
+        {
+            "apiName": "play_me_by_the_hour",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play Me By The Hour",
+            "description": "You made it through the first hour.",
+            "iconUrl": "aeb8e98b740cbae1ee260450349fba0fb69297a8.jpg",
+            "iconGrayUrl": "a63e3b829ef272d50d9dc18304bafe85201b7e7b.jpg",
+            "hidden": false,
+            "globalPct": 56.1
+        },
+        {
+            "apiName": "strong_silent_type",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Strong Silent Type",
+            "description": "You deleted a question!",
+            "iconUrl": "b42e96304680c3e3fb083aa5c789a812ca7778c5.jpg",
+            "iconGrayUrl": "d5ac36707e66d35da7a889ad46a0b5ce2fb8d596.jpg",
+            "hidden": false,
+            "globalPct": 75.4
+        },
+        {
+            "apiName": "book_em_danny",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Book 'em Danny",
+            "description": "You got the Chief to lock people up.",
+            "iconUrl": "c342a27066a9df4f2a2911a2c94cc6145b69ddae.jpg",
+            "iconGrayUrl": "36d263975d26d56e70f9861048c168be5bb5e261.jpg",
+            "hidden": false,
+            "globalPct": 13
+        },
+        {
+            "apiName": "heavy_rayne",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Heavy Rayne",
+            "description": "Rayne gets cross with Bron...",
+            "iconUrl": "806db2b58827c7ceb53ce61e76a2be28987619ac.jpg",
+            "iconGrayUrl": "4d1a04f39bfe4691962a808aaf6bc2f63b4983a6.jpg",
+            "hidden": false,
+            "globalPct": 9.4
+        },
+        {
+            "apiName": "voyeur",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Voyeur",
+            "description": "You watched ALL of Dorota’s videos.",
+            "iconUrl": "db04772c13bb7d1c862473d679c77f6bde1bfbfe.jpg",
+            "iconGrayUrl": "837c4ce03098e9dd5e8db9e69892e91350e421e4.jpg",
+            "hidden": false,
+            "globalPct": 11.4
+        },
+        {
+            "apiName": "put_a_ring_on_it",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Put A Ring On It",
+            "description": "Congrats, you're getting married!",
+            "iconUrl": "70699558dc280a784511c9779b091df54d2a54f1.jpg",
+            "iconGrayUrl": "b09348bcff8bd371a357436b2c0028f47c303f2b.jpg",
+            "hidden": false,
+            "globalPct": 12
+        },
+        {
+            "apiName": "highlander",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Highlander",
+            "description": "Bronwyn says she's immortal.",
+            "iconUrl": "4d1f0e3c5e4d97b44bafc64527008686ccf18a24.jpg",
+            "iconGrayUrl": "43ece63ea865d343d9d80687d2d8d97ec6641a71.jpg",
+            "hidden": false,
+            "globalPct": 16.2
+        },
+        {
+            "apiName": "video_saved_the_radio_star",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Video Saved The Radio Star",
+            "description": "You saved Ellis.",
+            "iconUrl": "2dcbfcc83b252fffd75740c8769bc916bbc320ac.jpg",
+            "iconGrayUrl": "8329204a6bf03945163c1b474c053d94b097e488.jpg",
+            "hidden": false,
+            "globalPct": 31.3
+        },
+        {
+            "apiName": "show_me_some_skin",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Show Me Some Skin",
+            "description": "You went all the way with Zak's photoshoot.",
+            "iconUrl": "8578688f22353dfcc83ae046e4c00b35108a07b9.jpg",
+            "iconGrayUrl": "86e163fe591ec60458e77b5ef733884b39aef8d4.jpg",
+            "hidden": false,
+            "globalPct": 6.3
+        },
+        {
+            "apiName": "oscar_winning_performance",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Oscar Winning Performance",
+            "description": "You got freaky with Oscar.",
+            "iconUrl": "f7bcecc88e49ed1e8d99c72cdbf2c9dfc77c5e35.jpg",
+            "iconGrayUrl": "c251c3d786c1f6e497a953b360beed98b95b5435.jpg",
+            "hidden": false,
+            "globalPct": 11.2
+        },
+        {
+            "apiName": "poetent",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Poetent",
+            "description": "You got punched by Poe.",
+            "iconUrl": "ae122dc7983c851537b1873db18756bcb7b5f65e.jpg",
+            "iconGrayUrl": "318979d598946d1b54f266d425121e27cc89fd81.jpg",
+            "hidden": false,
+            "globalPct": 11.7
+        },
+        {
+            "apiName": "bullseye",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bullseye",
+            "description": "You kicked Zak in the sack.",
+            "iconUrl": "cb0c92b8b4193ca536267f542eede274940b1390.jpg",
+            "iconGrayUrl": "c59a7571b31081aafb2054d0870a9ea95e765e69.jpg",
+            "hidden": false,
+            "globalPct": 5.3
+        },
+        {
+            "apiName": "look_mum_im_a_detective",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Look Mum I'm A Detective",
+            "description": "Picked Dorota's murderer first time.",
+            "iconUrl": "88ed009b345a549a6b4bdfbb7b3c1920c38ea740.jpg",
+            "iconGrayUrl": "bfd34b3bb831690a8df6c292e0ef868b2645917f.jpg",
+            "hidden": false,
+            "globalPct": 20.5
+        },
+        {
+            "apiName": "chicken",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Chicken",
+            "description": "You left Ellis alone with Danny.",
+            "iconUrl": "79b168e0a9097e637e294ac267507ee34f65c5ee.jpg",
+            "iconGrayUrl": "f4ea3be93527b13ee1d36ed5b2334aaa40dacc39.jpg",
+            "hidden": false,
+            "globalPct": 9.3
+        },
+        {
+            "apiName": "the_big_sleep",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Big Sleep",
+            "description": "You got yourself killed.",
+            "iconUrl": "d6b340be42037bb5a4163a5581b22074e4be191f.jpg",
+            "iconGrayUrl": "c89a24352bc86d75ced919f6c8b647e8ab3d9743.jpg",
+            "hidden": false,
+            "globalPct": 7.4
+        },
+        {
+            "apiName": "hashtag_winning",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Hashtag Winning",
+            "description": "Agent X augmented you!",
+            "iconUrl": "51eb1bbf3dbfa009d46d522908db1d3260338639.jpg",
+            "iconGrayUrl": "d0698ba532d9a309c6b033fbabcda9910fc78003.jpg",
+            "hidden": false,
+            "globalPct": 30.1
+        }
+    ],
+    "playtimeForever": 326,
+    "lastPlayedTs": "2020-11-10T11:08:16.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/898650/62f05c8f90dede57c692ef5084349b1884d62b67.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "play_it_again_sam",
+            "displayName": "Play It Again Sam",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "7f3aa685df83a962810a1ff74c5dfa117c87c4bc.jpg",
+            "iconGrayUrl": "85419ca2e2400db6acdd05ea446c15879aecfe24.jpg",
+            "globalPct": 72.4
+        },
+        {
+            "apiName": "you_had_one_job",
+            "displayName": "You Had One Job",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "8982e09823432b342c32b759fd930cf72137bd57.jpg",
+            "iconGrayUrl": "b176083a91f8736d67682d84db6dbbe9bbdf7fae.jpg",
+            "globalPct": 12.7
+        },
+        {
+            "apiName": "a_woman_scorned",
+            "displayName": "A Woman Scorned",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0cfdcccfa0178a6ce00fc4af4097d6fe95c1390a.jpg",
+            "iconGrayUrl": "c6dcc2e22dc18f63f727ea737b13cdcab423bff0.jpg",
+            "globalPct": 18.8
+        },
+        {
+            "apiName": "patient_listener",
+            "displayName": "Patient Listener",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "fb60d14953063a8c6318f77e1540ef8754276bca.jpg",
+            "iconGrayUrl": "27e3feab10c1fadd956fedc931798bf226824905.jpg",
+            "globalPct": 40
+        },
+        {
+            "apiName": "chameleon",
+            "displayName": "Chameleon",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "aa19f1251485e99c675398295d007bee4a2abd11.jpg",
+            "iconGrayUrl": "2e0032214af21e5d645078ccad75a75ec61973f9.jpg",
+            "globalPct": 21.2
+        },
+        {
+            "apiName": "play_me_by_the_hour",
+            "displayName": "Play Me By The Hour",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "aeb8e98b740cbae1ee260450349fba0fb69297a8.jpg",
+            "iconGrayUrl": "a63e3b829ef272d50d9dc18304bafe85201b7e7b.jpg",
+            "globalPct": 56.1
+        }
+    ]
+}

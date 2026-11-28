@@ -1,0 +1,326 @@
+{
+    "metadata": {
+        "extractionTimestamp": "2026-11-28T06:52:32.678Z"
+    },
+    "profile": {
+        "steamId": "76561198397857065",
+        "displayName": "DiggieDaw",
+        "avatar": "https://avatars.steamstatic.com/a3229cfe368bf08019ea50ad1f39d65a711f76ac_full.jpg",
+        "profileUrl": "https://steamcommunity.com/id/budiawan/",
+        "status": 1,
+        "lastOnline": "2026-11-28T00:58:37.000Z",
+        "countryCode": "ID"
+    },
+    "stats": {
+        "totalGames": 454,
+        "totalPlaytimeMin": 381279,
+        "totalPlaytimeHrs": 6355,
+        "gamesWithPlaytime": 187,
+        "totalAchievements": 8529,
+        "unlockedAchievements": 2993,
+        "gamesWithAchievements": 125,
+        "perfectCount": 18,
+        "completionPct": 35,
+        "avgPlaytimeMin": 2038
+    },
+    "recentlyPlayed": [
+        {
+            "appId": 413150,
+            "name": "Stardew Valley",
+            "playtime2Weeks": 177,
+            "playtimeForever": 8650,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
+            "storeUrl": "https://store.steampowered.com/app/413150",
+            "lastPlayedTs": "2026-11-28T06:30:39.000Z",
+            "achUnlocked": 18,
+            "achTotal": 49
+        },
+        {
+            "appId": 3017860,
+            "name": "DOOM: The Dark Ages",
+            "playtime2Weeks": 8,
+            "playtimeForever": 1333,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3017860/f0d79db78568f80f3532151fed5d9633191d0ebe.jpg",
+            "storeUrl": "https://store.steampowered.com/app/3017860",
+            "lastPlayedTs": "2026-11-28T05:52:43.000Z",
+            "achUnlocked": 26,
+            "achTotal": 38
+        },
+        {
+            "appId": 648800,
+            "name": "Raft",
+            "playtime2Weeks": 622,
+            "playtimeForever": 5084,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
+            "storeUrl": "https://store.steampowered.com/app/648800",
+            "lastPlayedTs": "2026-11-28T05:41:16.000Z",
+            "achUnlocked": 104,
+            "achTotal": 104
+        },
+        {
+            "appId": 2909400,
+            "name": "FINAL FANTASY VII REBIRTH",
+            "playtime2Weeks": 47,
+            "playtimeForever": 47,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2909400/3dacad0a047962a94501d9d028c095993c48ce8b.jpg",
+            "storeUrl": "https://store.steampowered.com/app/2909400",
+            "lastPlayedTs": "2026-11-28T00:57:55.000Z",
+            "achUnlocked": 0,
+            "achTotal": 61
+        },
+        {
+            "appId": 1663850,
+            "name": "REPLACED",
+            "playtime2Weeks": 680,
+            "playtimeForever": 680,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1663850/4b244ef005a6c9de554ec66ff7f1ad71a5617b98.jpg",
+            "storeUrl": "https://store.steampowered.com/app/1663850",
+            "lastPlayedTs": "2026-11-26T13:51:31.000Z",
+            "achUnlocked": 24,
+            "achTotal": 34
+        },
+        {
+            "appId": 261030,
+            "name": "The Walking Dead: Season Two",
+            "playtime2Weeks": 542,
+            "playtimeForever": 542,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8dd081faf73fb7ff57151a1498b7025e8fc85dc4.jpg",
+            "storeUrl": "https://store.steampowered.com/app/261030",
+            "lastPlayedTs": "2026-11-21T15:04:48.000Z",
+            "achUnlocked": 40,
+            "achTotal": 40
+        },
+        {
+            "appId": 3321460,
+            "name": "Crimson Desert Enhanced",
+            "playtime2Weeks": 528,
+            "playtimeForever": 14741,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3321460/f260267377759a5fea6b651817c9a413c6b562b0.jpg",
+            "storeUrl": "https://store.steampowered.com/app/3321460",
+            "lastPlayedTs": "2026-11-19T21:14:41.000Z",
+            "achUnlocked": 30,
+            "achTotal": 41
+        }
+    ],
+    "mostRecentGame": {
+        "appId": 413150,
+        "name": "Stardew Valley",
+        "playtime2Weeks": 177,
+        "playtimeForever": 8650,
+        "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
+        "storeUrl": "https://store.steampowered.com/app/413150",
+        "lastPlayedTs": "2026-11-28T06:30:39.000Z"
+    },
+    "mostRecentUnlock": {
+        "appId": 1663850,
+        "gameName": "REPLACED",
+        "apiName": "ACH_C10",
+        "displayName": "Full Circle",
+        "description": "",
+        "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1663850/bf741bd6f9ca44834ff674d1ace1df7f1837a420.jpg",
+        "unlockedAt": "2026-11-26T13:41:58.000Z",
+        "globalPct": 25.3
+    },
+    "perfectGames": [
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "total": 104,
+            "playtimeForever": 5084,
+            "completedAt": "2026-11-22T07:02:51.000Z",
+            "lastAchName": "Expert Gatherer!",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7a0b09da2d2e66ab8e979bae6ae61a674f74f865.jpg",
+            "lastAchGlobalPct": 1.2,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg"
+        },
+        {
+            "appId": 261030,
+            "gameName": "The Walking Dead: Season Two",
+            "total": 40,
+            "playtimeForever": 542,
+            "completedAt": "2026-11-21T15:00:51.000Z",
+            "lastAchName": "All The Dead Lie Down",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/728c8e1d7c0c8cff76b7b041b887e45882ca2fd6.jpg",
+            "lastAchGlobalPct": 64.8,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/261030/8dd081faf73fb7ff57151a1498b7025e8fc85dc4.jpg"
+        },
+        {
+            "appId": 3751950,
+            "gameName": "Assassin's Creed Black Flag Resynced",
+            "total": 49,
+            "playtimeForever": 4202,
+            "completedAt": "2026-08-10T15:46:10.000Z",
+            "lastAchName": "Dilettante",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3751950/7be85c50377b55ad41363b370cc7109b306e570b.jpg",
+            "lastAchGlobalPct": 3.3,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3751950/07bbd08f5147d18c3e86c6216a33ad99683771d2.jpg",
+            "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/8a128a3d00e5c23fd36443876a60e1b6d497fc7b/header_alt_assets_0.jpg"
+        },
+        {
+            "appId": 1326470,
+            "gameName": "Sons Of The Forest",
+            "total": 32,
+            "playtimeForever": 6231,
+            "completedAt": "2026-07-13T14:40:01.000Z",
+            "lastAchName": "GUMSHOE",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1326470/cce6df0d807e76c3398d3ba2bcdc9edd1dd64ada.jpg",
+            "lastAchGlobalPct": 0.8,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1326470/bd28fe592b339cff5a3eef743f31e3166c984c68.jpg"
+        },
+        {
+            "appId": 1151340,
+            "gameName": "Fallout 76",
+            "total": 72,
+            "playtimeForever": 16021,
+            "completedAt": "2026-02-17T06:34:02.000Z",
+            "lastAchName": "Friends in Low Places",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/09aeedfeed39cf62b9175b125ea88b7b715866a6.jpg",
+            "lastAchGlobalPct": 5.3,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1151340/81185120c1c1a4b26442828b25bbb58aec8d734c.jpg"
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "total": 137,
+            "playtimeForever": 30414,
+            "completedAt": "2026-02-16T13:02:21.000Z",
+            "lastAchName": "Boulder Lord",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/5cbdb2ef87620f6c1a58c79d90e8fa13df64f7b4.jpg",
+            "lastAchGlobalPct": 0.7,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/858961e95fbf869f136e1770d586e0caefd4cfac.jpg"
+        },
+        {
+            "appId": 1118240,
+            "gameName": "Lake",
+            "total": 10,
+            "playtimeForever": 479,
+            "completedAt": "2025-10-11T21:53:22.000Z",
+            "lastAchName": "Hometowner",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1118240/3f0ddf0ad8cd50da6aa50eb2e8b0e129e62888dd.jpg",
+            "lastAchGlobalPct": 20.7,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1118240/3c88ac0d9f17cef82a24811c967fa95ccddc7721.jpg"
+        },
+        {
+            "appId": 2183900,
+            "gameName": "Warhammer 40,000: Space Marine 2",
+            "total": 50,
+            "playtimeForever": 9260,
+            "completedAt": "2025-09-16T14:50:38.000Z",
+            "lastAchName": "Unwavering Faith",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2183900/bc2c4e1fe872c1ad06bc8c7e5a2d169918eaf849.jpg",
+            "lastAchGlobalPct": 4.7,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2183900/0fccfb5eb2acb934db1fe95a4e578f25ccbd71ec.jpg"
+        },
+        {
+            "appId": 2622380,
+            "gameName": "ELDEN RING NIGHTREIGN",
+            "total": 37,
+            "playtimeForever": 5626,
+            "completedAt": "2025-07-14T16:58:54.000Z",
+            "lastAchName": "Nightreign",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2622380/17f60812241f852530650bc209d8462f992f97ae.jpg",
+            "lastAchGlobalPct": 15.9,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2622380/c59f3732d379c9667450b174353d69d5bcea95a5.jpg"
+        },
+        {
+            "appId": 2623190,
+            "gameName": "The Elder Scrolls IV: Oblivion Remastered",
+            "total": 60,
+            "playtimeForever": 5099,
+            "completedAt": "2025-05-12T13:08:45.000Z",
+            "lastAchName": "Master Thief, Thieves Guild",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2623190/0e313c57adcf81bc18d2114a11b49d4fe7b0a222.jpg",
+            "lastAchGlobalPct": 10.1,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/2623190/bad7d3e3c722ffc68af54cbe545dcc5978d87638.jpg",
+            "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg"
+        },
+        {
+            "appId": 242760,
+            "gameName": "The Forest",
+            "total": 45,
+            "playtimeForever": 6259,
+            "completedAt": "2025-04-16T14:52:01.000Z",
+            "lastAchName": "Spelunker",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/242760/4b55ed3e3bd94b804c963a5d83ef44a35bb6c28f.jpg",
+            "lastAchGlobalPct": 1.9,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/242760/3a6847f6ac5879e48531db52261771d5e22904ac.jpg"
+        },
+        {
+            "appId": 553850,
+            "gameName": "HELLDIVERS™ 2",
+            "total": 38,
+            "playtimeForever": 15957,
+            "completedAt": "2025-01-17T19:31:07.000Z",
+            "lastAchName": "That which does not kill you...",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/553850/e3223dcbe3a7543d4fb4c425b83ce2a496965d0f.jpg",
+            "lastAchGlobalPct": 26.2,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/553850/5236dcc5d02b1f7aa199eef56253d20be87baef3.jpg"
+        },
+        {
+            "appId": 683320,
+            "gameName": "GRIS",
+            "total": 17,
+            "playtimeForever": 341,
+            "completedAt": "2024-12-29T07:47:19.000Z",
+            "lastAchName": "Childhood",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/683320/bdeead7a90b6f5ce193777e0dcecec4d5e15f1c5.jpg",
+            "lastAchGlobalPct": 5.5,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/683320/10a3afeac4adedb37acaec02885bdc3c102eca93.jpg"
+        },
+        {
+            "appId": 361420,
+            "gameName": "ASTRONEER",
+            "total": 56,
+            "playtimeForever": 3783,
+            "completedAt": "2024-11-18T14:45:40.000Z",
+            "lastAchName": "The Wanderer's Way",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/361420/803f4317fdde4dc2e6c566806edbcde4f32565c6.jpg",
+            "lastAchGlobalPct": 4.3,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/361420/18ef632a152a69a8fb4f62c074cd50aa15d3bf33.jpg"
+        },
+        {
+            "appId": 730,
+            "gameName": "Counter-Strike 2",
+            "total": 1,
+            "playtimeForever": 9561,
+            "completedAt": "2024-02-08T18:07:39.000Z",
+            "lastAchName": "A New Beginning",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/730/f75dd04fa12445a8ec43be65fa16ff1b8d2bf82e.jpg",
+            "lastAchGlobalPct": 41.3,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg"
+        },
+        {
+            "appId": 207610,
+            "gameName": "The Walking Dead",
+            "total": 48,
+            "playtimeForever": 913,
+            "completedAt": "2023-03-19T06:49:12.000Z",
+            "lastAchName": "Two out of Three",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/207610/849567b3ff4f52a26a1c6dd80aef99742fa98adf.jpg",
+            "lastAchGlobalPct": 12.7,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/207610/87a13ae0a2a76488792924aa8bb0dd8a7760f931.jpg"
+        },
+        {
+            "appId": 383870,
+            "gameName": "Firewatch",
+            "total": 10,
+            "playtimeForever": 355,
+            "completedAt": "2021-12-25T17:03:52.000Z",
+            "lastAchName": "Ol' Shoshone",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/383870/c9c3b1c39b4dcc9bbd80510230d01253bb9150f1.jpg",
+            "lastAchGlobalPct": 7.8,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/383870/d13e70a08cab192c52104f315a7d68591c085e81.jpg"
+        },
+        {
+            "appId": 489830,
+            "gameName": "The Elder Scrolls V: Skyrim Special Edition",
+            "total": 75,
+            "playtimeForever": 12632,
+            "completedAt": "2021-11-13T07:05:35.000Z",
+            "lastAchName": "Oblivion Walker",
+            "lastAchIconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/489830/0bed706e096bac00281417266b5fae42065a342b.jpg",
+            "lastAchGlobalPct": 3.4,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/489830/0dfe3eed5658f9fbd8b62f8021038c0a4190f21d.jpg"
+        }
+    ]
+}
