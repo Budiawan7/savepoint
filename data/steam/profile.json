@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "extractionTimestamp": "2026-11-28T06:52:32.678Z"
+        "extractionTimestamp": "2026-11-28T07:40:43.038Z"
     },
     "profile": {
         "steamId": "76561198397857065",
@@ -13,25 +13,25 @@
     },
     "stats": {
         "totalGames": 454,
-        "totalPlaytimeMin": 381279,
-        "totalPlaytimeHrs": 6355,
+        "totalPlaytimeMin": 381339,
+        "totalPlaytimeHrs": 6356,
         "gamesWithPlaytime": 187,
         "totalAchievements": 8529,
         "unlockedAchievements": 2993,
         "gamesWithAchievements": 125,
         "perfectCount": 18,
         "completionPct": 35,
-        "avgPlaytimeMin": 2038
+        "avgPlaytimeMin": 2039
     },
     "recentlyPlayed": [
         {
             "appId": 413150,
             "name": "Stardew Valley",
-            "playtime2Weeks": 177,
-            "playtimeForever": 8650,
+            "playtime2Weeks": 237,
+            "playtimeForever": 8710,
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
             "storeUrl": "https://store.steampowered.com/app/413150",
-            "lastPlayedTs": "2026-11-28T06:30:39.000Z",
+            "lastPlayedTs": "2026-11-28T07:30:39.000Z",
             "achUnlocked": 18,
             "achTotal": 49
         },
@@ -105,11 +105,11 @@
     "mostRecentGame": {
         "appId": 413150,
         "name": "Stardew Valley",
-        "playtime2Weeks": 177,
-        "playtimeForever": 8650,
+        "playtime2Weeks": 237,
+        "playtimeForever": 8710,
         "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
         "storeUrl": "https://store.steampowered.com/app/413150",
-        "lastPlayedTs": "2026-11-28T06:30:39.000Z"
+        "lastPlayedTs": "2026-11-28T07:30:39.000Z"
     },
     "mostRecentUnlock": {
         "appId": 1663850,
